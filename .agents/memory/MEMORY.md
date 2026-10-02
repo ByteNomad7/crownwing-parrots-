@@ -2,6 +2,7 @@
 - [Photo identification](photo-identification.md) — colour mutations and hybrids need anatomy-based checks; disclose provisional group matches instead of claiming exact species.
 - [Gallery visibility](gallery-visibility.md) — show complete photo collections by default; collapsed additional photos were mistaken for missing uploads.
 - [Browser test fidelity](browser-test-fidelity.md) — source-based checks supplement live previews; semicolons in quoted font URLs can corrupt naive CSS import removal.
-- [City indexing](city-indexing.md) — the owner requested indexable city guides; do not restore the earlier noindex policy.
+- [City search value](city-indexing.md) — the newer audit brief permits justified consolidation; earlier city indexing is not a permanent page-count rule.
 - [Policy scope](policy-scope.md) — policies target Google Search transparency, not Merchant Center approval; preserve owner-confirmed terms.
 - [Buyer-led SEO](buyer-led-seo.md) — use clear UK buying intent on commercial pages; competitor examples are keyword inspiration, not evidence of Crownwing stock or services.
+- [Preview SEO limits](preview-seo-limits.md) — proxy noindex headers can reduce development-host SEO scores; verify published-host headers instead of changing truthful canonicals.

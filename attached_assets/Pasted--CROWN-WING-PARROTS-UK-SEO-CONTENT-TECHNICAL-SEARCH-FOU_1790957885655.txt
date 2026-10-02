@@ -1,0 +1,1486 @@
+# CROWN WING PARROTS — UK SEO + CONTENT + TECHNICAL SEARCH FOUNDATION
+
+You are working on the CrownWing Parrots website.
+
+Your objective is to transform the website into a **high-quality UK-focused parrot buying resource and commercial website**, not a collection of thin SEO pages.
+
+The primary market is the **United Kingdom**.
+
+The website must serve two purposes simultaneously:
+
+1. Help genuine UK buyers make informed decisions about owning and purchasing parrots.
+2. Make CrownWing Parrots highly discoverable for relevant UK commercial and informational searches.
+
+Do NOT create mass-produced SEO content, keyword-stuffed pages, doorway pages, or near-duplicate species/location pages.
+
+Every indexable page must provide a clear reason for existing.
+
+---
+
+# 1. CORE SEO PRINCIPLE
+
+Build the site according to Google's people-first content principles.
+
+The content must:
+
+- Be written primarily for human bird buyers.
+- Demonstrate genuine knowledge of parrots.
+- Answer real buyer questions.
+- Provide useful original information.
+- Avoid keyword stuffing.
+- Avoid repetitive paragraphs between species pages.
+- Avoid automatically generating hundreds of almost-identical pages.
+- Avoid creating pages solely because a keyword exists.
+- Avoid making unsupported claims.
+- Avoid fake reviews, fake experience, fake awards or fake expertise.
+- Avoid exaggerated claims such as “best parrot breeder in the UK” unless independently substantiated.
+- Never invent prices, availability, certifications, licences, veterinary claims, delivery promises or legal permissions.
+
+Google specifically recommends substantial, complete and original information that provides value beyond what is already obvious or copied from other websites.
+
+Reference:
+https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+
+---
+
+# 2. PRIMARY UK SEARCH INTENT
+
+Build the information architecture around the following search-intent groups.
+
+## Commercial / transactional intent
+
+Target naturally throughout the commercial sections:
+
+- parrots for sale UK
+- parrots for sale
+- parrot for sale UK
+- buy a parrot UK
+- parrots for sale near me
+- pet parrots for sale
+- talking parrots for sale
+- tame parrots for sale
+- hand reared parrots
+- hand reared parrots UK
+- baby parrots for sale
+- young parrots for sale
+- pet parrots UK
+- African grey parrot for sale UK
+- African grey parrots UK
+- macaw for sale UK
+- cockatoo for sale UK
+- Amazon parrot for sale UK
+- Eclectus parrot for sale UK
+- conure for sale UK
+- cockatiel for sale UK
+- pet bird UK
+
+Do NOT force every keyword onto every page.
+
+Assign each keyword to the page where it has the strongest search intent.
+
+---
+
+# 3. SPECIES SEARCH CLUSTERS
+
+Create dedicated, genuinely useful species pages only for species that CrownWing Parrots actually sells or intends to sell.
+
+Potential clusters include:
+
+## African Grey
+
+Primary topic:
+
+African Grey Parrot UK
+
+Related topics:
+
+- African Grey Parrot for sale UK
+- African Grey Parrot price UK
+- African Grey Parrot care
+- African Grey Parrot lifespan
+- African Grey Parrot talking ability
+- African Grey Parrot temperament
+- African Grey Parrot cage requirements
+- African Grey Parrot diet
+- African Grey Parrot noise level
+- African Grey Parrot for first-time owners
+
+## Macaws
+
+Create species-specific pages where appropriate, for example:
+
+- Blue and Yellow Macaw
+- Hyacinth Macaw
+- Scarlet/Macao Macaw
+
+Cover:
+
+- temperament
+- size
+- lifespan
+- diet
+- housing
+- noise
+- socialisation
+- enrichment
+- suitability
+- ownership costs
+- legal/documentation considerations
+- questions to ask before purchasing
+
+## Cockatoos
+
+Create separate pages only when each species has enough genuinely different information.
+
+Potential subjects:
+
+- Cockatoo for sale UK
+- Cockatoo care
+- Cockatoo temperament
+- Cockatoo noise
+- Cockatoo lifespan
+- Cockatoo cage requirements
+- Cockatoo enrichment
+
+## Amazons
+
+Potential pages:
+
+- Amazon Parrot UK
+- Blue-fronted Amazon
+- Yellow-naped/Amazon species where actually offered
+- Amazon Parrot care
+- Amazon Parrot temperament
+- Amazon Parrot lifespan
+- Amazon Parrot diet
+
+## Conures
+
+Potential pages:
+
+- Conure for sale UK
+- Sun Conure
+- Jenday Conure
+- Green-cheeked Conure if actually offered
+
+## Eclectus
+
+Create a dedicated Eclectus Parrot UK page with genuinely species-specific information.
+
+---
+
+# 4. DO NOT CREATE THIN SPECIES PAGES
+
+This is critical.
+
+Do NOT generate a species page containing:
+
+- 200–400 words of generic text
+- a photo
+- price
+- “contact us”
+- repeated generic care paragraphs
+- keyword variations
+
+That is not sufficient.
+
+A substantial species page should answer the questions a serious buyer would have before contacting CrownWing Parrots.
+
+Each major species page should aim to cover, where relevant:
+
+1. What is this species?
+2. Typical adult size
+3. Expected lifespan
+4. Temperament
+5. Intelligence
+6. Talking ability
+7. Noise level
+8. Social needs
+9. Daily interaction requirements
+10. Exercise requirements
+11. Mental stimulation
+12. Cage / aviary considerations
+13. Diet
+14. Common behavioural challenges
+15. Suitable household environments
+16. Suitability for first-time owners
+17. Children and household considerations
+18. Other birds and pets
+19. Veterinary considerations
+20. Approximate ownership costs
+21. Legal/documentation considerations
+22. Questions buyers should ask a breeder/seller
+23. What CrownWing Parrots provides
+24. Current availability, if applicable
+25. How to enquire
+26. Frequently asked questions
+
+Do not invent information.
+
+Where a fact is species-dependent or legally dependent, clearly say so.
+
+---
+
+# 5. CREATE A UK PARROT BUYER HUB
+
+Create a major evergreen section:
+
+/guides/
+
+or:
+
+/parrot-guides/
+
+This should become one of the site's strongest organic-search assets.
+
+Create genuinely useful guides such as:
+
+## Buying guides
+
+- How to Buy a Parrot in the UK
+- What to Look for When Buying a Parrot
+- Questions to Ask a Parrot Breeder
+- How to Choose the Right Parrot Species
+- Are Parrots Good Pets?
+- Which Parrot Is Right for Me?
+- Buying a Hand-Reared Parrot
+- Buying a Young Parrot
+- How Much Does a Parrot Cost in the UK?
+- The True Cost of Keeping a Parrot
+- How to Prepare Your Home for a New Parrot
+- What to Expect During the First Week With a New Parrot
+
+## Care guides
+
+- Parrot Diet Guide
+- Safe Foods for Parrots
+- Foods Parrots Should Not Eat
+- Parrot Cage Guide
+- Parrot Aviary Guide
+- Parrot Toys and Enrichment
+- Parrot Bathing
+- Parrot Socialisation
+- Parrot Training
+- Parrot Feather Care
+- Parrot Exercise
+- Parrot Sleep Requirements
+- How to Reduce Parrot Boredom
+- Signs Your Parrot Is Stressed
+- Common Parrot Behaviours Explained
+
+## UK-specific guides
+
+Create genuinely UK-specific content rather than simply adding “UK” to generic articles.
+
+Examples:
+
+- Buying a Parrot in the UK: What You Need to Know
+- Parrot Ownership Rules in the UK
+- CITES and Parrots in the UK
+- Parrot Documentation Explained
+- Moving a Parrot Into the UK
+- Buying a Parrot From Overseas
+- Transporting a Parrot Safely in the UK
+- UK Parrot Veterinary Care
+- Bird Keeper Registration in England and Wales
+- What UK Parrot Buyers Should Check Before Purchase
+
+For legal pages, use authoritative UK government sources and clearly distinguish England, Wales, Scotland and Northern Ireland where rules differ.
+
+Do not present legal information as universal UK law when it only applies to one jurisdiction.
+
+---
+
+# 6. UK LEGAL / CITES CONTENT
+
+Create a dedicated educational section explaining that requirements can vary according to species, origin, destination and movement.
+
+Relevant topics include:
+
+- CITES and parrots
+- Article 10 certificates where applicable
+- Import/export requirements
+- Bird identification
+- Ringing / microchipping where applicable
+- Bird keeper registration
+- Documentation buyers should understand
+- UK movement requirements
+
+Use authoritative sources such as GOV.UK / APHA.
+
+Important:
+
+Never tell customers that every parrot requires the same documentation.
+
+Never claim that a bird is legally saleable without verifying the individual species and circumstances.
+
+GOV.UK confirms that some CITES-listed specimens require permits or certificates when moved into or out of Great Britain.
+
+GOV.UK also states that bird keeper registration requirements can apply in England and Wales, subject to exemptions, including specific rules concerning parrots and other captive birds.
+
+Create links to the official government guidance rather than copying large sections of it.
+
+---
+
+# 7. BUYER EDUCATION SHOULD SUPPORT COMMERCIAL PAGES
+
+Every major species page should link naturally to relevant guides.
+
+Example:
+
+African Grey Parrot page →
+
+- African Grey care guide
+- African Grey diet
+- Choosing a parrot
+- Parrot cage guide
+- How to prepare your home
+- CITES/documentation guide
+- Contact CrownWing Parrots
+
+The guide pages should link back to relevant commercial/species pages when appropriate.
+
+Build a logical internal-linking network.
+
+Do NOT use hundreds of links with identical anchor text.
+
+Use natural descriptive anchors.
+
+---
+
+# 8. CREATE A "BEFORE YOU BUY" RESOURCE
+
+Create a high-quality page:
+
+/guides/buying-a-parrot/
+
+Title:
+
+How to Buy a Parrot in the UK: Complete Buyer’s Guide
+
+This should become a major cornerstone page.
+
+Cover:
+
+- Choosing a species
+- Age considerations
+- Temperament
+- Hand-rearing / socialisation
+- Health questions
+- Documentation
+- Identification
+- Housing
+- Diet
+- Transport
+- Costs
+- Insurance / veterinary planning
+- Questions for the seller
+- Warning signs
+- What paperwork to expect
+- Preparing your home
+- First 24 hours
+- First week
+- Long-term commitment
+
+End with a clear CrownWing Parrots enquiry pathway.
+
+---
+
+# 9. CREATE A PARROT COST GUIDE
+
+Create:
+
+/guides/parrot-cost-uk/
+
+Target the broader topic:
+
+How Much Does a Parrot Cost in the UK?
+
+Explain that the purchase price is only one component.
+
+Cover:
+
+- Purchase price
+- Cage / aviary
+- Food
+- Toys
+- Enrichment
+- Veterinary care
+- Transport
+- Insurance where applicable
+- Replacement equipment
+- Emergency expenses
+- Long-term ownership
+
+Do not invent CrownWing Parrots prices.
+
+Where CrownWing prices are available in the actual catalogue, display the real current price.
+
+Otherwise say:
+
+"Contact CrownWing Parrots for current availability and pricing."
+
+---
+
+# 10. CREATE A "WHICH PARROT?" GUIDE
+
+Create an interactive or highly useful guide:
+
+Which Parrot Is Right for Me?
+
+Allow visitors to compare species based on:
+
+- Size
+- Noise
+- Talking ability
+- Social needs
+- Lifespan
+- Space requirements
+- Experience level
+- Time commitment
+- Enrichment requirements
+- Household suitability
+
+Do not produce an artificial "best bird" ranking.
+
+Instead explain the characteristics and let the customer make an informed decision.
+
+---
+
+# 11. INDIVIDUAL BIRD LISTINGS
+
+If CrownWing lists individual birds, every individual bird should have its own useful URL where appropriate.
+
+Example:
+
+/parrots/african-grey-parrot-name/
+
+or another clean URL structure.
+
+Each individual listing should contain real information such as:
+
+- Species
+- Common name
+- Scientific name where appropriate
+- Age
+- Sex if known
+- Current availability
+- Temperament
+- Socialisation
+- Feeding information
+- Relevant identification/documentation information
+- Current photographs
+- Video where available
+- Price where confirmed
+- Delivery information
+- Enquiry CTA
+
+Do not create a page for an individual bird if there is insufficient unique information.
+
+When the bird is sold:
+
+DO NOT leave hundreds of empty "sold bird" pages indexed.
+
+Instead decide whether the page should:
+
+- remain as a useful historical listing with substantial information,
+- redirect to an appropriate species page,
+- or be removed/noindexed.
+
+Do this consistently.
+
+---
+
+# 12. LOCATION SEO
+
+CrownWing Parrots serves UK buyers.
+
+Do NOT create hundreds of pages like:
+
+- Parrots for Sale London
+- Parrots for Sale Manchester
+- Parrots for Sale Birmingham
+- Parrots for Sale Leeds
+- Parrots for Sale Liverpool
+- etc.
+
+unless CrownWing genuinely has unique, useful information for each location.
+
+Avoid doorway pages.
+
+Instead create a strong national UK page:
+
+/parrots-for-sale-uk/
+
+Then, only where there is genuine operational relevance, create regional delivery pages with unique information.
+
+Potential legitimate regional topics:
+
+- Parrot Delivery in England
+- Parrot Delivery in Scotland
+- Parrot Delivery in Wales
+- Parrot Delivery in Northern Ireland
+
+Only publish these after CrownWing confirms the actual delivery service and costs.
+
+Never invent delivery coverage.
+
+---
+
+# 13. HOMEPAGE SEO
+
+Rewrite the homepage around the core commercial intent.
+
+The homepage must clearly communicate:
+
+CrownWing Parrots
+
+UK Parrots for Sale
+
+Then explain:
+
+- What CrownWing Parrots does
+- Species available
+- Approach to bird welfare
+- How birds are prepared for new homes
+- Documentation
+- Buyer support
+- Delivery
+- Current availability
+- Buyer education
+- Contact process
+
+Do not turn the homepage into a wall of keywords.
+
+---
+
+# 14. MAIN NAVIGATION
+
+Create a logical navigation architecture:
+
+Home
+Parrots for Sale
+Species
+Parrot Guides
+Buying a Parrot
+Parrot Care
+UK Legal & Documentation
+Delivery
+About CrownWing Parrots
+Contact
+
+If a section does not have enough substantial content, do not create it yet.
+
+---
+
+# 15. FAQ ARCHITECTURE
+
+Create useful FAQs based on real buyer questions.
+
+Examples:
+
+- How much does a parrot cost in the UK?
+- What is the best parrot for a first-time owner?
+- How long do parrots live?
+- Are African Grey parrots good pets?
+- Are parrots noisy?
+- Can parrots talk?
+- What does a parrot eat?
+- How large should a parrot cage be?
+- Do parrots need another bird?
+- How much daily interaction does a parrot need?
+- Can parrots be kept indoors?
+- What paperwork should I receive when buying a parrot?
+- Do parrots need CITES documentation?
+- How is a parrot transported safely?
+- Can you deliver parrots throughout the UK?
+
+Only answer questions that CrownWing can accurately support.
+
+---
+
+# 16. CONTENT QUALITY STANDARD
+
+Every new indexable page must pass this test:
+
+Before publishing, ask:
+
+1. Does this page have a unique search intent?
+2. Does it provide substantial information?
+3. Is the information useful without buying anything?
+4. Does it contain original CrownWing-specific information where appropriate?
+5. Does it answer questions a genuine buyer has?
+6. Is it materially different from related pages?
+7. Does it have unique title and H1?
+8. Does it have a useful meta description?
+9. Does it have appropriate internal links?
+10. Does it have appropriate structured data?
+11. Is the page accessible to Googlebot?
+12. Does it have a self-referencing canonical?
+13. Is it included in the XML sitemap if indexable?
+14. Does it deserve to appear in Google?
+
+If the answer to #14 is no, DO NOT publish the page.
+
+---
+
+# 17. TECHNICAL SEO — CRAWLABILITY
+
+Audit the entire application.
+
+Googlebot must be able to discover important pages through normal crawlable HTML links.
+
+Ensure:
+
+- Important pages use standard `<a href="">` links.
+- No important page depends exclusively on JavaScript click handlers.
+- Navigation is crawlable.
+- Breadcrumbs are crawlable.
+- Product/category links are crawlable.
+- Internal links return HTTP 200.
+- No important page is blocked by robots.txt.
+- No important page accidentally contains `noindex`.
+- Canonicals point to the intended canonical URL.
+- HTTPS is enforced.
+- One canonical hostname is selected.
+- HTTP redirects to HTTPS.
+- www/non-www redirects consistently.
+- Trailing slash behavior is consistent.
+- Duplicate URL variants are eliminated.
+- Query parameters do not create uncontrolled indexable duplicates.
+- Search/filter URLs are controlled.
+- Empty category pages are not indexable.
+- Pagination is crawlable where needed.
+- Mobile rendering contains the same important content and links.
+- Server errors are fixed.
+- Redirect chains are minimized.
+- 404 pages are handled correctly.
+
+Google specifically recommends crawlable URLs, appropriate robots.txt configuration, and accurate sitemaps when diagnosing crawl issues.
+
+---
+
+# 18. CANONICAL URL SYSTEM
+
+Every indexable page must have a correct canonical.
+
+Example:
+
+<link rel="canonical" href="https://www.crownwingparrots.co.uk/parrots-for-sale-uk/" />
+
+Use absolute URLs.
+
+Never canonicalize every species page to the homepage.
+
+Never canonicalize genuinely unique pages to another species.
+
+Audit:
+
+- HTTP/HTTPS
+- www/non-www
+- trailing slash
+- uppercase/lowercase
+- query strings
+- filters
+- sorting URLs
+- duplicate routes
+- old URLs
+- parameter URLs
+
+Google notes that canonicalization depends on both technical signals and content similarity; pages that are substantially different should not simply be collapsed into one canonical cluster.
+
+---
+
+# 19. XML SITEMAP
+
+Generate an automated XML sitemap.
+
+Include only:
+
+- Canonical URLs
+- Indexable URLs
+- HTTP 200 URLs
+- Pages intended for Google Search
+
+Do NOT include:
+
+- noindex pages
+- redirects
+- 404 pages
+- duplicate URLs
+- internal search pages
+- filter URLs
+- private pages
+- thin pages
+
+Use absolute URLs.
+
+Automatically update `lastmod` when meaningful content changes.
+
+Submit the sitemap to Google Search Console.
+
+Google recommends including canonical URLs that you want in search results rather than every URL generated by the website.
+
+---
+
+# 20. ROBOTS.TXT
+
+Create and audit robots.txt.
+
+Do not accidentally block:
+
+- CSS
+- JavaScript
+- important images
+- product pages
+- category pages
+- guide pages
+
+Do not use robots.txt as a substitute for `noindex`.
+
+Use `noindex` when a page can remain accessible but should not appear in search.
+
+Google documents `noindex` and robots.txt as different mechanisms with different purposes.
+
+---
+
+# 21. STRUCTURED DATA
+
+Implement structured data carefully.
+
+Use:
+
+## Organization / OnlineStore
+
+For the CrownWing Parrots business.
+
+Include genuine:
+
+- name
+- logo
+- URL
+- contact details
+- address if publicly applicable
+- social profiles where genuine
+- business identifiers where applicable
+
+Do not invent fields.
+
+Google recommends Organization structured data to help it understand an organization's identity and administrative details.
+
+## BreadcrumbList
+
+Implement on:
+
+- species pages
+- guides
+- categories
+- individual bird pages
+
+## Product
+
+Where a page represents an actual purchasable bird/product and the structured data requirements are genuinely met.
+
+Include only information visible and accurate on the page.
+
+Do not mark every guide as Product.
+
+Google states that Product structured data is intended for product-focused pages, and merchant-listing experiences are relevant where customers can purchase from the merchant.
+
+## Article
+
+Use for genuine educational articles/guides.
+
+## LocalBusiness
+
+Only if CrownWing has a genuine physical business location that should be represented publicly.
+
+Do not invent a location simply to obtain local SEO signals.
+
+Google recommends using the most appropriate structured-data type and validating implementation.
+
+---
+
+# 22. REVIEWS
+
+Never manufacture reviews.
+
+Never create fake testimonials.
+
+Never create fake AggregateRating structured data.
+
+Only display genuine customer reviews and implement review structured data when the requirements are satisfied.
+
+Google has specific restrictions concerning self-controlled reviews and review markup.
+
+---
+
+# 23. META TITLES
+
+Every indexable page must have a unique title.
+
+Examples:
+
+Homepage:
+
+CrownWing Parrots | Parrots for Sale in the UK
+
+Commercial page:
+
+Parrots for Sale UK | CrownWing Parrots
+
+Species:
+
+African Grey Parrot UK | Care, Temperament & Availability
+
+Guide:
+
+How to Buy a Parrot in the UK | CrownWing Buyer’s Guide
+
+Do not append the same keyword block to every title.
+
+---
+
+# 24. META DESCRIPTIONS
+
+Write unique descriptions based on page intent.
+
+Do not keyword stuff.
+
+Do not duplicate the same description across the entire website.
+
+Descriptions should explain what the user will find on the page.
+
+---
+
+# 25. HEADING STRUCTURE
+
+Each indexable page:
+
+- One clear H1
+- Logical H2s
+- H3s where necessary
+- No heading used purely for styling
+- No hidden keyword blocks
+- No repeated H1s
+
+The H1 should describe the actual page.
+
+---
+
+# 26. IMAGE SEO
+
+Every meaningful bird image should have:
+
+- Descriptive filename
+- Accurate alt text
+- Appropriate dimensions
+- Modern image format where supported
+- Responsive sizing
+- Lazy loading for below-the-fold images
+- Priority loading for the main hero image
+
+Examples:
+
+BAD:
+
+IMG12345.jpg
+
+GOOD:
+
+african-grey-parrot-crownwing.jpg
+
+Alt text must describe the actual image.
+
+Do not stuff keywords into alt attributes.
+
+---
+
+# 27. PAGE SPEED
+
+Audit:
+
+- Core Web Vitals
+- LCP
+- INP
+- CLS
+- JavaScript bundle size
+- Image sizes
+- Font loading
+- Third-party scripts
+- Render-blocking resources
+- Mobile performance
+
+Do not sacrifice page usability for SEO.
+
+---
+
+# 28. INTERNAL LINKING
+
+Create a deliberate topical authority structure.
+
+Example:
+
+Homepage
+↓
+Parrots for Sale UK
+↓
+Species
+↓
+African Grey
+↓
+African Grey Care
+↓
+Parrot Diet
+↓
+Parrot Cage Guide
+↓
+Buying a Parrot
+
+Use contextual links.
+
+Avoid footer spam containing dozens of keyword variations.
+
+Avoid exact-match anchor text on every link.
+
+---
+
+# 29. SEARCH INTENT MAPPING
+
+Create an internal SEO mapping document.
+
+For each important keyword/topic record:
+
+- Keyword
+- Search intent
+- Target URL
+- Primary page
+- Supporting page
+- Current ranking
+- Content status
+- Internal links
+- Schema
+- Indexability
+- Canonical
+- Last updated
+
+Prevent keyword cannibalisation.
+
+Two pages should not compete for exactly the same primary intent unless there is a strong reason.
+
+---
+
+# 30. NO THIN CONTENT RULE
+
+Implement an automated content-quality audit.
+
+Flag pages where:
+
+- Main content is extremely short.
+- Content is largely duplicated.
+- More than approximately 60–70% of body copy is shared with another page.
+- The page contains only a product name + generic description.
+- The page has no unique buyer information.
+- The page exists only for a keyword/location combination.
+- The page has no meaningful internal links.
+- The page has no clear search intent.
+- The page has no reason to be indexed.
+
+Do NOT automatically publish flagged pages.
+
+Generate a report instead.
+
+---
+
+# 31. DUPLICATE CONTENT AUDIT
+
+Calculate similarity between:
+
+- Species pages
+- Category pages
+- Location pages
+- Individual bird pages
+- Guides
+- FAQs
+
+Flag highly similar pages for manual review.
+
+Do not solve every duplicate problem with canonical tags.
+
+Where two pages serve different intents, rewrite them so they provide genuinely different value.
+
+---
+
+# 32. UK LANGUAGE
+
+Use natural British English.
+
+Examples:
+
+- parrot
+- breeder
+- veterinary practice
+- behaviour
+- socialisation
+- colour
+- programme where appropriate
+- licence
+- centre
+
+Use UK spelling consistently.
+
+Do not use American terminology unnecessarily.
+
+---
+
+# 33. TRUST SIGNALS
+
+Create strong trust pages:
+
+/about/
+
+/contact/
+
+/delivery/
+
+/payments/
+
+/returns/
+
+/terms/
+
+/privacy/
+
+/parrot-documentation/
+
+/buying-a-parrot/
+
+The About page should explain:
+
+- Who CrownWing Parrots is
+- What the business does
+- Approach to bird welfare
+- Experience, but only if factually supported
+- How buyers are supported
+- What customers can expect
+
+Do not manufacture qualifications.
+
+---
+
+# 34. DELIVERY PAGE
+
+Create a detailed UK delivery page.
+
+Cover:
+
+- Delivery process
+- How birds are transported
+- Preparation before transport
+- Communication with buyers
+- Delivery areas
+- Expected delivery process
+- Weather considerations
+- Welfare considerations
+- What happens on arrival
+- What the buyer should prepare
+- Current delivery prices
+
+Only publish actual CrownWing delivery areas and prices after they are confirmed.
+
+---
+
+# 35. PAYMENTS / CANCELLATION / RETURNS
+
+Publish the CrownWing commercial policy developed separately.
+
+Ensure the actual website information matches:
+
+- Payment methods
+- Deposits
+- Delivery costs
+- Cancellation
+- Returns
+- Refunds
+
+Do not have conflicting information on multiple pages.
+
+The legal terms should be reviewed before publication.
+
+---
+
+# 36. FAQ CONTENT
+
+Create useful FAQs based on actual customer questions.
+
+Do not create hundreds of keyword-only FAQ pages.
+
+Use FAQs to improve the page's usefulness.
+
+Keep answers concise but substantive.
+
+---
+
+# 37. CONTENT FRESHNESS
+
+Create an internal content review system.
+
+Each important evergreen page should have:
+
+- Last reviewed date
+- Content owner
+- Source references
+- Review reminder
+- Update history
+
+Update pages when:
+
+- UK regulations change
+- CrownWing policies change
+- Species availability changes
+- Delivery changes
+- Pricing changes
+- Documentation requirements change
+
+Do not change the date merely to make an old page appear fresh.
+
+---
+
+# 38. AI SEARCH / ANSWER ENGINE OPTIMISATION
+
+Structure content so it can be understood by:
+
+- Google Search
+- AI search engines
+- AI assistants
+- answer engines
+- voice assistants
+
+For important questions:
+
+Use:
+
+Question-style headings
+↓
+Direct answer
+↓
+Detailed explanation
+↓
+Supporting evidence
+↓
+Relevant CrownWing information
+↓
+Related guide links
+
+Example:
+
+## How much does it cost to own a parrot in the UK?
+
+Start with a direct answer.
+
+Then break down:
+
+Purchase
+Housing
+Food
+Toys
+Veterinary care
+Transport
+Long-term costs
+
+Do not write artificial "AI SEO" text.
+
+The objective is to make the information genuinely easy for machines and humans to understand.
+
+---
+
+# 39. AUTHOR / EXPERTISE SIGNALS
+
+For educational content, provide appropriate authorship/review information.
+
+Where CrownWing personnel have genuine experience, create an author/about profile explaining their role and relevant experience.
+
+Never fabricate:
+
+- veterinary qualifications
+- breeding qualifications
+- years of experience
+- memberships
+- awards
+- certifications
+
+---
+
+# 40. LEGAL CONTENT SOURCING
+
+For UK legal/regulatory articles, cite authoritative sources.
+
+Prioritise:
+
+GOV.UK
+APHA
+Natural England
+Scottish Government
+Welsh Government
+Northern Ireland government resources
+Official legislation
+
+Do not copy government pages.
+
+Summarise the relevant information in original language and link to the official source.
+
+Always show the date the information was reviewed.
+
+---
+
+# 41. TECHNICAL AUDIT BEFORE DEPLOYMENT
+
+Run a complete crawl of the site.
+
+Check:
+
+- HTTP status
+- redirect chains
+- canonical
+- robots
+- noindex
+- sitemap inclusion
+- internal links
+- broken links
+- orphan pages
+- duplicate titles
+- duplicate descriptions
+- missing H1
+- multiple H1s
+- missing alt attributes
+- oversized images
+- schema errors
+- invalid structured data
+- pagination
+- query parameters
+- JavaScript rendering
+- mobile rendering
+- Core Web Vitals
+- 404 handling
+- 500 errors
+- HTTPS
+- hostname consistency
+
+Produce:
+
+/seo/audit-report.md
+
+and:
+
+/seo/url-inventory.csv
+
+and:
+
+/seo/keyword-map.csv
+
+and:
+
+/seo/content-gaps.md
+
+---
+
+# 42. GOOGLE SEARCH CONSOLE
+
+Prepare the site for Google Search Console.
+
+Verify:
+
+- Domain property
+- XML sitemap
+- robots.txt
+- canonical URLs
+- URL Inspection
+- indexability
+- mobile rendering
+- Core Web Vitals
+- structured data
+
+After deployment, submit the sitemap.
+
+Do not repeatedly request indexing for every URL.
+
+Prioritise the important URLs.
+
+---
+
+# 43. IMPORTANT URL STRUCTURE
+
+Use short, descriptive, permanent URLs.
+
+Examples:
+
+/parrots-for-sale-uk/
+
+/species/african-grey-parrot/
+
+/species/macaw/
+
+/species/cockatoo/
+
+/species/amazon-parrot/
+
+/species/eclectus-parrot/
+
+/species/conure/
+
+/guides/buying-a-parrot/
+
+/guides/parrot-cost-uk/
+
+/guides/parrot-care/
+
+/guides/parrot-diet/
+
+/guides/parrot-cage/
+
+/guides/cites-parrots-uk/
+
+/delivery/
+
+/about/
+
+/contact/
+
+Do not create URLs containing unnecessary dates, IDs, tracking parameters or keyword combinations.
+
+---
+
+# 44. DO NOT INDEX INTERNAL SEARCH
+
+Internal site search results should normally not be indexable.
+
+Prevent URLs such as:
+
+/search?q=african+grey
+
+from becoming thousands of indexable pages.
+
+Similarly control:
+
+- filters
+- sorting
+- pagination variants where appropriate
+- tracking parameters
+- session parameters
+
+---
+
+# 45. ORPHAN PAGE AUDIT
+
+Every important indexable page must be reachable through internal links.
+
+Create an automated orphan-page report.
+
+A page appearing in the sitemap but having no internal links should be flagged.
+
+---
+
+# 46. CONTENT DEPTH OVER PAGE COUNT
+
+Do NOT chase a target such as:
+
+"Create 500 pages."
+
+Instead build a smaller number of genuinely valuable pages.
+
+A useful target is:
+
+Core commercial pages
++
+species pages
++
+buyer guides
++
+care guides
++
+UK regulatory guides
++
+supporting FAQs
+
+Only expand when there is a genuine information gap.
+
+---
+
+# 47. FINAL QUALITY GATE
+
+Before considering this task complete:
+
+Every indexable URL must answer:
+
+WHY DOES THIS PAGE EXIST?
+
+If the answer is:
+
+"Because there is a keyword for it"
+
+the page should not be published.
+
+If the answer is:
+
+"It gives UK parrot buyers information they genuinely need"
+
+then continue.
+
+---
+
+# 48. DELIVERABLES
+
+After implementation, provide:
+
+1. Complete URL inventory
+2. Complete keyword-to-URL map
+3. Content cluster map
+4. Internal-link map
+5. Sitemap
+6. Robots.txt
+7. Canonical audit
+8. Indexability audit
+9. Structured-data audit
+10. Duplicate-content report
+11. Thin-content report
+12. Orphan-page report
+13. Broken-link report
+14. Core Web Vitals report
+15. Mobile SEO report
+16. UK legal-content source list
+17. Content gaps
+18. Recommended next content priorities
+
+Do not merely report that the site is "SEO optimized."
+
+Show evidence.
+
+---
+
+# 49. FINAL IMPLEMENTATION RULE
+
+Do not change the visual identity of CrownWing Parrots unnecessarily.
+
+Preserve the existing design system where possible.
+
+Improve:
+
+- information architecture
+- content depth
+- navigation
+- internal linking
+- crawlability
+- structured data
+- metadata
+- page performance
+- accessibility
+- buyer trust
+- conversion pathways
+
+Do not sacrifice usability for SEO.
+
+The final CrownWing Parrots website should feel like a **real specialist UK parrot business with an exceptional buyer resource centre**, not an AI-generated SEO website.
+
+IMPLEMENT THIS CAREFULLY, AUDIT THE EXISTING SITE FIRST, THEN MAKE THE CHANGES.
+
+Do not delete existing valuable pages or URLs without first documenting them and determining the correct redirect/canonical/indexation strategy.

@@ -1,0 +1,1835 @@
+{
+  "publisher": "Crownwing",
+  "pages": [
+    {
+      "path": "/",
+      "content_digest": "aac4f6c88b009081129b894c60aadb1918d1b537af292b2fe11c03357569f043",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": "2026-10-02",
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [
+        {
+          "date": "2026-10-02",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "45e0cbf9e65580d780bbbb871c6bf5b24e3641ec3f00d118c2ce2c0f098cd8ac",
+          "digest": "6131545ec00327e480888fc1a7d273fa24e81e5d0740540e651f6b2fd0847b80"
+        }
+      ],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/available-birds/",
+      "content_digest": "6aebb94ca15585f6c06e937140be1c4e2cc62d4ba2c112ef5cc1878f11b52e67",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/business-policies/",
+      "content_digest": "aa905d094d10f7afa47922ad1e84710bcd2a962d052d036a1a4f3839d86d5b0b",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [
+        {
+          "url": "https://www.gov.uk/online-and-distance-selling-for-businesses",
+          "label": "GOV.UK: distance-selling information and cancellation rights"
+        },
+        {
+          "url": "https://www.gov.uk/accepting-returns-and-giving-refunds",
+          "label": "GOV.UK: returns and refunds"
+        }
+      ],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/contact/",
+      "content_digest": "94b6384202512d52f13addeda5a664da1b1e9a589497fa6d707f304f16abd257",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/cookie-policy/",
+      "content_digest": "89ce857b91a5b1c2ea93d8ebde49170828036a757259cca49c5b11f1dcaa6cf2",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [
+        {
+          "url": "https://developers.google.com/fonts/faq/privacy",
+          "label": "Google: how the Fonts API handles privacy"
+        }
+      ],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/guides/",
+      "content_digest": "c685ea97d3d71a1c184be8f329502e66057c245344af7e5c854d7f503a9f7ac9",
+      "publisher": "Crownwing",
+      "published": null,
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": "2026-10-02",
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_status": null,
+      "review_reminder_due": null,
+      "history": [
+        {
+          "date": "2026-10-02",
+          "event": "New route observed",
+          "digest": "aca79c54b7ce6d5e521758a6abf9fd4610c4d81db018cc81e1fa856f39ec8fff"
+        }
+      ],
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/guides/buying-a-parrot-checklist/",
+      "content_digest": "3f94552c7a5959bdface0769e242dfbcfcb91f4512b3ff7893b60f6eaeee6fe8",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": "2026-10-02",
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [
+        {
+          "date": "2026-10-02",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "b191127ced5c7d0e2fb629df138054b4f16ce77bd04459e424699936368bdfee",
+          "digest": "3f94552c7a5959bdface0769e242dfbcfcb91f4512b3ff7893b60f6eaeee6fe8"
+        }
+      ],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": "2026-10-02",
+      "digest_version": 2
+    },
+    {
+      "path": "/guides/buying-a-parrot/",
+      "content_digest": "5452a1e118476330ed56a76aaa4a6e59c74dc5b44dbec2b8def3448082516ed7",
+      "publisher": "Crownwing",
+      "published": null,
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": "2026-10-02",
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_status": null,
+      "review_reminder_due": null,
+      "history": [
+        {
+          "date": "2026-10-02",
+          "event": "New route observed",
+          "digest": "dddadfb570137bc0627266c974139f8627c0603af0f41ded6756250f78bbebbc"
+        }
+      ],
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/guides/choosing-a-parrot/",
+      "content_digest": "19c6f915714e06fb28dca42984cb445252f51307f4827efb6d38687c147dde51",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": "2026-10-02",
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [
+        {
+          "date": "2026-10-02",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "dc1cb8f09bc74f80484596f2dbaf4ac320f84376a63a70464d3a8d3924034ada",
+          "digest": "f18ef2a0c7c3326adc5b542f8e9cf6b66c5b55f6035feaed680bed72e6797f29"
+        },
+        {
+          "date": "2026-10-02",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "f18ef2a0c7c3326adc5b542f8e9cf6b66c5b55f6035feaed680bed72e6797f29",
+          "digest": "0c0f9300c91e6ed2490c53639889160d79d6f198c6feee16d70cd5320371d376"
+        },
+        {
+          "date": "2026-10-02",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "bc54f287596ab628750da2871ab0fcbfd60353cc0091afa84ebaa1ca9abbbb56",
+          "digest": "19c6f915714e06fb28dca42984cb445252f51307f4827efb6d38687c147dde51"
+        }
+      ],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": "2026-10-02",
+      "digest_version": 2
+    },
+    {
+      "path": "/guides/cites-parrots-uk/",
+      "content_digest": "ee34c7e5ebfe96fc2826d4af0b0cf6277dd4d570c68a4e17ffae480cbd812201",
+      "publisher": "Crownwing",
+      "published": null,
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [
+        {
+          "url": "https://www.gov.uk/guidance/endangered-species-certificates-for-commercial-use",
+          "label": "GOV.UK: Endangered species certificates for commercial use"
+        },
+        {
+          "url": "https://www.speciesplus.net/",
+          "label": "Species+"
+        },
+        {
+          "url": "https://www.gov.uk/guidance/cites-imports-and-exports",
+          "label": "CITES imports and exports guidance"
+        },
+        {
+          "url": "https://www.daera-ni.gov.uk/articles/other-animal-species-movements-great-britain-northern-ireland",
+          "label": "DAERA: Other animal species movements from Great Britain to Northern Ireland"
+        },
+        {
+          "url": "https://www.gov.uk/government/collections/register-as-a-bird-keeper",
+          "label": "GOV.UK bird-keeper registration collection"
+        },
+        {
+          "url": "https://www.gov.uk/guidance/register-as-a-keeper-of-less-than-50-poultry-or-other-captive-birds",
+          "label": "guidance for fewer than 50 poultry or other captive birds"
+        },
+        {
+          "url": "https://www.gov.scot/publications/avian-influenza-bird-flu/pages/register-your-birds",
+          "label": "Scottish Government guidance"
+        },
+        {
+          "url": "https://www.gov.uk/guidance/endangered-species-certificates-for-commercial-use",
+          "label": "GOV.UK: Endangered species certificates for commercial use"
+        },
+        {
+          "url": "https://www.gov.uk/guidance/cites-imports-and-exports",
+          "label": "GOV.UK: CITES imports and exports."
+        },
+        {
+          "url": "https://www.speciesplus.net/",
+          "label": "Species+ species and scientific-name database."
+        },
+        {
+          "url": "https://www.gov.uk/government/collections/register-as-a-bird-keeper",
+          "label": "GOV.UK: Register as a bird keeper."
+        },
+        {
+          "url": "https://www.gov.uk/guidance/register-as-a-keeper-of-less-than-50-poultry-or-other-captive-birds",
+          "label": "GOV.UK: Register as a keeper of fewer than 50 poultry or other captive birds"
+        },
+        {
+          "url": "https://www.gov.scot/publications/avian-influenza-bird-flu/pages/register-your-birds",
+          "label": "Scottish Government: Register your birds."
+        },
+        {
+          "url": "https://www.daera-ni.gov.uk/articles/other-animal-species-movements-great-britain-northern-ireland",
+          "label": "DAERA: Other animal species movements from Great Britain to Northern Ireland."
+        }
+      ],
+      "last_modified": "2026-10-02",
+      "last_reviewed": "2026-10-02",
+      "reviewed_by": null,
+      "review_scope": "Source references checked; no expert review implied",
+      "review_status": "sources_checked",
+      "review_reminder_due": "2027-04-02",
+      "history": [
+        {
+          "date": "2026-10-02",
+          "event": "New route observed",
+          "digest": "9265d59fa9979c4207cb2a76afdae410f8ac98d80366a4372e70cbd430a34fa6"
+        },
+        {
+          "date": "2026-10-02",
+          "event": "Editorial source references checked",
+          "review_scope": "sources_checked"
+        }
+      ],
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/guides/parrot-diet-nutrition/",
+      "content_digest": "889a6fc5e5c138fb4c1e545111ae4187675146586292b4a74ad3d3243eff12f5",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [
+        {
+          "url": "https://www.rspca.org.uk/adviceandwelfare/pets/birds/diet",
+          "label": "RSPCA parrot feeding advice"
+        },
+        {
+          "url": "https://www.rspca.org.uk/adviceandwelfare/pets/birds/diet",
+          "label": "RSPCA’s bird-feeding guidance"
+        }
+      ],
+      "last_modified": "2026-10-02",
+      "last_reviewed": "2026-10-02",
+      "reviewed_by": null,
+      "review_scope": "Source references checked; no expert review implied",
+      "review_reminder_due": "2027-04-02",
+      "history": [
+        {
+          "date": "2026-10-02",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "9e2c1f7323101655e0331035360de6572375e673a05d0bd80d216242af0a9209",
+          "digest": "bc88d0aa79af163e0703ce2e2cc1c7329398baaab69467fa5ecfe2d2a4d00f9e"
+        },
+        {
+          "date": "2026-10-02",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "bc88d0aa79af163e0703ce2e2cc1c7329398baaab69467fa5ecfe2d2a4d00f9e",
+          "digest": "889a6fc5e5c138fb4c1e545111ae4187675146586292b4a74ad3d3243eff12f5"
+        },
+        {
+          "date": "2026-10-02",
+          "event": "Editorial source references checked",
+          "review_scope": "sources_checked"
+        }
+      ],
+      "published": null,
+      "review_status": "sources_checked",
+      "article_date_modified": "2026-10-02",
+      "digest_version": 2
+    },
+    {
+      "path": "/guides/parrot-housing-enrichment/",
+      "content_digest": "bb78e8fdf2503a2e2fe620f973cfb5c5649b67b44746ef0aade21ba306010c5f",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [
+        {
+          "url": "https://www.rspca.org.uk/adviceandwelfare/pets/birds/environment",
+          "label": "RSPCA housing guidance"
+        },
+        {
+          "url": "https://www.rspca.org.uk/adviceandwelfare/pets/birds/enrichment",
+          "label": "RSPCA enrichment guidance"
+        },
+        {
+          "url": "https://www.rspca.org.uk/adviceandwelfare/pets/birds/environment",
+          "label": "RSPCA’s bird-environment guidance"
+        },
+        {
+          "url": "https://www.rspca.org.uk/adviceandwelfare/pets/birds/enrichment",
+          "label": "RSPCA enrichment advice"
+        }
+      ],
+      "last_modified": "2026-10-02",
+      "last_reviewed": "2026-10-02",
+      "reviewed_by": null,
+      "review_scope": "Source references checked; no expert review implied",
+      "review_reminder_due": "2027-04-02",
+      "history": [
+        {
+          "date": "2026-10-02",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "004827fdf97cc4a18289f47b7d71a160c1390a6666f5987b0809e1d1f3f41df1",
+          "digest": "2e39bba1e67d1fc0b0347daaa97683215dff73214b014297bc52333b6f0d6d8d"
+        },
+        {
+          "date": "2026-10-02",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "2e39bba1e67d1fc0b0347daaa97683215dff73214b014297bc52333b6f0d6d8d",
+          "digest": "bb78e8fdf2503a2e2fe620f973cfb5c5649b67b44746ef0aade21ba306010c5f"
+        },
+        {
+          "date": "2026-10-02",
+          "event": "Editorial source references checked",
+          "review_scope": "sources_checked"
+        }
+      ],
+      "published": null,
+      "review_status": "sources_checked",
+      "article_date_modified": "2026-10-02",
+      "digest_version": 2
+    },
+    {
+      "path": "/guides/parrot-ownership-costs/",
+      "content_digest": "8ea1bc6d8a3abdb5b01e0172b177245d793cf3641ec576e8d2e2437cbbd384bd",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": "2026-10-02",
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [
+        {
+          "date": "2026-10-02",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "cc39bc909bb67e134a10dbf3c416c31a6316dca36653ee9c325143bb92766eb0",
+          "digest": "cc91c1e36ff2d880ee8b714654c84520322e4a66c0005c63f8790031a55b382a"
+        },
+        {
+          "date": "2026-10-02",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "cc91c1e36ff2d880ee8b714654c84520322e4a66c0005c63f8790031a55b382a",
+          "digest": "b64689ebe570f84a42f63f8b8748e28e2c74907d39c50209dd2e5827277b2739"
+        },
+        {
+          "date": "2026-10-02",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "836b8974b2e3b389a5459bd80365ea933c11adf2f847c363051db44652dc906d",
+          "digest": "8ea1bc6d8a3abdb5b01e0172b177245d793cf3641ec576e8d2e2437cbbd384bd"
+        }
+      ],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": "2026-10-02",
+      "digest_version": 2
+    },
+    {
+      "path": "/guides/preparing-for-a-parrot/",
+      "content_digest": "1c8930ca124ac334ef83dea55cbe8242ee66fbf878c96d3b0c3324032bf6e66e",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [
+        {
+          "url": "https://vcahospitals.com/lakeline/know-your-pet/household-hazards-and-dangers-to-birds",
+          "label": "VCA’s household hazard guidance"
+        },
+        {
+          "url": "https://vcahospitals.com/lakeline/know-your-pet/household-hazards-and-dangers-to-birds",
+          "label": "VCA household-hazards guide"
+        }
+      ],
+      "last_modified": "2026-10-02",
+      "last_reviewed": "2026-10-02",
+      "reviewed_by": null,
+      "review_scope": "Source references checked; no expert review implied",
+      "review_reminder_due": "2027-04-02",
+      "history": [
+        {
+          "date": "2026-10-02",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "fb440d10d913c940936676c739b31bb81144277883a7ede0d4e31712e2f74406",
+          "digest": "338d21b1c05824d2818f7527e52d7395de6355442ffc8de6b6db5d33e113e2dd"
+        },
+        {
+          "date": "2026-10-02",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "338d21b1c05824d2818f7527e52d7395de6355442ffc8de6b6db5d33e113e2dd",
+          "digest": "1c8930ca124ac334ef83dea55cbe8242ee66fbf878c96d3b0c3324032bf6e66e"
+        },
+        {
+          "date": "2026-10-02",
+          "event": "Editorial source references checked",
+          "review_scope": "sources_checked"
+        }
+      ],
+      "published": null,
+      "review_status": "sources_checked",
+      "article_date_modified": "2026-10-02",
+      "digest_version": 2
+    },
+    {
+      "path": "/locations/",
+      "content_digest": "5fbedbeec585d72cd7fa44875295c4a01d9a6bfb97a338802512a8d4e3d9df3b",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/locations/belfast/",
+      "content_digest": "3150ce9a71802a788c7603ee4867490b684fe424a360736f1b35a0bf7ef1e429",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [
+        {
+          "url": "https://www.daera-ni.gov.uk/articles/other-animal-species-movements-great-britain-northern-ireland",
+          "label": "guidance on other animal-species movements from Great Britain to Northern Ireland"
+        },
+        {
+          "url": "https://www.gov.uk/guidance/cites-imports-and-exports",
+          "label": "CITES import and export guidance"
+        },
+        {
+          "url": "https://www.daera-ni.gov.uk/articles/other-animal-species-movements-great-britain-northern-ireland",
+          "label": "guidance on other animal-species movements from Great Britain to Northern Ireland"
+        },
+        {
+          "url": "https://www.gov.uk/guidance/cites-imports-and-exports",
+          "label": "CITES import and export guidance"
+        }
+      ],
+      "last_modified": "2026-10-02",
+      "last_reviewed": "2026-10-02",
+      "reviewed_by": null,
+      "review_scope": "Source references checked; no expert review implied",
+      "review_reminder_due": "2027-04-02",
+      "history": [
+        {
+          "date": "2026-10-02",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "a1b84f1a511a324b0f4d03505f4d885ea739abe0e65bc8ccfa446a0726bd6935",
+          "digest": "c75901f3afac8c28d27afb4ecc77b0451e78ab9d8c633f25bd34a55be3e52ea0"
+        },
+        {
+          "date": "2026-10-02",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "c75901f3afac8c28d27afb4ecc77b0451e78ab9d8c633f25bd34a55be3e52ea0",
+          "digest": "3150ce9a71802a788c7603ee4867490b684fe424a360736f1b35a0bf7ef1e429"
+        },
+        {
+          "date": "2026-10-02",
+          "event": "Editorial source references checked",
+          "review_scope": "sources_checked"
+        }
+      ],
+      "published": null,
+      "review_status": "sources_checked",
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/locations/birmingham/",
+      "content_digest": "1fb6911e489557b336439a4c731c9409c5b5786cc77c8705b19a02440d2c9562",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/locations/bristol/",
+      "content_digest": "be72f8a61cf3f28ddd1f2c7c9973ec18a9da6c769ebcd988ca80d70001677a98",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/locations/cardiff/",
+      "content_digest": "17d17e81a00778c4e1817ebfbd784830eea4132c411240f1bc622c862b88f122",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/locations/edinburgh/",
+      "content_digest": "6ee3af03b8fa6313ed0853c473e5c190777b9837a339e68f144531b9e396fba6",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/locations/glasgow/",
+      "content_digest": "e4b9df9ec6dedd0b80c446412970c29406d437bb600fa4212243931f8467f9f5",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/locations/leeds/",
+      "content_digest": "685b2401942365c063d300e57198ccb7a40244c299a7e7d0cd87fd284c7eb898",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/locations/liverpool/",
+      "content_digest": "52c99d8b37f0dcb08586028e1a5d3522db5318fda2e71a86798e2fd54659b25b",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/locations/london/",
+      "content_digest": "876ab017d2b997bbe8fe10184bcb472f12951fb1d014aa0b8d55b76a8de10288",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/locations/manchester/",
+      "content_digest": "5ba1414fbfc95bd8b25ea9eaefff7330404075ea375a7fd81c5fb617d58ed39d",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/locations/newcastle/",
+      "content_digest": "e883a7050f183d86ab3ed5f3e9b36cc807a37e33905bd4884aed30c59fb3d06b",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/locations/nottingham/",
+      "content_digest": "8e98d4a99f0dbad5649010f3213c29926d4097eb365a661871f2e46926fdb921",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/locations/sheffield/",
+      "content_digest": "7fcdae0637dae7f0fd6519dc5669467a4bf119083d4f0dc6d877c3a3fd743072",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/our-approach/",
+      "content_digest": "1a1c779bbd37f0813d5cb21d714cc4585bd18d21ad4850ed7768deb75f54b494",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrot-care/",
+      "content_digest": "62336c6f577773ed5c117a42afaac68ff45fed6e6f867dac40a68b725dd228d9",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrot-prices-uk/",
+      "content_digest": "a77ea8d388df0fe4774be4b13319ec7a72756377523e8496c915558488f3586e",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": "2026-10-02",
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [
+        {
+          "date": "2026-10-02",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "45f4fad0f551a3d6edc42b9da3c3851c4f02a1031951b0f391e305d3f89360bb",
+          "digest": "e9e44f73a1f2a97379852468938e44baecfff25baa52a84c3929aac0f48f6f4c"
+        },
+        {
+          "date": "2026-10-02",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "e9e44f73a1f2a97379852468938e44baecfff25baa52a84c3929aac0f48f6f4c",
+          "digest": "a77ea8d388df0fe4774be4b13319ec7a72756377523e8496c915558488f3586e"
+        }
+      ],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots-for-sale/",
+      "content_digest": "f222c39a02b2ab7c797feb00bde61386bee7d3daa85e4c3dd625af2f4097fae6",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots-for-sale/african-grey-parrots/",
+      "content_digest": "e4749a002cceab387aa52a369330ca40241f325f74342c38c35a7dbaf2463f1c",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots-for-sale/amazon-parrots/",
+      "content_digest": "a3a6b9e78e99b3492245ca612129e3b1cc6c9c10b3d5358a8a936cabf6c2803b",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots-for-sale/caiques/",
+      "content_digest": "d8aa0e91ec4394a6f2c2ccfb2fe1eb932ada13af6d510c2d82860fbfd935064e",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots-for-sale/cockatoos/",
+      "content_digest": "b74daaa68ff537c7b623cc9455382f71648739796355dddf64c583e14c8210eb",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots-for-sale/conures/",
+      "content_digest": "b470435ce1cf24de4e675fba4b22edec65acbef71fe13b03d785c83d4fa4970e",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots-for-sale/eclectus-parrots/",
+      "content_digest": "8b6d9e7f98a8fe0345e8a16c65740a276eecf0ebf18be245468ad6e508e900ed",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots-for-sale/large-parrots/",
+      "content_digest": "a68810678dad155eceaa3457c60c6c6882c905e3e825e531934da2582c26e7f6",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots-for-sale/macaws/",
+      "content_digest": "a4593d8ad23d9ac4f1f0a02aedd8190ff8f04dae1e1101e76a2f65f1060c7b8a",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots-for-sale/parakeets-small-parrots/",
+      "content_digest": "817a19d974da37c25c9a95f2c873bfd95efaf54ea5c12ea4d331f2ab9cebd5d9",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots-for-sale/small-parrots/",
+      "content_digest": "09a03879c5f4021bd19fdd87a1ab205dcba2da56253519320aea76e511aa3ce8",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots-for-sale/talking-parrots/",
+      "content_digest": "d9d21ce1c41fea989b57c81d1bb7285f7e98e6dc57304fe23af049c226bc002f",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots/",
+      "content_digest": "336eefbfaefe5a2ca06ee596e3453fac1833fe2742e58d8c4c8a8dcd4263e5e7",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots/african-parrots/",
+      "content_digest": "09081e531d97b0e61e1626baed72b778448ecbc76b17d280a88d17becf0a93d7",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [
+        {
+          "url": "https://www.rspca.org.uk/adviceandwelfare/pets/birds/diet",
+          "label": "RSPCA: feeding parrots"
+        },
+        {
+          "url": "https://www.ivis.org/library/avian-health-and-disease/lifespan-and-longevity",
+          "label": "IVIS: lifespan and longevity"
+        }
+      ],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots/african-parrots/congo-african-grey-parrot/",
+      "content_digest": "b8954841619ef2764830fa0a2d006573e430f77c57ac45fa7f7fab960532faf6",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots/african-parrots/timneh-parrot/",
+      "content_digest": "7d7e083762d125adb1c37093297e601b708b6405b45c949e0c8bb449dad533a9",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots/amazons/",
+      "content_digest": "944a0ccaba5e8c9ccaf5022c77296fc9d85b6f4f95b9fbbe7294b918ec0c1c6f",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [
+        {
+          "url": "https://www.rspca.org.uk/adviceandwelfare/pets/birds/diet",
+          "label": "RSPCA: feeding parrots"
+        },
+        {
+          "url": "https://www.ivis.org/library/avian-health-and-disease/lifespan-and-longevity",
+          "label": "IVIS: lifespan and longevity"
+        }
+      ],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots/amazons/blue-fronted-amazon-parrot/",
+      "content_digest": "9230dcb866f06f784801a8905b955705658720973ed4f67f69bbb4f87dbb476e",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots/amazons/yellow-naped-amazon-parrot/",
+      "content_digest": "77c6ba46bd89362247aa9c01f8406f406a0d92eaa50878c55b9a00dac5d8487c",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots/caiques/",
+      "content_digest": "d27c37d74717bc602b7042a0fea42334dfc37d42001f0d274f9eee2a18d07ca1",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [
+        {
+          "url": "https://www.rspca.org.uk/adviceandwelfare/pets/birds/diet",
+          "label": "RSPCA: feeding parrots"
+        },
+        {
+          "url": "https://www.ivis.org/library/avian-health-and-disease/lifespan-and-longevity",
+          "label": "IVIS: lifespan and longevity"
+        }
+      ],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots/caiques/black-headed-caique/",
+      "content_digest": "4ba5a5d48d82fb90c0f4bff660ca138be7f25c43fddacc82126986b075eeea0e",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots/caiques/white-bellied-caique/",
+      "content_digest": "44bb1953c1669ad6181157897e70c326f6ab095d443e8a5a52c9ef7ad97e3abe",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots/cockatoos/",
+      "content_digest": "5db3987fe60d5afa02d4a9964860be367555341b9ee9b51e6649922cc5f169cd",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [
+        {
+          "url": "https://www.rspca.org.uk/adviceandwelfare/pets/birds/diet",
+          "label": "RSPCA: feeding parrots"
+        },
+        {
+          "url": "https://www.ivis.org/library/avian-health-and-disease/lifespan-and-longevity",
+          "label": "IVIS: lifespan and longevity"
+        }
+      ],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots/cockatoos/galah-cockatoo/",
+      "content_digest": "32743274e16d4b22f7cbf3b0448d0ec0ecee67138b725c8b3abc5b03a7145858",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots/cockatoos/umbrella-cockatoo/",
+      "content_digest": "eaf06528090a859f365b0c7372376efa6b814987baf9170fbba04409890ab449",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots/conures/",
+      "content_digest": "f1b3971e06deca4d2507ac44ef0fcf965fa607da2fb9c6dc6db6a071e54e07b8",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [
+        {
+          "url": "https://www.rspca.org.uk/adviceandwelfare/pets/birds/diet",
+          "label": "RSPCA: feeding parrots"
+        },
+        {
+          "url": "https://www.ivis.org/library/avian-health-and-disease/lifespan-and-longevity",
+          "label": "IVIS: lifespan and longevity"
+        },
+        {
+          "url": "https://vcahospitals.com/know-your-pet/conures-general",
+          "label": "VCA: conures"
+        }
+      ],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots/conures/green-cheeked-conure/",
+      "content_digest": "48020e2ca31b9769f51f9c40daaf8c58b1c008f2756e54ddb149cc508e184f44",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots/conures/sun-conure/",
+      "content_digest": "40cd8846d9e410d0e528c5b4d07c35d4062c14f062c189d7f4d087f9ea95b187",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots/eclectus/",
+      "content_digest": "92e92a38a5a39d12d263be80eb676b956b48c7c12db73d617cf5b43e5660c25c",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [
+        {
+          "url": "https://www.rspca.org.uk/adviceandwelfare/pets/birds/diet",
+          "label": "RSPCA: feeding parrots"
+        },
+        {
+          "url": "https://www.ivis.org/library/avian-health-and-disease/lifespan-and-longevity",
+          "label": "IVIS: lifespan and longevity"
+        },
+        {
+          "url": "https://animaldiversity.org/accounts/Eclectus_roratus/",
+          "label": "Animal Diversity Web: Eclectus"
+        }
+      ],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots/eclectus/papuan-eclectus-parrot/",
+      "content_digest": "6f31705debb6fe911a5a0434f4581ec158cf366231edc078b9a170985a9c2f8c",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [
+        {
+          "url": "https://avibase.bsc-eoc.org/species.jsp?avibaseid=028FCD4B04A2653C",
+          "label": "Avibase: Papuan Eclectus classification"
+        }
+      ],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots/macaws/",
+      "content_digest": "39a983378d66828d82e02a0f98e475166adf4a408cda578b4c905191f34b0a30",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [
+        {
+          "url": "https://www.rspca.org.uk/adviceandwelfare/pets/birds/diet",
+          "label": "RSPCA: feeding parrots"
+        },
+        {
+          "url": "https://www.ivis.org/library/avian-health-and-disease/lifespan-and-longevity",
+          "label": "IVIS: lifespan and longevity"
+        }
+      ],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots/macaws/blue-and-gold-macaw/",
+      "content_digest": "53ddd44c818addd0aeb575d91e04614072943227c041aa9ea6b32f24c4e3fc86",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots/macaws/scarlet-macaw/",
+      "content_digest": "ee7ae5c2fdc109eab36a2ab1ef9adb36da54e74c6df8f823908f023e51efe49b",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots/parakeets-small-psittacines/",
+      "content_digest": "9f2020a78ef93aebd72c6284339198632e50977490031cca60dd7b5d0bce9e01",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [
+        {
+          "url": "https://www.rspca.org.uk/adviceandwelfare/pets/birds/diet",
+          "label": "RSPCA: feeding parrots"
+        },
+        {
+          "url": "https://www.ivis.org/library/avian-health-and-disease/lifespan-and-longevity",
+          "label": "IVIS: lifespan and longevity"
+        }
+      ],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots/parakeets-small-psittacines/budgerigar/",
+      "content_digest": "d0f59db6cb8f9527a0be2a5712157941c6ff2018351b232b0ae0ebed17e12b32",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots/parakeets-small-psittacines/indian-ringneck-parakeet/",
+      "content_digest": "268a0f01e15c1e89ad0a28dbf306d00837de0f67adabc82862c2231dbfddcd19",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/parrots/parakeets-small-psittacines/peach-faced-lovebird/",
+      "content_digest": "a18c2b1a1d04245d063dec0267bb6114f2ad3bca17bef02fe1ca4b279329938f",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    },
+    {
+      "path": "/privacy-policy/",
+      "content_digest": "829546950870941f5ee9a90f4326d564ce21f23d7ed7017080a413e18e5a2aa7",
+      "publisher": "Crownwing",
+      "owner": {
+        "organisation": "Crownwing Parrots",
+        "person": null,
+        "role": "Publisher"
+      },
+      "sources": [
+        {
+          "url": "https://ico.org.uk/make-a-complaint/",
+          "label": "ICO: make a data-protection complaint"
+        },
+        {
+          "url": "https://developers.google.com/fonts/faq/privacy",
+          "label": "Google Fonts privacy information"
+        },
+        {
+          "url": "https://policies.google.com/privacy",
+          "label": "Google Privacy Policy"
+        }
+      ],
+      "last_modified": null,
+      "last_reviewed": null,
+      "reviewed_by": null,
+      "review_scope": null,
+      "review_reminder_due": null,
+      "history": [],
+      "published": null,
+      "review_status": null,
+      "article_date_modified": null,
+      "digest_version": 2
+    }
+  ]
+}

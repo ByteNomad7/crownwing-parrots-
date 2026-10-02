@@ -1,0 +1,22 @@
+{
+  "verified_at": "2026-10-02T17:12:20.561Z",
+  "environment": "running preview via HTTPS proxy",
+  "results": [
+    {
+      "width": 1366,
+      "comparison": "passed",
+      "budget": "passed",
+      "overflow": "none"
+    },
+    {
+      "width": 390,
+      "comparison": "passed",
+      "budget": "passed",
+      "overflow": "none"
+    }
+  ],
+  "no_javascript_comparison": "all eight readable",
+  "page_errors": [],
+  "no_javascript_budget": "submission disabled; Enter sends no request",
+  "fixture_note": "Test amounts only; never displayed as retailer prices."
+}

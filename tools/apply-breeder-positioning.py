@@ -68,7 +68,7 @@ def navigation(text):
             ("/available-birds/", "Available birds"),
             ("/parrots/", "Species guides"),
             ("/parrots-for-sale/", "Buying a parrot"),
-            ("/parrot-care/", "Care guides"),
+            ("/guides/", "Parrot guides"),
         ]
     ) + link("/contact/", "Contact us", "mobile-contact") + "</nav>"
     text = re.sub(r'<nav aria-label="Main navigation">.*?</nav>', lambda _: nav, text, flags=re.S)
@@ -163,7 +163,7 @@ def apply():
         available_cards += (
             '<article class="link-card availability-card"><p class="availability-status">Available by enquiry</p>'
             '<h3 class="availability-title">'
-            f'<img class="availability-thumbnail" src="{esc(photo["thumbnail"])}" alt="" '
+            f'<img class="availability-thumbnail" src="{esc(photo["thumbnail"])}" alt="" aria-hidden="true" '
             f'width="44" height="44" loading="lazy" decoding="async" style="object-position:{esc(photo["focus"])}">'
             f'<span>{esc(name)}</span></h3><p>{esc(item["tag"])}</p><div class="availability-actions">'
             + link("/contact/?species=" + slug, "Ask about current birds", "button")
@@ -312,6 +312,11 @@ def apply():
         target.write_text(text)
 
     home = re.sub(r'<p class="intro">.*?</p>', lambda _: f'<p class="intro">{HERO_INTRO}</p>', home, count=1, flags=re.S)
+    home = re.sub(
+        r'(<section class="hero"><div class="hero-copy"><p class="eyebrow">).*?(</p>)',
+        r"\1UK PARROTS FOR SALE · BREEDER &amp; RETAILER\2",
+        home, count=1, flags=re.S,
+    )
     home = re.sub(
         r'<div class="hero-actions">.*?</div>',
         '<div class="hero-actions">' + link("/available-birds/", "See available birds", "button lime")

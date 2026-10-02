@@ -211,10 +211,11 @@ def metadata(text, path, origin, title=None, description=None, parent=None):
         schema = json.loads(match[1])
         if isinstance(schema, dict) and schema.get("@type") == "WebPage":
             schema.update(name=title, description=description, url=origin + path)
-            schema = enrich_page_schema(schema, path, image)
             trail = [("/", "Home")]
             if parent:
                 trail += [("/parrots/", "Species guides"), ("/parrots/" + parent + "/", DISPLAY_NAMES[parent])]
+            elif path.startswith("/guides/") and path != "/guides/":
+                trail += [("/guides/", "Parrot guides")]
             if path != "/":
                 trail += [(path, title.split("|")[0].strip())]
                 schema["breadcrumb"] = {
@@ -224,6 +225,7 @@ def metadata(text, path, origin, title=None, description=None, parent=None):
                         for i, (url, name) in enumerate(trail)
                     ],
                 }
+            schema = enrich_page_schema(schema, path, image)
         return '<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False).replace("</", "<\\/") + "</script>"
 
     text = re.sub(r'<script type="application/ld\+json" id="site-identity-schema">.*?</script>', "", text, flags=re.S)
@@ -478,6 +480,11 @@ def apply_content():
         route_file(path).parent.mkdir(parents=True, exist_ok=True)
         route_file(path).write_text(text)
 
+    from buyer_resources import apply_buyer_resources, finish_buyer_resources
+    apply_buyer_resources(metadata)
+    from audit_quality_content import apply_audit_quality
+    apply_audit_quality(metadata)
+
     # Match social metadata and apply the owner's indexing policy to city guides.
     public_paths = []
     for target in sorted(DIST.rglob("index.html")):
@@ -485,24 +492,21 @@ def apply_content():
         path = "/" if relative == "." else "/" + relative + "/"
         parent = next((p["parent"] for p in profiles if profile_path(p) == path), None)
         text = metadata(optimize_images(target.read_text()), path, origin, parent=parent)
-        if "<form" in text and 'class="privacy-form-note"' not in text:
+        if '<form id="enquiry-form"' in text and 'class="privacy-form-note"' not in text:
             note = (
                 '<p class="privacy-form-note">Read our '
                 + link("/privacy-policy/", "Privacy Policy") + ' and '
                 + link("/business-policies/", "business policies")
                 + '. This form prepares a download; it does not send or save your details.</p>'
             )
-            text = re.sub(r'(<form\b[^>]*>)', lambda m: note + m[1], text)
+            text = re.sub(r'(<form\b[^>]*id="enquiry-form"[^>]*>)', lambda m: note + m[1], text)
         if path.startswith("/locations/") and path != "/locations/":
             text = re.sub(r'<meta name="robots"[^>]*>', "", text)
             text = text.replace("</head>", '<meta name="robots" content="index,follow"></head>')
         target.write_text(text)
         if 'content="noindex,follow"' not in text:
             public_paths.append(path)
-    (DIST / "sitemap.xml").write_text(
-        '<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
-        + "".join("<url><loc>" + escape(origin + path) + "</loc></url>" for path in public_paths) + "</urlset>"
-    )
+    finish_buyer_resources(public_paths)
     (DIST / "robots.txt").write_text("User-agent: *\nAllow: /\nSitemap: " + origin + "/sitemap.xml\n")
     report = {"rewritten": rewritten, "expanded": expanded, "new_species_profiles": created,
               "species_profiles_awaiting_exact_photos": photo_free, "indexable_city_guides": len(cities),

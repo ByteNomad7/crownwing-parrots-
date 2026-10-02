@@ -1,0 +1,86 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "jT7pfThc5IgYq9OAe8v7Y"
+uri = "file://seo/report.html"
+type = "html"
+title = "Crownwing SEO foundation — all 18 deliverables"
+description = "Self-contained audit report with downloadable inventories, maps, technical/content audits, source lists, Lighthouse results, browser evidence and publishing/Search Console caveats."
+logical_id = "56d96007-7924-407d-83c6-c51c9d635846"
+content_hash = "sha256:31402591fbb8dd62d002bd3f72f64081895f2de92a600df9ded6588a385b26ce"
+size = 3113027
+mtime_ms = 1790961280369
+storage_uri = "gcs://replit-rams-assets-archer/rams/assets/repl:bb2a8af7-5945-4807-af2c-9c06ffcc6ddd/56d96007-7924-407d-83c6-c51c9d635846/c37684de-5871-415b-9f73-152c57c2b016"
+storage_version_token = "1790961343085518"
+content_type = "text/html"
+
+[[outputs]]
+id = "av9XGAnOJztM955KOwpia"
+uri = "file://seo/url-inventory.csv"
+type = "table"
+title = "Complete URL inventory"
+description = "All 69 URLs, with source and HTTP audit evidence; 66 established routes retained and 3 new buyer resources."
+logical_id = "826a5c3b-36d9-4d3e-8a7b-db4598e5d305"
+content_hash = "sha256:49cf8263b5691c2070bca33a328a58cdb0c961aef6b0b41fb98fa24d1bd677be"
+size = 29944
+mtime_ms = 1790961280223
+storage_uri = "gcs://replit-rams-assets-archer/rams/assets/repl:bb2a8af7-5945-4807-af2c-9c06ffcc6ddd/826a5c3b-36d9-4d3e-8a7b-db4598e5d305/a5157bc8-a9e8-4f7c-8299-119e9e352fbc"
+storage_version_token = "1790961343789768"
+content_type = "text/csv"
+
+[[outputs]]
+id = "I0_8QW0vKExUy15C9L7rP"
+uri = "file://seo/keyword-map.csv"
+type = "table"
+title = "Keyword-to-URL map"
+description = "Search intent, target pages, supporting routes and audit fields. Google rankings are explicitly unmeasured."
+logical_id = "edf52290-c4a3-477e-b775-895f5e75cbf3"
+content_hash = "sha256:c46a402fecbbcbecf3316e146721c5742bce5dbce6249a41ea6435b02eded17e"
+size = 28320
+mtime_ms = 1790961280223
+storage_uri = "gcs://replit-rams-assets-archer/rams/assets/repl:bb2a8af7-5945-4807-af2c-9c06ffcc6ddd/edf52290-c4a3-477e-b775-895f5e75cbf3/c1929723-1080-4ac6-b8d5-6451009a4ba0"
+storage_version_token = "1790961344461925"
+content_type = "text/csv"
+
+[[outputs]]
+id = "o4BpVg3QH8rfOZ7Jv8rVm"
+uri = "file://seo/crownwing-complete-audit.html"
+type = "html"
+title = "Complete Crownwing SEO audit"
+description = "All 69 page classifications, supporting reports, implementation plan and exact applied-change summary. City merges remain recommendations."
+logical_id = "daa26f4e-7408-4938-835d-bb519681de78"
+content_hash = "sha256:83b39d9361b00a5219fbeb7e516325eaf6867b4bc0fe9cf107ac8b0ee86f1795"
+size = 263480
+mtime_ms = 1790963530591
+storage_uri = "gcs://replit-rams-assets-archer/rams/assets/repl:bb2a8af7-5945-4807-af2c-9c06ffcc6ddd/daa26f4e-7408-4938-835d-bb519681de78/d44f4460-d317-48ed-8bd5-73c29a09f3ea"
+storage_version_token = "1790963808981180"
+content_type = "text/html"
+
+[[outputs]]
+id = "GfEf2ElO5zckEZvCG_oXN"
+uri = "file://seo/crownwing-66-page-inventory.csv"
+type = "table"
+title = "69-page inventory and classifications"
+description = "Original 66 URLs plus 3 later guides, technical and intent fields, and separate audit/current implementation counts."
+logical_id = "c8b85470-8ab9-4d37-87f2-d9024df936f4"
+content_hash = "sha256:75ed301570c5767d553de67a87f01579a8873bcff85f53afeee5ee9ed6e70313"
+size = 81320
+mtime_ms = 1790963530536
+storage_uri = "gcs://replit-rams-assets-archer/rams/assets/repl:bb2a8af7-5945-4807-af2c-9c06ffcc6ddd/c8b85470-8ab9-4d37-87f2-d9024df936f4/b625f17c-6dab-4466-a35d-bd35db2ac778"
+storage_version_token = "1790963809710621"
+content_type = "text/csv"
+
+[[outputs]]
+id = "O6J-a4ti49sjF5ynHW0_8"
+uri = "file://seo/crownwing-keyword-map.csv"
+type = "table"
+title = "UK keyword-to-URL map"
+description = "Intent-based primary and secondary targets. Search volume, competition scores and rankings are explicitly unmeasured, not invented."
+logical_id = "56d8d995-0ac7-4e07-a459-a5e0b25f7882"
+content_hash = "sha256:5e56285bb5b83ca4096f777f399ca481b72abd5294722456d3eee21eb25a4cbc"
+size = 36953
+mtime_ms = 1790962784889
+storage_uri = "gcs://replit-rams-assets-archer/rams/assets/repl:bb2a8af7-5945-4807-af2c-9c06ffcc6ddd/56d8d995-0ac7-4e07-a459-a5e0b25f7882/71f7726c-ab28-4e0f-92be-b44c575e2d0a"
+storage_version_token = "1790963810517276"
+content_type = "text/csv"

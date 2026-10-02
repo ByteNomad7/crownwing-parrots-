@@ -39,7 +39,12 @@ for page in DIST.rglob("index.html"):
     parser.feed(page.read_text())
     for image in parser.images:
         assert image.get("src"), f"Empty image source: {page}"
-        assert image.get("alt"), f"Missing photo description: {page}"
+        decorative = (
+            "availability-thumbnail" in image.get("class", "").split()
+            and image.get("aria-hidden") == "true"
+            and image.get("alt") == ""
+        )
+        assert image.get("alt") or decorative, f"Missing photo description: {page}"
     parts = page.relative_to(DIST).parts
     if len(parts) == 3 and parts[0] == "parrots":
         for source in parser.photos:

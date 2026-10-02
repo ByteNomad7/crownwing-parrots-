@@ -126,7 +126,12 @@ def check():
             text, parser = pages[path]
             assert set(old["links"]) <= set(parser.links), (path, "internal links removed", set(old["links"]) - set(parser.links))
             assert set(old["images"]) <= set(parser.images), (path, "images removed")
-            assert old["forms"] == parser.forms, (path, "form hooks changed")
+            preserved_forms = [form for form in parser.forms if "data-budget-form" not in form]
+            assert old["forms"] == preserved_forms, (path, "enquiry form hooks changed")
+            new_forms = [form for form in parser.forms if "data-budget-form" in form]
+            assert not new_forms or (
+                path == "/guides/parrot-ownership-costs/" and len(new_forms) == 1
+            ), (path, "unexpected additional form")
             assert old["brand"] == re.findall(r'<a[^>]*class="brand".*?</a>', text, re.S), (path, "branding changed")
             if not (path.startswith("/locations/") and path != "/locations/"):
                 assert old["noindex"] == ("noindex" in text), (path, "robots policy changed")

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://crownwingparrots.co.uk/sitemap.xml

@@ -1,0 +1,1108 @@
+# CROWNWING PARROTS — FULL 66-PAGE SEO AUDIT, CLASSIFICATION & CONTENT QUALITY PASS
+
+You are working on the CrownWing Parrots website, a UK-focused specialist parrot business.
+
+The website currently contains approximately **66 pages**.
+
+Your task is to perform a **complete page-by-page SEO, content, search-intent, technical and quality audit of all 66 pages**.
+
+Do NOT assume that all 66 pages should remain indexed.
+
+Do NOT create additional pages before completing this audit.
+
+Do NOT make destructive changes before producing the audit report.
+
+The objective is to determine which pages should be:
+
+- kept and strengthened
+- expanded
+- merged
+- noindexed/removed
+- redirected
+
+The goal is to create a **high-quality UK parrot website with strong topical authority**, not a large website filled with thin SEO pages.
+
+---
+
+# 1. FIRST: DISCOVER ALL 66 PAGES
+
+Before changing anything:
+
+1. Crawl the entire website/application.
+2. Identify every route.
+3. Identify static pages.
+4. Identify dynamic pages.
+5. Identify species pages.
+6. Identify product/bird pages.
+7. Identify guide/blog pages.
+8. Identify policy pages.
+9. Identify location pages.
+10. Identify duplicate routes.
+11. Identify orphan pages.
+12. Identify pages generated through query parameters or filters.
+
+Create a complete inventory.
+
+Save it as:
+
+`seo/crownwing-66-page-inventory.csv`
+
+Include:
+
+- URL
+- Page title
+- H1
+- Page type
+- Word count
+- Indexable?
+- Canonical URL
+- Status code
+- Primary topic
+- Search intent
+- Primary keyword
+- Secondary keywords
+- Internal links in
+- Internal links out
+- Duplicate/similar pages
+- Schema types
+- Image count
+- Content uniqueness
+- Recommended action
+- Priority
+
+---
+
+# 2. CLASSIFY EVERY PAGE
+
+Every page MUST receive exactly one primary classification.
+
+## A — KEEP & STRENGTHEN
+
+Use when:
+
+- The page has genuine search value.
+- The topic is relevant to CrownWing.
+- The content is useful.
+- The page has a clear search intent.
+- It deserves to be indexed.
+- It can become a strong resource with optimization.
+
+Recommended action:
+
+KEEP + IMPROVE
+
+---
+
+## B — EXPAND
+
+Use when:
+
+- The topic is valuable.
+- The URL should exist.
+- The page currently lacks sufficient depth.
+- The content does not fully answer the user's likely questions.
+- The page has commercial or informational potential.
+
+Recommended action:
+
+KEEP URL + SUBSTANTIALLY EXPAND
+
+Do not pad the page with generic paragraphs.
+
+Add information that genuinely answers buyer questions.
+
+---
+
+## C — MERGE
+
+Use when:
+
+- Two or more pages target essentially the same search intent.
+- Pages contain significant overlapping content.
+- The pages would be stronger as one comprehensive resource.
+- Multiple pages are competing against each other.
+
+Recommended action:
+
+Select the strongest URL.
+
+Combine the useful content.
+
+Redirect weaker/duplicate URLs to the stronger page.
+
+Do not merge pages merely because they share a keyword.
+
+---
+
+## D — NOINDEX / REMOVE
+
+Use when:
+
+- The page has little independent search value.
+- The content is extremely thin.
+- The page is an internal utility page.
+- The page is duplicate content.
+- The page is obsolete.
+- The page exists primarily because of a keyword variation.
+- The page cannot reasonably be made useful.
+- The page should not appear in Google.
+
+Recommended action:
+
+Determine whether the correct solution is:
+
+- `noindex`
+- removal
+- replacement with a useful page
+
+Do NOT automatically delete pages.
+
+---
+
+## E — REDIRECT
+
+Use when:
+
+- The URL is obsolete.
+- The URL is a duplicate.
+- A better replacement page already exists.
+- The old URL has meaningful historical value or backlinks.
+- The intent has been replaced by a stronger URL.
+
+Recommended action:
+
+Implement an appropriate permanent redirect.
+
+Avoid redirect chains.
+
+---
+
+# 3. IMPORTANT — DO NOT FORCE PAGE COUNT
+
+Do NOT try to preserve all 66 pages simply because they already exist.
+
+Do NOT create pages simply to reach a certain number.
+
+A smaller number of stronger pages is preferable to dozens of thin pages.
+
+The final website could legitimately contain fewer than 66 indexable pages if that produces a better information architecture.
+
+---
+
+# 4. SEARCH INTENT ANALYSIS
+
+For every page determine its dominant intent:
+
+- Transactional
+- Commercial investigation
+- Informational
+- Navigational
+- Local
+- Regulatory/legal information
+- Support
+- Trust/business
+
+Then identify:
+
+### Primary search topic
+
+Example:
+
+African Grey Parrot UK
+
+### Secondary topics
+
+Example:
+
+- African Grey Parrot care
+- African Grey Parrot lifespan
+- African Grey Parrot temperament
+- African Grey Parrot price
+- African Grey Parrot for sale UK
+
+Do NOT assign keywords merely because they contain words appearing on the page.
+
+Keywords must match the actual search intent.
+
+---
+
+# 5. UK KEYWORD RESEARCH
+
+Research current UK search behaviour for CrownWing's actual subject areas.
+
+Focus on searches around:
+
+### Commercial
+
+- parrots for sale UK
+- parrot for sale UK
+- buy a parrot UK
+- parrots for sale
+- pet parrots
+- talking parrots
+- tame parrots
+- hand reared parrots
+- baby parrots
+- parrots UK
+
+### Species
+
+- African Grey Parrot UK
+- African Grey Parrot for sale UK
+- Macaw for sale UK
+- Cockatoo for sale UK
+- Amazon Parrot UK
+- Conure for sale UK
+- Eclectus Parrot UK
+- Cockatiel for sale UK
+
+### Buyer research
+
+- how much does a parrot cost UK
+- best parrot for first time owner
+- which parrot should I get
+- are parrots good pets
+- how long do parrots live
+- how much does it cost to keep a parrot
+- how to buy a parrot
+- questions to ask a parrot breeder
+
+### Care
+
+- parrot diet
+- parrot cage size
+- parrot care
+- parrot toys
+- parrot training
+- parrot behaviour
+- parrot socialisation
+
+### UK regulatory
+
+- CITES parrots UK
+- parrot documentation UK
+- parrot import UK
+- parrot registration UK
+- bird keeper registration UK
+
+Use actual keyword research where available.
+
+Record:
+
+- keyword
+- search intent
+- estimated demand
+- competition
+- current ranking if available
+- target URL
+- whether the keyword should be primary or secondary
+
+Do not keyword-stuff pages.
+
+---
+
+# 6. BUILD A KEYWORD-TO-URL MAP
+
+Create:
+
+`seo/crownwing-keyword-map.csv`
+
+Columns:
+
+- Keyword
+- Intent
+- Target URL
+- Current URL
+- Page classification
+- Search demand
+- Competition
+- Priority
+- Notes
+
+Every important commercial keyword should have a logical target page.
+
+Avoid keyword cannibalisation.
+
+For example, do not have five pages all primarily targeting:
+
+"parrots for sale UK"
+
+unless there is a clearly different search intent.
+
+---
+
+# 7. COMMERCIAL PAGE TARGET
+
+CrownWing should have a strong commercial hub around:
+
+`/parrots-for-sale-uk/`
+
+This page should communicate:
+
+- Parrots available
+- Species
+- Buyer information
+- How purchasing works
+- Delivery
+- Documentation
+- Payment
+- Contact/enquiry process
+- Links to relevant species
+- Links to important buyer guides
+
+Do not turn this page into a keyword dump.
+
+---
+
+# 8. TARGET SITE ARCHITECTURE
+
+After the audit, assess whether the 66 pages can form this structure:
+
+## Commercial / species
+
+Approximately 10–15 pages.
+
+Purpose:
+
+Capture buyer intent.
+
+Examples:
+
+- Parrots for Sale UK
+- African Grey Parrot
+- Macaws
+- Cockatoos
+- Amazon Parrots
+- Conures
+- Eclectus
+- Other genuine CrownWing species
+
+Only create/retain species pages where CrownWing actually offers that species.
+
+---
+
+## Educational
+
+Approximately 25–35 pages.
+
+Purpose:
+
+Build topical authority.
+
+Topics should include:
+
+- buying a parrot
+- choosing a species
+- parrot costs
+- parrot care
+- diet
+- cages
+- toys
+- training
+- behaviour
+- socialisation
+- enrichment
+- preparing a home
+- first week with a new parrot
+- veterinary considerations
+
+Only create pages that have genuine standalone value.
+
+---
+
+## UK-specific buyer/regulatory
+
+Approximately 5–10 pages.
+
+Topics may include:
+
+- Buying a parrot in the UK
+- CITES and parrots
+- UK bird documentation
+- Bird keeper registration
+- UK parrot transport
+- Importing parrots
+- UK parrot veterinary considerations
+- UK ownership considerations
+
+Where legal information is included, use authoritative sources.
+
+Prioritise:
+
+- GOV.UK
+- APHA
+- official UK legislation
+- relevant government departments
+
+Do not invent legal requirements.
+
+Clearly distinguish England, Wales, Scotland and Northern Ireland where rules differ.
+
+---
+
+## Trust / business / support
+
+Approximately 5–10 pages.
+
+Examples:
+
+- About CrownWing Parrots
+- Contact
+- Delivery
+- Payments
+- Returns
+- Cancellation
+- Terms
+- Privacy
+- Documentation
+
+These pages may not all be SEO landing pages, but they are important for trust and usability.
+
+---
+
+# 9. CONTENT DEPTH TEST
+
+For every indexable page determine:
+
+### Does this page fully satisfy the likely search intent?
+
+Check:
+
+- Does it answer the obvious buyer questions?
+- Does it explain the subject properly?
+- Does it contain useful details?
+- Is the information specific?
+- Does it provide meaningful next steps?
+- Does it link to related CrownWing resources?
+- Is there enough unique information to justify the URL?
+
+Do NOT use a simplistic word-count rule.
+
+A 700-word page can be excellent.
+
+A 3,000-word page can be terrible.
+
+Judge usefulness, completeness and uniqueness.
+
+---
+
+# 10. THIN CONTENT DETECTION
+
+Flag pages that contain:
+
+- extremely little useful content
+- generic filler
+- repeated paragraphs
+- keyword variations
+- generic AI-written descriptions
+- duplicated FAQs
+- identical introductions
+- product name + image + CTA only
+- location keyword swaps
+- species keyword swaps
+- no unique buyer information
+
+Generate:
+
+`seo/thin-content-report.md`
+
+For each flagged page explain:
+
+WHY it is thin.
+
+WHAT information is missing.
+
+HOW it could be improved.
+
+Do not automatically expand every thin page.
+
+Some should be merged or removed.
+
+---
+
+# 11. DUPLICATE CONTENT ANALYSIS
+
+Compare all 66 pages.
+
+Calculate content similarity.
+
+Flag pages with significant overlap.
+
+Pay special attention to:
+
+- species pages
+- location pages
+- category pages
+- individual bird pages
+- guides
+- FAQs
+
+Create:
+
+`seo/duplicate-content-report.md`
+
+For every duplicate group recommend:
+
+KEEP
+EXPAND
+MERGE
+NOINDEX
+REDIRECT
+
+Explain why.
+
+---
+
+# 12. INTERNAL LINKING AUDIT
+
+Create a topical internal-link structure.
+
+Example:
+
+Parrots for Sale UK
+↓
+Species
+↓
+African Grey
+↓
+African Grey Care
+↓
+Parrot Diet
+↓
+Parrot Cage
+↓
+Buying a Parrot
+
+Every important page should be discoverable through internal links.
+
+Identify:
+
+- orphan pages
+- weakly linked pages
+- excessive footer links
+- irrelevant links
+- missing contextual links
+
+Create:
+
+`seo/internal-linking-plan.md`
+
+---
+
+# 13. TECHNICAL SEO AUDIT
+
+Audit all 66 pages for:
+
+- HTTP status
+- canonical
+- robots.txt
+- meta robots
+- sitemap inclusion
+- title
+- meta description
+- H1
+- H2 structure
+- image alt text
+- internal links
+- external links
+- structured data
+- Open Graph
+- URL structure
+- mobile rendering
+- JavaScript rendering
+- page speed
+- Core Web Vitals
+- broken links
+- redirect chains
+- duplicate URLs
+- query parameters
+
+---
+
+# 14. CRAWLABILITY
+
+Ensure Googlebot can discover all important pages.
+
+Important content must not depend solely on:
+
+- buttons
+- JavaScript event handlers
+- inaccessible UI components
+- client-side interactions with no crawlable URLs
+
+Use normal crawlable links.
+
+Audit:
+
+- `<a href>`
+- navigation
+- breadcrumbs
+- category links
+- species links
+- guide links
+
+---
+
+# 15. INDEXATION
+
+Every page should have an intentional indexation state.
+
+Create an indexation matrix:
+
+| URL | Index? | Reason |
+|---|---|---|
+
+Possible values:
+
+INDEX
+NOINDEX
+REDIRECT
+REMOVE
+
+Do not allow accidental indexation.
+
+Do not block pages in robots.txt when the actual requirement is noindex.
+
+---
+
+# 16. CANONICALS
+
+Every indexable page should have the correct canonical.
+
+Check:
+
+- HTTP/HTTPS
+- www/non-www
+- trailing slash
+- uppercase/lowercase
+- parameters
+- filters
+- duplicate routes
+
+Never point every page to the homepage.
+
+Never use canonical tags to hide fundamentally different pages.
+
+---
+
+# 17. XML SITEMAP
+
+The XML sitemap should contain only intended canonical indexable URLs.
+
+Exclude:
+
+- redirects
+- noindex pages
+- 404 pages
+- duplicate pages
+- internal search pages
+- unnecessary filters
+
+Create or update:
+
+`/sitemap.xml`
+
+---
+
+# 18. ROBOTS.TXT
+
+Audit:
+
+`/robots.txt`
+
+Ensure important assets and pages are not accidentally blocked.
+
+Do not use robots.txt as a substitute for noindex.
+
+---
+
+# 19. STRUCTURED DATA
+
+Audit and implement appropriate schema.
+
+Potential types:
+
+- Organization
+- LocalBusiness, only if appropriate
+- BreadcrumbList
+- Article
+- Product, only on genuine product pages
+- WebSite
+
+Do not implement inappropriate schema merely to obtain rich results.
+
+Do not fabricate:
+
+- ratings
+- reviews
+- prices
+- availability
+- awards
+- certifications
+
+All structured data must match visible page content.
+
+---
+
+# 20. SPECIES PAGE QUALITY
+
+Every major species page retained as indexable should be genuinely useful.
+
+Where appropriate cover:
+
+- species overview
+- temperament
+- intelligence
+- talking ability
+- noise
+- lifespan
+- size
+- diet
+- cage requirements
+- exercise
+- enrichment
+- social needs
+- training
+- common challenges
+- household suitability
+- first-time owner considerations
+- ownership costs
+- documentation
+- questions to ask before purchase
+- CrownWing availability
+
+Do not copy the same article onto every species page.
+
+---
+
+# 21. INDIVIDUAL BIRD PAGES
+
+If CrownWing has individual bird listings:
+
+Each page should contain genuine unique information.
+
+Potential information:
+
+- species
+- age
+- sex where known
+- temperament
+- socialisation
+- feeding
+- photographs
+- video
+- documentation
+- availability
+- price if confirmed
+- delivery
+- enquiry
+
+When a bird is sold:
+
+Do not automatically leave hundreds of empty indexed pages.
+
+Determine whether the page should:
+
+- remain useful as a substantial historical page
+- redirect to its species page
+- or be removed/noindexed
+
+---
+
+# 22. LOCATION SEO
+
+Do NOT create hundreds of city pages just to target:
+
+"parrots for sale London"
+
+"parrots for sale Manchester"
+
+etc.
+
+Only create location pages where CrownWing has genuinely unique information or a real operational reason.
+
+Avoid doorway pages.
+
+---
+
+# 23. METADATA
+
+Every indexable page needs:
+
+- unique title
+- unique meta description
+- correct H1
+- useful Open Graph title
+- useful Open Graph description
+- canonical
+
+Avoid repeating the same title template across every page.
+
+---
+
+# 24. IMAGE SEO
+
+Audit every important image.
+
+Check:
+
+- descriptive filenames
+- useful alt text
+- dimensions
+- compression
+- WebP/AVIF where appropriate
+- responsive images
+- lazy loading below the fold
+- priority loading of the main hero image
+
+Never keyword-stuff alt text.
+
+---
+
+# 25. PAGE EXPERIENCE
+
+Audit:
+
+- mobile usability
+- readability
+- font size
+- spacing
+- navigation
+- accessibility
+- contrast
+- buttons
+- enquiry flow
+- page speed
+- image loading
+
+SEO improvements must not make the website worse for buyers.
+
+---
+
+# 26. TRUST
+
+Ensure the site clearly communicates:
+
+- who CrownWing Parrots is
+- what it sells
+- how buyers can enquire
+- delivery arrangements
+- payment process
+- cancellation/returns
+- documentation
+- contact information
+- applicable policies
+
+Do not invent credentials or certifications.
+
+---
+
+# 27. CONTENT SOURCES
+
+For UK regulatory information use authoritative sources.
+
+Prioritise:
+
+GOV.UK
+APHA
+Natural England
+Scottish Government
+Welsh Government
+Northern Ireland Government
+Official legislation
+
+Link to sources where appropriate.
+
+Do not copy government content.
+
+---
+
+# 28. FINAL CLASSIFICATION REPORT
+
+Create:
+
+`seo/crownwing-page-classification.md`
+
+Use this exact structure for every page:
+
+## 01 — [URL]
+
+**Classification:** A / B / C / D / E
+
+**Page type:**  
+Commercial / Species / Guide / Policy / Product / Other
+
+**Primary intent:**  
+
+**Primary keyword:**  
+
+**Secondary topics:**  
+
+**Current strengths:**  
+
+**Current weaknesses:**  
+
+**Content quality:**  
+
+**Search opportunity:**  
+
+**Duplicate/cannibalisation issues:**  
+
+**Internal-link issues:**  
+
+**Technical SEO issues:**  
+
+**Recommended action:**  
+
+**Priority:** HIGH / MEDIUM / LOW
+
+**Reason:**  
+
+---
+
+# 29. SUMMARY DASHBOARD
+
+At the beginning of the report provide:
+
+Total pages audited: 66
+
+A — Keep & strengthen: X
+
+B — Expand: X
+
+C — Merge: X
+
+D — Noindex/remove: X
+
+E — Redirect: X
+
+Then show:
+
+- Number of thin pages
+- Number of duplicate groups
+- Number of orphan pages
+- Number of broken links
+- Number of missing titles
+- Number of duplicate titles
+- Number of missing descriptions
+- Number of canonical problems
+- Number of schema problems
+- Number of sitemap problems
+- Number of robots/indexation problems
+
+---
+
+# 30. DO NOT MAKE MAJOR CHANGES UNTIL AUDIT IS COMPLETE
+
+FIRST:
+
+Audit.
+
+SECOND:
+
+Classify.
+
+THIRD:
+
+Produce reports.
+
+FOURTH:
+
+Create an implementation plan.
+
+ONLY THEN:
+
+Apply changes.
+
+Do not delete pages.
+
+Do not change URLs.
+
+Do not merge pages.
+
+Do not redirect pages.
+
+Do not change the site's visual design.
+
+Do not rewrite the entire site.
+
+until the audit has identified what should actually happen.
+
+---
+
+# 31. AFTER THE AUDIT — IMPLEMENTATION
+
+Once the classification is complete:
+
+### A pages
+
+Strengthen:
+
+- content
+- internal links
+- metadata
+- structured data
+- UX
+- conversion pathways
+
+### B pages
+
+Substantially expand with useful information.
+
+### C pages
+
+Merge into the strongest URL.
+
+Create appropriate 301 redirects.
+
+### D pages
+
+Noindex or remove according to the audit recommendation.
+
+### E pages
+
+Implement clean permanent redirects.
+
+Avoid redirect chains.
+
+---
+
+# 32. FINAL GOAL
+
+The finished CrownWing Parrots website should have:
+
+A strong UK commercial hub
++
+Strong species pages
++
+High-quality buyer guides
++
+Useful UK-specific regulatory information
++
+Strong internal linking
++
+Excellent crawlability
++
+Clean indexation
++
+Correct canonicalisation
++
+Accurate structured data
++
+Fast mobile experience
++
+Strong buyer trust
+
+The objective is NOT:
+
+"66 pages indexed."
+
+The objective is:
+
+"Every indexed CrownWing page deserves to exist."
+
+Do not create SEO content for search engines alone.
+
+Build a website that a real UK parrot buyer would find genuinely useful.
+
+At the end, provide a concise implementation summary showing exactly what was changed and what remains for manual review.

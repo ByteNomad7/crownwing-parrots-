@@ -1,0 +1,1116 @@
+{
+  "checked_at": "2026-10-02T17:52:09.950Z",
+  "viewport": {
+    "width": 390,
+    "height": 900
+  },
+  "environment": "HTTPS development proxy; not published-host or field CWV evidence",
+  "scope": "All routes: rendered title/H1/canonical, HTML links, horizontal containment, JavaScript errors and mobile navigation.",
+  "limits": "Not a full accessibility audit or interaction test for every gallery/form. Existing buyer-tools browser evidence covers both responsive sizes and no-JS safeguards.",
+  "pages": [
+    {
+      "route": "/",
+      "status": 200,
+      "title": "Parrot Breeder & Retailer UK | Crownwing Parrots",
+      "h1": [
+        "A little wild.A lot of wonder."
+      ],
+      "htmlLinks": 35,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/available-birds/",
+      "status": 200,
+      "title": "Available Parrot Groups UK | Enquire | Crownwing | Crownwing Parrots",
+      "h1": [
+        "Available parrots.Details by enquiry."
+      ],
+      "htmlLinks": 35,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/available-birds/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/business-policies/",
+      "status": 200,
+      "title": "Payments, Delivery, Cancellation & Refund Policy | Crownwing Parrots",
+      "h1": [
+        "Payments, Delivery, Cancellation & Refund Policy"
+      ],
+      "htmlLinks": 10,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/business-policies/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/contact/",
+      "status": 200,
+      "title": "Contact Crownwing | Available Parrot Enquiries UK",
+      "h1": [
+        "Your next companion.Start with a conversation."
+      ],
+      "htmlLinks": 12,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/contact/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/cookie-policy/",
+      "status": 200,
+      "title": "Cookie Policy | Crownwing Parrots",
+      "h1": [
+        "Cookie Policy"
+      ],
+      "htmlLinks": 8,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/cookie-policy/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/guides/",
+      "status": 200,
+      "title": "UK Parrot Guides | Buying, Care & Documentation | Crownwing Parrots",
+      "h1": [
+        "Parrot guides for a considered beginning"
+      ],
+      "htmlLinks": 22,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/guides/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/guides/buying-a-parrot-checklist/",
+      "status": 200,
+      "title": "Buying a parrot in the UK: questions to ask | Crownwing Parrots",
+      "h1": [
+        "Your parrot buying checklist"
+      ],
+      "htmlLinks": 22,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/guides/buying-a-parrot-checklist/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/guides/buying-a-parrot/",
+      "status": 200,
+      "title": "How to Buy a Parrot in the UK | Complete Buyer's Guide | Crownwing Parrots",
+      "h1": [
+        "How to buy a parrot in the UK"
+      ],
+      "htmlLinks": 24,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/guides/buying-a-parrot/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/guides/choosing-a-parrot/",
+      "status": 200,
+      "title": "Which Parrot Is Right for Me? | UK Comparison Guide | Crownwing Parrots",
+      "h1": [
+        "Choosing a parrot for your home"
+      ],
+      "htmlLinks": 22,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/guides/choosing-a-parrot/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 8,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/guides/cites-parrots-uk/",
+      "status": 200,
+      "title": "Parrot Documentation UK | CITES & Bird Registration | Crownwing Parrots",
+      "h1": [
+        "Parrot documentation, CITES and UK registration"
+      ],
+      "htmlLinks": 23,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/guides/cites-parrots-uk/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/guides/parrot-diet-nutrition/",
+      "status": 200,
+      "title": "Parrot diet and nutrition | Feeding guide | Crownwing Parrots",
+      "h1": [
+        "A balanced diet starts with the right species"
+      ],
+      "htmlLinks": 21,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/guides/parrot-diet-nutrition/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/guides/parrot-housing-enrichment/",
+      "status": 200,
+      "title": "Parrot housing and enrichment | Home guide | Crownwing Parrots",
+      "h1": [
+        "A home designed for movement and curiosity"
+      ],
+      "htmlLinks": 24,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/guides/parrot-housing-enrichment/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/guides/parrot-ownership-costs/",
+      "status": 200,
+      "title": "Cost of Keeping a Parrot UK | Budget Planner | Crownwing Parrots",
+      "h1": [
+        "The real cost is more than the purchase price"
+      ],
+      "htmlLinks": 19,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/guides/parrot-ownership-costs/",
+      "menuPresent": true,
+      "enhancedBudget": true,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/guides/preparing-for-a-parrot/",
+      "status": 200,
+      "title": "Preparing for a new parrot | First-week guide | Crownwing Parrots",
+      "h1": [
+        "Before your parrot comes home"
+      ],
+      "htmlLinks": 23,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/guides/preparing-for-a-parrot/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/locations/",
+      "status": 200,
+      "title": "UK parrot city guides | Local buying enquiries | Crownwing Parrots",
+      "h1": [
+        "Your city.Your home.A considered choice."
+      ],
+      "htmlLinks": 25,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/locations/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/locations/belfast/",
+      "status": 200,
+      "title": "Parrot enquiry planning for Belfast | Crownwing Parrots",
+      "h1": [
+        "Parrots for Belfast homes"
+      ],
+      "htmlLinks": 22,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/locations/belfast/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/locations/birmingham/",
+      "status": 200,
+      "title": "Parrot ownership questions for Birmingham households | Crownwing Parrots",
+      "h1": [
+        "Parrots for Birmingham homes"
+      ],
+      "htmlLinks": 16,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/locations/birmingham/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/locations/bristol/",
+      "status": 200,
+      "title": "Planning for a parrot in Bristol | Crownwing Parrots",
+      "h1": [
+        "Parrots for Bristol homes"
+      ],
+      "htmlLinks": 16,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/locations/bristol/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/locations/cardiff/",
+      "status": 200,
+      "title": "Choosing and enquiring about parrots in Cardiff | Crownwing Parrots",
+      "h1": [
+        "Parrots for Cardiff homes"
+      ],
+      "htmlLinks": 16,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/locations/cardiff/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/locations/edinburgh/",
+      "status": 200,
+      "title": "Long-term parrot planning in Edinburgh | Crownwing Parrots",
+      "h1": [
+        "Parrots for Edinburgh homes"
+      ],
+      "htmlLinks": 16,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/locations/edinburgh/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/locations/glasgow/",
+      "status": 200,
+      "title": "Diet and routine questions for Glasgow parrot enquiries | Crownwing Parrots",
+      "h1": [
+        "Parrots for Glasgow homes"
+      ],
+      "htmlLinks": 16,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/locations/glasgow/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/locations/leeds/",
+      "status": 200,
+      "title": "A practical parrot plan for Leeds | Crownwing Parrots",
+      "h1": [
+        "Parrots for Leeds homes"
+      ],
+      "htmlLinks": 16,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/locations/leeds/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/locations/liverpool/",
+      "status": 200,
+      "title": "Questions to ask when enquiring about parrots in Liverpool | Crownwing Parrots",
+      "h1": [
+        "Parrots for Liverpool homes"
+      ],
+      "htmlLinks": 16,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/locations/liverpool/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/locations/london/",
+      "status": 200,
+      "title": "Parrot ownership planning for London homes | Crownwing Parrots",
+      "h1": [
+        "Parrots for London homes"
+      ],
+      "htmlLinks": 16,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/locations/london/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/locations/manchester/",
+      "status": 200,
+      "title": "Planning a parrot enquiry in Manchester | Crownwing Parrots",
+      "h1": [
+        "Parrots for Manchester homes"
+      ],
+      "htmlLinks": 16,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/locations/manchester/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/locations/newcastle/",
+      "status": 200,
+      "title": "Parrot enquiry and transport planning for Newcastle | Crownwing Parrots",
+      "h1": [
+        "Parrots for Newcastle upon Tyne homes"
+      ],
+      "htmlLinks": 16,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/locations/newcastle/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/locations/nottingham/",
+      "status": 200,
+      "title": "Starting parrot research in Nottingham | Crownwing Parrots",
+      "h1": [
+        "Parrots for Nottingham homes"
+      ],
+      "htmlLinks": 16,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/locations/nottingham/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/locations/sheffield/",
+      "status": 200,
+      "title": "Enrichment and parrot planning in Sheffield | Crownwing Parrots",
+      "h1": [
+        "Parrots for Sheffield homes"
+      ],
+      "htmlLinks": 16,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/locations/sheffield/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/our-approach/",
+      "status": 200,
+      "title": "Parrot Breeder & Retailer | Our Approach | Crownwing",
+      "h1": [
+        "Breeder & retailer.Care at the heart of the choice."
+      ],
+      "htmlLinks": 8,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/our-approach/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrot-care/",
+      "status": 200,
+      "title": "Parrot care guides | Diet, housing & ownership UK | Crownwing Parrots",
+      "h1": [
+        "Better informed.Better prepared."
+      ],
+      "htmlLinks": 21,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrot-care/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrot-prices-uk/",
+      "status": 200,
+      "title": "Parrot prices UK | Purchase & care costs | Buying enquiries | Crownwing Parrots",
+      "h1": [
+        "Understand the price.Plan the commitment."
+      ],
+      "htmlLinks": 19,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrot-prices-uk/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots-for-sale/",
+      "status": 200,
+      "title": "Parrots for Sale UK | Crownwing Parrots",
+      "h1": [
+        "Parrots for sale in the UK.A considered beginning."
+      ],
+      "htmlLinks": 34,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots-for-sale/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots-for-sale/african-grey-parrots/",
+      "status": 200,
+      "title": "African Grey Parrots for Sale UK | Crownwing Parrots",
+      "h1": [
+        "African Grey Parrots for Sale in the UK"
+      ],
+      "htmlLinks": 17,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots-for-sale/african-grey-parrots/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots-for-sale/amazon-parrots/",
+      "status": 200,
+      "title": "Amazon Parrots for Sale UK | Crownwing Parrots",
+      "h1": [
+        "Amazon Parrots for Sale in the UK"
+      ],
+      "htmlLinks": 17,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots-for-sale/amazon-parrots/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots-for-sale/caiques/",
+      "status": 200,
+      "title": "Caique Parrots for Sale UK | Crownwing Parrots",
+      "h1": [
+        "Caique Parrots for Sale in the UK"
+      ],
+      "htmlLinks": 17,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots-for-sale/caiques/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots-for-sale/cockatoos/",
+      "status": 200,
+      "title": "Cockatoo Parrots for Sale UK | Crownwing Parrots",
+      "h1": [
+        "Cockatoo Parrots for Sale in the UK"
+      ],
+      "htmlLinks": 17,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots-for-sale/cockatoos/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots-for-sale/conures/",
+      "status": 200,
+      "title": "Conure Parrots for Sale UK | Crownwing Parrots",
+      "h1": [
+        "Conure Parrots for Sale in the UK"
+      ],
+      "htmlLinks": 17,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots-for-sale/conures/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots-for-sale/eclectus-parrots/",
+      "status": 200,
+      "title": "Eclectus Parrots for Sale UK | Crownwing Parrots",
+      "h1": [
+        "Eclectus Parrots for Sale in the UK"
+      ],
+      "htmlLinks": 16,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots-for-sale/eclectus-parrots/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots-for-sale/large-parrots/",
+      "status": 200,
+      "title": "Large Parrots UK: Macaw, Cockatoo & Amazon Ownership | Crownwing Parrots",
+      "h1": [
+        "A remarkable presence.A substantial care plan."
+      ],
+      "htmlLinks": 18,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots-for-sale/large-parrots/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots-for-sale/macaws/",
+      "status": 200,
+      "title": "Macaw Parrots for Sale UK | Crownwing Parrots",
+      "h1": [
+        "Macaw Parrots for Sale in the UK"
+      ],
+      "htmlLinks": 17,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots-for-sale/macaws/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots-for-sale/parakeets-small-parrots/",
+      "status": 200,
+      "title": "Parakeets & Budgies for Sale UK | Crownwing Parrots",
+      "h1": [
+        "Parakeets & Budgies for Sale in the UK"
+      ],
+      "htmlLinks": 18,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots-for-sale/parakeets-small-parrots/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots-for-sale/small-parrots/",
+      "status": 200,
+      "title": "Small Parrots UK: Compare Budgies, Conures & Caiques | Crownwing Parrots",
+      "h1": [
+        "Small birds.Meaningful commitments."
+      ],
+      "htmlLinks": 19,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots-for-sale/small-parrots/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots-for-sale/talking-parrots/",
+      "status": 200,
+      "title": "Talking Parrots UK: Speech, Noise & Buying Questions | Crownwing Parrots",
+      "h1": [
+        "Considering a talking parrot?"
+      ],
+      "htmlLinks": 19,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots-for-sale/talking-parrots/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots/",
+      "status": 200,
+      "title": "Parrot species UK | Explore eight groups | Crownwing Parrots",
+      "h1": [
+        "Find your fascination."
+      ],
+      "htmlLinks": 31,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots/african-parrots/",
+      "status": 200,
+      "title": "African Grey Parrots: Size, Personality & Care | Crownwing Parrots",
+      "h1": [
+        "African Grey Parrots"
+      ],
+      "htmlLinks": 40,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots/african-parrots/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots/african-parrots/congo-african-grey-parrot/",
+      "status": 200,
+      "title": "Congo African Grey Parrot: Care, Character and Ownership | Crownwing Parrots",
+      "h1": [
+        "Congo African Grey Parrot"
+      ],
+      "htmlLinks": 17,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots/african-parrots/congo-african-grey-parrot/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots/african-parrots/timneh-parrot/",
+      "status": 200,
+      "title": "Timneh Parrot: Personality, Size and Care Guide | Crownwing Parrots",
+      "h1": [
+        "Timneh Parrot"
+      ],
+      "htmlLinks": 17,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots/african-parrots/timneh-parrot/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots/amazons/",
+      "status": 200,
+      "title": "Amazon Parrots: Size, Personality & Care | Crownwing Parrots",
+      "h1": [
+        "Amazon Parrots"
+      ],
+      "htmlLinks": 40,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots/amazons/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots/amazons/blue-fronted-amazon-parrot/",
+      "status": 200,
+      "title": "Blue-fronted Amazon Parrot: Care and Character | Crownwing Parrots",
+      "h1": [
+        "Blue-fronted Amazon Parrot"
+      ],
+      "htmlLinks": 17,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots/amazons/blue-fronted-amazon-parrot/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots/amazons/yellow-naped-amazon-parrot/",
+      "status": 200,
+      "title": "Yellow-naped Amazon Parrot: Voice and Care | Crownwing Parrots",
+      "h1": [
+        "Yellow-naped Amazon Parrot"
+      ],
+      "htmlLinks": 17,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots/amazons/yellow-naped-amazon-parrot/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots/caiques/",
+      "status": 200,
+      "title": "Caique Parrots: Size, Personality & Care | Crownwing Parrots",
+      "h1": [
+        "Caique Parrots"
+      ],
+      "htmlLinks": 40,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots/caiques/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots/caiques/black-headed-caique/",
+      "status": 200,
+      "title": "Black-headed Caique: Energy, Play and Care | Crownwing Parrots",
+      "h1": [
+        "Black-headed Caique"
+      ],
+      "htmlLinks": 17,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots/caiques/black-headed-caique/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots/caiques/white-bellied-caique/",
+      "status": 200,
+      "title": "White-bellied Caique: Personality and Care | Crownwing Parrots",
+      "h1": [
+        "White-bellied Caique"
+      ],
+      "htmlLinks": 17,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots/caiques/white-bellied-caique/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots/cockatoos/",
+      "status": 200,
+      "title": "Cockatoo Parrots: Size, Personality & Care | Crownwing Parrots",
+      "h1": [
+        "Cockatoo Parrots"
+      ],
+      "htmlLinks": 40,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots/cockatoos/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots/cockatoos/galah-cockatoo/",
+      "status": 200,
+      "title": "Galah Cockatoo: Temperament, Size and Care | Crownwing Parrots",
+      "h1": [
+        "Galah Cockatoo"
+      ],
+      "htmlLinks": 17,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots/cockatoos/galah-cockatoo/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots/cockatoos/umbrella-cockatoo/",
+      "status": 200,
+      "title": "Umbrella Cockatoo: Social Needs and Care Guide | Crownwing Parrots",
+      "h1": [
+        "Umbrella Cockatoo"
+      ],
+      "htmlLinks": 17,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots/cockatoos/umbrella-cockatoo/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots/conures/",
+      "status": 200,
+      "title": "Conure Parrots: Size, Personality & Care | Crownwing Parrots",
+      "h1": [
+        "Conure Parrots"
+      ],
+      "htmlLinks": 41,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots/conures/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots/conures/green-cheeked-conure/",
+      "status": 200,
+      "title": "Green-cheeked Conure: Personality and Care | Crownwing Parrots",
+      "h1": [
+        "Green-cheeked Conure"
+      ],
+      "htmlLinks": 17,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots/conures/green-cheeked-conure/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots/conures/sun-conure/",
+      "status": 200,
+      "title": "Sun Conure: Noise, Character and Care Guide | Crownwing Parrots",
+      "h1": [
+        "Sun Conure"
+      ],
+      "htmlLinks": 17,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots/conures/sun-conure/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots/eclectus/",
+      "status": 200,
+      "title": "Eclectus Parrots: Size, Personality & Care | Crownwing Parrots",
+      "h1": [
+        "Eclectus Parrots"
+      ],
+      "htmlLinks": 40,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots/eclectus/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots/eclectus/papuan-eclectus-parrot/",
+      "status": 200,
+      "title": "Papuan Eclectus Parrot: Appearance and Care | Crownwing Parrots",
+      "h1": [
+        "Papuan Eclectus Parrot"
+      ],
+      "htmlLinks": 17,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots/eclectus/papuan-eclectus-parrot/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots/macaws/",
+      "status": 200,
+      "title": "Macaw Parrots: Size, Personality & Care | Crownwing Parrots",
+      "h1": [
+        "Macaw Parrots"
+      ],
+      "htmlLinks": 40,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots/macaws/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots/macaws/blue-and-gold-macaw/",
+      "status": 200,
+      "title": "Blue-and-gold Macaw: Size, Character and Care | Crownwing Parrots",
+      "h1": [
+        "Blue-and-gold Macaw"
+      ],
+      "htmlLinks": 17,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots/macaws/blue-and-gold-macaw/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots/macaws/scarlet-macaw/",
+      "status": 200,
+      "title": "Scarlet Macaw: A Guide to Care and Ownership | Crownwing Parrots",
+      "h1": [
+        "Scarlet Macaw"
+      ],
+      "htmlLinks": 17,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots/macaws/scarlet-macaw/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots/parakeets-small-psittacines/",
+      "status": 200,
+      "title": "Parakeets & Budgerigars: Size, Personality & Care | Crownwing Parrots",
+      "h1": [
+        "Parakeets & Budgerigars"
+      ],
+      "htmlLinks": 41,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots/parakeets-small-psittacines/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots/parakeets-small-psittacines/budgerigar/",
+      "status": 200,
+      "title": "Budgerigar: Social Needs, Training and Care | Crownwing Parrots",
+      "h1": [
+        "Budgerigar"
+      ],
+      "htmlLinks": 18,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots/parakeets-small-psittacines/budgerigar/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots/parakeets-small-psittacines/indian-ringneck-parakeet/",
+      "status": 200,
+      "title": "Indian Ringneck Parakeet: Character and Care | Crownwing Parrots",
+      "h1": [
+        "Indian Ringneck Parakeet"
+      ],
+      "htmlLinks": 18,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots/parakeets-small-psittacines/indian-ringneck-parakeet/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/parrots/parakeets-small-psittacines/peach-faced-lovebird/",
+      "status": 200,
+      "title": "Peach-faced Lovebird: Social Life and Care | Crownwing Parrots",
+      "h1": [
+        "Peach-faced Lovebird"
+      ],
+      "htmlLinks": 18,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/parrots/parakeets-small-psittacines/peach-faced-lovebird/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    },
+    {
+      "route": "/privacy-policy/",
+      "status": 200,
+      "title": "Privacy Policy | Crownwing Parrots",
+      "h1": [
+        "Privacy Policy"
+      ],
+      "htmlLinks": 9,
+      "overflow": false,
+      "canonical": "https://crownwingparrots.co.uk/privacy-policy/",
+      "menuPresent": true,
+      "enhancedBudget": false,
+      "comparisonGroups": 0,
+      "menuOpens": true,
+      "pageErrors": []
+    }
+  ]
+}

@@ -1,0 +1,360 @@
+/* Buyer planning tools: inherit Crownwing's forest, lime and sage design system. */
+.buyer-tool {
+  --buyer-forest: var(--green, #0d3028);
+  --buyer-ink: var(--ink, #14382e);
+  --buyer-lime: var(--lime, #d9ed9c);
+  --buyer-paper: #f5f8f5;
+  --buyer-line: var(--line, #dce4df);
+  --buyer-muted: var(--muted, #66736d);
+  max-width: 1320px;
+  margin: 56px auto;
+  padding: clamp(24px, 4vw, 48px);
+  color: var(--buyer-ink);
+  background: var(--buyer-paper);
+  border: 1px solid var(--buyer-line);
+  border-radius: 8px;
+}
+
+.buyer-tool[hidden],
+.buyer-tool [hidden] {
+  display: none !important;
+}
+
+.buyer-tool__intro {
+  max-width: 760px;
+  margin-bottom: 30px;
+}
+
+.buyer-tool__intro .eyebrow,
+.buyer-tool .eyebrow {
+  color: #526b3f;
+}
+
+.buyer-tool__intro h2 {
+  margin: 0 0 16px;
+  font-size: clamp(30px, 4vw, 44px);
+}
+
+.buyer-tool__intro > p:last-child,
+.buyer-tool__note,
+.buyer-tool__caveat,
+.budget-form__instruction {
+  color: var(--buyer-muted);
+}
+
+.comparison-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 12px;
+  margin: 25px 0;
+  padding: 20px;
+  background: #e9f0e8;
+  border-radius: 6px;
+}
+
+.buyer-tool label {
+  color: var(--buyer-ink);
+}
+
+.comparison-controls label {
+  flex: 1 1 190px;
+  margin: 0;
+}
+
+.buyer-tool select,
+.buyer-tool input {
+  display: block;
+  width: 100%;
+  min-height: 48px;
+  margin-top: 7px;
+  padding: 10px 12px;
+  color: var(--buyer-ink);
+  background: #fff;
+  border: 1px solid #a9b9ae;
+  border-radius: 4px;
+}
+
+.buyer-tool select:focus-visible,
+.buyer-tool input:focus-visible,
+.comparison-table-wrap:focus-visible {
+  outline: 3px solid #87a34c;
+  outline-offset: 3px;
+}
+
+.comparison-controls .button,
+.budget-actions .button {
+  min-height: 48px;
+  white-space: nowrap;
+}
+
+.comparison-controls .lime,
+.budget-actions .lime {
+  background: var(--buyer-lime);
+  color: var(--buyer-forest);
+}
+
+.buyer-tool__message {
+  flex: 1 0 100%;
+  min-height: 1.6em;
+  margin: 0;
+  color: var(--buyer-forest);
+  font-size: 14px;
+}
+
+.buyer-tool__caveat,
+.buyer-tool__note {
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.buyer-tool__caveat {
+  margin: 0 0 18px;
+  padding-left: 16px;
+  border-left: 3px solid #91a977;
+}
+
+.comparison-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--buyer-line);
+  border-radius: 6px;
+  background: #fff;
+  overscroll-behavior-inline: contain;
+}
+
+.comparison-table {
+  width: 100%;
+  min-width: 1120px;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.comparison-table caption {
+  padding: 16px 18px;
+  color: var(--buyer-muted);
+  text-align: left;
+  font-size: 13px;
+}
+
+.comparison-table th,
+.comparison-table td {
+  padding: 15px 16px;
+  vertical-align: top;
+  border-top: 1px solid var(--buyer-line);
+  border-right: 1px solid var(--buyer-line);
+}
+
+.comparison-table thead th {
+  position: sticky;
+  top: 0;
+  color: #fff;
+  background: var(--buyer-forest);
+  font-family: Manrope, sans-serif;
+  font-size: 14px;
+}
+
+.comparison-table thead th:first-child {
+  min-width: 145px;
+}
+
+.comparison-table tbody th {
+  width: 145px;
+  color: var(--buyer-forest);
+  background: #edf3e9;
+  font-family: Manrope, sans-serif;
+  font-size: 13px;
+}
+
+.comparison-table tbody tr:nth-child(even) td {
+  background: #fafcf9;
+}
+
+.comparison-table [hidden] {
+  display: none !important;
+}
+
+.buyer-tool__note {
+  margin: 18px 0 0;
+}
+
+.budget-form {
+  padding: clamp(20px, 3vw, 32px);
+  background: #edf3e9;
+  border-radius: 6px;
+}
+
+.budget-form__instruction {
+  margin: 0 0 22px;
+  font-size: 14px;
+}
+
+.budget-fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 24px;
+  row-gap: 4px;
+}
+
+.budget-field {
+  min-width: 0;
+}
+
+.budget-field__name {
+  display: block;
+}
+
+.buyer-tool .buyer-tool__optional {
+  display: block;
+  margin-top: 2px;
+  color: var(--buyer-muted);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.budget-field__input {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 8px;
+  color: var(--buyer-muted);
+}
+
+.budget-field__input input {
+  margin: 0;
+}
+
+.budget-field__cadence {
+  min-width: 95px;
+  font-size: 12px;
+}
+
+.budget-form .buyer-tool__note {
+  padding: 12px 16px;
+  border-left: 3px solid #91a977;
+  background: #f7faf6;
+}
+
+.budget-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.buyer-tool__error {
+  margin: 12px 0 0;
+  color: #8b3329;
+  font-weight: 600;
+}
+
+.budget-results {
+  margin-top: 30px;
+  padding: clamp(22px, 3vw, 34px);
+  color: #fff;
+  background: var(--buyer-forest);
+  border-radius: 6px;
+}
+
+.budget-results h3 {
+  margin: 0 0 24px;
+  color: #fff;
+  font-size: 28px;
+  letter-spacing: -.7px;
+}
+
+.budget-results .eyebrow {
+  color: var(--buyer-lime);
+}
+
+.budget-results__list {
+  margin: 0;
+}
+
+.budget-results__list > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 15px 0;
+  border-top: 1px solid #527166;
+}
+
+.budget-results__list dt {
+  font-weight: 600;
+}
+
+.budget-results__list dt span {
+  display: block;
+  margin-top: 3px;
+  color: #c7d8cf;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.budget-results__list dd {
+  flex: 0 0 auto;
+  margin: 0;
+  color: var(--buyer-lime);
+  font-family: Manrope, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.budget-results__list .budget-results__reserve {
+  margin-top: 8px;
+  padding: 18px 16px;
+  border: 1px solid #779083;
+  border-radius: 4px;
+}
+
+.budget-results .buyer-tool__note {
+  color: #d3dfd8;
+}
+
+@media (max-width: 700px) {
+  .buyer-tool {
+    margin: 38px 0;
+    padding: 22px 16px;
+    border-radius: 5px;
+  }
+
+  .comparison-controls {
+    padding: 15px;
+  }
+
+  .comparison-controls .button {
+    flex: 1 1 100%;
+    white-space: normal;
+  }
+
+  .budget-fields {
+    grid-template-columns: 1fr;
+  }
+
+  .budget-form {
+    padding: 18px 14px;
+  }
+
+  .budget-actions .button {
+    flex: 1 1 100%;
+  }
+
+  .budget-results__list > div {
+    gap: 14px;
+  }
+
+  .budget-results__list dd {
+    font-size: 18px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .buyer-tool *,
+  .buyer-tool *::before,
+  .buyer-tool *::after {
+    scroll-behavior: auto !important;
+    transition-duration: .01ms !important;
+  }
+}

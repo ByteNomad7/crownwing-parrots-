@@ -1,0 +1,498 @@
+{
+  "pages": 69,
+  "origin": "https://crownwingparrots.co.uk",
+  "routes": [
+    "/",
+    "/available-birds/",
+    "/business-policies/",
+    "/contact/",
+    "/cookie-policy/",
+    "/guides/",
+    "/guides/buying-a-parrot-checklist/",
+    "/guides/buying-a-parrot/",
+    "/guides/choosing-a-parrot/",
+    "/guides/cites-parrots-uk/",
+    "/guides/parrot-diet-nutrition/",
+    "/guides/parrot-housing-enrichment/",
+    "/guides/parrot-ownership-costs/",
+    "/guides/preparing-for-a-parrot/",
+    "/locations/",
+    "/locations/belfast/",
+    "/locations/birmingham/",
+    "/locations/bristol/",
+    "/locations/cardiff/",
+    "/locations/edinburgh/",
+    "/locations/glasgow/",
+    "/locations/leeds/",
+    "/locations/liverpool/",
+    "/locations/london/",
+    "/locations/manchester/",
+    "/locations/newcastle/",
+    "/locations/nottingham/",
+    "/locations/sheffield/",
+    "/our-approach/",
+    "/parrot-care/",
+    "/parrot-prices-uk/",
+    "/parrots-for-sale/",
+    "/parrots-for-sale/african-grey-parrots/",
+    "/parrots-for-sale/amazon-parrots/",
+    "/parrots-for-sale/caiques/",
+    "/parrots-for-sale/cockatoos/",
+    "/parrots-for-sale/conures/",
+    "/parrots-for-sale/eclectus-parrots/",
+    "/parrots-for-sale/large-parrots/",
+    "/parrots-for-sale/macaws/",
+    "/parrots-for-sale/parakeets-small-parrots/",
+    "/parrots-for-sale/small-parrots/",
+    "/parrots-for-sale/talking-parrots/",
+    "/parrots/",
+    "/parrots/african-parrots/",
+    "/parrots/african-parrots/congo-african-grey-parrot/",
+    "/parrots/african-parrots/timneh-parrot/",
+    "/parrots/amazons/",
+    "/parrots/amazons/blue-fronted-amazon-parrot/",
+    "/parrots/amazons/yellow-naped-amazon-parrot/",
+    "/parrots/caiques/",
+    "/parrots/caiques/black-headed-caique/",
+    "/parrots/caiques/white-bellied-caique/",
+    "/parrots/cockatoos/",
+    "/parrots/cockatoos/galah-cockatoo/",
+    "/parrots/cockatoos/umbrella-cockatoo/",
+    "/parrots/conures/",
+    "/parrots/conures/green-cheeked-conure/",
+    "/parrots/conures/sun-conure/",
+    "/parrots/eclectus/",
+    "/parrots/eclectus/papuan-eclectus-parrot/",
+    "/parrots/macaws/",
+    "/parrots/macaws/blue-and-gold-macaw/",
+    "/parrots/macaws/scarlet-macaw/",
+    "/parrots/parakeets-small-psittacines/",
+    "/parrots/parakeets-small-psittacines/budgerigar/",
+    "/parrots/parakeets-small-psittacines/indian-ringneck-parakeet/",
+    "/parrots/parakeets-small-psittacines/peach-faced-lovebird/",
+    "/privacy-policy/"
+  ],
+  "crawl_requested": true,
+  "crawl_origin": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev",
+  "http": {
+    "/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/available-birds/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/available-birds/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/business-policies/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/business-policies/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/contact/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/contact/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/cookie-policy/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/cookie-policy/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/guides/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/guides/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/guides/buying-a-parrot-checklist/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/guides/buying-a-parrot-checklist/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/guides/buying-a-parrot/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/guides/buying-a-parrot/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/guides/choosing-a-parrot/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/guides/choosing-a-parrot/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/guides/cites-parrots-uk/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/guides/cites-parrots-uk/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/guides/parrot-diet-nutrition/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/guides/parrot-diet-nutrition/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/guides/parrot-housing-enrichment/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/guides/parrot-housing-enrichment/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/guides/parrot-ownership-costs/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/guides/parrot-ownership-costs/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/guides/preparing-for-a-parrot/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/guides/preparing-for-a-parrot/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/locations/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/locations/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/locations/belfast/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/locations/belfast/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/locations/birmingham/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/locations/birmingham/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/locations/bristol/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/locations/bristol/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/locations/cardiff/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/locations/cardiff/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/locations/edinburgh/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/locations/edinburgh/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/locations/glasgow/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/locations/glasgow/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/locations/leeds/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/locations/leeds/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/locations/liverpool/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/locations/liverpool/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/locations/london/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/locations/london/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/locations/manchester/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/locations/manchester/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/locations/newcastle/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/locations/newcastle/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/locations/nottingham/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/locations/nottingham/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/locations/sheffield/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/locations/sheffield/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/our-approach/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/our-approach/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrot-care/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrot-care/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrot-prices-uk/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrot-prices-uk/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots-for-sale/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots-for-sale/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots-for-sale/african-grey-parrots/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots-for-sale/african-grey-parrots/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots-for-sale/amazon-parrots/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots-for-sale/amazon-parrots/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots-for-sale/caiques/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots-for-sale/caiques/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots-for-sale/cockatoos/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots-for-sale/cockatoos/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots-for-sale/conures/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots-for-sale/conures/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots-for-sale/eclectus-parrots/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots-for-sale/eclectus-parrots/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots-for-sale/large-parrots/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots-for-sale/large-parrots/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots-for-sale/macaws/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots-for-sale/macaws/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots-for-sale/parakeets-small-parrots/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots-for-sale/parakeets-small-parrots/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots-for-sale/small-parrots/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots-for-sale/small-parrots/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots-for-sale/talking-parrots/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots-for-sale/talking-parrots/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots/african-parrots/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots/african-parrots/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots/african-parrots/congo-african-grey-parrot/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots/african-parrots/congo-african-grey-parrot/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots/african-parrots/timneh-parrot/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots/african-parrots/timneh-parrot/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots/amazons/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots/amazons/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots/amazons/blue-fronted-amazon-parrot/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots/amazons/blue-fronted-amazon-parrot/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots/amazons/yellow-naped-amazon-parrot/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots/amazons/yellow-naped-amazon-parrot/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots/caiques/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots/caiques/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots/caiques/black-headed-caique/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots/caiques/black-headed-caique/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots/caiques/white-bellied-caique/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots/caiques/white-bellied-caique/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots/cockatoos/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots/cockatoos/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots/cockatoos/galah-cockatoo/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots/cockatoos/galah-cockatoo/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots/cockatoos/umbrella-cockatoo/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots/cockatoos/umbrella-cockatoo/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots/conures/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots/conures/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots/conures/green-cheeked-conure/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots/conures/green-cheeked-conure/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots/conures/sun-conure/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots/conures/sun-conure/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots/eclectus/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots/eclectus/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots/eclectus/papuan-eclectus-parrot/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots/eclectus/papuan-eclectus-parrot/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots/macaws/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots/macaws/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots/macaws/blue-and-gold-macaw/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots/macaws/blue-and-gold-macaw/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots/macaws/scarlet-macaw/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots/macaws/scarlet-macaw/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots/parakeets-small-psittacines/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots/parakeets-small-psittacines/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots/parakeets-small-psittacines/budgerigar/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots/parakeets-small-psittacines/budgerigar/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots/parakeets-small-psittacines/indian-ringneck-parakeet/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots/parakeets-small-psittacines/indian-ringneck-parakeet/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/parrots/parakeets-small-psittacines/peach-faced-lovebird/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/parrots/parakeets-small-psittacines/peach-faced-lovebird/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "/privacy-policy/": {
+      "status": 200,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/privacy-policy/",
+      "redirected": false,
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    },
+    "__404_probe__": {
+      "status": 404,
+      "final_url": "https://bb2a8af7-5945-4807-af2c-9c06ffcc6ddd-00-329gylcqqwk2l.archer.replit.dev/__crownwing_audit_missing_route_7f96b2/",
+      "x_robots_tag": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex"
+    }
+  }
+}
