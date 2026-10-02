@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
 @import url('/sanctuary-theme.css') layer(sanctuary);
 @import url('/photo-gallery.css') layer(sanctuary);
-@import url('/breeder-positioning.css') layer(sanctuary);
+@import url('/breeder-positioning.css?v=availability-thumbnails') layer(sanctuary);
 @import url('/content-enhancement.css') layer(sanctuary);
 @import url('/footer.css') layer(sanctuary);
 @layer legacy {

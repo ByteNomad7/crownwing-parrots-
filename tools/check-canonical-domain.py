@@ -28,10 +28,13 @@ for page in DIST.rglob("index.html"):
             assert schema["isPartOf"]["url"] == PUBLIC_ORIGIN + "/", page
             for crumb in schema.get("breadcrumb", {}).get("itemListElement", []):
                 assert crumb["item"].startswith(PUBLIC_ORIGIN + "/"), page
-    footer = re.search(r'<footer class="site-footer">.*?</footer>', text, re.S)
+    footer = re.search(r'<footer class="site-footer"[^>]*>.*?</footer>', text, re.S)
     assert footer and len(re.findall(r'<footer\b', text)) == 1, page
     for policy in ["/privacy-policy/", "/cookie-policy/", "/business-policies/"]:
         assert f'href="{policy}"' in footer[0], (page, policy)
+    assert len(re.findall(r'<section class="footer-link-group">', footer[0])) == 2, page
+    assert len(re.findall(r'<a\b', footer[0])) == 12, page  # brand + 11 retained links
+    assert 'class="footer-bottom"' in footer[0], page
     assert "/footer.css" in (DIST / "style.css").read_text()
     if "noindex" not in text:
         expected.add(url)

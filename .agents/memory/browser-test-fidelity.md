@@ -14,3 +14,9 @@ Do not strip CSS imports with a regular expression that stops at the first semic
 **Why:** Inlining styles this way corrupted the test stylesheet and produced false horizontal-overflow failures that were absent in the live preview.
 
 **How to apply:** Use CSS-aware parsing, or remove whole known single-line import statements when constructing an isolated test document. Preserve the original cascade layers and responsive rules.
+
+Static stylesheet changes require browser-cache invalidation, not just a workflow restart.
+
+**Why:** The running preview reused an imported stylesheet after its source changed, so new markup rendered without the corresponding styles even though source and build checks passed.
+
+**How to apply:** Version changed stylesheet imports or use content-hashed assets. Confirm the running preview displays the actual new styles; restarting the Python development server alone does not invalidate browser caches.

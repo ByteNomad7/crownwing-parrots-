@@ -3,6 +3,27 @@ header nav .mobile-contact {
   display: none;
 }
 
+.availability-card h3.availability-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.availability-card .availability-thumbnail {
+  flex: 0 0 44px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.availability-card h3.availability-title > span {
+  min-width: 0;
+  font: inherit;
+  color: inherit;
+  letter-spacing: inherit;
+}
+
 .availability-card > .availability-status {
   margin: 0 0 12px;
   color: var(--moss);

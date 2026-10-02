@@ -14,3 +14,11 @@ The user confirmed all the bird groups are available, but clients must contact C
 **Why:** The user explicitly clarified availability and the preferred naming.
 
 **How to apply:** Describe group-level availability by enquiry, not a live individual-stock catalogue. Keep species-guide photographs distinct from birds currently for sale; never infer current stock, ages, prices or an individual listing from a gallery image.
+
+## Footer balance
+
+The owner rejected a footer with all navigation stacked on the far right and requested a balanced layout.
+
+**Why:** The owner said “balance the footer everything is on the right side” after reviewing the implementation of the original reference.
+
+**How to apply:** Preserve the cream background and original brand, but distribute navigation across the footer rather than treating the reference's single right-hand link stack as a requirement. Keep policy links accessible without concentrating all footer content on one side.

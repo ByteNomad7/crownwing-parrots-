@@ -82,20 +82,28 @@ def navigation(text):
         if not brand:
             raise ValueError("Footer brand missing")
         footer = (
-            '<footer class="site-footer">' + brand[0] + "<p>Parrot breeder &amp; retailer. Thoughtful beginnings.</p><div>"
+            '<footer class="site-footer" id="site-footer"><div class="footer-identity">'
+            + brand[0] + "<p>Parrot breeder &amp; retailer. Thoughtful beginnings.</p></div>"
+            + '<nav class="footer-nav" aria-label="Footer navigation">'
+            + '<section class="footer-link-group"><h2>Explore</h2>'
             + "".join(link(path, label) for path, label in [
                 ("/available-birds/", "Available birds"),
                 ("/parrots/", "Species guides"),
                 ("/parrots-for-sale/", "Buying a parrot"),
                 ("/our-approach/", "Our approach"),
+            ]) + '</section><section class="footer-link-group"><h2>Ownership &amp; enquiries</h2>'
+            + "".join(link(path, label) for path, label in [
                 ("/parrot-care/", "Care guides"),
                 ("/locations/", "UK city guides"),
                 ("/parrot-prices-uk/", "Parrot prices & costs"),
                 ("/contact/", "Contact us"),
+            ]) + '</section></nav><div class="footer-bottom"><span>© 2026 Crownwing Parrots</span>'
+            + '<nav class="footer-policies" aria-label="Policies">'
+            + "".join(link(path, label) for path, label in [
                 ("/privacy-policy/", "Privacy policy"),
                 ("/cookie-policy/", "Cookie policy"),
                 ("/business-policies/", "Payments, delivery & refunds"),
-            ]) + "<span>© 2026 Crownwing Parrots</span></div></footer>"
+            ]) + "</nav></div></footer>"
         )
         text = text[:footer_match.start()] + footer + text[footer_match.end():]
     return text
@@ -143,11 +151,21 @@ def apply():
 
     available_cards = ""
     buying_cards = ""
+    photo_metadata = json.loads((ROOT / "tools/photo-metadata.json").read_text())
+    photos_by_id = {photo["id"]: photo for photo in photo_metadata["photos"]}
     for item in source_data:
         slug, name = item["slug"], item["name"]
+        photo = photos_by_id[photo_metadata["primaryByGroup"][slug]]
+        if photo["group"] != slug or not photo["publish"] or photo["identificationConfidence"] != "high":
+            raise ValueError(f"Approved representative photograph required for {slug}")
+        if not (DIST / photo["thumbnail"].lstrip("/")).is_file():
+            raise ValueError(f"Missing thumbnail for {slug}")
         available_cards += (
             '<article class="link-card availability-card"><p class="availability-status">Available by enquiry</p>'
-            f'<h3>{esc(name)}</h3><p>{esc(item["tag"])}</p><div class="availability-actions">'
+            '<h3 class="availability-title">'
+            f'<img class="availability-thumbnail" src="{esc(photo["thumbnail"])}" alt="" '
+            f'width="44" height="44" loading="lazy" decoding="async" style="object-position:{esc(photo["focus"])}">'
+            f'<span>{esc(name)}</span></h3><p>{esc(item["tag"])}</p><div class="availability-actions">'
             + link("/contact/?species=" + slug, "Ask about current birds", "button")
             + link("/parrots/" + slug + "/", "Read the species guide", "availability-guide")
             + "</div></article>"
