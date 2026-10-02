@@ -140,6 +140,10 @@
   padding: 14px 0;
 }
 
+.detail-intro:has(.photo-collection[open]) {
+  align-items: start;
+}
+
 .photo-collection summary {
   font-size: 13px;
 }

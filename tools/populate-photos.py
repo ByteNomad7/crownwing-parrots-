@@ -129,8 +129,8 @@ def gallery_markup(photos):
     more = ""
     if len(photos) > 5:
         more = (
-            '<details class="photo-collection">'
-            f'<summary>View {len(photos) - 5} more photos</summary>'
+            '<details class="photo-collection" open>'
+            f'<summary>{len(photos) - 5} additional photos</summary>'
             '<div class="photo-collection-grid">'
             + "".join(thumbnail_button(p) for p in photos[5:])
             + "</div></details>"
