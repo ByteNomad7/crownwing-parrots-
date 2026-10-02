@@ -12,13 +12,13 @@ Expand the four practical guides as task-based checklists/examples, not word-cou
 
 Each of the 16 species profiles has a specific expansion brief in the classification report. Source-check taxonomy and numeric claims and add useful species-dependent home/routine tasks. Owner must first confirm these exact species are in Crownwing's intended offered range; an educational image is not stock evidence. Do not solve the gap with fabricated author credentials, prices, rearing, certificates or experiences.
 
-## 3. Proposed C consolidation — owner decision needed
+## 3. C consolidation — approved and implemented
 
 Retire 12 generic Great Britain city search pages plus their directory. Preserve useful topic sections in the strongest existing guides, maintain enquiry access through /contact/, and retain the distinct Belfast/NI aid with tighter source-backed scope.
 
 **Consequence:** 13 existing URLs cease to be standalone landing pages, and their separate city-labelled download forms are replaced by the shared enquiry path. Saved URLs/backlinks should resolve directly to relevant guides through permanent 301s. No buyer records are deleted: these forms do not store records. Without Search Console/backlink data, historical traffic/value cannot be verified.
 
-**Hosting gate:** Current instructions publish dist as static files; the Python server's preview-only redirects do not automatically exist on a static published host. Before any retirement, select and verify a production-supported redirect mechanism or supported server-hosted setup. Do not silently substitute JavaScript/meta-refresh for requested HTTP 301s, and do not delete old HTML before correct production handling exists.
+**Hosting gate resolved for the configured app:** The owner approved Autoscale with usage-based compute billing. Production Gunicorn/Flask tests verify actual HTTP 301 behaviour, including aliases and query strings. Publishing and real-host checks remain manual; static rewrites are not substituted for redirects.
 
 | Source | Strongest destination |
 |---|---|
@@ -54,4 +54,4 @@ Do not use robots disallow as noindex. Keep policy/contact pages as useful trust
 
 ## Current implementation status
 
-Audit first, then six practical expansions and one availability metadata clarification. See crownwing-implementation-summary.md and the after snapshot for exact changes. C retirements, exact-species/business confirmations and production redirect support remain outstanding; no structural changes are represented as completed.
+Six practical expansions, accurate availability metadata and all 13 owner-approved city/directory merges are implemented. Autoscale server hosting was approved and configured for real HTTP 301s. There are 56 surviving canonical pages. Publish-host checks and exact-species/business evidence remain outstanding; see crownwing-implementation-summary.md.

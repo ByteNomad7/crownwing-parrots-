@@ -9,6 +9,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 
 from breeder_content import DISPLAY_NAMES, SALE_SLUGS
+from route_rules import REDIRECTS
 
 ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / "dist"
@@ -122,9 +123,13 @@ def check():
     baseline = Path("/tmp/crownwing-content-before.json")
     if baseline.exists():
         for path, old in json.loads(baseline.read_text()).items():
+            if path in REDIRECTS:
+                continue
             assert path in pages, ("Existing route lost", path)
             text, parser = pages[path]
-            assert set(old["links"]) <= set(parser.links), (path, "internal links removed", set(old["links"]) - set(parser.links))
+            from urllib.parse import urlsplit
+            expected_links = {REDIRECTS.get(urlsplit(link).path, link) for link in old["links"]}
+            assert expected_links <= set(parser.links), (path, "internal links removed", expected_links - set(parser.links))
             assert set(old["images"]) <= set(parser.images), (path, "images removed")
             preserved_forms = [form for form in parser.forms if "data-budget-form" not in form]
             assert old["forms"] == preserved_forms, (path, "enquiry form hooks changed")
@@ -141,7 +146,7 @@ def check():
         "repeated_substantive_body_paragraphs": len(duplicates),
         "social_metadata_matches_page": True, "semantic_headings_and_unique_ids": "passed",
         "original_routes_images_forms_links_and_brand": "passed" if baseline.exists() else "baseline unavailable; structural checks passed",
-        "city_guides": "index,follow; distinct regional bodies and forms checked",
+        "city_guides": "retained NI aid checked; approved GB retirements covered by production redirect tests",
     }, indent=2))
 
 

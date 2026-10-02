@@ -1,433 +1,751 @@
 {
-  "verified_at": "2026-10-02T17:52:10.538337+00:00",
-  "changed_pages": [
-    "/available-birds/",
-    "/guides/buying-a-parrot-checklist/",
-    "/guides/parrot-diet-nutrition/",
-    "/guides/parrot-housing-enrichment/",
-    "/guides/preparing-for-a-parrot/",
-    "/locations/belfast/",
-    "/parrot-prices-uk/"
-  ],
-  "current_routes": 69,
-  "retired_urls": [],
-  "source_policy_changed": false,
+  "verified_at": "2026-10-02T23:29:50.344541+00:00",
+  "audited_routes": 69,
+  "current_canonical_routes": 56,
+  "retired_routes": {
+    "/locations/": "/guides/",
+    "/locations/birmingham/": "/guides/choosing-a-parrot/",
+    "/locations/bristol/": "/guides/preparing-for-a-parrot/",
+    "/locations/cardiff/": "/guides/choosing-a-parrot/",
+    "/locations/edinburgh/": "/guides/parrot-ownership-costs/",
+    "/locations/glasgow/": "/guides/parrot-diet-nutrition/",
+    "/locations/leeds/": "/guides/parrot-housing-enrichment/",
+    "/locations/liverpool/": "/guides/buying-a-parrot-checklist/",
+    "/locations/london/": "/guides/choosing-a-parrot/",
+    "/locations/manchester/": "/guides/choosing-a-parrot/",
+    "/locations/newcastle/": "/guides/buying-a-parrot-checklist/",
+    "/locations/nottingham/": "/guides/choosing-a-parrot/",
+    "/locations/sheffield/": "/guides/parrot-housing-enrichment/"
+  },
   "pages": {
     "/": {
-      "html_sha256": "653856c9880770d727dbe8aa70c0c8300c32360d7f7c7379c5b878d96aaed38b",
-      "words": 397,
+      "status": 200,
       "classification": "A",
-      "title": "Parrot Breeder & Retailer UK | Crownwing Parrots"
+      "words": 397,
+      "html_sha256": "6d116b1806f2d655038e3c7b66cd365c32919210eecd76cadbadcb49c1453438",
+      "canonical": "https://crownwingparrots.co.uk/",
+      "title": "Parrot Breeder & Retailer UK | Crownwing Parrots",
+      "h1": "A little wild. A lot of wonder.",
+      "image_count": 9,
+      "body_fingerprint": "66bb7941d9dc7a78c907dfe817d645464d0b7e79f0596afa5bf1de4f01e42e2c"
     },
     "/available-birds/": {
-      "html_sha256": "d00fdbdeb8cf5829c717d2592b81cd6ff78c656d8faa01337cd83b49264b458a",
-      "words": 354,
+      "status": 200,
       "classification": "A",
-      "title": "Available Parrot Groups UK | Enquire | Crownwing | Crownwing Parrots"
+      "words": 354,
+      "html_sha256": "446d6cdbb7ef7ea9ee9bc8a89a9903cbfadd059b50626844ea016158ca26df0a",
+      "canonical": "https://crownwingparrots.co.uk/available-birds/",
+      "title": "Available Parrot Groups UK | Enquire | Crownwing | Crownwing Parrots",
+      "h1": "Available parrots. Details by enquiry.",
+      "image_count": 8,
+      "body_fingerprint": "a48cdc25fdc626de66c7ef1748df27874b68d4723af12ab20591a82e18874f6c"
     },
     "/business-policies/": {
-      "html_sha256": "01200fa1fa554c0f6bfe46742a9a2e750f095777b98dfaacacafc2acd36d40a5",
-      "words": 1303,
+      "status": 200,
       "classification": "A",
-      "title": "Payments, Delivery, Cancellation & Refund Policy | Crownwing Parrots"
+      "words": 1303,
+      "html_sha256": "f8b69e7847e001a042dddb9e79846d5ad6ccbb1e4b983b4ef08f5e2c73abaea3",
+      "canonical": "https://crownwingparrots.co.uk/business-policies/",
+      "title": "Payments, Delivery, Cancellation & Refund Policy | Crownwing Parrots",
+      "h1": "Payments, Delivery, Cancellation & Refund Policy",
+      "image_count": 0,
+      "body_fingerprint": "f51ed5ca7adbcb3cb8df263c194640a505c0da9bbf26347fac53bd90779a4042"
     },
     "/contact/": {
-      "html_sha256": "ba983defd2b4587be25297b94d29b8f8d5266af8b9adc1a6de3e49d8523ef834",
-      "words": 136,
+      "status": 200,
       "classification": "A",
-      "title": "Contact Crownwing | Available Parrot Enquiries UK"
+      "words": 136,
+      "html_sha256": "3b5fca510aa854a56b83dbae1552e15045c384d84871d874a37c530fd4bff218",
+      "canonical": "https://crownwingparrots.co.uk/contact/",
+      "title": "Contact Crownwing | Available Parrot Enquiries UK",
+      "h1": "Your next companion. Start with a conversation.",
+      "image_count": 0,
+      "body_fingerprint": "1db3c8f51468eb5d855fff2ccd1fb4dca741b721524afa2aadae3a5e76f482a4"
     },
     "/cookie-policy/": {
-      "html_sha256": "e436424d737d0a265315885d9229c8e724665706ef15eaad1da027d47413602e",
-      "words": 463,
+      "status": 200,
       "classification": "A",
-      "title": "Cookie Policy | Crownwing Parrots"
+      "words": 463,
+      "html_sha256": "e573ea6db1c15a65a116ed7f03bf4f7a93129fff477dd0d126c15c0911cf4965",
+      "canonical": "https://crownwingparrots.co.uk/cookie-policy/",
+      "title": "Cookie Policy | Crownwing Parrots",
+      "h1": "Cookie Policy",
+      "image_count": 0,
+      "body_fingerprint": "3d0b783e0702ec7d8b4e0335a314956c4b8954772c073a30c9184df748f24b67"
     },
     "/guides/": {
-      "html_sha256": "db43847c8d277efdfa8441ac98e0c73860b626d3733bc66f68887906593f0166",
-      "words": 416,
+      "status": 200,
       "classification": "A",
-      "title": "UK Parrot Guides | Buying, Care & Documentation | Crownwing Parrots"
+      "words": 500,
+      "html_sha256": "03c7a33c0a09464f35dd3d260541abd9b9a183bc51e14b6abc4faea8a339a30a",
+      "canonical": "https://crownwingparrots.co.uk/guides/",
+      "title": "UK Parrot Guides | Buying, Care & Documentation | Crownwing Parrots",
+      "h1": "Parrot guides for a considered beginning",
+      "image_count": 0,
+      "body_fingerprint": "3cf783c13d86734f6a6968a36e1be6676e673993cdbcf11c9b2f4240fe057b0b"
     },
     "/guides/buying-a-parrot-checklist/": {
-      "html_sha256": "d55408bdf100fdfd73501cd1d228256b3c863094a057be4b6567f87e0e5a7732",
-      "words": 859,
+      "status": 200,
       "classification": "B",
-      "title": "Buying a parrot in the UK: questions to ask | Crownwing Parrots"
+      "words": 976,
+      "html_sha256": "9a5642312dc0fc81a6daf109113a071fadbe2f988638a9bd826cf1dbf09c0a13",
+      "canonical": "https://crownwingparrots.co.uk/guides/buying-a-parrot-checklist/",
+      "title": "Buying a parrot in the UK: questions to ask | Crownwing Parrots",
+      "h1": "Your parrot buying checklist",
+      "image_count": 0,
+      "body_fingerprint": "460e7676393b898d552d94d11b62b3d4edf156b09922a6d9185dc44c86f35c67"
     },
     "/guides/buying-a-parrot/": {
-      "html_sha256": "f75a8915ad913d41b0abb2220c761afa11ec6ffdebb77701ca4e77829d086284",
-      "words": 1699,
+      "status": 200,
       "classification": "A",
-      "title": "How to Buy a Parrot in the UK | Complete Buyer's Guide | Crownwing Parrots"
+      "words": 1699,
+      "html_sha256": "18f5f11bb273fbca0c5f78b2536850a51895398f6e617fe47835b5968c5761f0",
+      "canonical": "https://crownwingparrots.co.uk/guides/buying-a-parrot/",
+      "title": "How to Buy a Parrot in the UK | Complete Buyer's Guide | Crownwing Parrots",
+      "h1": "How to buy a parrot in the UK",
+      "image_count": 0,
+      "body_fingerprint": "a89ec100bd9a2c39ab14f3b9afa22256951ce11a9484117f336d28ffba18d2cf"
     },
     "/guides/choosing-a-parrot/": {
-      "html_sha256": "93b7c147c8d597cfa5bbfa703f9d06bb3004b71eabf0935ca51e6310da8aa76f",
-      "words": 1861,
+      "status": 200,
       "classification": "A",
-      "title": "Which Parrot Is Right for Me? | UK Comparison Guide | Crownwing Parrots"
+      "words": 2200,
+      "html_sha256": "e99622a6a5d88f09dde8f21cf861e5582d2584cfae7ff415389dbf577d3feffa",
+      "canonical": "https://crownwingparrots.co.uk/guides/choosing-a-parrot/",
+      "title": "Which Parrot Is Right for Me? | UK Comparison Guide | Crownwing Parrots",
+      "h1": "Choosing a parrot for your home",
+      "image_count": 0,
+      "body_fingerprint": "a11bd764ae181e98ef459a01767d0bf03a0ed71c8cc171eb5e2e25027995893f"
     },
     "/guides/cites-parrots-uk/": {
-      "html_sha256": "fe1285771dd2f63cdb9475c9b5dd8b87a6993ff96a1f09725ff70d7ab64386f0",
-      "words": 1635,
+      "status": 200,
       "classification": "A",
-      "title": "Parrot Documentation UK | CITES & Bird Registration | Crownwing Parrots"
+      "words": 1635,
+      "html_sha256": "0cef858b7f07edf68c458d67c4dc66a8a616c7c2006756f0c7fe70f54bf48a76",
+      "canonical": "https://crownwingparrots.co.uk/guides/cites-parrots-uk/",
+      "title": "Parrot Documentation UK | CITES & Bird Registration | Crownwing Parrots",
+      "h1": "Parrot documentation, CITES and UK registration",
+      "image_count": 0,
+      "body_fingerprint": "f1c27c4578b39822ddc4bdf6bc239451f8e9d873c5391dcc41b944bb8bc4617d"
     },
     "/guides/parrot-diet-nutrition/": {
-      "html_sha256": "e3670a58c4bbeba2553fde0154c3436f6abe49b0da08be86615cb063c8c60b14",
-      "words": 780,
+      "status": 200,
       "classification": "B",
-      "title": "Parrot diet and nutrition | Feeding guide | Crownwing Parrots"
+      "words": 874,
+      "html_sha256": "a02de9b91a67e74305d9c4d78c649c5c003510f1ce17717eab1a10c0eed840c6",
+      "canonical": "https://crownwingparrots.co.uk/guides/parrot-diet-nutrition/",
+      "title": "Parrot diet and nutrition | Feeding guide | Crownwing Parrots",
+      "h1": "A balanced diet starts with the right species",
+      "image_count": 0,
+      "body_fingerprint": "5929c61f348bb27bed102a888edfe72625c9ca11d91085a9c6499256c4db199b"
     },
     "/guides/parrot-housing-enrichment/": {
-      "html_sha256": "45e3bb8434464593536a1dff6e507ad37730def92e51250aa60c6686035d2c63",
-      "words": 778,
+      "status": 200,
       "classification": "B",
-      "title": "Parrot housing and enrichment | Home guide | Crownwing Parrots"
+      "words": 880,
+      "html_sha256": "041e08cfda7e3722aa153cd8fa4e0d6588a2cc66b4e76d48e718690705fbecf1",
+      "canonical": "https://crownwingparrots.co.uk/guides/parrot-housing-enrichment/",
+      "title": "Parrot housing and enrichment | Home guide | Crownwing Parrots",
+      "h1": "A home designed for movement and curiosity",
+      "image_count": 0,
+      "body_fingerprint": "51c5cdf2289b1950ddf0501133d5ae4ea5774013f4252fb4ddcd57286a14c12e"
     },
     "/guides/parrot-ownership-costs/": {
-      "html_sha256": "8a246d9131f1606f685adda7cecaa6886619a03967f33eed2069e865facf2afb",
-      "words": 771,
+      "status": 200,
       "classification": "A",
-      "title": "Cost of Keeping a Parrot UK | Budget Planner | Crownwing Parrots"
+      "words": 889,
+      "html_sha256": "f54463b102086b55befb2a34274aafdd50eb2b7dd741875c862a53cefd977e54",
+      "canonical": "https://crownwingparrots.co.uk/guides/parrot-ownership-costs/",
+      "title": "Cost of Keeping a Parrot UK | Budget Planner | Crownwing Parrots",
+      "h1": "The real cost is more than the purchase price",
+      "image_count": 0,
+      "body_fingerprint": "76508027666d40eca43e7ecda371848d75e6686c6912d39a25821507939576c9"
     },
     "/guides/preparing-for-a-parrot/": {
-      "html_sha256": "efeffab1b0506c8d73e0f852a1f0be2b289d5c86c6484df7489c6a95c9353a4e",
-      "words": 763,
+      "status": 200,
       "classification": "B",
-      "title": "Preparing for a new parrot | First-week guide | Crownwing Parrots"
-    },
-    "/locations/": {
-      "html_sha256": "aa3712ccf3f6b16574c149b6f8dd4dde9fa11a73a218c891acbc75366364e1f7",
-      "words": 210,
-      "classification": "C",
-      "title": "UK parrot city guides | Local buying enquiries | Crownwing Parrots"
+      "words": 860,
+      "html_sha256": "586b1d75d0d3485b3acb4661b102d9ca1041ba987be4921b98b8c63a24fae51e",
+      "canonical": "https://crownwingparrots.co.uk/guides/preparing-for-a-parrot/",
+      "title": "Preparing for a new parrot | First-week guide | Crownwing Parrots",
+      "h1": "Before your parrot comes home",
+      "image_count": 0,
+      "body_fingerprint": "02a57abf0766aea3cbde9357d94c748c4a96b7eb6776e7253c4afa903c53a141"
     },
     "/locations/belfast/": {
-      "html_sha256": "d3a4f22ece0f4b2f6beb39e1703e122c4bb29a649e5332e8f6773d04605d6f65",
-      "words": 811,
+      "status": 200,
       "classification": "B",
-      "title": "Parrot enquiry planning for Belfast | Crownwing Parrots"
-    },
-    "/locations/birmingham/": {
-      "html_sha256": "17f04e58cfb176ba992e1d6bafe226105461c27e2d795ffa2f41e84d302151f0",
-      "words": 528,
-      "classification": "C",
-      "title": "Parrot ownership questions for Birmingham households | Crownwing Parrots"
-    },
-    "/locations/bristol/": {
-      "html_sha256": "af1e4eca9f25d30592e45ebbe2724426eabd4e313f389bb14a8e7a3eacc85622",
-      "words": 513,
-      "classification": "C",
-      "title": "Planning for a parrot in Bristol | Crownwing Parrots"
-    },
-    "/locations/cardiff/": {
-      "html_sha256": "9921d4362f075bc26650fd8ecf3103c2e3ff4765c8891f7275dbf07f33324a19",
-      "words": 491,
-      "classification": "C",
-      "title": "Choosing and enquiring about parrots in Cardiff | Crownwing Parrots"
-    },
-    "/locations/edinburgh/": {
-      "html_sha256": "ccc8061bb979c47115f6ec97f37f620518913f670334a9ea0b95b1700787b6b4",
-      "words": 499,
-      "classification": "C",
-      "title": "Long-term parrot planning in Edinburgh | Crownwing Parrots"
-    },
-    "/locations/glasgow/": {
-      "html_sha256": "834d2dd3eb98ff5805b522d29eb467a21e4f4aae5f5955e798117b870221f050",
-      "words": 483,
-      "classification": "C",
-      "title": "Diet and routine questions for Glasgow parrot enquiries | Crownwing Parrots"
-    },
-    "/locations/leeds/": {
-      "html_sha256": "3c2651fe7326cb107695703f0ba33a4721c8f805c72f6edece65d0f966510b48",
-      "words": 496,
-      "classification": "C",
-      "title": "A practical parrot plan for Leeds | Crownwing Parrots"
-    },
-    "/locations/liverpool/": {
-      "html_sha256": "f62f09c03b48ccf07a05f855cdb31df7f029ed62f6c76a559af715ae4c2447e7",
-      "words": 494,
-      "classification": "C",
-      "title": "Questions to ask when enquiring about parrots in Liverpool | Crownwing Parrots"
-    },
-    "/locations/london/": {
-      "html_sha256": "29f8ea46c0b4a5e9e26a06dc7867114a24ddc8fcddc12a25ce3ff38720e06d1f",
-      "words": 545,
-      "classification": "C",
-      "title": "Parrot ownership planning for London homes | Crownwing Parrots"
-    },
-    "/locations/manchester/": {
-      "html_sha256": "bfa119384b9d96f78c8e6c9660981ba474700c27b8f98ea9107600fbcafc9a4e",
-      "words": 519,
-      "classification": "C",
-      "title": "Planning a parrot enquiry in Manchester | Crownwing Parrots"
-    },
-    "/locations/newcastle/": {
-      "html_sha256": "8ddca5e3ffe41fc3af6f61e237b2ba019aff42398721053229fb66835cfca37a",
-      "words": 492,
-      "classification": "C",
-      "title": "Parrot enquiry and transport planning for Newcastle | Crownwing Parrots"
-    },
-    "/locations/nottingham/": {
-      "html_sha256": "960f50813322a0bb4cde157229653dae0c2112f004ff37502c0371fa6e4a6487",
-      "words": 489,
-      "classification": "C",
-      "title": "Starting parrot research in Nottingham | Crownwing Parrots"
-    },
-    "/locations/sheffield/": {
-      "html_sha256": "a51e0de4c98efa89831ec2a030344de493232111822da6906b5bdc206d65653b",
-      "words": 493,
-      "classification": "C",
-      "title": "Enrichment and parrot planning in Sheffield | Crownwing Parrots"
+      "words": 811,
+      "html_sha256": "7bdbef7bec42ebdef007e32e7b018300fdf7ac9b32dd524999c6b5b1e0f1d11c",
+      "canonical": "https://crownwingparrots.co.uk/locations/belfast/",
+      "title": "Parrot enquiry planning for Belfast | Crownwing Parrots",
+      "h1": "Parrots for Belfast homes",
+      "image_count": 0,
+      "body_fingerprint": "e00ee48a6d43c6a1206b44b2cba0a533f81ced963443460a90e3e5c02bba1ad2"
     },
     "/our-approach/": {
-      "html_sha256": "eff1b97aad136ce5062d26b53d0833ef71cf627321bb254b8ba918e4b0f33610",
-      "words": 316,
+      "status": 200,
       "classification": "B",
-      "title": "Parrot Breeder & Retailer | Our Approach | Crownwing"
+      "words": 316,
+      "html_sha256": "2ad0047a1cabc8800300de12cd4e5b0f801895fda88d3644abf1c136dc98ab50",
+      "canonical": "https://crownwingparrots.co.uk/our-approach/",
+      "title": "Parrot Breeder & Retailer | Our Approach | Crownwing",
+      "h1": "Breeder & retailer. Care at the heart of the choice.",
+      "image_count": 1,
+      "body_fingerprint": "db0d5f7b6238fa4d266cd2e4e54d45d4254b15acd3b3820d2879e3a9b68916f7"
     },
     "/parrot-care/": {
-      "html_sha256": "3954b853b8f980fba5bff6f15c9aa08a6a93e5574c5c0dd7df22b9a77bd0aa39",
-      "words": 209,
+      "status": 200,
       "classification": "A",
-      "title": "Parrot care guides | Diet, housing & ownership UK | Crownwing Parrots"
+      "words": 209,
+      "html_sha256": "13277dc9e9c2f6d2e7c0e9bdd3ea2732bd66a1d57538ccbdb86a0a515b5e5b56",
+      "canonical": "https://crownwingparrots.co.uk/parrot-care/",
+      "title": "Parrot care guides | Diet, housing & ownership UK | Crownwing Parrots",
+      "h1": "Better informed. Better prepared.",
+      "image_count": 0,
+      "body_fingerprint": "d15d85a073ca9cd665463b10128666203ed94fbb7fc09547e14154a70c2c4c46"
     },
     "/parrot-prices-uk/": {
-      "html_sha256": "3834d93e4e44bdc677deffec20e3ed6766a0ad91165b5b45f538393dd6411c80",
-      "words": 672,
+      "status": 200,
       "classification": "B",
-      "title": "Parrot prices UK | Purchase & care costs | Buying enquiries | Crownwing Parrots"
+      "words": 672,
+      "html_sha256": "906eebae614e130e992814c6ba6faa38bdf7d2a118127aa0c37c33d638581425",
+      "canonical": "https://crownwingparrots.co.uk/parrot-prices-uk/",
+      "title": "Parrot prices UK | Purchase & care costs | Buying enquiries | Crownwing Parrots",
+      "h1": "Understand the price. Plan the commitment.",
+      "image_count": 0,
+      "body_fingerprint": "5eec35f52c66c4c9c51fbd81aa52c78d0a1d532fe6fe2f689e9c4eb5ee5a6502"
     },
     "/parrots-for-sale/": {
-      "html_sha256": "08dc08a29017817ab8834ee379f67ca0850f5108f8d137cf102988ee23a84ef0",
-      "words": 544,
+      "status": 200,
       "classification": "A",
-      "title": "Parrots for Sale UK | Crownwing Parrots"
+      "words": 541,
+      "html_sha256": "a9560bf4ba0b42b9a8d03421d081d2a0c258abd7c4293de724de9ae72e8ef559",
+      "canonical": "https://crownwingparrots.co.uk/parrots-for-sale/",
+      "title": "Parrots for Sale UK | Crownwing Parrots",
+      "h1": "Parrots for sale in the UK. A considered beginning.",
+      "image_count": 0,
+      "body_fingerprint": "e92e39aced53d303447f54c5d8f1383ebaadc69ecf0ac4591b4c35d884777e1c"
     },
     "/parrots-for-sale/african-grey-parrots/": {
-      "html_sha256": "8a90addd3c7376c23a4db94a814c7647377d575ad8f80eadbc0b172321256a47",
-      "words": 687,
+      "status": 200,
       "classification": "A",
-      "title": "African Grey Parrots for Sale UK | Crownwing Parrots"
+      "words": 687,
+      "html_sha256": "7e5dc5491415056a2dcbbe2c6288c476f8f5a6b766654c4347217663b68668f5",
+      "canonical": "https://crownwingparrots.co.uk/parrots-for-sale/african-grey-parrots/",
+      "title": "African Grey Parrots for Sale UK | Crownwing Parrots",
+      "h1": "African Grey Parrots for Sale in the UK",
+      "image_count": 1,
+      "body_fingerprint": "83173f4c18acf8ebf912ae515cebc361acdc7b2124dcb167d92748eb279da852"
     },
     "/parrots-for-sale/amazon-parrots/": {
-      "html_sha256": "c43260fd496c9103b0370a36a840574074d1b7c93ef4b87d955566b2dc75096d",
-      "words": 615,
+      "status": 200,
       "classification": "A",
-      "title": "Amazon Parrots for Sale UK | Crownwing Parrots"
+      "words": 615,
+      "html_sha256": "b93132e84327bd891f4ea486aa72d4f01780174af8bc4e2925a289bb7f5dcb34",
+      "canonical": "https://crownwingparrots.co.uk/parrots-for-sale/amazon-parrots/",
+      "title": "Amazon Parrots for Sale UK | Crownwing Parrots",
+      "h1": "Amazon Parrots for Sale in the UK",
+      "image_count": 1,
+      "body_fingerprint": "cea3545aaf16f8f90a9e2adc1afa87545b0c7343a6a8ab955db5f66bd4582151"
     },
     "/parrots-for-sale/caiques/": {
-      "html_sha256": "0fd27b61a177285bcaa052fa8ea11558f1fd703fcd6c97c47e5210d675a48837",
-      "words": 582,
+      "status": 200,
       "classification": "A",
-      "title": "Caique Parrots for Sale UK | Crownwing Parrots"
+      "words": 582,
+      "html_sha256": "d8c1d7715dfd90f8240eac0a529ab404266ff634ddb386c7eb27cb005f384d6d",
+      "canonical": "https://crownwingparrots.co.uk/parrots-for-sale/caiques/",
+      "title": "Caique Parrots for Sale UK | Crownwing Parrots",
+      "h1": "Caique Parrots for Sale in the UK",
+      "image_count": 1,
+      "body_fingerprint": "aefa0f90ffaffd8494969173ffb2195b1c1553c8dc1ce69eb811d33cdc837d72"
     },
     "/parrots-for-sale/cockatoos/": {
-      "html_sha256": "b062944276ee8973b6adb8edb897b4dab798618a77ec9816a3cc426ffa4c5567",
-      "words": 621,
+      "status": 200,
       "classification": "A",
-      "title": "Cockatoo Parrots for Sale UK | Crownwing Parrots"
+      "words": 621,
+      "html_sha256": "b22b97b4c9f7de75ec0d5f331f4336d19dd630928a22c3fca23722be29ea017b",
+      "canonical": "https://crownwingparrots.co.uk/parrots-for-sale/cockatoos/",
+      "title": "Cockatoo Parrots for Sale UK | Crownwing Parrots",
+      "h1": "Cockatoo Parrots for Sale in the UK",
+      "image_count": 1,
+      "body_fingerprint": "f59c1114ded204c5f23e10455af60581aac8e48dad9ad5d20b524f6431440d72"
     },
     "/parrots-for-sale/conures/": {
-      "html_sha256": "80b39fb9bae2e19f9fbd65bd65e8ac80ee4b32298737d65e2d2503e57767987b",
-      "words": 608,
+      "status": 200,
       "classification": "A",
-      "title": "Conure Parrots for Sale UK | Crownwing Parrots"
+      "words": 608,
+      "html_sha256": "f88d5bf88dcc91bdf6453bafd596c709cc96786f90ce7993987ebfca2dcc6ff2",
+      "canonical": "https://crownwingparrots.co.uk/parrots-for-sale/conures/",
+      "title": "Conure Parrots for Sale UK | Crownwing Parrots",
+      "h1": "Conure Parrots for Sale in the UK",
+      "image_count": 1,
+      "body_fingerprint": "c6745dbc13122e74e7126628df5a5440eae897ee9c70e9d1f9ac886d76f3cd54"
     },
     "/parrots-for-sale/eclectus-parrots/": {
-      "html_sha256": "add962fff67b2c5dc019d6156f30184c49797d2c9816eb39ee01a403662bbbd4",
-      "words": 588,
+      "status": 200,
       "classification": "A",
-      "title": "Eclectus Parrots for Sale UK | Crownwing Parrots"
+      "words": 588,
+      "html_sha256": "4b68bf2bc1b0403954bd1ec351366c75c0dca4fa3c5a22d5b1eb326cecf2a100",
+      "canonical": "https://crownwingparrots.co.uk/parrots-for-sale/eclectus-parrots/",
+      "title": "Eclectus Parrots for Sale UK | Crownwing Parrots",
+      "h1": "Eclectus Parrots for Sale in the UK",
+      "image_count": 1,
+      "body_fingerprint": "114650ae1e4839ac396dbe196e4985e26516c330ce8a2f0c658a49e57d9fbe7f"
     },
     "/parrots-for-sale/large-parrots/": {
-      "html_sha256": "cb990074ec7c475ed7cf170f1dfd8d6b7a57c5861c3a28fe473d111109255813",
-      "words": 492,
+      "status": 200,
       "classification": "A",
-      "title": "Large Parrots UK: Macaw, Cockatoo & Amazon Ownership | Crownwing Parrots"
+      "words": 492,
+      "html_sha256": "8d4ec6550de19a52ef3196678ee6edf6e75a8c48e5256c1353cbabf24805a7e5",
+      "canonical": "https://crownwingparrots.co.uk/parrots-for-sale/large-parrots/",
+      "title": "Large Parrots UK: Macaw, Cockatoo & Amazon Ownership | Crownwing Parrots",
+      "h1": "A remarkable presence. A substantial care plan.",
+      "image_count": 0,
+      "body_fingerprint": "fd1c1995b753e9db307bb4a77ab58ca21c09fcee60f5b949e298eb366d782906"
     },
     "/parrots-for-sale/macaws/": {
-      "html_sha256": "5ec28dbaa75033d866e333473c558eed0b99cf8065c7080d595dece26ada3413",
-      "words": 808,
+      "status": 200,
       "classification": "A",
-      "title": "Macaw Parrots for Sale UK | Crownwing Parrots"
+      "words": 808,
+      "html_sha256": "17341ec57cff504618c865a1ff2a93feb14b432b37952115852d732d1dcd0944",
+      "canonical": "https://crownwingparrots.co.uk/parrots-for-sale/macaws/",
+      "title": "Macaw Parrots for Sale UK | Crownwing Parrots",
+      "h1": "Macaw Parrots for Sale in the UK",
+      "image_count": 1,
+      "body_fingerprint": "c1a22bdaf1777d453cc5157e3e1bfa2432bbfdef7d652549f89305bd53cfc271"
     },
     "/parrots-for-sale/parakeets-small-parrots/": {
-      "html_sha256": "2bfd9aa82bf6291ce25848f5f7ed4e77a1b5972861a3840bb836d164b8651be7",
-      "words": 612,
+      "status": 200,
       "classification": "A",
-      "title": "Parakeets & Budgies for Sale UK | Crownwing Parrots"
+      "words": 612,
+      "html_sha256": "2d2ca6a9a239fc4e7098e724c8c981ca91075c1e6b6a81f43be06934808a1449",
+      "canonical": "https://crownwingparrots.co.uk/parrots-for-sale/parakeets-small-parrots/",
+      "title": "Parakeets & Budgies for Sale UK | Crownwing Parrots",
+      "h1": "Parakeets & Budgies for Sale in the UK",
+      "image_count": 1,
+      "body_fingerprint": "a7ee272a5ec96d1dda7533293fed628401f4efd9adf3d3087e11e589cd5cc187"
     },
     "/parrots-for-sale/small-parrots/": {
-      "html_sha256": "3132d1baa5fa755aa7155234e488d19f6034296239628da7553e12a30f751143",
-      "words": 478,
+      "status": 200,
       "classification": "A",
-      "title": "Small Parrots UK: Compare Budgies, Conures & Caiques | Crownwing Parrots"
+      "words": 478,
+      "html_sha256": "6c64d82a054bafa955fce79dead1af914400dcbbff5de1f7949050d0107c2688",
+      "canonical": "https://crownwingparrots.co.uk/parrots-for-sale/small-parrots/",
+      "title": "Small Parrots UK: Compare Budgies, Conures & Caiques | Crownwing Parrots",
+      "h1": "Small birds. Meaningful commitments.",
+      "image_count": 0,
+      "body_fingerprint": "ce09ec675fde09cae7378ca0f4d550d6dd7bc355eab46ce994c7dffce679b792"
     },
     "/parrots-for-sale/talking-parrots/": {
-      "html_sha256": "72391c29010abf78aaeb4ab12d8dc305d3e4bb224bba7d2f3577a8990a8c7221",
-      "words": 503,
+      "status": 200,
       "classification": "A",
-      "title": "Talking Parrots UK: Speech, Noise & Buying Questions | Crownwing Parrots"
+      "words": 503,
+      "html_sha256": "6e93b82eda086092fb2940bf8f22e9a44b721419de9b48287cf8111f3416d936",
+      "canonical": "https://crownwingparrots.co.uk/parrots-for-sale/talking-parrots/",
+      "title": "Talking Parrots UK: Speech, Noise & Buying Questions | Crownwing Parrots",
+      "h1": "Considering a talking parrot?",
+      "image_count": 0,
+      "body_fingerprint": "1a198eabbbb0d9a21cca50227d44f07929f2d3bbc43552ea4bd760d4507de2f1"
     },
     "/parrots/": {
-      "html_sha256": "604f3dec98ce7544ea805a1416c038a0c5ea3cf7da168fdc7565265843b67f76",
-      "words": 290,
+      "status": 200,
       "classification": "A",
-      "title": "Parrot species UK | Explore eight groups | Crownwing Parrots"
+      "words": 290,
+      "html_sha256": "f8b80cac83a413cf3304e2abd8bac8b752f7735b81c1cb10a1c3cb4f7408ec3e",
+      "canonical": "https://crownwingparrots.co.uk/parrots/",
+      "title": "Parrot species UK | Explore eight groups | Crownwing Parrots",
+      "h1": "Find your fascination.",
+      "image_count": 8,
+      "body_fingerprint": "8f0ab13dcb56602543183e8c6860ed68cd78738aa204ef6e12883cf022f78737"
     },
     "/parrots/african-parrots/": {
-      "html_sha256": "20420f5d3031ecaf9a430f8dd299e2e01c92f8728327fa357571e21214e772c0",
-      "words": 841,
+      "status": 200,
       "classification": "A",
-      "title": "African Grey Parrots: Size, Personality & Care | Crownwing Parrots"
+      "words": 841,
+      "html_sha256": "f45aeeee853a45dc610a11cddb99a4f4a9af5e3763dbc206fc7b0a7ee4851954",
+      "canonical": "https://crownwingparrots.co.uk/parrots/african-parrots/",
+      "title": "African Grey Parrots: Size, Personality & Care | Crownwing Parrots",
+      "h1": "African Grey Parrots",
+      "image_count": 8,
+      "body_fingerprint": "67892c8078c3025a085d7b5db34548b11ff6d797e301c1828b7b0f69ff79ca03"
     },
     "/parrots/african-parrots/congo-african-grey-parrot/": {
-      "html_sha256": "e8b84e928b43b1343e3b7ddbdad65e058517cd818093bc38f074eb2199433a0c",
-      "words": 697,
+      "status": 200,
       "classification": "B",
-      "title": "Congo African Grey Parrot: Care, Character and Ownership | Crownwing Parrots"
+      "words": 697,
+      "html_sha256": "15b7b867217ccb14c13ec05024c7dd1eb11d74b6f8b72dde8a72c9d706e13b50",
+      "canonical": "https://crownwingparrots.co.uk/parrots/african-parrots/congo-african-grey-parrot/",
+      "title": "Congo African Grey Parrot: Care, Character and Ownership | Crownwing Parrots",
+      "h1": "Congo African Grey Parrot",
+      "image_count": 0,
+      "body_fingerprint": "2dcb9013a2df8204e00b224461a1b589312ef0c72920e99393c90d56b27c1ff4"
     },
     "/parrots/african-parrots/timneh-parrot/": {
-      "html_sha256": "813c4e5a21087aea5eff9c292952d4f6ca6d0e0187dca011b047ab6048a8ecb0",
-      "words": 703,
+      "status": 200,
       "classification": "B",
-      "title": "Timneh Parrot: Personality, Size and Care Guide | Crownwing Parrots"
+      "words": 703,
+      "html_sha256": "5f005c6cbab84420860e5e07150ce79b31f947e5090ed2d1d119606075db756f",
+      "canonical": "https://crownwingparrots.co.uk/parrots/african-parrots/timneh-parrot/",
+      "title": "Timneh Parrot: Personality, Size and Care Guide | Crownwing Parrots",
+      "h1": "Timneh Parrot",
+      "image_count": 0,
+      "body_fingerprint": "fe39c30f6551245c30eaf71cb3a54a184c498ea7270b6ab4cedc63afc6f9a908"
     },
     "/parrots/amazons/": {
-      "html_sha256": "8a2d0ebfa189a0413aec74f0106e1354c829779f8ff5f3fc0506a6bd6a24ac99",
-      "words": 839,
+      "status": 200,
       "classification": "A",
-      "title": "Amazon Parrots: Size, Personality & Care | Crownwing Parrots"
+      "words": 839,
+      "html_sha256": "fabf7f2049b3fbd1666d7d4bf23968b824b7c4a440e15e4dc075e71d5a8caefb",
+      "canonical": "https://crownwingparrots.co.uk/parrots/amazons/",
+      "title": "Amazon Parrots: Size, Personality & Care | Crownwing Parrots",
+      "h1": "Amazon Parrots",
+      "image_count": 7,
+      "body_fingerprint": "8424a6b3c29e96de22789c804a60e73602bc66e59919897df4015dc2cafd2f4b"
     },
     "/parrots/amazons/blue-fronted-amazon-parrot/": {
-      "html_sha256": "159793679e940238e049245f86141bbf421fd53e296a361d7d6d36209b42af00",
-      "words": 683,
+      "status": 200,
       "classification": "B",
-      "title": "Blue-fronted Amazon Parrot: Care and Character | Crownwing Parrots"
+      "words": 683,
+      "html_sha256": "66ae605953ed80e8779e747438571923e06eb869322c8b79adc7b26c5b51fa1d",
+      "canonical": "https://crownwingparrots.co.uk/parrots/amazons/blue-fronted-amazon-parrot/",
+      "title": "Blue-fronted Amazon Parrot: Care and Character | Crownwing Parrots",
+      "h1": "Blue-fronted Amazon Parrot",
+      "image_count": 4,
+      "body_fingerprint": "76af67b9b7ce19c8df98cdbc76ae451f839c98601d1be856f02822058689bd83"
     },
     "/parrots/amazons/yellow-naped-amazon-parrot/": {
-      "html_sha256": "67fd76107d06b143a0b9867958dc5615a46da653384264b818f85bb418b82873",
-      "words": 671,
+      "status": 200,
       "classification": "B",
-      "title": "Yellow-naped Amazon Parrot: Voice and Care | Crownwing Parrots"
+      "words": 671,
+      "html_sha256": "42d101e9f6170249cc69a6988d21e9a2e5a24705b01cd9beec89cc9c342780da",
+      "canonical": "https://crownwingparrots.co.uk/parrots/amazons/yellow-naped-amazon-parrot/",
+      "title": "Yellow-naped Amazon Parrot: Voice and Care | Crownwing Parrots",
+      "h1": "Yellow-naped Amazon Parrot",
+      "image_count": 0,
+      "body_fingerprint": "41f2394ba9fb02643217566630b6d16372ade0036ced4f1883b9d2b8e8b050f7"
     },
     "/parrots/caiques/": {
-      "html_sha256": "629329684990b65c965acf291a100a36d94eb40bc3a1a0586867954034f970cc",
-      "words": 783,
+      "status": 200,
       "classification": "A",
-      "title": "Caique Parrots: Size, Personality & Care | Crownwing Parrots"
+      "words": 783,
+      "html_sha256": "23eb6e099b00b1ed547a78277129bc40eeef60eed5f00b5a79268fd4ebab4917",
+      "canonical": "https://crownwingparrots.co.uk/parrots/caiques/",
+      "title": "Caique Parrots: Size, Personality & Care | Crownwing Parrots",
+      "h1": "Caique Parrots",
+      "image_count": 7,
+      "body_fingerprint": "9f5c63f4589b4513e1e7b57298fa6867c6821da2bb45666091f8621eef06af87"
     },
     "/parrots/caiques/black-headed-caique/": {
-      "html_sha256": "105d7d153b4aff93e236ba2a26fc9031f231fdfbca312a6f9bde0082b23c79a0",
-      "words": 640,
+      "status": 200,
       "classification": "B",
-      "title": "Black-headed Caique: Energy, Play and Care | Crownwing Parrots"
+      "words": 640,
+      "html_sha256": "1f5c816d6d8d832a6d8768371229e0bcab42c81865f6e79fafc5db66699027ec",
+      "canonical": "https://crownwingparrots.co.uk/parrots/caiques/black-headed-caique/",
+      "title": "Black-headed Caique: Energy, Play and Care | Crownwing Parrots",
+      "h1": "Black-headed Caique",
+      "image_count": 2,
+      "body_fingerprint": "eccf8b31eb401efc05b835c630c308d8a6a6beca32970466216f3c22577fb091"
     },
     "/parrots/caiques/white-bellied-caique/": {
-      "html_sha256": "b07fdfd9ef00014844dd5a974fc3cab2d25da6e9adadc2303ae875438efda8cd",
-      "words": 671,
+      "status": 200,
       "classification": "B",
-      "title": "White-bellied Caique: Personality and Care | Crownwing Parrots"
+      "words": 671,
+      "html_sha256": "bd4deeeba885400b1e9ed7408c18cfdc21cd69a637b8b9331d56733bab1583ed",
+      "canonical": "https://crownwingparrots.co.uk/parrots/caiques/white-bellied-caique/",
+      "title": "White-bellied Caique: Personality and Care | Crownwing Parrots",
+      "h1": "White-bellied Caique",
+      "image_count": 4,
+      "body_fingerprint": "ff1ef8e8a339fa683bbc46373b83a54ad0e8e0f8762134ca99dd734caa940c8d"
     },
     "/parrots/cockatoos/": {
-      "html_sha256": "063f443568add6e8109ea0fd8430167d711199be275fe57e5ddf537da24cba6d",
-      "words": 831,
+      "status": 200,
       "classification": "A",
-      "title": "Cockatoo Parrots: Size, Personality & Care | Crownwing Parrots"
+      "words": 831,
+      "html_sha256": "1e4c90cc7fad5523d54788811c40bbe70cfbb92ba89675846b8a657da3920bae",
+      "canonical": "https://crownwingparrots.co.uk/parrots/cockatoos/",
+      "title": "Cockatoo Parrots: Size, Personality & Care | Crownwing Parrots",
+      "h1": "Cockatoo Parrots",
+      "image_count": 9,
+      "body_fingerprint": "f8816b82dfc77273828cd92f8645523afc381207c6dc3e34bd8c496c950eaa7d"
     },
     "/parrots/cockatoos/galah-cockatoo/": {
-      "html_sha256": "52102aabc3f617777795e259ea282c9b717b1f74e0fedaf6cd7de40d68a62fcb",
-      "words": 688,
+      "status": 200,
       "classification": "B",
-      "title": "Galah Cockatoo: Temperament, Size and Care | Crownwing Parrots"
+      "words": 688,
+      "html_sha256": "70e4fdd6eecf3b9585bf8f22595ea6ca01af51f0a7f25f3661493be16bdebb36",
+      "canonical": "https://crownwingparrots.co.uk/parrots/cockatoos/galah-cockatoo/",
+      "title": "Galah Cockatoo: Temperament, Size and Care | Crownwing Parrots",
+      "h1": "Galah Cockatoo",
+      "image_count": 2,
+      "body_fingerprint": "5127f75eb42abc2dae4081c38ab148b97b98a0fab87eb8217e367c1a29d418a0"
     },
     "/parrots/cockatoos/umbrella-cockatoo/": {
-      "html_sha256": "6c730c5b5ad3e20411e9f6e45d3430ecbcf45a1490c69f481944624de10785f4",
-      "words": 668,
+      "status": 200,
       "classification": "B",
-      "title": "Umbrella Cockatoo: Social Needs and Care Guide | Crownwing Parrots"
+      "words": 668,
+      "html_sha256": "a202824cd448063720c3026e6e93c07988c3ef0efde3251f996252638870923e",
+      "canonical": "https://crownwingparrots.co.uk/parrots/cockatoos/umbrella-cockatoo/",
+      "title": "Umbrella Cockatoo: Social Needs and Care Guide | Crownwing Parrots",
+      "h1": "Umbrella Cockatoo",
+      "image_count": 0,
+      "body_fingerprint": "60b3f5b2fa35d5bdee546f2e73b0a8ebc6219ea0ed785bd62cf1d14593f0e68d"
     },
     "/parrots/conures/": {
-      "html_sha256": "1794cada590265cf2d1d112c732f7c0942aaf81c76f614ded076686ef02508cd",
-      "words": 832,
+      "status": 200,
       "classification": "A",
-      "title": "Conure Parrots: Size, Personality & Care | Crownwing Parrots"
+      "words": 832,
+      "html_sha256": "b2cf1277252f0f6be56d7bce18b4531b7589128933a74f7ff70a3ff9fe7555b2",
+      "canonical": "https://crownwingparrots.co.uk/parrots/conures/",
+      "title": "Conure Parrots: Size, Personality & Care | Crownwing Parrots",
+      "h1": "Conure Parrots",
+      "image_count": 10,
+      "body_fingerprint": "a5af730a55b0041fb1772d26c577720110ea8f78bfcba2eaa9caac2830a1b29f"
     },
     "/parrots/conures/green-cheeked-conure/": {
-      "html_sha256": "734d11852c8c035fdd342a5e2ec3cd13e815f10d85ec3a6efd9a6e38b011e003",
-      "words": 663,
+      "status": 200,
       "classification": "B",
-      "title": "Green-cheeked Conure: Personality and Care | Crownwing Parrots"
+      "words": 663,
+      "html_sha256": "29f77f92f35e6aa899a5084778bdeda3dd7db9195d5da3863d009e61b9f7239c",
+      "canonical": "https://crownwingparrots.co.uk/parrots/conures/green-cheeked-conure/",
+      "title": "Green-cheeked Conure: Personality and Care | Crownwing Parrots",
+      "h1": "Green-cheeked Conure",
+      "image_count": 0,
+      "body_fingerprint": "e0e23bad6fb53d5f0ea95eace6effbbea7afe4e5d1baf30ce24f51644e5f308a"
     },
     "/parrots/conures/sun-conure/": {
-      "html_sha256": "f8d886acf323fa81d363377365b7e55796a8cf258ef199c1cb3bdb212bee16d1",
-      "words": 659,
+      "status": 200,
       "classification": "B",
-      "title": "Sun Conure: Noise, Character and Care Guide | Crownwing Parrots"
+      "words": 659,
+      "html_sha256": "f5afd64f489c9c7f5aaa9dfc15663703e1a0c94c195383387d146017a711985b",
+      "canonical": "https://crownwingparrots.co.uk/parrots/conures/sun-conure/",
+      "title": "Sun Conure: Noise, Character and Care Guide | Crownwing Parrots",
+      "h1": "Sun Conure",
+      "image_count": 0,
+      "body_fingerprint": "43fe07ea41f3db95c09363a1091b9534a9eb1ffa41ece2d6874ba4661a6d7a34"
     },
     "/parrots/eclectus/": {
-      "html_sha256": "3a529a1f4aa6d1703d875540bffccaaafdceacec303653dfe5cc109df1c101d4",
-      "words": 834,
+      "status": 200,
       "classification": "A",
-      "title": "Eclectus Parrots: Size, Personality & Care | Crownwing Parrots"
+      "words": 834,
+      "html_sha256": "ddd39a208d90dec6a676005e696ef0087617189650af5ee862f026b932e6d39a",
+      "canonical": "https://crownwingparrots.co.uk/parrots/eclectus/",
+      "title": "Eclectus Parrots: Size, Personality & Care | Crownwing Parrots",
+      "h1": "Eclectus Parrots",
+      "image_count": 13,
+      "body_fingerprint": "edf87819beecc11d70774406bc15565f7d9db29e2e9e86f1f2fbb988d9ebaf05"
     },
     "/parrots/eclectus/papuan-eclectus-parrot/": {
-      "html_sha256": "279fbf0bff6c5aa5304c5e14e1a000ff660e7d5389684057c0847156009e985e",
-      "words": 676,
+      "status": 200,
       "classification": "B",
-      "title": "Papuan Eclectus Parrot: Appearance and Care | Crownwing Parrots"
+      "words": 676,
+      "html_sha256": "13d6eaf5c831fccb509e412b912a83603d2edb077b995cd6c48897e99580ad46",
+      "canonical": "https://crownwingparrots.co.uk/parrots/eclectus/papuan-eclectus-parrot/",
+      "title": "Papuan Eclectus Parrot: Appearance and Care | Crownwing Parrots",
+      "h1": "Papuan Eclectus Parrot",
+      "image_count": 0,
+      "body_fingerprint": "f91135c48ae1c5ea1af62f98246221765e31310fc8e41674274b23c5846c1f03"
     },
     "/parrots/macaws/": {
-      "html_sha256": "39afc032dd0278f4d169d48f93fa2eeb93473b3e95ddf0f82b6c5a6e3bfc4399",
-      "words": 863,
+      "status": 200,
       "classification": "A",
-      "title": "Macaw Parrots: Size, Personality & Care | Crownwing Parrots"
+      "words": 863,
+      "html_sha256": "ee3f5a7ba76916e08e43ba32ac9cd8fe245b54d960b3950dd3e9f901a4dc99a5",
+      "canonical": "https://crownwingparrots.co.uk/parrots/macaws/",
+      "title": "Macaw Parrots: Size, Personality & Care | Crownwing Parrots",
+      "h1": "Macaw Parrots",
+      "image_count": 34,
+      "body_fingerprint": "613c1e2ba0af3fb46b02e0e0f5d197634a38758a9c3f1936e1a8b9cda15c8d5b"
     },
     "/parrots/macaws/blue-and-gold-macaw/": {
-      "html_sha256": "17c8ea453b94820cdf94e717f5983a658f09330f7c011126c24338cf20c17fb1",
-      "words": 701,
+      "status": 200,
       "classification": "B",
-      "title": "Blue-and-gold Macaw: Size, Character and Care | Crownwing Parrots"
+      "words": 701,
+      "html_sha256": "d6508de0750749c279b1e614d7b9b407232162ba875fff7e265a8ebb4e536e40",
+      "canonical": "https://crownwingparrots.co.uk/parrots/macaws/blue-and-gold-macaw/",
+      "title": "Blue-and-gold Macaw: Size, Character and Care | Crownwing Parrots",
+      "h1": "Blue-and-gold Macaw",
+      "image_count": 4,
+      "body_fingerprint": "e2121cff8ecce4c32c2008a732c69a63a16388add5b9e57ccb8d1f1e47357eb9"
     },
     "/parrots/macaws/scarlet-macaw/": {
-      "html_sha256": "b58b321b95d457764af137f37e955576fee634c971ecc9cdb3f0108bf966ae96",
-      "words": 681,
+      "status": 200,
       "classification": "B",
-      "title": "Scarlet Macaw: A Guide to Care and Ownership | Crownwing Parrots"
+      "words": 681,
+      "html_sha256": "8ce000a90e280b69a0e3baa8af41e40747b94e7169c3fd5500f240638592420e",
+      "canonical": "https://crownwingparrots.co.uk/parrots/macaws/scarlet-macaw/",
+      "title": "Scarlet Macaw: A Guide to Care and Ownership | Crownwing Parrots",
+      "h1": "Scarlet Macaw",
+      "image_count": 0,
+      "body_fingerprint": "2c244a424acbabfac3130dd9d0c268bed14676139023b453b28d6be98b56e7a4"
     },
     "/parrots/parakeets-small-psittacines/": {
-      "html_sha256": "423025478c89ff3d7996d25efa21f0817ddc5be65bfd4377231ca4059802c991",
-      "words": 839,
+      "status": 200,
       "classification": "A",
-      "title": "Parakeets & Budgerigars: Size, Personality & Care | Crownwing Parrots"
+      "words": 839,
+      "html_sha256": "90461a490d2ba6732c28f571c9048785ea9c8220c0aafd535153b78ca9da0f1e",
+      "canonical": "https://crownwingparrots.co.uk/parrots/parakeets-small-psittacines/",
+      "title": "Parakeets & Budgerigars: Size, Personality & Care | Crownwing Parrots",
+      "h1": "Parakeets & Budgerigars",
+      "image_count": 9,
+      "body_fingerprint": "0796933aedf96654f7e04e252db2e74b050513ced3e4f3a148edf2021791f57d"
     },
     "/parrots/parakeets-small-psittacines/budgerigar/": {
-      "html_sha256": "e6fc14c3523730c66b188675631d06a2f6192b0223d9598a70ae0f61123b03cb",
-      "words": 672,
+      "status": 200,
       "classification": "B",
-      "title": "Budgerigar: Social Needs, Training and Care | Crownwing Parrots"
+      "words": 672,
+      "html_sha256": "8fa88eb38a47538f84d34b8b5f51ec05f2e2f79e48c804f517123e0514df6db5",
+      "canonical": "https://crownwingparrots.co.uk/parrots/parakeets-small-psittacines/budgerigar/",
+      "title": "Budgerigar: Social Needs, Training and Care | Crownwing Parrots",
+      "h1": "Budgerigar",
+      "image_count": 2,
+      "body_fingerprint": "b58ccd5a0ea1d52e132e1a9098cd1a9ee481aa118c15f014a8bd60e92d7e9496"
     },
     "/parrots/parakeets-small-psittacines/indian-ringneck-parakeet/": {
-      "html_sha256": "4a2f6218ceb4a69506e85c07070163c09d8a3dd57b5e231c919ffa8670db9369",
-      "words": 630,
+      "status": 200,
       "classification": "B",
-      "title": "Indian Ringneck Parakeet: Character and Care | Crownwing Parrots"
+      "words": 630,
+      "html_sha256": "374ae455bd2fd48c6512f058baffb95331f8a1a5625e8f713c4b43bccb84964e",
+      "canonical": "https://crownwingparrots.co.uk/parrots/parakeets-small-psittacines/indian-ringneck-parakeet/",
+      "title": "Indian Ringneck Parakeet: Character and Care | Crownwing Parrots",
+      "h1": "Indian Ringneck Parakeet",
+      "image_count": 0,
+      "body_fingerprint": "851ff504eadf18240148ee23b5a887c9bd9c57e63894f1505ddf0596b61ef50a"
     },
     "/parrots/parakeets-small-psittacines/peach-faced-lovebird/": {
-      "html_sha256": "e514164c21ebdafe2d6d00fa08367f5939834c163db17e4d2e30d56340bb8b34",
-      "words": 629,
+      "status": 200,
       "classification": "B",
-      "title": "Peach-faced Lovebird: Social Life and Care | Crownwing Parrots"
+      "words": 629,
+      "html_sha256": "cc8bf2b34533a892ce819722c5bbb814a5fbf07d8b378681d8c5b0ba5acd2a41",
+      "canonical": "https://crownwingparrots.co.uk/parrots/parakeets-small-psittacines/peach-faced-lovebird/",
+      "title": "Peach-faced Lovebird: Social Life and Care | Crownwing Parrots",
+      "h1": "Peach-faced Lovebird",
+      "image_count": 0,
+      "body_fingerprint": "bb124bae13d41778178e570bddee39760ce3ad1ef07c48edaf22a57543d5138f"
     },
     "/privacy-policy/": {
-      "html_sha256": "bb619382d3c1d4b96f3e29b30444e657ae4564eeaa5e4a22dcd028b63a437625",
-      "words": 1231,
+      "status": 200,
       "classification": "A",
-      "title": "Privacy Policy | Crownwing Parrots"
+      "words": 1231,
+      "html_sha256": "2c75145fc2c818d7c7697012eb169329e324c814f8fe0ab66aa8c7ac7034e033",
+      "canonical": "https://crownwingparrots.co.uk/privacy-policy/",
+      "title": "Privacy Policy | Crownwing Parrots",
+      "h1": "Privacy Policy",
+      "image_count": 0,
+      "body_fingerprint": "0a591e1b05f85c69da77166421ef86c4b1562f06553a231652eb67b2dcc7936a"
+    },
+    "/locations/": {
+      "status": 301,
+      "target": "/guides/",
+      "words": 0,
+      "classification": "C",
+      "canonical": null,
+      "title": ""
+    },
+    "/locations/birmingham/": {
+      "status": 301,
+      "target": "/guides/choosing-a-parrot/",
+      "words": 0,
+      "classification": "C",
+      "canonical": null,
+      "title": ""
+    },
+    "/locations/bristol/": {
+      "status": 301,
+      "target": "/guides/preparing-for-a-parrot/",
+      "words": 0,
+      "classification": "C",
+      "canonical": null,
+      "title": ""
+    },
+    "/locations/cardiff/": {
+      "status": 301,
+      "target": "/guides/choosing-a-parrot/",
+      "words": 0,
+      "classification": "C",
+      "canonical": null,
+      "title": ""
+    },
+    "/locations/edinburgh/": {
+      "status": 301,
+      "target": "/guides/parrot-ownership-costs/",
+      "words": 0,
+      "classification": "C",
+      "canonical": null,
+      "title": ""
+    },
+    "/locations/glasgow/": {
+      "status": 301,
+      "target": "/guides/parrot-diet-nutrition/",
+      "words": 0,
+      "classification": "C",
+      "canonical": null,
+      "title": ""
+    },
+    "/locations/leeds/": {
+      "status": 301,
+      "target": "/guides/parrot-housing-enrichment/",
+      "words": 0,
+      "classification": "C",
+      "canonical": null,
+      "title": ""
+    },
+    "/locations/liverpool/": {
+      "status": 301,
+      "target": "/guides/buying-a-parrot-checklist/",
+      "words": 0,
+      "classification": "C",
+      "canonical": null,
+      "title": ""
+    },
+    "/locations/london/": {
+      "status": 301,
+      "target": "/guides/choosing-a-parrot/",
+      "words": 0,
+      "classification": "C",
+      "canonical": null,
+      "title": ""
+    },
+    "/locations/manchester/": {
+      "status": 301,
+      "target": "/guides/choosing-a-parrot/",
+      "words": 0,
+      "classification": "C",
+      "canonical": null,
+      "title": ""
+    },
+    "/locations/newcastle/": {
+      "status": 301,
+      "target": "/guides/buying-a-parrot-checklist/",
+      "words": 0,
+      "classification": "C",
+      "canonical": null,
+      "title": ""
+    },
+    "/locations/nottingham/": {
+      "status": 301,
+      "target": "/guides/choosing-a-parrot/",
+      "words": 0,
+      "classification": "C",
+      "canonical": null,
+      "title": ""
+    },
+    "/locations/sheffield/": {
+      "status": 301,
+      "target": "/guides/parrot-housing-enrichment/",
+      "words": 0,
+      "classification": "C",
+      "canonical": null,
+      "title": ""
     }
   },
-  "mobile_evidence": "2026-10-02T17:52:09.950Z",
-  "tests": "npm test passed"
+  "mobile_evidence": "2026-10-02T23:29:49.869Z",
+  "tests": "npm test passed",
+  "deployment": {
+    "target": "autoscale",
+    "server": "Gunicorn/Flask",
+    "published": false,
+    "redirect_support": "production app tested; real published host pending"
+  },
+  "source_noindex_added": 0
 }

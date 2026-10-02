@@ -309,6 +309,9 @@ def apply_content():
 
     for slug, city in cities.items():
         path = "/locations/" + slug + "/"
+        from route_rules import REDIRECTS
+        if path in REDIRECTS:
+            continue
         text = set_intro(route_file(path).read_text(), city["intro"])
         # The upstream notice cleanup removes legacy location notes. Restore
         # this factual boundary independently rather than requiring old markup.
@@ -422,6 +425,8 @@ def apply_content():
                         "The care needs of a bird are not determined by body size alone. Compare an African Grey’s routine and learning opportunities, a caique’s supervised physical activity and a budgerigar’s flock and flight needs. Read the relevant species profile alongside each care guide, then confirm the individual’s existing diet, social history and handling preferences."),
     }
     for path, (ident, title, paragraph) in hub_blocks.items():
+        if path in REDIRECTS:
+            continue
         links = "".join(link("/parrots/" + group + "/", DISPLAY_NAMES[group] + " species profiles")
                         for group in DISPLAY_NAMES)
         block = f'<section class="article-section" id="{ident}"><h2>{esc(title)}</h2><p>{esc(paragraph)}</p><div class="related"><div>{links}</div></div></section>'
@@ -484,6 +489,8 @@ def apply_content():
     apply_buyer_resources(metadata)
     from audit_quality_content import apply_audit_quality
     apply_audit_quality(metadata)
+    from city_consolidation import apply_city_consolidation
+    apply_city_consolidation()
 
     # Match social metadata and apply the owner's indexing policy to city guides.
     public_paths = []
@@ -506,10 +513,15 @@ def apply_content():
         target.write_text(text)
         if 'content="noindex,follow"' not in text:
             public_paths.append(path)
+    # Metadata may reconstruct a regional parent breadcrumb; keep it pointed
+    # directly at the surviving guide library after final metadata generation.
+    from city_consolidation import rewrite_links
+    for target in DIST.rglob("index.html"):
+        target.write_text(rewrite_links(target.read_text()))
     finish_buyer_resources(public_paths)
     (DIST / "robots.txt").write_text("User-agent: *\nAllow: /\nSitemap: " + origin + "/sitemap.xml\n")
     report = {"rewritten": rewritten, "expanded": expanded, "new_species_profiles": created,
-              "species_profiles_awaiting_exact_photos": photo_free, "indexable_city_guides": len(cities),
+              "species_profiles_awaiting_exact_photos": photo_free, "indexable_city_guides": sum(route_file("/locations/" + slug + "/").is_file() for slug in cities),
               "policy_pages": list(POLICIES),
               "metadata_reviewed": len(list(DIST.rglob("index.html")))}
     (ROOT / "tools/content-audit-report.json").write_text(json.dumps(report, indent=2) + "\n")

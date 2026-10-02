@@ -16,18 +16,6 @@
     "/parrots-for-sale/eclectus-parrots/",
     "/parrots/parakeets-small-psittacines/",
     "/parrots-for-sale/parakeets-small-parrots/",
-    "/locations/london/",
-    "/locations/manchester/",
-    "/locations/birmingham/",
-    "/locations/leeds/",
-    "/locations/bristol/",
-    "/locations/liverpool/",
-    "/locations/sheffield/",
-    "/locations/nottingham/",
-    "/locations/newcastle/",
-    "/locations/cardiff/",
-    "/locations/edinburgh/",
-    "/locations/glasgow/",
     "/locations/belfast/",
     "/parrots-for-sale/talking-parrots/",
     "/parrots-for-sale/small-parrots/",
@@ -37,7 +25,6 @@
     "/available-birds/",
     "/parrots-for-sale/",
     "/parrots/",
-    "/locations/",
     "/parrot-prices-uk/",
     "/parrot-care/",
     "/guides/choosing-a-parrot/",
@@ -77,11 +64,11 @@
     "/parrots/parakeets-small-psittacines/indian-ringneck-parakeet/",
     "/parrots/parakeets-small-psittacines/peach-faced-lovebird/"
   ],
-  "indexable_city_guides": 13,
+  "indexable_city_guides": 1,
   "policy_pages": [
     "/privacy-policy/",
     "/cookie-policy/",
     "/business-policies/"
   ],
-  "metadata_reviewed": 69
+  "metadata_reviewed": 56
 }

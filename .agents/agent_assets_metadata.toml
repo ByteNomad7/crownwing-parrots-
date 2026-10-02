@@ -47,28 +47,28 @@ content_type = "text/csv"
 id = "o4BpVg3QH8rfOZ7Jv8rVm"
 uri = "file://seo/crownwing-complete-audit.html"
 type = "html"
-title = "Complete Crownwing SEO audit"
-description = "All 69 page classifications, supporting reports, implementation plan and exact applied-change summary. City merges remain recommendations."
+title = "Updated Crownwing audit and implementation report"
+description = "Original 69-page classifications preserved, completed 13 merges, 56 canonical pages, exact redirect mapping and remaining manual review."
 logical_id = "daa26f4e-7408-4938-835d-bb519681de78"
-content_hash = "sha256:83b39d9361b00a5219fbeb7e516325eaf6867b4bc0fe9cf107ac8b0ee86f1795"
-size = 263480
-mtime_ms = 1790963530591
-storage_uri = "gcs://replit-rams-assets-archer/rams/assets/repl:bb2a8af7-5945-4807-af2c-9c06ffcc6ddd/daa26f4e-7408-4938-835d-bb519681de78/d44f4460-d317-48ed-8bd5-73c29a09f3ea"
-storage_version_token = "1790963808981180"
+content_hash = "sha256:3d67feb18f228d078d41a3e2c846d293663cf3f1726aefd92a2a40d0583b122c"
+size = 252814
+mtime_ms = 1790983790378
+storage_uri = "gcs://replit-rams-assets-archer/rams/assets/repl:bb2a8af7-5945-4807-af2c-9c06ffcc6ddd/daa26f4e-7408-4938-835d-bb519681de78/fb0cc497-0dc8-4651-82da-fe388a6af2fa"
+storage_version_token = "1790984020805102"
 content_type = "text/html"
 
 [[outputs]]
 id = "GfEf2ElO5zckEZvCG_oXN"
 uri = "file://seo/crownwing-66-page-inventory.csv"
 type = "table"
-title = "69-page inventory and classifications"
-description = "Original 66 URLs plus 3 later guides, technical and intent fields, and separate audit/current implementation counts."
+title = "Updated page inventory"
+description = "All 69 audited URLs, with current 200/301 states, surviving-page metrics, redirect destinations and preserved audit fields."
 logical_id = "c8b85470-8ab9-4d37-87f2-d9024df936f4"
-content_hash = "sha256:75ed301570c5767d553de67a87f01579a8873bcff85f53afeee5ee9ed6e70313"
-size = 81320
-mtime_ms = 1790963530536
-storage_uri = "gcs://replit-rams-assets-archer/rams/assets/repl:bb2a8af7-5945-4807-af2c-9c06ffcc6ddd/c8b85470-8ab9-4d37-87f2-d9024df936f4/b625f17c-6dab-4466-a35d-bd35db2ac778"
-storage_version_token = "1790963809710621"
+content_hash = "sha256:5c3d2d79815ffb86f55e461e6aa6f75eed27418f9ad4be7a557155edfbe62ef7"
+size = 96325
+mtime_ms = 1790983790340
+storage_uri = "gcs://replit-rams-assets-archer/rams/assets/repl:bb2a8af7-5945-4807-af2c-9c06ffcc6ddd/c8b85470-8ab9-4d37-87f2-d9024df936f4/6fa73078-4140-4dee-9e07-27ef17ae6c1a"
+storage_version_token = "1790984021461890"
 content_type = "text/csv"
 
 [[outputs]]
@@ -84,3 +84,31 @@ mtime_ms = 1790962784889
 storage_uri = "gcs://replit-rams-assets-archer/rams/assets/repl:bb2a8af7-5945-4807-af2c-9c06ffcc6ddd/56d8d995-0ac7-4e07-a459-a5e0b25f7882/71f7726c-ab28-4e0f-92be-b44c575e2d0a"
 storage_version_token = "1790963810517276"
 content_type = "text/csv"
+
+[[outputs]]
+id = "rblFxIKYRTG2osajb_2rq"
+uri = "file://seo/crownwing-indexation-matrix.csv"
+type = "table"
+title = "Current indexation and redirect matrix"
+description = "56 canonical HTML pages and 13 permanent redirect sources. Published-host and Google indexation checks remain pending."
+logical_id = "696235b3-1fc5-4ae4-bf4c-bd935348d3a5"
+content_hash = "sha256:6dfe6e5b01e5de62c5392c775a75e7888c3275f7e278c3b591b18e7a4e09e819"
+size = 31031
+mtime_ms = 1790983790342
+storage_uri = "gcs://replit-rams-assets-archer/rams/assets/repl:bb2a8af7-5945-4807-af2c-9c06ffcc6ddd/696235b3-1fc5-4ae4-bf4c-bd935348d3a5/e389afa4-a9d3-43f0-ac9b-9b0a3caa6094"
+storage_version_token = "1790984022134565"
+content_type = "text/csv"
+
+[[outputs]]
+id = "uldUYzXxwVKODWa7a_xqB"
+uri = "file://downloads/crownwing-netlify.zip"
+type = "unspecified"
+title = "Netlify-ready Crownwing website"
+description = "Extract this ZIP and upload the extracted folder to Netlify. Includes index.html at the top level, all website assets, native permanent redirects and the branded 404 page."
+logical_id = "1df56043-171b-44f9-820a-3a67f1da9c4e"
+content_hash = "sha256:65f37376c4ea2535584952be0e8da1f1d79dcfb8abd2b1bca8ab73ebedb0527f"
+size = 16956735
+mtime_ms = 1790984784777
+storage_uri = "gcs://replit-rams-assets-archer/rams/assets/repl:bb2a8af7-5945-4807-af2c-9c06ffcc6ddd/1df56043-171b-44f9-820a-3a67f1da9c4e/93788bd2-2de6-4404-bd03-ae43406d49e3"
+storage_version_token = "1790984808388521"
+content_type = "application/octet-stream"

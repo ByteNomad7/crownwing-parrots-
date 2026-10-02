@@ -31,6 +31,12 @@ if (dialog && gallery) {
   function showPhoto(index) {
     current = (index + photos.length) % photos.length;
     const photo = photos[current];
+    // The image optimiser adds srcset to the initial photo. These dynamic
+    // images must use the selected src, not that first-photo candidate list.
+    for (const image of [enlarged, mainImage]) {
+      image.removeAttribute('srcset');
+      image.removeAttribute('sizes');
+    }
     enlarged.src = photo.src;
     enlarged.alt = photo.alt;
     enlarged.width = Number(photo.width);
@@ -41,6 +47,7 @@ if (dialog && gallery) {
     mainImage.alt = photo.alt;
     mainImage.width = Number(photo.width);
     mainImage.height = Number(photo.height);
+    gallery.querySelector('.gallery-main').setAttribute('aria-label', `Enlarge ${photo.alt}`);
     mainCaption.firstChild.textContent = photo.alt;
   }
 

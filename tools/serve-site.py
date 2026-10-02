@@ -87,6 +87,8 @@ def make_handler(directory: str | Path) -> type[SimpleHTTPRequestHandler]:
             parts = urlsplit(self.path)
             request_path = parts.path or "/"
             target_path = request_path
+            from route_rules import merged_target
+            target_path = merged_target(request_path) or target_path
 
             # Only redirect a real index document inside this site, preventing
             # malformed or traversal-like requests from becoming aliases.

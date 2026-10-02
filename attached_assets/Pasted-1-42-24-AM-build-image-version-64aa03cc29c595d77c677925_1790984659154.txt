@@ -1,0 +1,36 @@
+1:42:24 AM: build-image version: 64aa03cc29c595d77c6779252fe8506d6078c0e0 (noble-new-builds)
+1:42:24 AM: buildbot version: 26380014651b415e377b346608b7cbcb0a3b56ce
+1:42:25 AM: Building with cache
+1:42:25 AM: Starting to prepare the repo for build
+1:42:25 AM: Preparing Git Reference refs/heads/main
+1:42:37 AM: Installing dependencies
+1:42:37 AM: mise by @jdx – installing 1 tool
+1:42:37 AM: mise ⇢ python@3.14.3  4ms · already installed
+1:42:37 AM: mise ████████████████ 1/1 · installed 0 tools · 1 already installed in 5ms
+1:42:38 AM: mise ~/.config/mise/config.toml tools: python@3.14.3
+1:42:38 AM: mise by @jdx – installing 1 tool
+1:42:38 AM: mise ⇢ ruby@3.4.8  13ms · already installed
+1:42:38 AM: mise ████████████████ 1/1 · installed 0 tools · 1 already installed in 14ms
+1:42:38 AM: mise ~/.config/mise/config.toml tools: ruby@3.4.8
+1:42:38 AM: mise by @jdx – installing 1 tool
+1:42:38 AM: mise ⇢ go@1.26.2  2ms · already installed
+1:42:38 AM: mise ████████████████ 1/1 · installed 0 tools · 1 already installed in 3ms
+1:42:38 AM: mise ~/.config/mise/config.toml tools: go@1.26.2
+1:42:38 AM: v24.21.0 is already installed.
+1:42:39 AM: Now using node v24.21.0 (npm v11.19.0)
+1:42:39 AM: Enabling Node.js Corepack
+1:42:39 AM: No npm workspaces detected
+1:42:39 AM: Installing npm packages using npm version 11.19.0
+1:43:49 AM: npm error code ENOTFOUND
+1:43:49 AM: npm error syscall getaddrinfo
+1:43:49 AM: npm error errno ENOTFOUND
+1:43:49 AM: npm error network request to http://package-firewall.replit.internal/npm/ws/-/ws-7.5.13.tgz failed, reason: getaddrinfo ENOTFOUND package-firewall.replit.internal
+1:43:49 AM: npm error network This is a problem related to network connectivity.
+1:43:49 AM: npm error network In most cases you are behind a proxy or have bad network settings.
+1:43:49 AM: npm error network
+1:43:49 AM: npm error network If you are behind a proxy, please make sure that the 'proxy' config is set properly.  See: 'npm help config'
+1:43:49 AM: npm error A complete log of this run can be found in: /opt/buildhome/.npm/_logs/2026-10-02T23_42_39_210Z-debug-0.log
+1:43:49 AM: Error during npm install
+1:43:50 AM: Failing build: Failed to install dependencies
+1:43:50 AM: Finished processing build request in 1m25.393s
+1:43:50 AM: Failed during stage 'Install dependencies': dependency_installation script returned non-zero exit code: 1

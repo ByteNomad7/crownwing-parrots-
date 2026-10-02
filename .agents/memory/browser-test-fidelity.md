@@ -20,3 +20,9 @@ Static stylesheet changes require browser-cache invalidation, not just a workflo
 **Why:** The running preview reused an imported stylesheet after its source changed, so new markup rendered without the corresponding styles even though source and build checks passed.
 
 **How to apply:** Version changed stylesheet imports or use content-hashed assets. Confirm the running preview displays the actual new styles; restarting the Python development server alone does not invalidate browser caches.
+
+For photo-viewer checks, verify the rendered image's `currentSrc`, not only its `src` attribute or caption.
+
+**Why:** A responsive candidate list can keep displaying the first image while the selected URL and photo counter change correctly. Attribute-only checks miss the visible failure.
+
+**How to apply:** Exercise thumbnail selection and next/previous navigation in a real browser, wait for image loading, and compare `currentSrc` with the selected asset at desktop and mobile widths.

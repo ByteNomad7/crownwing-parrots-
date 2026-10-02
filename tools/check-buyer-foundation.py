@@ -8,6 +8,7 @@ from xml.etree import ElementTree as ET
 from buyer_resources import NEW_PAGES
 from content_registry import extract_content, sync_content_registry
 from site_config import PUBLIC_ORIGIN
+from route_rules import REDIRECTS
 
 ROOT = Path(__file__).resolve().parent.parent
 DIST = ROOT / "dist"
@@ -19,7 +20,9 @@ for target in DIST.rglob("index.html"):
     route = "/" + target.parent.relative_to(DIST).as_posix().strip(".") + "/"
     route = "/" if route == "//" else route
     pages[route] = target.read_text()
-assert set(baseline["routes"]) <= set(pages), "An established URL was removed"
+assert set(baseline["routes"]) - set(REDIRECTS) <= set(pages), "An unapproved established URL was removed"
+assert not set(REDIRECTS) & set(pages), "Retired city URL still has an index document"
+assert len(pages) == 56
 assert set(NEW_PAGES) <= set(pages)
 for route in NEW_PAGES:
     text = pages[route]

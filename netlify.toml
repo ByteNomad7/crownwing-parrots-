@@ -1,0 +1,11 @@
+# Netlify hosts the generated HTML, not the Replit Gunicorn process.
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  PYTHON_VERSION = "3.12"
+  NODE_VERSION = "22"
+
+[build.processing.html]
+  pretty_urls = true

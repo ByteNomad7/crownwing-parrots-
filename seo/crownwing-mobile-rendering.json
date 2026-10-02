@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-02T17:52:09.950Z",
+  "checked_at": "2026-10-02T23:29:49.869Z",
   "viewport": {
     "width": 390,
     "height": 900
@@ -95,7 +95,7 @@
       "h1": [
         "Parrot guides for a considered beginning"
       ],
-      "htmlLinks": 22,
+      "htmlLinks": 28,
       "overflow": false,
       "canonical": "https://crownwingparrots.co.uk/guides/",
       "menuPresent": true,
@@ -111,7 +111,7 @@
       "h1": [
         "Your parrot buying checklist"
       ],
-      "htmlLinks": 22,
+      "htmlLinks": 23,
       "overflow": false,
       "canonical": "https://crownwingparrots.co.uk/guides/buying-a-parrot-checklist/",
       "menuPresent": true,
@@ -143,7 +143,7 @@
       "h1": [
         "Choosing a parrot for your home"
       ],
-      "htmlLinks": 22,
+      "htmlLinks": 23,
       "overflow": false,
       "canonical": "https://crownwingparrots.co.uk/guides/choosing-a-parrot/",
       "menuPresent": true,
@@ -233,22 +233,6 @@
       "pageErrors": []
     },
     {
-      "route": "/locations/",
-      "status": 200,
-      "title": "UK parrot city guides | Local buying enquiries | Crownwing Parrots",
-      "h1": [
-        "Your city.Your home.A considered choice."
-      ],
-      "htmlLinks": 25,
-      "overflow": false,
-      "canonical": "https://crownwingparrots.co.uk/locations/",
-      "menuPresent": true,
-      "enhancedBudget": false,
-      "comparisonGroups": 0,
-      "menuOpens": true,
-      "pageErrors": []
-    },
-    {
       "route": "/locations/belfast/",
       "status": 200,
       "title": "Parrot enquiry planning for Belfast | Crownwing Parrots",
@@ -258,198 +242,6 @@
       "htmlLinks": 22,
       "overflow": false,
       "canonical": "https://crownwingparrots.co.uk/locations/belfast/",
-      "menuPresent": true,
-      "enhancedBudget": false,
-      "comparisonGroups": 0,
-      "menuOpens": true,
-      "pageErrors": []
-    },
-    {
-      "route": "/locations/birmingham/",
-      "status": 200,
-      "title": "Parrot ownership questions for Birmingham households | Crownwing Parrots",
-      "h1": [
-        "Parrots for Birmingham homes"
-      ],
-      "htmlLinks": 16,
-      "overflow": false,
-      "canonical": "https://crownwingparrots.co.uk/locations/birmingham/",
-      "menuPresent": true,
-      "enhancedBudget": false,
-      "comparisonGroups": 0,
-      "menuOpens": true,
-      "pageErrors": []
-    },
-    {
-      "route": "/locations/bristol/",
-      "status": 200,
-      "title": "Planning for a parrot in Bristol | Crownwing Parrots",
-      "h1": [
-        "Parrots for Bristol homes"
-      ],
-      "htmlLinks": 16,
-      "overflow": false,
-      "canonical": "https://crownwingparrots.co.uk/locations/bristol/",
-      "menuPresent": true,
-      "enhancedBudget": false,
-      "comparisonGroups": 0,
-      "menuOpens": true,
-      "pageErrors": []
-    },
-    {
-      "route": "/locations/cardiff/",
-      "status": 200,
-      "title": "Choosing and enquiring about parrots in Cardiff | Crownwing Parrots",
-      "h1": [
-        "Parrots for Cardiff homes"
-      ],
-      "htmlLinks": 16,
-      "overflow": false,
-      "canonical": "https://crownwingparrots.co.uk/locations/cardiff/",
-      "menuPresent": true,
-      "enhancedBudget": false,
-      "comparisonGroups": 0,
-      "menuOpens": true,
-      "pageErrors": []
-    },
-    {
-      "route": "/locations/edinburgh/",
-      "status": 200,
-      "title": "Long-term parrot planning in Edinburgh | Crownwing Parrots",
-      "h1": [
-        "Parrots for Edinburgh homes"
-      ],
-      "htmlLinks": 16,
-      "overflow": false,
-      "canonical": "https://crownwingparrots.co.uk/locations/edinburgh/",
-      "menuPresent": true,
-      "enhancedBudget": false,
-      "comparisonGroups": 0,
-      "menuOpens": true,
-      "pageErrors": []
-    },
-    {
-      "route": "/locations/glasgow/",
-      "status": 200,
-      "title": "Diet and routine questions for Glasgow parrot enquiries | Crownwing Parrots",
-      "h1": [
-        "Parrots for Glasgow homes"
-      ],
-      "htmlLinks": 16,
-      "overflow": false,
-      "canonical": "https://crownwingparrots.co.uk/locations/glasgow/",
-      "menuPresent": true,
-      "enhancedBudget": false,
-      "comparisonGroups": 0,
-      "menuOpens": true,
-      "pageErrors": []
-    },
-    {
-      "route": "/locations/leeds/",
-      "status": 200,
-      "title": "A practical parrot plan for Leeds | Crownwing Parrots",
-      "h1": [
-        "Parrots for Leeds homes"
-      ],
-      "htmlLinks": 16,
-      "overflow": false,
-      "canonical": "https://crownwingparrots.co.uk/locations/leeds/",
-      "menuPresent": true,
-      "enhancedBudget": false,
-      "comparisonGroups": 0,
-      "menuOpens": true,
-      "pageErrors": []
-    },
-    {
-      "route": "/locations/liverpool/",
-      "status": 200,
-      "title": "Questions to ask when enquiring about parrots in Liverpool | Crownwing Parrots",
-      "h1": [
-        "Parrots for Liverpool homes"
-      ],
-      "htmlLinks": 16,
-      "overflow": false,
-      "canonical": "https://crownwingparrots.co.uk/locations/liverpool/",
-      "menuPresent": true,
-      "enhancedBudget": false,
-      "comparisonGroups": 0,
-      "menuOpens": true,
-      "pageErrors": []
-    },
-    {
-      "route": "/locations/london/",
-      "status": 200,
-      "title": "Parrot ownership planning for London homes | Crownwing Parrots",
-      "h1": [
-        "Parrots for London homes"
-      ],
-      "htmlLinks": 16,
-      "overflow": false,
-      "canonical": "https://crownwingparrots.co.uk/locations/london/",
-      "menuPresent": true,
-      "enhancedBudget": false,
-      "comparisonGroups": 0,
-      "menuOpens": true,
-      "pageErrors": []
-    },
-    {
-      "route": "/locations/manchester/",
-      "status": 200,
-      "title": "Planning a parrot enquiry in Manchester | Crownwing Parrots",
-      "h1": [
-        "Parrots for Manchester homes"
-      ],
-      "htmlLinks": 16,
-      "overflow": false,
-      "canonical": "https://crownwingparrots.co.uk/locations/manchester/",
-      "menuPresent": true,
-      "enhancedBudget": false,
-      "comparisonGroups": 0,
-      "menuOpens": true,
-      "pageErrors": []
-    },
-    {
-      "route": "/locations/newcastle/",
-      "status": 200,
-      "title": "Parrot enquiry and transport planning for Newcastle | Crownwing Parrots",
-      "h1": [
-        "Parrots for Newcastle upon Tyne homes"
-      ],
-      "htmlLinks": 16,
-      "overflow": false,
-      "canonical": "https://crownwingparrots.co.uk/locations/newcastle/",
-      "menuPresent": true,
-      "enhancedBudget": false,
-      "comparisonGroups": 0,
-      "menuOpens": true,
-      "pageErrors": []
-    },
-    {
-      "route": "/locations/nottingham/",
-      "status": 200,
-      "title": "Starting parrot research in Nottingham | Crownwing Parrots",
-      "h1": [
-        "Parrots for Nottingham homes"
-      ],
-      "htmlLinks": 16,
-      "overflow": false,
-      "canonical": "https://crownwingparrots.co.uk/locations/nottingham/",
-      "menuPresent": true,
-      "enhancedBudget": false,
-      "comparisonGroups": 0,
-      "menuOpens": true,
-      "pageErrors": []
-    },
-    {
-      "route": "/locations/sheffield/",
-      "status": 200,
-      "title": "Enrichment and parrot planning in Sheffield | Crownwing Parrots",
-      "h1": [
-        "Parrots for Sheffield homes"
-      ],
-      "htmlLinks": 16,
-      "overflow": false,
-      "canonical": "https://crownwingparrots.co.uk/locations/sheffield/",
       "menuPresent": true,
       "enhancedBudget": false,
       "comparisonGroups": 0,

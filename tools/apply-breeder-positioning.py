@@ -5,6 +5,7 @@ never individual stock, prices, services or breeding practices not supplied.
 """
 
 import html
+import hashlib
 import json
 import re
 from pathlib import Path
@@ -408,10 +409,21 @@ def apply():
         + "".join("<url><loc>" + escape(origin + path) + "</loc></url>" for path in public_paths)
         + "</urlset>"
     )
+    # Static JS is cacheable in production; a content version prevents existing
+    # visitors from keeping an old photo viewer after a fix is published.
+    detail_version = hashlib.sha256((DIST / "detail.js").read_bytes()).hexdigest()[:12]
+    for target in DIST.rglob("index.html"):
+        text = target.read_text()
+        updated = re.sub(r'(<script\b[^>]*src=")/detail\.js(?:\?[^"]*)?(")',
+                         lambda m: m[1] + "/detail.js?v=" + detail_version + m[2], text)
+        if updated != text:
+            target.write_text(updated)
     print("Applied breeder/retailer positioning, enquiry-based availability and species-guide separation.")
     # Editorial content is the final authority after stock disclosures and photographs.
     import runpy
     runpy.run_path(str(ROOT / "tools/enrich-commercial-content.py"), run_name="__main__")
+    from static_hosting import generate_static_hosting
+    generate_static_hosting()
 
 
 if __name__ == "__main__":

@@ -6,40 +6,90 @@ p{margin:12px 0}code{overflow-wrap:anywhere;color:#284e32;background:#e9eee4;pad
 .table-wrap{overflow:auto}table{border-collapse:collapse;width:100%;font-size:14px}td{padding:10px;border:1px solid #c6cec2;vertical-align:top;overflow-wrap:anywhere}
 tr:first-child{background:#e4ebdd;font-weight:bold}hr{border:0;border-top:1px solid #c6cec2;margin:24px 0}
 @media print{body{background:white}main{padding:0}h2{break-after:avoid}table{font-size:10px}}
-</style><main><section id="implementation-summary"><h1>Applied changes and remaining manual review</h1>
-<p>The audit and all 69 classifications were completed before any public changes. Audit-state inventory fields, classifications and technical facts describe that preserved baseline; separate current word-count/status columns and post-change evidence distinguish the implementation.</p>
-<h2>Exactly what changed</h2>
-<p>- /guides/buying-a-parrot-checklist/: concrete seller-question sheet, documented/observed/unknown answer categories and pre-purchase decision checks.</p>
-<p>- /guides/parrot-diet-nutrition/: feeding-observation example, food-handling routine, veterinary discussion questions and RSPCA reference with genuine editorial check date.</p>
-<p>- /guides/parrot-housing-enrichment/: practical enclosure/room screening, enrichment review and repeatable exercise/maintenance checks, with RSPCA sources.</p>
-<p>- /guides/preparing-for-a-parrot/: before-handover readiness, room/fume hazards, arrival-information and vet-contact prompts, with veterinary-authored hazard reference.</p>
-<p>- /parrot-prices-uk/: individual-quotation comparison, included/excluded items and purchase-versus-ownership separation. No fictitious prices or inclusions.</p>
-<p>- /locations/belfast/: origin/destination/purpose worksheet, directly linked DAERA/APHA starting points and editorial source-check disclosure. No local branch, stock or delivery claim.</p>
-<p>- /available-birds/: title/description now explicitly describe offered groups and details by enquiry, rather than implying published individual prices/ages.</p>
-<p>- Existing source generator integrates these managed additions idempotently; genuine content history/source-check records are updated by its existing date registry.</p>
-<p>No new public pages, page deletions, URL changes, redirects, noindex changes, visual redesign, new tracking, submitted forms or stock/Product/Review schema. All 69 URLs remain until structural recommendations are approved.</p>
-<h2>Changed-page evidence</h2>
+</style><main><p><strong>Current implementation is summarised first. The per-page classification, thin-content and duplication reports below preserve the original audit findings before implementation.</strong></p><h1>Applied changes and remaining manual review</h1>
+<p>The audit classified all 69 actual pages before changes: original 66 plus three later buyer-library additions. Those classifications remain the audit baseline, not an invented final page-count target.</p>
+<h2>Approved consolidation completed</h2>
+<p>- 12 Great Britain city guides and /locations/ have been merged into the strongest existing guides. There are now 56 canonical HTML pages; Belfast remains as a scoped Northern Ireland aid.</p>
+<p>- Useful city topics were consolidated into practical shared-home, weekly-care, first-time expectation, backup-care, safe-room/exercise, feeding-record, enclosure/activity and identity/terms sections. The guide library links directly to these resources, Belfast and shared contact access.</p>
+<p>- 13 source URLs no longer have public index documents, are absent from the sitemap and are not used as internal links. Their city-labelled download forms are replaced by /contact/; no buyer records existed to delete.</p>
+<p>- A shared redirect manifest supplies real HTTP 301s, including slashless and /index.html aliases. Query strings survive; host/protocol corrections and merges resolve in one hop.</p>
+<p>- Autoscale configuration and the production Gunicorn/Flask workflow replace static-only hosting, with the user&#x27;s approval of usage-based compute billing. No publication was performed.</p>
+<p>- Private copies of retired city HTML are in seo/retired-city-pages/. The original audit snapshot and all 69 classifications are preserved.</p>
+<p>- The existing brand, logo/favicon, nature-led styling, photo galleries and remaining enquiry/tool behaviour are preserved. Shared footer and breadcrumb/navigation links now go directly to surviving resources.</p>
+<h2>Earlier safe improvements retained</h2>
+<p>- Seller checklist: specific questions and documented/observed/unknown evidence categories.</p>
+<p>- Nutrition: feeding observations, hygiene, vet discussion and dated welfare references.</p>
+<p>- Housing: enclosure/room screening, enrichment review and repeatable supervision.</p>
+<p>- Home preparation: readiness, household/fume hazards and quiet arrival checks.</p>
+<p>- Purchase prices: individual quotation/inclusion comparison, without fictitious prices.</p>
+<p>- Belfast: DAERA/APHA source links and origin/destination/purpose checks, without local-service claims.</p>
+<p>- Availability metadata: offered groups and details by enquiry, not implied published individual prices/ages.</p>
+<h2>Exact permanent redirect destinations</h2>
 <div class="table-wrap"><table>
-<tr><td>URL</td><td>Words at audit</td><td>Words after expansion</td></tr>
-<tr><td>/available-birds/</td><td>354</td><td>354</td></tr>
-<tr><td>/guides/buying-a-parrot-checklist/</td><td>396</td><td>859</td></tr>
-<tr><td>/guides/parrot-diet-nutrition/</td><td>312</td><td>780</td></tr>
-<tr><td>/guides/parrot-housing-enrichment/</td><td>292</td><td>778</td></tr>
-<tr><td>/guides/preparing-for-a-parrot/</td><td>295</td><td>763</td></tr>
-<tr><td>/locations/belfast/</td><td>504</td><td>811</td></tr>
-<tr><td>/parrot-prices-uk/</td><td>342</td><td>672</td></tr>
+<tr><td>Retired URL</td><td>Direct destination</td></tr>
+<tr><td>/locations/</td><td>/guides/</td></tr>
+<tr><td>/locations/birmingham/</td><td>/guides/choosing-a-parrot/</td></tr>
+<tr><td>/locations/bristol/</td><td>/guides/preparing-for-a-parrot/</td></tr>
+<tr><td>/locations/cardiff/</td><td>/guides/choosing-a-parrot/</td></tr>
+<tr><td>/locations/edinburgh/</td><td>/guides/parrot-ownership-costs/</td></tr>
+<tr><td>/locations/glasgow/</td><td>/guides/parrot-diet-nutrition/</td></tr>
+<tr><td>/locations/leeds/</td><td>/guides/parrot-housing-enrichment/</td></tr>
+<tr><td>/locations/liverpool/</td><td>/guides/buying-a-parrot-checklist/</td></tr>
+<tr><td>/locations/london/</td><td>/guides/choosing-a-parrot/</td></tr>
+<tr><td>/locations/manchester/</td><td>/guides/choosing-a-parrot/</td></tr>
+<tr><td>/locations/newcastle/</td><td>/guides/buying-a-parrot-checklist/</td></tr>
+<tr><td>/locations/nottingham/</td><td>/guides/choosing-a-parrot/</td></tr>
+<tr><td>/locations/sheffield/</td><td>/guides/parrot-housing-enrichment/</td></tr>
 </table></div>
-<h2>Verified</h2>
-<p>The full npm test suite passed: 69 preserved routes, metadata/canonicals/sitemap, source/schema/images/fragments, buyer intent, existing enquiry boundaries, URL aliases and buyer-tool validation. All 69 pages also passed live mobile H1/navigation/overflow/error checks after these changes. The complete audit-phase HTTP crawl and graph checks are retained in the before snapshot; post-change browser evidence is current.</p>
-<h2>Manual review / remaining work</h2>
-<p>1. Approve or decline the 13 city/directory merge recommendations. The proposed result is 56 canonical indexable pages, not a page-count target. Consolidation must preserve useful content, replace separate city enquiry forms with contact access and serve tested single-hop 301s.</p>
-<p>2. Verify a production-supported HTTP redirect method before retirement. Current static publishing does not automatically run the preview Python redirect server.</p>
-<p>3. Confirm the 16 named species are genuinely within the intended offered range. Their B briefs require sourced species-specific depth; no fabricated availability justifies retention.</p>
-<p>4. Supply first-party facts for /our-approach/: real care practices and the actual buying/aftercare process. No unverified qualifications, history or guarantees were added.</p>
-<p>5. Verify any price data, individual birds and handover services before publishing them. The improved quotation page still does not offer measured market-average or current individual prices.</p>
-<p>6. Obtain published-host/Search Console/backlink and field-CWV evidence; rankings, volume/difficulty and actual Google indexation remain unknown.</p>
-<p>7. Source-checks are editorial, not professional legal/veterinary approval. Maintain genuine review dates and relevant expert support.</p>
-<p>The original A/B/C labels remain the audit decisions; six B pages have received practical expansions, while exact-offer, first-party evidence and structural gates remain visible instead of being claimed complete.</p></section><hr><h1>Crownwing Parrots — complete page classification</h1>
+<h2>Verification and limits</h2>
+<p>The full npm test suite passes. Production-app tests cover all 13 redirect rules and three path variants with GET/HEAD, query retention, combined host/protocol correction, every surviving page&#x27;s index/slash aliases, sitemap/robots content, no internal retired links, private-file protection, branded 404s and non-submitting contact behaviour.</p>
+<p>All 56 surviving pages pass live mobile title/H1/navigation/error/overflow checks. The running preview uses the same Gunicorn/Flask service configured for publishing. These are development/production-app tests, not proof of a published deployment or actual Google indexing. Rebuild checks verify the 56/13 route split and managed additions remain stable.</p>
+<h2>Remaining manual review</h2>
+<p>1. Publish the configured Autoscale app, connect/verify the owner-specified crownwingparrots.co.uk domain and check all 13 HTTP redirects on the real published host. Production has not been published or verified.</p>
+<p>2. Confirm the 16 named species are genuinely within the intended offered range; complete the specific evidence/depth briefs without treating photos as stock proof.</p>
+<p>3. Provide first-party business/care/buying/aftercare facts for /our-approach/. No credentials, years of experience or guarantees were invented.</p>
+<p>4. Verify actual individual birds, prices and any handover arrangements before publishing them.</p>
+<p>5. Obtain Search Console/backlink history and field-CWV evidence. Historical city traffic, rankings, keyword volumes/difficulty and Google indexation remain unverified.</p>
+<p>6. Keep legal/veterinary professional review distinct from editorial source checks.</p><hr><h1>Audit-led implementation plan</h1>
+<p>Audit and classification completed before public changes. This plan is separate from approval and from an implementation log.</p>
+<h2>1. Safe strengthening of A pages</h2>
+<p>Retain URLs, brand, logo/favicon, nature-led H1 and existing visual design. Keep /parrots-for-sale/ as the strong national commercial hub rather than manufacturing /parrots-for-sale-uk/. Improve contextual buying/policy/documentation links and an accurate offered-groups availability title. Preserve care/buying and purchase/ownership-cost intent boundaries.</p>
+<h2>2. Substantive B expansion</h2>
+<p>Expand the four practical guides as task-based checklists/examples, not word-count padding. Develop purchase-quote comparison without fictitious prices. Strengthen the NI movement aid with verified DAERA/APHA references and the documentation cornerstone. About/process needs owner-confirmed first-party facts.</p>
+<p>Each of the 16 species profiles has a specific expansion brief in the classification report. Source-check taxonomy and numeric claims and add useful species-dependent home/routine tasks. Owner must first confirm these exact species are in Crownwing&#x27;s intended offered range; an educational image is not stock evidence. Do not solve the gap with fabricated author credentials, prices, rearing, certificates or experiences.</p>
+<h2>3. C consolidation — approved and implemented</h2>
+<p>Retire 12 generic Great Britain city search pages plus their directory. Preserve useful topic sections in the strongest existing guides, maintain enquiry access through /contact/, and retain the distinct Belfast/NI aid with tighter source-backed scope.</p>
+<p><strong>Consequence:</strong> 13 existing URLs cease to be standalone landing pages, and their separate city-labelled download forms are replaced by the shared enquiry path. Saved URLs/backlinks should resolve directly to relevant guides through permanent 301s. No buyer records are deleted: these forms do not store records. Without Search Console/backlink data, historical traffic/value cannot be verified.</p>
+<p><strong>Hosting gate resolved for the configured app:</strong> The owner approved Autoscale with usage-based compute billing. Production Gunicorn/Flask tests verify actual HTTP 301 behaviour, including aliases and query strings. Publishing and real-host checks remain manual; static rewrites are not substituted for redirects.</p>
+<div class="table-wrap"><table>
+<tr><td>Source</td><td>Strongest destination</td></tr>
+<tr><td>/locations/</td><td>/guides/</td></tr>
+<tr><td>/locations/birmingham/</td><td>/guides/choosing-a-parrot/</td></tr>
+<tr><td>/locations/bristol/</td><td>/guides/preparing-for-a-parrot/</td></tr>
+<tr><td>/locations/cardiff/</td><td>/guides/choosing-a-parrot/</td></tr>
+<tr><td>/locations/edinburgh/</td><td>/guides/parrot-ownership-costs/</td></tr>
+<tr><td>/locations/glasgow/</td><td>/guides/parrot-diet-nutrition/</td></tr>
+<tr><td>/locations/leeds/</td><td>/guides/parrot-housing-enrichment/</td></tr>
+<tr><td>/locations/liverpool/</td><td>/guides/buying-a-parrot-checklist/</td></tr>
+<tr><td>/locations/london/</td><td>/guides/choosing-a-parrot/</td></tr>
+<tr><td>/locations/manchester/</td><td>/guides/choosing-a-parrot/</td></tr>
+<tr><td>/locations/newcastle/</td><td>/guides/buying-a-parrot-checklist/</td></tr>
+<tr><td>/locations/nottingham/</td><td>/guides/choosing-a-parrot/</td></tr>
+<tr><td>/locations/sheffield/</td><td>/guides/parrot-housing-enrichment/</td></tr>
+</table></div>
+<h2>4. D/E and technical clean-up</h2>
+<p>No primary D/E page recommendations in this evidence set; do not manufacture removals. Existing path aliases are separately handled, not counted as extra classified pages. After approved C implementation, remove all 13 redirect sources from sitemap, update internal links directly, and verify single-hop status/Location and no chains/loops. Remaining proposed indexable count: 56.</p>
+<p>Do not use robots disallow as noindex. Keep policy/contact pages as useful trust/support routes. No new pages to fill architecture quotas.</p>
+<h2>5. Verification and manual gates</h2>
+<p>- Run complete generated-site tests, metadata/schema/image/link checks and all-route mobile audit after changes.</p>
+<p>- Confirm clean HTTPS/non-www/path aliases on the real published host; check source headers and sitemap there.</p>
+<p>- Verify schema with official tools without assuming rich-result eligibility.</p>
+<p>- Connect owner-authorised Search Console to check impressions, queries, indexed/excluded pages and backlink/history signals; no rankings are invented.</p>
+<p>- Remeasure representative image-heavy templates; get field CWV once real traffic exists.</p>
+<p>- Owner checks exact offered-species scope, prices, identity/care practices, and viewing/handover/aftercare commitments.</p>
+<p>- Legal/veterinary expert review remains distinct from editorial source retrieval.</p>
+<h2>Current implementation status</h2>
+<p>Six practical expansions, accurate availability metadata and all 13 owner-approved city/directory merges are implemented. Autoscale server hosting was approved and configured for real HTTP 301s. There are 56 surviving canonical pages. Publish-host checks and exact-species/business evidence remain outstanding; see crownwing-implementation-summary.md.</p><hr><h1>Crownwing Parrots — complete page classification</h1>
 <p>Audit date: 2026-10-02T17:39:44.893247+00:00. Recommendations, not an implementation log.</p>
 <p>Total pages audited: <strong>69</strong> — all <strong>66 original URLs</strong> plus <strong>3 previously added buyer-library URLs</strong>. The filename requested in the brief is retained; no page is omitted to force a total of 66.</p>
 <div class="table-wrap"><table>
@@ -2142,47 +2192,7 @@ tr:first-child{background:#e4ebdd;font-weight:bold}hr{border:0;border-top:1px so
 <p><strong>Priority:</strong> HIGH</p>
 <p><strong>Reason:</strong>  </p>
 <p>Independent trust/support value justifies retaining the URL.</p>
-<hr>
-<h1>Audit-led implementation plan</h1>
-<p>Audit and classification completed before public changes. This plan is separate from approval and from an implementation log.</p>
-<h2>1. Safe strengthening of A pages</h2>
-<p>Retain URLs, brand, logo/favicon, nature-led H1 and existing visual design. Keep /parrots-for-sale/ as the strong national commercial hub rather than manufacturing /parrots-for-sale-uk/. Improve contextual buying/policy/documentation links and an accurate offered-groups availability title. Preserve care/buying and purchase/ownership-cost intent boundaries.</p>
-<h2>2. Substantive B expansion</h2>
-<p>Expand the four practical guides as task-based checklists/examples, not word-count padding. Develop purchase-quote comparison without fictitious prices. Strengthen the NI movement aid with verified DAERA/APHA references and the documentation cornerstone. About/process needs owner-confirmed first-party facts.</p>
-<p>Each of the 16 species profiles has a specific expansion brief in the classification report. Source-check taxonomy and numeric claims and add useful species-dependent home/routine tasks. Owner must first confirm these exact species are in Crownwing&#x27;s intended offered range; an educational image is not stock evidence. Do not solve the gap with fabricated author credentials, prices, rearing, certificates or experiences.</p>
-<h2>3. Proposed C consolidation — owner decision needed</h2>
-<p>Retire 12 generic Great Britain city search pages plus their directory. Preserve useful topic sections in the strongest existing guides, maintain enquiry access through /contact/, and retain the distinct Belfast/NI aid with tighter source-backed scope.</p>
-<p><strong>Consequence:</strong> 13 existing URLs cease to be standalone landing pages, and their separate city-labelled download forms are replaced by the shared enquiry path. Saved URLs/backlinks should resolve directly to relevant guides through permanent 301s. No buyer records are deleted: these forms do not store records. Without Search Console/backlink data, historical traffic/value cannot be verified.</p>
-<p><strong>Hosting gate:</strong> Current instructions publish dist as static files; the Python server&#x27;s preview-only redirects do not automatically exist on a static published host. Before any retirement, select and verify a production-supported redirect mechanism or supported server-hosted setup. Do not silently substitute JavaScript/meta-refresh for requested HTTP 301s, and do not delete old HTML before correct production handling exists.</p>
-<div class="table-wrap"><table>
-<tr><td>Source</td><td>Strongest destination</td></tr>
-<tr><td>/locations/</td><td>/guides/</td></tr>
-<tr><td>/locations/birmingham/</td><td>/guides/choosing-a-parrot/</td></tr>
-<tr><td>/locations/bristol/</td><td>/guides/preparing-for-a-parrot/</td></tr>
-<tr><td>/locations/cardiff/</td><td>/guides/choosing-a-parrot/</td></tr>
-<tr><td>/locations/edinburgh/</td><td>/guides/parrot-ownership-costs/</td></tr>
-<tr><td>/locations/glasgow/</td><td>/guides/parrot-diet-nutrition/</td></tr>
-<tr><td>/locations/leeds/</td><td>/guides/parrot-housing-enrichment/</td></tr>
-<tr><td>/locations/liverpool/</td><td>/guides/buying-a-parrot-checklist/</td></tr>
-<tr><td>/locations/london/</td><td>/guides/choosing-a-parrot/</td></tr>
-<tr><td>/locations/manchester/</td><td>/guides/choosing-a-parrot/</td></tr>
-<tr><td>/locations/newcastle/</td><td>/guides/buying-a-parrot-checklist/</td></tr>
-<tr><td>/locations/nottingham/</td><td>/guides/choosing-a-parrot/</td></tr>
-<tr><td>/locations/sheffield/</td><td>/guides/parrot-housing-enrichment/</td></tr>
-</table></div>
-<h2>4. D/E and technical clean-up</h2>
-<p>No primary D/E page recommendations in this evidence set; do not manufacture removals. Existing path aliases are separately handled, not counted as extra classified pages. After approved C implementation, remove all 13 redirect sources from sitemap, update internal links directly, and verify single-hop status/Location and no chains/loops. Remaining proposed indexable count: 56.</p>
-<p>Do not use robots disallow as noindex. Keep policy/contact pages as useful trust/support routes. No new pages to fill architecture quotas.</p>
-<h2>5. Verification and manual gates</h2>
-<p>- Run complete generated-site tests, metadata/schema/image/link checks and all-route mobile audit after changes.</p>
-<p>- Confirm clean HTTPS/non-www/path aliases on the real published host; check source headers and sitemap there.</p>
-<p>- Verify schema with official tools without assuming rich-result eligibility.</p>
-<p>- Connect owner-authorised Search Console to check impressions, queries, indexed/excluded pages and backlink/history signals; no rankings are invented.</p>
-<p>- Remeasure representative image-heavy templates; get field CWV once real traffic exists.</p>
-<p>- Owner checks exact offered-species scope, prices, identity/care practices, and viewing/handover/aftercare commitments.</p>
-<p>- Legal/veterinary expert review remains distinct from editorial source retrieval.</p>
-<h2>Current implementation status</h2>
-<p>Audit first, then six practical expansions and one availability metadata clarification. See crownwing-implementation-summary.md and the after snapshot for exact changes. C retirements, exact-species/business confirmations and production redirect support remain outstanding; no structural changes are represented as completed.</p><h1>Thin/incomplete content review</h1>
+<hr><hr><h1>Thin/incomplete content review</h1>
 <p>This is an intent/usefulness review, not a minimum-word-count rule. No automatic expansion or deletion.</p>
 <p>Seven incomplete standalone-task pages, sixteen species-depth/evidence gaps and thirteen local independent-value flags are distinguished below. The contact and care hubs are legitimate short-purpose exceptions.</p>
 <h2>/guides/buying-a-parrot-checklist/</h2>
@@ -2345,8 +2355,7 @@ tr:first-child{background:#e4ebdd;font-weight:bold}hr{border:0;border-top:1px so
 <h2>Short-purpose exceptions</h2>
 <p>/contact/: direct contact/support and truthful download-only form; keep.</p>
 <p>/parrot-care/: focused resource navigation; keep. Neither needs generic filler to pass a numeric threshold.</p>
-<p>No evidence establishes AI authorship. Repeated structure alone is not a detector of AI content; no such accusation is made.</p>
-<h1>Duplicate and overlapping-intent review</h1>
+<p>No evidence establishes AI authorship. Repeated structure alone is not a detector of AI content; no such accusation is made.</p><hr><h1>Duplicate and overlapping-intent review</h1>
 <p>Compared every pair: <strong>2346</strong>. Five-word containment ≥0.65 flags: <strong>0</strong>. Boilerplate/chrome excluded. Containment is |shared shingles| / min(|A|,|B|); it is directional-content containment, not a semantic confidence score.</p>
 <p>There are <strong>7 manually assessed overlapping-reader-task groups</strong>. These are not claims of proven Google cannibalisation or exact duplicated prose.</p>
 <h2>Group: /guides/</h2>
@@ -2412,8 +2421,7 @@ tr:first-child{background:#e4ebdd;font-weight:bold}hr{border:0;border-top:1px so
 <tr><td>https://crownwingparrots.co.uk/guides/choosing-a-parrot/</td><td>https://crownwingparrots.co.uk/parrots/conures/</td><td>0.048</td></tr>
 <tr><td>https://crownwingparrots.co.uk/parrots-for-sale/parakeets-small-parrots/</td><td>https://crownwingparrots.co.uk/parrots-for-sale/talking-parrots/</td><td>0.048</td></tr>
 <tr><td>https://crownwingparrots.co.uk/parrots-for-sale/talking-parrots/</td><td>https://crownwingparrots.co.uk/parrots/amazons/</td><td>0.048</td></tr>
-</table></div>
-<h1>Internal-linking audit and implementation plan</h1>
+</table></div><hr><h1>Internal-linking audit and implementation plan</h1>
 <p>Current source graph: 69 pages; 0 non-home orphans; 0 unreachable; 0 broken file/fragment links. Counts in the inventory are distinct referring/target pages, not repeated link occurrences. Contextual counts exclude header/nav/footer/aside. Current page depth is separately recorded.</p>
 <h2>Desired roles and pathways</h2>
 <p>- Homepage → existing /parrots-for-sale/ national hub → eight group buying categories → clearly educational group/species information.</p>
@@ -2480,146 +2488,77 @@ tr:first-child{background:#e4ebdd;font-weight:bold}hr{border:0;border-top:1px so
 <h2>Footer and discovery</h2>
 <p>Keep branding, contact and all confirmed policy links. Footer links are not a replacement for topic-context links. Do not add every species/city to the footer. After approved merges remove the regional directory navigation and link directly to the appropriate buyer resources plus the NI aid; do not label generic guides as local branches.</p>
 <h2>Verification after implementation</h2>
-<p>Recompute reachability, unique contextual in/out counts, missing fragments and source/HTTP statuses. Internal links should go directly to surviving canonical URLs, not through retirement redirects. Preserve existing responsive menu and no-JS readability.</p>
-<h1>Technical SEO and experience evidence</h1>
-<h2>Coverage</h2>
-<p>- All 69 canonical routes crawled through the running HTTPS preview; HTTP 200 count 69.</p>
-<p>- Every route rendered at 390×900 with JavaScript, live H1/canonical/link checks, overflow containment and mobile-menu opening; observed failures 0.</p>
-<p>- Every source checked for metadata, headings, assets, image attributes, schema syntax/types and sitemap inclusion.</p>
-<p>- No client-side route shell; meaningful main content and normal href links are in response HTML.</p>
-<p>- Current generated HTML and served body hashes compared, including all 69 pages.</p>
-<p>- Query probe is identical to the canonical commercial response: True.</p>
-<p>- A nonexistent route returns 404; uppercase probe returns 404.</p>
-<p>- Existing index-document/slash aliases resolve to canonical routes; source tests cover combined www/HTTPS/path handling. No published-host www/DNS/redirect assertion is made.</p>
-<h2>Indexing and sitemap</h2>
-<p>Source robots content:</p>
-<p>User-agent: *</p>
-<p>Allow: /</p>
-<p>Sitemap: https://crownwingparrots.co.uk/sitemap.xml</p>
-<p>The actual preview robots response starts with: &#x27;User-agent: *\nAllow: /\nSitemap: https://crownwingparrots.co.uk/sitemap.xml\n&#x27;. Sitemap response content type: text/xml. Source sitemap has 69 entries; 0 current route mismatches.</p>
-<p>Development-proxy noindex affects 69 routes. Do not change truthful canonicals or application policy to raise a preview Lighthouse SEO score. Published-host headers and Search Console need a separate check.</p>
-<h2>Structured data</h2>
-<p>Recursive @graph/type extraction is used; graph containers are not falsely reported as unknown schema. JSON syntax is checked. Organization/WebSite, WebPage/CollectionPage, BreadcrumbList and Article types should match visible roles. No Product/Offer/Review/AggregateRating is justified by educational photos or group-by-enquiry pages. Publication/expert-review dates and reviewers remain unknown unless genuinely supported; no requirement is solved by fabricating them.</p>
-<h2>Images and external references</h2>
-<p>Every source image occurrence is in crownwing-image-audit.csv, including alt role, dimensions, source bytes, responsive sources and loading/priority. Decorative labelled thumbnails and branding are treated differently from meaningful bird photos. Filename/alt correctness and ambiguous mutation/hybrid identities require owner/editorial verification; a present alt is not proof of exact species or current stock. Compression analysis uses source bytes, not full browser transfer size.</p>
-<p>All 20 distinct external href references returned readable content through webFetch and are saved in crownwing-external-source-checks.json. This is not a raw HTTP-status claim or legal/veterinary endorsement. SpeciesPlus requires interactive species-specific lookup. Older Eclectus roratus references can refer to a broader pre-split complex: do not present them as Papuan-specific taxonomy evidence. External information and rules can change.</p>
-<h2>Page speed, accessibility and limits</h2>
-<p>Existing choosing-guide Lighthouse results remain applicable because public pages were not changed: mobile 87 / LCP 2.9s / CLS 0 / TBT 0; desktop 99 / LCP 0.8s / CLS 0.011. Mobile LCP is above the 2.5s good threshold in that lab run. Investigate font/image resource timing on representative homepage, commercial, image-heavy species and legal templates before claiming site-wide performance.</p>
-<p>No field CWV/INP, production CrUX, complete route-by-route Lighthouse run, screen-reader audit or WCAG conformance claim. All-page mobile structural/navigation checks are broader than the previous two-tool tests, but do not cover every gallery/form interaction. Existing buyer-tools-browser.json covers desktop/mobile comparison and budget interactions plus no-JS safeguards.</p>
-<h2>Mechanical source findings</h2>
-<p>None observed.</p>
-<h1>Proposed indexation matrix</h1>
-<p>Recommendations only. Current source includes 69 pages; actual Google indexing is unknown. Preview noindex headers are not application meta policy. Do not block retired/noindex URLs in robots.txt before crawlers can see their directive/status.</p>
+<p>Recompute reachability, unique contextual in/out counts, missing fragments and source/HTTP statuses. Internal links should go directly to surviving canonical URLs, not through retirement redirects. Preserve existing responsive menu and no-JS readability.</p><hr><h1>Current source indexation matrix</h1>
+<p>56 canonical HTML pages; 13 approved legacy routes return HTTP 301 through the production app. Google indexation and published-host behaviour remain unverified until publishing.</p>
 <div class="table-wrap"><table>
-<tr><td>URL</td><td>Index?</td><td>Reason</td></tr>
-<tr><td>https://crownwingparrots.co.uk/</td><td>INDEX</td><td>The homepage establishes the business rather than duplicating a national sales landing page.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/available-birds/</td><td>INDEX</td><td>A branded availability directory has a different job from the national buying hub.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/business-policies/</td><td>INDEX</td><td>Independent trust/support value justifies retaining the URL.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/contact/</td><td>INDEX</td><td>A short contact page can fully satisfy its purpose; word count is not a removal criterion.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/cookie-policy/</td><td>INDEX</td><td>Independent trust/support value justifies retaining the URL.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/guides/</td><td>INDEX</td><td>A resource index need not have article-length prose to earn its place.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/guides/buying-a-parrot-checklist/</td><td>INDEX</td><td>Standalone practical intent is useful, but the present broad guidance leaves concrete reader tasks unfinished.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/guides/buying-a-parrot/</td><td>INDEX</td><td>Comprehensive decision/process intent is different from the commercial range hub.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/guides/choosing-a-parrot/</td><td>INDEX</td><td>An actionable comparison serves a distinct shortlist decision.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/guides/cites-parrots-uk/</td><td>INDEX</td><td>Jurisdiction-sensitive documentation is a real UK buyer need and should not be fragmented into near-duplicate pages.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/guides/parrot-diet-nutrition/</td><td>INDEX</td><td>Standalone practical intent is useful, but the present broad guidance leaves concrete reader tasks unfinished.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/guides/parrot-housing-enrichment/</td><td>INDEX</td><td>Standalone practical intent is useful, but the present broad guidance leaves concrete reader tasks unfinished.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/guides/parrot-ownership-costs/</td><td>INDEX</td><td>A personal ownership budget is not a duplicate of a purchase-price page.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/guides/preparing-for-a-parrot/</td><td>INDEX</td><td>Standalone practical intent is useful, but the present broad guidance leaves concrete reader tasks unfinished.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/locations/</td><td>REDIRECT</td><td>The broader guides library is the strongest replacement for resource discovery, without presenting unverified coverage as local service.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/locations/belfast/</td><td>INDEX</td><td>NI movement is materially different from generic Great Britain household planning; no branch or transport service is established.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/locations/birmingham/</td><td>REDIRECT</td><td>Merge for overlapping reader tasks, not because the prose is an exact duplicate. No verified city-specific service, stock or local resource justifies this separate search landing page.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/locations/bristol/</td><td>REDIRECT</td><td>Merge for overlapping reader tasks, not because the prose is an exact duplicate. No verified city-specific service, stock or local resource justifies this separate search landing page.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/locations/cardiff/</td><td>REDIRECT</td><td>Merge for overlapping reader tasks, not because the prose is an exact duplicate. No verified city-specific service, stock or local resource justifies this separate search landing page.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/locations/edinburgh/</td><td>REDIRECT</td><td>Merge for overlapping reader tasks, not because the prose is an exact duplicate. No verified city-specific service, stock or local resource justifies this separate search landing page.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/locations/glasgow/</td><td>REDIRECT</td><td>Merge for overlapping reader tasks, not because the prose is an exact duplicate. No verified city-specific service, stock or local resource justifies this separate search landing page.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/locations/leeds/</td><td>REDIRECT</td><td>Merge for overlapping reader tasks, not because the prose is an exact duplicate. No verified city-specific service, stock or local resource justifies this separate search landing page.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/locations/liverpool/</td><td>REDIRECT</td><td>Merge for overlapping reader tasks, not because the prose is an exact duplicate. No verified city-specific service, stock or local resource justifies this separate search landing page.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/locations/london/</td><td>REDIRECT</td><td>Merge for overlapping reader tasks, not because the prose is an exact duplicate. No verified city-specific service, stock or local resource justifies this separate search landing page.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/locations/manchester/</td><td>REDIRECT</td><td>Merge for overlapping reader tasks, not because the prose is an exact duplicate. No verified city-specific service, stock or local resource justifies this separate search landing page.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/locations/newcastle/</td><td>REDIRECT</td><td>Merge for overlapping reader tasks, not because the prose is an exact duplicate. No verified city-specific service, stock or local resource justifies this separate search landing page.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/locations/nottingham/</td><td>REDIRECT</td><td>Merge for overlapping reader tasks, not because the prose is an exact duplicate. No verified city-specific service, stock or local resource justifies this separate search landing page.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/locations/sheffield/</td><td>REDIRECT</td><td>Merge for overlapping reader tasks, not because the prose is an exact duplicate. No verified city-specific service, stock or local resource justifies this separate search landing page.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/our-approach/</td><td>INDEX</td><td>An about/process page needs verified first-party evidence beyond a generic buying checklist.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrot-care/</td><td>INDEX</td><td>Its narrower care-navigation purpose distinguishes it from the complete guides library.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrot-prices-uk/</td><td>INDEX</td><td>Purchase-price intent differs from ongoing ownership-cost intent and deserves a stronger existing URL.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots-for-sale/</td><td>INDEX</td><td>The requested UK commercial hub already exists under a stable, relevant URL.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots-for-sale/african-grey-parrots/</td><td>INDEX</td><td>A purchase enquiry page is distinct from a group&#x27;s educational care overview.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots-for-sale/amazon-parrots/</td><td>INDEX</td><td>A purchase enquiry page is distinct from a group&#x27;s educational care overview.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots-for-sale/caiques/</td><td>INDEX</td><td>A purchase enquiry page is distinct from a group&#x27;s educational care overview.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots-for-sale/cockatoos/</td><td>INDEX</td><td>A purchase enquiry page is distinct from a group&#x27;s educational care overview.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots-for-sale/conures/</td><td>INDEX</td><td>A purchase enquiry page is distinct from a group&#x27;s educational care overview.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots-for-sale/eclectus-parrots/</td><td>INDEX</td><td>A purchase enquiry page is distinct from a group&#x27;s educational care overview.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots-for-sale/large-parrots/</td><td>INDEX</td><td>Size or vocal-learning criteria span several groups and have a separate reader decision, not just a keyword variation.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots-for-sale/macaws/</td><td>INDEX</td><td>A purchase enquiry page is distinct from a group&#x27;s educational care overview.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots-for-sale/parakeets-small-parrots/</td><td>INDEX</td><td>A purchase enquiry page is distinct from a group&#x27;s educational care overview.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots-for-sale/small-parrots/</td><td>INDEX</td><td>Size or vocal-learning criteria span several groups and have a separate reader decision, not just a keyword variation.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots-for-sale/talking-parrots/</td><td>INDEX</td><td>Size or vocal-learning criteria span several groups and have a separate reader decision, not just a keyword variation.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots/</td><td>INDEX</td><td>A species-research directory has a different purpose from an available-group or buying directory.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots/african-parrots/</td><td>INDEX</td><td>An offered group has an independent research intent and meaningful differences from other groups.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots/african-parrots/congo-african-grey-parrot/</td><td>INDEX</td><td>Improve evidence and species-specific reader tasks, not length. Do not use an unconfirmed profile as proof of availability; if the owner excludes the species, reassess retention rather than invent an offer.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots/african-parrots/timneh-parrot/</td><td>INDEX</td><td>Improve evidence and species-specific reader tasks, not length. Do not use an unconfirmed profile as proof of availability; if the owner excludes the species, reassess retention rather than invent an offer.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots/amazons/</td><td>INDEX</td><td>An offered group has an independent research intent and meaningful differences from other groups.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots/amazons/blue-fronted-amazon-parrot/</td><td>INDEX</td><td>Improve evidence and species-specific reader tasks, not length. Do not use an unconfirmed profile as proof of availability; if the owner excludes the species, reassess retention rather than invent an offer.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots/amazons/yellow-naped-amazon-parrot/</td><td>INDEX</td><td>Improve evidence and species-specific reader tasks, not length. Do not use an unconfirmed profile as proof of availability; if the owner excludes the species, reassess retention rather than invent an offer.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots/caiques/</td><td>INDEX</td><td>An offered group has an independent research intent and meaningful differences from other groups.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots/caiques/black-headed-caique/</td><td>INDEX</td><td>Improve evidence and species-specific reader tasks, not length. Do not use an unconfirmed profile as proof of availability; if the owner excludes the species, reassess retention rather than invent an offer.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots/caiques/white-bellied-caique/</td><td>INDEX</td><td>Improve evidence and species-specific reader tasks, not length. Do not use an unconfirmed profile as proof of availability; if the owner excludes the species, reassess retention rather than invent an offer.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots/cockatoos/</td><td>INDEX</td><td>An offered group has an independent research intent and meaningful differences from other groups.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots/cockatoos/galah-cockatoo/</td><td>INDEX</td><td>Improve evidence and species-specific reader tasks, not length. Do not use an unconfirmed profile as proof of availability; if the owner excludes the species, reassess retention rather than invent an offer.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots/cockatoos/umbrella-cockatoo/</td><td>INDEX</td><td>Improve evidence and species-specific reader tasks, not length. Do not use an unconfirmed profile as proof of availability; if the owner excludes the species, reassess retention rather than invent an offer.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots/conures/</td><td>INDEX</td><td>An offered group has an independent research intent and meaningful differences from other groups.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots/conures/green-cheeked-conure/</td><td>INDEX</td><td>Improve evidence and species-specific reader tasks, not length. Do not use an unconfirmed profile as proof of availability; if the owner excludes the species, reassess retention rather than invent an offer.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots/conures/sun-conure/</td><td>INDEX</td><td>Improve evidence and species-specific reader tasks, not length. Do not use an unconfirmed profile as proof of availability; if the owner excludes the species, reassess retention rather than invent an offer.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots/eclectus/</td><td>INDEX</td><td>An offered group has an independent research intent and meaningful differences from other groups.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots/eclectus/papuan-eclectus-parrot/</td><td>INDEX</td><td>Improve evidence and species-specific reader tasks, not length. Do not use an unconfirmed profile as proof of availability; if the owner excludes the species, reassess retention rather than invent an offer.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots/macaws/</td><td>INDEX</td><td>An offered group has an independent research intent and meaningful differences from other groups.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots/macaws/blue-and-gold-macaw/</td><td>INDEX</td><td>Improve evidence and species-specific reader tasks, not length. Do not use an unconfirmed profile as proof of availability; if the owner excludes the species, reassess retention rather than invent an offer.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots/macaws/scarlet-macaw/</td><td>INDEX</td><td>Improve evidence and species-specific reader tasks, not length. Do not use an unconfirmed profile as proof of availability; if the owner excludes the species, reassess retention rather than invent an offer.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots/parakeets-small-psittacines/</td><td>INDEX</td><td>An offered group has an independent research intent and meaningful differences from other groups.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots/parakeets-small-psittacines/budgerigar/</td><td>INDEX</td><td>Improve evidence and species-specific reader tasks, not length. Do not use an unconfirmed profile as proof of availability; if the owner excludes the species, reassess retention rather than invent an offer.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots/parakeets-small-psittacines/indian-ringneck-parakeet/</td><td>INDEX</td><td>Improve evidence and species-specific reader tasks, not length. Do not use an unconfirmed profile as proof of availability; if the owner excludes the species, reassess retention rather than invent an offer.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/parrots/parakeets-small-psittacines/peach-faced-lovebird/</td><td>INDEX</td><td>Improve evidence and species-specific reader tasks, not length. Do not use an unconfirmed profile as proof of availability; if the owner excludes the species, reassess retention rather than invent an offer.</td></tr>
-<tr><td>https://crownwingparrots.co.uk/privacy-policy/</td><td>INDEX</td><td>Independent trust/support value justifies retaining the URL.</td></tr>
-</table></div>
-<p>If approved, sitemap contains only the 56 surviving canonical INDEX URLs; sources returning 301 are excluded. Keep current sitemap until actual redirects are supported and served.</p>
-<h1>UK keyword research evidence and limits</h1>
-<p>Current public web searches with UK-worded queries, not UK-geolocated Google rank tracking. Numeric volume, difficulty/competition and Crownwing rankings are unavailable and labelled unmeasured/unknown in the map.</p>
-<p>Marketplace results support commercial enquiry intent; UK retailer/welfare guides support choosing/cost/care questions; GOV.UK/DAERA support jurisdiction-sensitive documentation topics. Some returned pages are irrelevant or questionable: they are not evidence of Crownwing stock, prices or services, and no competitor price is copied.</p>
-<h2>Search evidence set 1</h2>
-<p>- Macaw parrot and flower make up bag  – All Star Parrots: https://allstarparrots.co.uk/shop/macaw/macaw-parrot-and-flower-make-up-bag/</p>
-<p>- Parrots for Sale UK | Healthy, Tame &amp; Hand-Raised Birds Available: https://buyparrot.com/</p>
-<p>- Parrots Birds for sale | Pets4Homes: https://www.pets4homes.co.uk/sale/birds/parrots</p>
-<p>- Buy Parrots Birds for sale | Pets4Homes: https://www.pets4homes.co.uk/sale/birds/parrots?keyword=buy</p>
-<p>- African+grey Parrots Birds for sale | Pets4Homes: https://www.pets4homes.co.uk/sale/birds/parrots?keyword=african%2Bgrey</p>
-<p>- Jamesparrotsforsale: https://platform.tracxn.com/a/d/company/66ca25cf0d5c3028034436fa/jamesparrotsforsale?utm_source=parallel&amp;utm_medium=ai#a:about</p>
-<p>- Parrots Birds for sale in Nottingham | Pets4Homes: https://www.pets4homes.co.uk/sale/birds/parrots/united-kingdom/england/nottingham</p>
-<p>- Parrots Birds for sale in London, Greater London | Pets4Homes: https://www.pets4homes.co.uk/sale/birds/parrots/united-kingdom/england/greater-london/london</p>
-<h2>Search evidence set 2</h2>
-<p>- Choosing a Parrot | Parrots | Guide | Omlet UK: https://www.omlet.co.uk/guide/parrots/choosing_a_parrot</p>
-<p>- Beginner’s Guide to Parrots and Parrot Care: https://www.parrots.org/pdfs/all_about_parrots/reference_library/beginners_guide_to_parrots/Beginners%20Guide%20to%20Parrot%20Keeping.pdf</p>
-<p>- Parrot Pros and Cons | Choosing a Parrot | Parrots | Guide | Omlet UK: https://www.omlet.co.uk/guide/parrots/choosing_a_parrot/pros_and_cons</p>
-<p>- Are you Buying a Parrot? 6 Things to Keep in Mind: https://parrotessentials.co.uk/blog/are-you-buying-a-parrot-6-things-to-keep-in-mind</p>
-<p>- Jamesparrotsforsale: https://platform.tracxn.com/a/d/company/66ca25cf0d5c3028034436fa/jamesparrotsforsale?utm_source=parallel&amp;utm_medium=ai#a:about</p>
-<p>- What To Consider Before Buying A Parrot: https://www.northernparrots.com/blog/what-to-consider-before-buying-a-parrot</p>
-<p>- Guide for Potential Pet Bird Owners: Care &amp; Buying Tips | Pets4Homes: https://www.pets4homes.co.uk/pet-advice/information-about-birds-for-potential-pet-bird-owners.html</p>
-<p>- How Much Does It Cost to Get a Parrot? 2026 Price Guide | Hepper Pet Resources: https://articles.hepper.com/how-much-does-it-cost-to-get-a-parrot</p>
-<h2>Search evidence set 3</h2>
-<p>- Check if you need a CITES permit to import or export endangered species - GOV.UK: http://www.gov.uk/guidance/cites-imports-and-exports</p>
-<p>- The Control of Trade in Endangered Species (Amendment and Revocation) Regulations 2026: https://commonsbusiness.parliament.uk/Document/105457/Pdf?subType=Standard</p>
-<p>- Register a captive bird of prey - GOV.UK: https://www.gov.uk/guidance/bird-registration</p>
-<p>- Check if you need a CITES permit to import or export ...: https://qna.files.parliament.uk/qna-attachments/1878775/original/Check%20if%20you%20need%20a%20CITES%20permit%20to%20import%20or%20export%20endangered%20species%20-%20GOV.UK.pdf</p>
-<p>- Guidance for registration of kept birds What you need to know (England and Wales): https://www.bva.co.uk/media/6059/guidance-for-registration-of-kept-birds-sept-2024.pdf</p>
-<p>- Endangered species CITES | Import Licensing Procedures: https://importlicensing.wto.org/content/endangered-species-cites</p>
-<p>- Other Animal Species Movements from Great Britain to Northern Ireland | Department of Agriculture, Environment and Rural Affairs: https://www.daera-ni.gov.uk/articles/other-animal-species-movements-great-britain-northern-ireland</p>
-<h2>Search evidence set 4</h2>
-<p>- Parrothaven: https://platform.tracxn.com/a/d/company/669967fb3675f242f3d5ceac/parrothaven?utm_source=parallel&amp;utm_medium=ai#a:about</p>
-<p>- Parrot Profiles and Care Guides at ParrotEssentials.co.uk: https://parrotessentials.co.uk/blog/category/parrot-profiles</p>
-<p>- 2 Packs Hanging Climbing Net Parrot, Swing Hammock for Birds with 8 PCS Hooks Cage Accessories Rope Ladder Small Animal Supplies Cockatiel Toys for Bird Hamster (50x 40cm) compared | WhichOne: https://uk.which.one/p/B0FSLFJ3N5</p>
-<p>- 2026 Membership - Phoenix Landing Foundation: https://www.phoenixlanding.org/membership.html</p>
-<p>- Amazon Parrots Birds for sale | Pets4Homes: https://www.pets4homes.co.uk/sale/birds/parrots?keyword=amazon</p>
-<p>- Purchase Parrots Birds for sale | Pets4Homes: https://www.pets4homes.co.uk/sale/birds/parrots?keyword=purchase</p>
-<p>- UK Bird Supplier | Parrot Care Group: https://parrotcaregroup.org/</p>
-<p>- Cockatiels for sale in the UK Birdtrader https://www.birdtrader.co.uk › parrots-for-sale › cockat...: https://www.birdtrader.co.uk/uk/parrots-for-sale/cockatiels</p>
-<h2>Mapping gaps</h2>
-<p>Cockatiel offer not confirmed: logical group enquiry only, no new page. Training/behaviour/socialisation have partial coverage, so deepen relevant existing resources before a dedicated page. Broad search wording can have mixed intents; mappings are editorial recommendations, not ranking predictions.</p></main></html>
+<tr><td>URL</td><td>Current source state</td><td>Target</td><td>Implementation</td></tr>
+<tr><td>/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/available-birds/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/available-birds/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/business-policies/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/business-policies/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/contact/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/contact/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/cookie-policy/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/cookie-policy/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/guides/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/guides/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/guides/buying-a-parrot-checklist/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/guides/buying-a-parrot-checklist/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/guides/buying-a-parrot/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/guides/buying-a-parrot/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/guides/choosing-a-parrot/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/guides/choosing-a-parrot/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/guides/cites-parrots-uk/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/guides/cites-parrots-uk/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/guides/parrot-diet-nutrition/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/guides/parrot-diet-nutrition/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/guides/parrot-housing-enrichment/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/guides/parrot-housing-enrichment/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/guides/parrot-ownership-costs/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/guides/parrot-ownership-costs/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/guides/preparing-for-a-parrot/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/guides/preparing-for-a-parrot/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/locations/</td><td>HTTP 301; no index document; absent from sitemap</td><td>https://crownwingparrots.co.uk/guides/</td><td>Implemented; publish and verify real host</td></tr>
+<tr><td>/locations/belfast/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/locations/belfast/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/locations/birmingham/</td><td>HTTP 301; no index document; absent from sitemap</td><td>https://crownwingparrots.co.uk/guides/choosing-a-parrot/</td><td>Implemented; publish and verify real host</td></tr>
+<tr><td>/locations/bristol/</td><td>HTTP 301; no index document; absent from sitemap</td><td>https://crownwingparrots.co.uk/guides/preparing-for-a-parrot/</td><td>Implemented; publish and verify real host</td></tr>
+<tr><td>/locations/cardiff/</td><td>HTTP 301; no index document; absent from sitemap</td><td>https://crownwingparrots.co.uk/guides/choosing-a-parrot/</td><td>Implemented; publish and verify real host</td></tr>
+<tr><td>/locations/edinburgh/</td><td>HTTP 301; no index document; absent from sitemap</td><td>https://crownwingparrots.co.uk/guides/parrot-ownership-costs/</td><td>Implemented; publish and verify real host</td></tr>
+<tr><td>/locations/glasgow/</td><td>HTTP 301; no index document; absent from sitemap</td><td>https://crownwingparrots.co.uk/guides/parrot-diet-nutrition/</td><td>Implemented; publish and verify real host</td></tr>
+<tr><td>/locations/leeds/</td><td>HTTP 301; no index document; absent from sitemap</td><td>https://crownwingparrots.co.uk/guides/parrot-housing-enrichment/</td><td>Implemented; publish and verify real host</td></tr>
+<tr><td>/locations/liverpool/</td><td>HTTP 301; no index document; absent from sitemap</td><td>https://crownwingparrots.co.uk/guides/buying-a-parrot-checklist/</td><td>Implemented; publish and verify real host</td></tr>
+<tr><td>/locations/london/</td><td>HTTP 301; no index document; absent from sitemap</td><td>https://crownwingparrots.co.uk/guides/choosing-a-parrot/</td><td>Implemented; publish and verify real host</td></tr>
+<tr><td>/locations/manchester/</td><td>HTTP 301; no index document; absent from sitemap</td><td>https://crownwingparrots.co.uk/guides/choosing-a-parrot/</td><td>Implemented; publish and verify real host</td></tr>
+<tr><td>/locations/newcastle/</td><td>HTTP 301; no index document; absent from sitemap</td><td>https://crownwingparrots.co.uk/guides/buying-a-parrot-checklist/</td><td>Implemented; publish and verify real host</td></tr>
+<tr><td>/locations/nottingham/</td><td>HTTP 301; no index document; absent from sitemap</td><td>https://crownwingparrots.co.uk/guides/choosing-a-parrot/</td><td>Implemented; publish and verify real host</td></tr>
+<tr><td>/locations/sheffield/</td><td>HTTP 301; no index document; absent from sitemap</td><td>https://crownwingparrots.co.uk/guides/parrot-housing-enrichment/</td><td>Implemented; publish and verify real host</td></tr>
+<tr><td>/our-approach/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/our-approach/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrot-care/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrot-care/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrot-prices-uk/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrot-prices-uk/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots-for-sale/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots-for-sale/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots-for-sale/african-grey-parrots/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots-for-sale/african-grey-parrots/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots-for-sale/amazon-parrots/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots-for-sale/amazon-parrots/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots-for-sale/caiques/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots-for-sale/caiques/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots-for-sale/cockatoos/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots-for-sale/cockatoos/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots-for-sale/conures/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots-for-sale/conures/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots-for-sale/eclectus-parrots/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots-for-sale/eclectus-parrots/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots-for-sale/large-parrots/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots-for-sale/large-parrots/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots-for-sale/macaws/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots-for-sale/macaws/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots-for-sale/parakeets-small-parrots/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots-for-sale/parakeets-small-parrots/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots-for-sale/small-parrots/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots-for-sale/small-parrots/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots-for-sale/talking-parrots/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots-for-sale/talking-parrots/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots/african-parrots/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots/african-parrots/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots/african-parrots/congo-african-grey-parrot/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots/african-parrots/congo-african-grey-parrot/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots/african-parrots/timneh-parrot/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots/african-parrots/timneh-parrot/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots/amazons/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots/amazons/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots/amazons/blue-fronted-amazon-parrot/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots/amazons/blue-fronted-amazon-parrot/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots/amazons/yellow-naped-amazon-parrot/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots/amazons/yellow-naped-amazon-parrot/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots/caiques/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots/caiques/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots/caiques/black-headed-caique/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots/caiques/black-headed-caique/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots/caiques/white-bellied-caique/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots/caiques/white-bellied-caique/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots/cockatoos/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots/cockatoos/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots/cockatoos/galah-cockatoo/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots/cockatoos/galah-cockatoo/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots/cockatoos/umbrella-cockatoo/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots/cockatoos/umbrella-cockatoo/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots/conures/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots/conures/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots/conures/green-cheeked-conure/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots/conures/green-cheeked-conure/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots/conures/sun-conure/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots/conures/sun-conure/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots/eclectus/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots/eclectus/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots/eclectus/papuan-eclectus-parrot/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots/eclectus/papuan-eclectus-parrot/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots/macaws/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots/macaws/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots/macaws/blue-and-gold-macaw/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots/macaws/blue-and-gold-macaw/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots/macaws/scarlet-macaw/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots/macaws/scarlet-macaw/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots/parakeets-small-psittacines/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots/parakeets-small-psittacines/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots/parakeets-small-psittacines/budgerigar/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots/parakeets-small-psittacines/budgerigar/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots/parakeets-small-psittacines/indian-ringneck-parakeet/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots/parakeets-small-psittacines/indian-ringneck-parakeet/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/parrots/parakeets-small-psittacines/peach-faced-lovebird/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/parrots/parakeets-small-psittacines/peach-faced-lovebird/</td><td>Retained; deployed Google state unverified</td></tr>
+<tr><td>/privacy-policy/</td><td>HTTP 200 canonical HTML; in sitemap</td><td>https://crownwingparrots.co.uk/privacy-policy/</td><td>Retained; deployed Google state unverified</td></tr>
+</table></div></main></html>

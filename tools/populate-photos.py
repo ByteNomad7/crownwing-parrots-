@@ -316,8 +316,8 @@ def apply_catalogue(catalogue):
                               lambda m: m[1] + gallery + m[2], text, count=1, flags=re.S)
             text = re.sub(r'<dialog id="photo-dialog".*?</dialog>', "", text, flags=re.S)
             if matching:
-                text = text.replace('<script src="/detail.js">',
-                                    dialog_markup(matching[0]) + '<script src="/detail.js">', 1)
+                text = re.sub(r'(<script src="/detail\.js(?:\?[^"]*)?">)',
+                              lambda m: dialog_markup(matching[0]) + m[1], text, count=1)
 
         if text != original:
             page.write_text(text)

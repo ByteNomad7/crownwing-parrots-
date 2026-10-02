@@ -137,7 +137,13 @@ def apply_buyer_resources(metadata):
                 '<a href="/guides/preparing-for-a-parrot/">Prepare for the first days at home</a>'
                 '</div></section>'
             )
-            target.write_text(insert_once(target.read_text(), block, "buyer-resource-pathways"))
+            text = target.read_text()
+            # Reapply this managed section at a deterministic location. Other
+            # generators can retain the first related section while rebuilding
+            # a body; insert-once alone makes its position alternate each build.
+            text = re.sub(r'<section\b[^>]*\bid="buyer-resource-pathways"[^>]*>.*?</section>',
+                          "", text, flags=re.S)
+            target.write_text(insert_once(text, block, "buyer-resource-pathways"))
 
 
 def origin():
