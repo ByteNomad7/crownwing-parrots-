@@ -276,14 +276,74 @@ em {
 }
 
 .ribbon {
-  justify-content: center;
-  gap: 13px clamp(20px, 3.4vw, 52px);
-  padding: 19px clamp(18px, 4vw, 56px);
-  border-bottom: 1px solid #e8e6d6;
-  background: #f0f0e4;
-  color: #566657;
-  font-size: 9px;
+  display: block;
+  padding: 23px clamp(20px, 5.5vw, 84px);
+  border-bottom: 1px solid #dfe5d7;
+  background: #f0f3e8;
+  color: var(--forest);
+  font-size: 12px;
+  letter-spacing: 0;
+}
+
+.ribbon-label {
+  margin: 0 0 13px;
+  color: #5e7158;
+  font-size: 10px;
+  font-weight: 700;
   letter-spacing: 0.14em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.ribbon-links {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.ribbon-links a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  min-width: 0;
+  min-height: 48px;
+  padding: 11px 14px;
+  border: 1px solid #d6dfce;
+  border-radius: 11px;
+  background: #fbfcf7;
+  color: var(--forest);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.45;
+  text-decoration: none;
+  transition: background 180ms ease, color 180ms ease, border-color 180ms ease;
+}
+
+.ribbon-links a > span:last-child {
+  flex: 0 0 auto;
+  color: var(--moss);
+  font-size: 16px;
+}
+
+.ribbon-links a:hover,
+.ribbon-links a:focus-visible {
+  border-color: var(--forest);
+  background: var(--forest);
+  color: #fffdf6;
+}
+
+.ribbon-links a:hover > span:last-child,
+.ribbon-links a:focus-visible > span:last-child {
+  color: var(--lime);
+}
+
+@media (min-width: 1320px) {
+  .ribbon-links {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
 }
 
 .section {
@@ -1035,9 +1095,16 @@ dialog h2 {
   }
 
   .ribbon {
-    gap: 10px 19px;
-    padding: 17px 18px;
-    font-size: 8px;
+    padding: 22px 20px;
+  }
+
+  .ribbon-links {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .ribbon-links a {
+    padding: 11px 12px;
   }
 
   .section {
