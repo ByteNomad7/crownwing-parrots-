@@ -8,3 +8,9 @@ Crownwing is a breeder and retailer, as confirmed by the user. Retain the curren
 **Why:** The user originally requested a sanctuary-inspired design and excluded logo and favicon changes, then clarified the business is a breeder and retailer and requested clearer marketing around that identity.
 
 **How to apply:** Keep visual work nature-led, approachable and professional. Position approved marketing copy around breeding, retail and responsible buying, not rescue or charitable operations. The user requires breeder practices, buyer inclusions, collection arrangements and aftercare claims to use only confirmed details; never invent these.
+
+The user confirmed all the bird groups are available, but clients must contact Crownwing for details of the individual birds because they constantly change. Use clear names such as “African Grey Parrots”, not just “African parrots”.
+
+**Why:** The user explicitly clarified availability and the preferred naming.
+
+**How to apply:** Describe group-level availability by enquiry, not a live individual-stock catalogue. Keep species-guide photographs distinct from birds currently for sale; never infer current stock, ages, prices or an individual listing from a gallery image.

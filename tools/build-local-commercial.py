@@ -129,3 +129,4 @@ import runpy as _notice_runner
 _notice_runner.run_path(str(root/'tools/clean-visible-notices.py'))
 import subprocess, sys
 subprocess.run([sys.executable, str(root/'tools/populate-photos.py')], check=True)
+subprocess.run([sys.executable, str(root/'tools/apply-breeder-positioning.py')], check=True)

@@ -13,6 +13,10 @@ dict(slug='caiques',name='Caiques',tag='Curiosity with a playful streak.',exampl
 dict(slug='eclectus',name='Eclectus',tag='Two striking palettes. One remarkable group.',example='Eclectus parrot',life='Around 23–30 years in published records',lifetext='Animal Diversity Web describes captive life expectations around 23–28 years and an average around 30. Older individuals are reported elsewhere, but exceptional longevity is not a typical-life guarantee.',temperament='Attentive birds with individual preferences for interaction. Avoid assuming that every bird has the same temperament based on sex or appearance.',diet='Discuss an Eclectus-specific nutrition plan with an avian vet, including appropriate fresh produce and formulated food. Avoid routine supplements without professional advice.',space='Provide a roomy enclosure, safe exercise and opportunities to forage. A calm-looking bird still needs movement and mental stimulation.',noise='Eclectus can produce loud calls. Individual vocal patterns and response to household activity vary.',fit='Owners who will pay close attention to diet, daily routine and individual behaviour.',examples='Eclectus species from New Guinea, nearby islands and north-eastern Australia'),
 dict(slug='parakeets-small-psittacines',name='Parakeets & small psittacines',tag='Little feathers. Plenty to discover.',example='Budgerigar',life='Species-dependent',lifetext='This category spans very different birds. Published examples include around 7–12 years for budgerigars and 25–30 years for Indian ringnecks. Choose the exact species before planning its lifetime care.',temperament='Social, active birds with preferences that vary by species and individual. Small size does not remove the need for companionship, enrichment and gentle handling.',diet='Small parrots need a species-appropriate balance of formulated food, fresh vegetables, some fruit and suitable seeds where appropriate. A seed-only diet is not a balanced plan.',space='Prioritise usable flight space, safe bar spacing and suitable perch diameters. Small birds also need opportunities to exercise and investigate.',noise='Budgies may chatter frequently; other parakeets can have much louder calls. Research the exact species.',fit='Owners looking for a smaller bird while still preparing for meaningful daily care.',examples='Budgerigars, ringnecks, lovebirds, parrotlets and other small parrots')
 ]
+from breeder_content import DISPLAY_NAMES, AFRICAN_GREY_GUIDE
+for item in data:
+ item['name']=DISPLAY_NAMES[item['slug']]
+ if item['slug']=='african-parrots':item.update(AFRICAN_GREY_GUIDE)
 def esc(v):return html.escape(str(v),quote=True)
 home=(out/'index.html').read_text()
 header=re.search(r'<header>.*?</header>',home,re.S).group().replace('href="#"','href="/"').replace('href="#','href="/#')
@@ -45,3 +49,4 @@ print('Generated eight species pages and eight photographic cards.')
 
 import subprocess, sys
 subprocess.run([sys.executable, str(root/'tools/populate-photos.py')], check=True)
+subprocess.run([sys.executable, str(root/'tools/apply-breeder-positioning.py')], check=True)

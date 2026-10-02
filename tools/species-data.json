@@ -1,21 +1,21 @@
 [
   {
     "slug": "african-parrots",
-    "name": "African parrots",
+    "name": "African Grey Parrots",
     "tag": "Intelligence, in every feather.",
     "example": "African grey parrot",
     "life": "Several decades",
-    "lifetext": "African parrots are a diverse group. African greys can be long-lived, while Senegal and Meyer\u2019s parrots have different life expectations. Published figures vary substantially; identify the exact species and plan for decades of care.",
-    "temperament": "Observant and responsive, with individual differences in confidence and sociability. African greys often benefit from predictable routines; smaller African species have their own distinct personalities.",
+    "lifetext": "African Grey Parrots can live for several decades. Published estimates vary, and individual health, nutrition and care influence longevity. Plan for long-term care rather than relying on a maximum-age claim.",
+    "temperament": "Observant and responsive parrots with individual differences in confidence and sociability. African Grey Parrots often benefit from predictable routines, patient interaction and meaningful enrichment.",
     "diet": "Use a balanced, species-appropriate feeding plan with suitable formulated food and fresh produce. Discuss calcium and overall nutrition with an avian vet, particularly for African greys.",
     "space": "Provide room to move, climb and exercise, alongside safe supervised time outside the enclosure. Offer different perch sizes and rotate suitable chew and foraging toys.",
     "noise": "Calls and mimicry vary by species and individual. No bird is guaranteed to talk or remain quiet.",
     "fit": "A household ready to offer consistent interaction, enrichment and a calm routine.",
-    "examples": "African grey, Timneh, Senegal and Meyer\u2019s parrots"
+    "examples": "Congo African greys and Timneh parrots"
   },
   {
     "slug": "macaws",
-    "name": "Macaws",
+    "name": "Macaw Parrots",
     "tag": "Extraordinary colour. Unmistakable presence.",
     "example": "Blue-and-gold macaw",
     "life": "A long-term commitment",
@@ -29,7 +29,7 @@
   },
   {
     "slug": "cockatoos",
-    "name": "Cockatoos",
+    "name": "Cockatoo Parrots",
     "tag": "A crest full of character.",
     "example": "Cockatoo",
     "life": "Several decades",
@@ -43,7 +43,7 @@
   },
   {
     "slug": "amazons",
-    "name": "Amazons",
+    "name": "Amazon Parrots",
     "tag": "Vibrant greens. Individual spirits.",
     "example": "Amazon parrot",
     "life": "Often several decades",
@@ -57,7 +57,7 @@
   },
   {
     "slug": "conures",
-    "name": "Conures",
+    "name": "Conure Parrots",
     "tag": "Small in stature. Full of personality.",
     "example": "Conure",
     "life": "Around 20\u201335 years",
@@ -71,7 +71,7 @@
   },
   {
     "slug": "caiques",
-    "name": "Caiques",
+    "name": "Caique Parrots",
     "tag": "Curiosity with a playful streak.",
     "example": "Caique",
     "life": "A multi-decade commitment",
@@ -85,7 +85,7 @@
   },
   {
     "slug": "eclectus",
-    "name": "Eclectus",
+    "name": "Eclectus Parrots",
     "tag": "Two striking palettes. One remarkable group.",
     "example": "Eclectus parrot",
     "life": "Around 23\u201330 years in published records",
@@ -99,7 +99,7 @@
   },
   {
     "slug": "parakeets-small-psittacines",
-    "name": "Parakeets & small psittacines",
+    "name": "Parakeets & Budgerigars",
     "tag": "Little feathers. Plenty to discover.",
     "example": "Budgerigar",
     "life": "Species-dependent",

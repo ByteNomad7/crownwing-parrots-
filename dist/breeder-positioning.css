@@ -1,0 +1,56 @@
+/* Buying routes use the existing nature-led design, not a separate storefront. */
+header nav .mobile-contact {
+  display: none;
+}
+
+.availability-card > .availability-status {
+  margin: 0 0 12px;
+  color: var(--moss);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.availability-card > p:not(.availability-status) {
+  margin: 0 0 20px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.availability-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.availability-actions .button {
+  font-size: 12px;
+}
+
+.availability-actions .availability-guide {
+  color: var(--forest);
+  padding: 8px 0 5px;
+  border-bottom: 1px solid var(--line);
+  font-size: 13px;
+}
+
+.availability-note h2 {
+  margin: 0 0 10px;
+  font-size: 24px;
+}
+
+.enquiry-status-note {
+  padding: 16px;
+  border-left: 3px solid var(--moss);
+  background: var(--sage);
+  font-size: 14px;
+}
+
+@media (max-width: 900px) {
+  header nav .mobile-contact {
+    display: block;
+  }
+}
