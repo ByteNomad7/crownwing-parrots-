@@ -239,9 +239,10 @@ def apply():
     ) + cta("Start with the right questions.") + related()
 
     buying_body = intro(
-        "BUYING A PARROT FROM CROWNWING", "A remarkable companion.<br>A considered beginning.",
-        "Explore the available range, understand the care commitment and contact Crownwing for current bird details. "
-        "We are a parrot breeder and retailer; choosing well starts with the individual, not just the species.",
+        "BUYING A PARROT FROM CROWNWING", "Parrots for sale in the UK.<br>A considered beginning.",
+        "Looking for parrots for sale in the UK? Crownwing is a parrot breeder and retailer with eight "
+        "parrot groups available by enquiry. Compare African Grey Parrots, Macaws and smaller companions, "
+        "then contact us for current photographs, ages, prices and details of the individual birds.",
     ) + article(
         "1. Explore the range. Understand the species.",
         "<p>All eight parrot groups are available through Crownwing. Start with "
@@ -262,7 +263,28 @@ def apply():
         "<p>Plan appropriate accommodation, familiar food, safe exercise and enrichment, and identify an avian vet. "
         "Read the " + link("/guides/buying-a-parrot-checklist/", "parrot buying checklist") + " and "
         + link("/guides/preparing-for-a-parrot/", "home preparation guide") + " before making arrangements.</p>",
-    ) + cta("Ask about your next companion.") + related()
+    ) + '<section class="article-section" id="parrot-buyer-questions"><h2>Questions when buying a parrot in the UK</h2><div class="page-faq">' + (
+        '<details><summary>How do I get a current parrot price?</summary><p>'
+        'Choose a group above and ask for a quote for the particular bird being discussed. Request its '
+        'exact species, current photographs, known age and an itemised account of what the price includes. '
+        'An advert on another website is not a Crownwing quote. Allow separately for food, housing, '
+        'enrichment and avian veterinary care; our '
+        + link("/guides/parrot-ownership-costs/", "parrot ownership costs guide")
+        + ' helps you plan beyond the purchase price.</p></details>'
+        '<details><summary>Can I enquire about baby or hand-reared parrots?</summary><p>'
+        'Include your preferences in the enquiry, then confirm what individual birds are available. '
+        'Ask about known age, rearing and socialisation history, established food, independent feeding '
+        'and current handling preferences. Baby, hand-reared and tame are not interchangeable descriptions '
+        'or guarantees of future behaviour. See the '
+        + link("/guides/buying-a-parrot-checklist/", "parrot buying checklist")
+        + ' for questions to resolve before committing.</p></details>'
+        '<details><summary>What should I check when searching for parrots for sale near me?</summary><p>'
+        'Crownwing’s published contact address is in Bristol. Contact us to confirm the bird, viewing '
+        'and handover arrangements before travelling or making a commitment. Our city guides help buyers '
+        'plan from their area; they do not identify Crownwing branches or local stock. '
+        + link("/contact/", "Check our contact details and ask about arrangements")
+        + ' for your enquiry.</p></details>'
+    ) + '</div></section>' + cta("Ask about your next companion.") + related()
 
     form = re.search(r'<form id="enquiry-form">.*?</form>', (DIST / "contact/index.html").read_text(), re.S)[0]
     form = re.sub(r'<p class="form-note">.*?</p>', "", form, flags=re.S)
@@ -275,9 +297,9 @@ def apply():
     ) + " and the " + link("/guides/buying-a-parrot-checklist/", "buying checklist") + ' before deciding.</p></div><div class="contact-form-panel">' + form + "</div></section>" + related()
 
     pages = {
-        "/available-birds/": ("Available Parrots UK | Crownwing Breeder & Retailer", "All eight parrot groups are available through Crownwing. Contact us for current birds, photographs, ages and prices; individual availability changes regularly.", available_body),
+        "/available-birds/": ("Available Parrots UK: Photos, Ages & Prices | Crownwing Parrots", "Check Crownwing’s available parrot groups and enquire about current photographs, ages and prices. Individual birds change regularly; contact us for details.", available_body),
         "/our-approach/": ("Parrot Breeder & Retailer | Our Approach | Crownwing", "Meet Crownwing’s breeder-and-retailer approach. Understand the bird’s background and confirm inclusions, collection and aftercare before buying.", approach_body),
-        "/parrots-for-sale/": ("Buying a Parrot UK | Crownwing Parrots", "Buying a parrot in the UK? Explore Crownwing’s available range, compare species and confirm current bird details, prices and arrangements by enquiry.", buying_body),
+        "/parrots-for-sale/": ("Parrots for Sale UK | Crownwing Parrots", "Parrots for sale in the UK from Crownwing, a breeder and retailer. Compare eight parrot groups and enquire about current birds, photos, ages and prices.", buying_body),
         "/contact/": ("Contact Crownwing | Available Parrot Enquiries UK", "Enquire about available African Grey Parrots, Macaws and more. Prepare questions about current birds, prices, care and collection with Crownwing.", contact_body),
     }
     for path, (title, description, body) in pages.items():

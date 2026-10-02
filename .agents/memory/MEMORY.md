@@ -4,3 +4,4 @@
 - [Browser test fidelity](browser-test-fidelity.md) — source-based checks supplement live previews; semicolons in quoted font URLs can corrupt naive CSS import removal.
 - [City indexing](city-indexing.md) — the owner requested indexable city guides; do not restore the earlier noindex policy.
 - [Policy scope](policy-scope.md) — policies target Google Search transparency, not Merchant Center approval; preserve owner-confirmed terms.
+- [Buyer-led SEO](buyer-led-seo.md) — use clear UK buying intent on commercial pages; competitor examples are keyword inspiration, not evidence of Crownwing stock or services.

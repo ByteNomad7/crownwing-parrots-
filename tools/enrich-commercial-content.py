@@ -286,6 +286,8 @@ def apply_content():
 
         sale_path = "/parrots-for-sale/" + SALE_SLUGS[group] + "/"
         sale = set_intro(route_file(sale_path).read_text(), content["buying_intro"])
+        sale = re.sub(r"<h1>.*?</h1>", lambda _: f'<h1>{esc(content["buying_heading"])}</h1>',
+                      sale, count=1, flags=re.S)
         note = element(sale, r'<section class="location-note availability-note"[^>]*>')
         existing_related = element(sale, r'<section class="related"[^>]*>')
         faq = '<div class="page-faq">' + "".join(

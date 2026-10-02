@@ -63,7 +63,8 @@
         "paragraphs": ["Keep a quiet retreat beyond household traffic."]
       }
     ],
-    "buying_intro": "Enquiries can be made about African Grey Parrots, including the Congo and Timneh types, but that does not confirm a particular species, bird or service is currently available. Use the conversation to establish the identity and individual needs of the bird being discussed, then decide whether they fit your home.",
+    "buying_intro": "African Grey Parrots are available through Crownwing by enquiry. If you are comparing African greys for sale in the UK, request the individual bird's species, current photographs, known age and price. A Congo African Grey and a Timneh differ in size and identity; confirm which bird is being discussed and its established routine before choosing.",
+    "buying_heading": "African Grey Parrots for Sale in the UK",
     "buying_sections": [
       {
         "id": "identify-the-bird",
@@ -83,7 +84,7 @@
       },
       {
         "id": "costs-and-handover",
-        "title": "Costs, preparation and handover",
+        "title": "African Grey parrot prices, preparation and handover",
         "paragraphs": [
           "Ask for the current price of the specific bird and an itemised explanation of anything included; do not infer either from a general listing. Budget beyond the initial purchase for appropriate housing, safe enrichment, food, routine care and contingency costs over a potentially decades-long commitment. Confirm any payment, reservation or collection arrangements directly before relying on them.",
           "Discuss the practical handover: what food the bird is eating, what equipment it knows, what information will accompany it and how a collection date is agreed. Check that everyone at home is ready, that the enclosure and safe exercise area are prepared, and that a suitable caregiver is identified for absences. Take time to consider the answers rather than buying on impulse."
@@ -116,8 +117,8 @@
         "answer": "Confirm which type you are discussing, then compare that bird's actual routine, confidence and accepted interactions. Both need substantial mental activity and long-term planning, while size and individual preferences can differ."
       }
     ],
-    "buying_title": "African Grey Parrots: Enquiries, Individual Birds and Buying Guidance",
-    "buying_description": "Enquire about Congo African greys and Timneh parrots in the UK. Learn what to ask about an individual bird's identity, routine, rearing history, costs and handover."
+    "buying_title": "African Grey Parrots for Sale UK",
+    "buying_description": "African Grey Parrots for sale in the UK by enquiry. Request current photos, ages and prices, and compare Congo and Timneh care before choosing your bird."
   },
   "macaws": {
     "guide_intro": "Macaws range from miniatures to powerful giants. Space, voice and beak strength shape home life.",
@@ -183,7 +184,8 @@
         "paragraphs": ["Secure doors and landing routes before supervised flight."]
       }
     ],
-    "buying_intro": "Enquiries are welcome for macaws as a group, but individual species, birds, timing and services are not confirmed by that statement. Because the differences between a mini macaw and a large species are substantial, use any buying discussion to identify the particular bird and understand its established routine before deciding.",
+    "buying_intro": "Macaw parrots are available through Crownwing by enquiry. Compare macaws for sale in the UK by exact species, adult size and the needs of the individual bird, not just colour. Request current photographs, age, established diet, handling background and price; large macaws and smaller macaws need different home preparations.",
+    "buying_heading": "Macaw Parrots for Sale in the UK",
     "buying_sections": [
       {
         "id": "species-and-individual",
@@ -203,7 +205,7 @@
       },
       {
         "id": "costs-and-setup",
-        "title": "Work out total costs and preparation",
+        "title": "Macaw parrot prices and total ownership costs",
         "paragraphs": [
           "Request the current price for the particular bird and a clear account of any items or services included. No amount or package can be inferred from this general category information. Compare the initial cost with the full preparation budget: robust housing, safe perches, replaceable enrichment, appropriate food, ongoing care and a reserve for changing needs.",
           "Before committing, confirm the arrangements for payment, any reservation and collection directly. Ask what equipment the bird already recognises and whether familiar food can be available during the transition. A macaw-sized enclosure and exercise area take meaningful room; measure your intended setup and make sure household members agree on noise, access and cleaning responsibilities."
@@ -234,10 +236,18 @@
       {
         "question": "Does a mini macaw need less durable equipment?",
         "answer": "Its smaller dimensions do not remove the need for sturdy, appropriately sized fittings and safe climbing space. Ask about the exact species and plan equipment for the bird's strength and activity rather than relying on its label as a miniature."
+      },
+      {
+        "question": "Are hand-reared macaws always tame?",
+        "answer": "Hand-reared describes a bird's background, not a guarantee about its behaviour with a new owner. Ask about the actual bird's rearing history, whether it is fully weaned and feeding independently, its handling preferences and its response to unfamiliar people. Request current observations rather than assuming that a hand-fed or tame label guarantees a bond."
+      },
+      {
+        "question": "Is a blue macaw the same as a Hyacinth Macaw?",
+        "answer": "Blue macaw is not a precise species name. A blue-and-gold macaw and a Hyacinth Macaw are different species, so colour alone is not enough to identify a bird or compare its needs. State the exact species in your enquiry and confirm individual availability; our macaw group and gallery do not establish that a Hyacinth Macaw is currently for sale."
       }
     ],
-    "buying_title": "Macaws for Enquiry in the UK: Species, Costs and Preparation",
-    "buying_description": "Ask about macaw species and individual birds, including adult scale, established routine, current price and handover details before preparing a UK home."
+    "buying_title": "Macaw Parrots for Sale UK",
+    "buying_description": "Macaw parrots for sale in the UK by enquiry. Ask about species, current photographs, ages and prices, then plan housing, food and long-term care."
   },
   "cockatoos": {
     "guide_intro": "Cockatoos are intensely social parrots. Species differences affect size, noise and household fit.",
@@ -303,7 +313,8 @@
         "paragraphs": ["Allow space for cleaning, safe chewing and escape from household foot traffic."]
       }
     ],
-    "buying_intro": "Crownwing welcomes enquiries about cockatoos as a group, while the exact species, individual stock, rearing history and services must be confirmed separately. A practical buying conversation should help you understand one bird's established routine and the demands that come with its species, rather than relying on a general reputation for affection.",
+    "buying_intro": "Looking for cockatoos for sale in the UK? Crownwing's cockatoo group is available by enquiry, with the exact species, current bird details and price confirmed individually. Compare social needs, noise, established routines and handling preferences before deciding whether a cockatoo fits your household.",
+    "buying_heading": "Cockatoo Parrots for Sale in the UK",
     "buying_sections": [
       {
         "id": "species-and-background",
@@ -323,7 +334,7 @@
       },
       {
         "id": "costs-and-set-up",
-        "title": "Price, recurring costs and setup",
+        "title": "Cockatoo prices, recurring costs and home setup",
         "paragraphs": [
           "Ask for the current price of the individual bird and a precise list of anything included. No group-wide price or package should be assumed. Work out the cost of suitable robust housing, replacement enrichment, food, cleaning supplies and ongoing care, with allowance for the bird's potentially long lifespan and changing needs.",
           "Before making a commitment, prepare a safe exercise area and a practical plan for calls, dust, cleaning and destructive play. Ask what equipment the bird knows and whether its familiar diet can be continued during transition. Confirm payment, reservation and collection details directly, and give household members time to agree on responsibilities."
@@ -356,8 +367,8 @@
         "answer": "A crest is one visible signal, not a complete reading of mood or consent. Consider the bird's overall posture and context, and allow it to decline contact rather than using one feature as an invitation."
       }
     ],
-    "buying_title": "Cockatoos in the UK: Species Enquiries and Ownership Preparation",
-    "buying_description": "Explore cockatoo enquiries with practical questions about species, social routine, noise, individual price, home setup and handover information."
+    "buying_title": "Cockatoo Parrots for Sale UK",
+    "buying_description": "Cockatoo parrots for sale in the UK by enquiry. Confirm species, age and price, and ask about noise, social routine and home preparation with Crownwing."
   },
   "amazons": {
     "guide_intro": "Amazon parrots are vocal. Steady routines support social needs.",
@@ -423,7 +434,8 @@
         "paragraphs": ["Clear routes support safe supervised flight."]
       }
     ],
-    "buying_intro": "Enquiries are welcome for Amazon parrots, though no particular species, individual bird, stock or service is confirmed by the category alone. Ask about the individual behind the group name: its known identity, established habits and the practical arrangements for price and handover.",
+    "buying_intro": "Amazon parrots are available through Crownwing by enquiry for UK homes. When comparing Amazon parrots for sale, start with the exact species and individual bird rather than a promise about talking. Ask for current photographs, known age, vocal habits, established routine and price before planning your next step.",
+    "buying_heading": "Amazon Parrots for Sale in the UK",
     "buying_sections": [
       {
         "id": "confirm-species-and-identity",
@@ -443,7 +455,7 @@
       },
       {
         "id": "price-and-home-preparation",
-        "title": "Price and home preparation",
+        "title": "Amazon parrot prices and home preparation",
         "paragraphs": [
           "Ask for the current price of the specific bird and what, if anything, is included in that amount. Avoid relying on a group-level price or unspecified package. Include durable housing, replacement enrichment, food and ongoing care in your budget, and consider whether your arrangements remain practical if the relationship lasts for decades.",
           "Prepare a secure enclosure, safe exercise space and a plan for calls before collection. Discuss which foods and equipment are familiar so the bird's routine can be maintained while it settles. Confirm any payment or reservation conditions directly and ensure every household member understands how to give the parrot space."
@@ -476,8 +488,8 @@
         "answer": "Not necessarily. Vocal habits can change with context, preference and routine; treat any current mimicry as one observation, not a continuing performance or a reason to choose a bird."
       }
     ],
-    "buying_title": "Amazon Parrots UK: Enquire About Species and Individual Birds",
-    "buying_description": "Make a considered Amazon parrot enquiry with questions about species identity, routine, vocal habits, individual costs and home preparation."
+    "buying_title": "Amazon Parrots for Sale UK",
+    "buying_description": "Amazon parrots for sale in the UK by enquiry. Request species details, current photos, age and price, and compare vocal habits and care with Crownwing."
   },
   "conures": {
     "guide_intro": "Conures are active small parrots, but species differ in voice and size. Plan for daily play, social contact and lively calls.",
@@ -543,7 +555,8 @@
         "paragraphs": ["Check links and openings that could catch small feet or beaks."]
       }
     ],
-    "buying_intro": "Conure enquiries are welcome, but the group name does not confirm a particular species, bird, stock level or service. Since a green-cheeked conure and a sun conure can differ in sound and appearance, establish the identity and everyday habits of the individual before comparing it with your household.",
+    "buying_intro": "Conure parrots are available through Crownwing by enquiry. If you are searching for conures for sale in the UK, confirm the exact species, current photographs, age and price of the bird being discussed. A green-cheeked conure and a sun conure can differ markedly in voice and care needs, so compare everyday habits as well as appearance.",
+    "buying_heading": "Conure Parrots for Sale in the UK",
     "buying_sections": [
       {
         "id": "species-and-individual",
@@ -563,7 +576,7 @@
       },
       {
         "id": "cost-and-preparation",
-        "title": "Price and preparing the home",
+        "title": "Conure prices and preparing the home",
         "paragraphs": [
           "Ask for the current price of the specific conure and a clear explanation of what it includes. There is no reliable group price to assume from this guide. Add safe housing, replacement toys, food, day-to-day care and future costs to your budget before deciding whether the commitment is comfortable.",
           "Set up suitable bar spacing, perches and a supervised exercise space before collection. Confirm which toys and foods are familiar and how to arrange a calm settling-in period. Agree who will handle cleaning and daily interaction, and consider neighbours' tolerance for the voice of the exact species rather than a generic 'small parrot'."
@@ -596,8 +609,8 @@
         "answer": "Start with adult supervision, the bird's known comfort around people and how busy the home becomes. Do not assume that a playful species will welcome handling from children; agree on quiet retreat space and clear boundaries first."
       }
     ],
-    "buying_title": "Conures for Sale Enquiries UK: Species and Individual Guidance",
-    "buying_description": "Ask about conure species, individual vocal habits, routine, costs and handover before choosing a playful parrot for your UK home."
+    "buying_title": "Conure Parrots for Sale UK",
+    "buying_description": "Conure parrots for sale in the UK by enquiry. Ask about current birds, species, photos and prices, then compare noise, handling and home setup."
   },
   "caiques": {
     "guide_intro": "Caiques are compact, high-energy parrots that thrive on supervised activity. Their curiosity calls for structure, boundaries and daily enrichment.",
@@ -663,7 +676,8 @@
         "paragraphs": ["Stable perches and supervised routes give agile birds safer exploration."]
       }
     ],
-    "buying_intro": "Caique enquiries are welcome, while the exact bird, species, availability and background must be established individually. Their energetic reputation makes practical questions about daily routine, supervised play and handling preferences especially useful before deciding whether one fits your home.",
+    "buying_intro": "Caique parrots are available through Crownwing by enquiry for UK buyers. Compare caiques for sale by individual background, daily activity and handling preferences, not simply their playful reputation. Ask which species and birds are available now, request photographs and the current price, and plan supervised exercise and safe enrichment.",
+    "buying_heading": "Caique Parrots for Sale in the UK",
     "buying_sections": [
       {
         "id": "individual-and-type",
@@ -683,7 +697,7 @@
       },
       {
         "id": "cost-and-environment",
-        "title": "Costs and an activity-ready home",
+        "title": "Caique parrot prices and an activity-ready home",
         "paragraphs": [
           "Request the current price for the individual bird and check exactly what, if anything, is included. Budget for secure housing, small-parrot-safe enrichment that will need replacing, food and ongoing care. A modest body size does not remove the recurring costs of providing an interesting and safe environment.",
           "Prepare a bird-safe room or play area and decide who will supervise outside time. Ask which perches, toys and foods are familiar so the transition can begin with known resources. Consider whether your daily schedule offers enough interaction and whether you can safely interrupt play when the bird becomes overexcited."
@@ -716,8 +730,8 @@
         "answer": "No. Similar energy does not guarantee compatibility, and introductions can require separate accommodation and close supervision. Assess each bird as an individual and keep a practical plan for separation."
       }
     ],
-    "buying_title": "Caique Parrots UK: Enquiries, Activity and Home Preparation",
-    "buying_description": "Enquire about caiques with useful questions on individual habits, play, rearing history, current costs and practical handover."
+    "buying_title": "Caique Parrots for Sale UK",
+    "buying_description": "Caique parrots for sale in the UK by enquiry. Request current photos, age and price, and discuss activity, handling and a suitable home with Crownwing."
   },
   "eclectus": {
     "guide_intro": "Eclectus parrots stand out for male and female plumage differences. Individual social preferences and a considered feeding routine matter just as much.",
@@ -783,7 +797,8 @@
         "paragraphs": ["Keep familiar resources steady while introducing new enrichment gradually."]
       }
     ],
-    "buying_intro": "Enquiries about Eclectus parrots are welcome, although no particular bird, species, stock or service is confirmed by the group listing. Ask about the individual bird's identity, known sex information, established diet and routine; those details matter more than assuming that appearance tells the whole story.",
+    "buying_intro": "Eclectus parrots are available through Crownwing by enquiry. When looking for an Eclectus parrot for sale in the UK, confirm the bird's exact identity, known sex information, current photographs and price. Its established feeding routine and individual behaviour should guide your preparation, rather than assumptions based on male or female plumage.",
+    "buying_heading": "Eclectus Parrots for Sale in the UK",
     "buying_sections": [
       {
         "id": "identity-and-individual",
@@ -803,7 +818,7 @@
       },
       {
         "id": "availability-cost",
-        "title": "Confirm availability and costs",
+        "title": "Eclectus parrot availability and prices",
         "paragraphs": [
           "Crownwing welcomes enquiries about Eclectus parrots, but an enquiry does not confirm that a particular species or bird is currently available. Ask whether an individual can be discussed at the time and how any availability is confirmed. Do not assume that every colour or type is represented.",
           "Request the current individual price and an exact explanation of anything included. Build a wider budget for housing, varied enrichment, food and continuing care over a long-term commitment. Confirm payment, reservation and collection arrangements directly; none should be inferred from this guide."
@@ -836,8 +851,8 @@
         "answer": "Do not assume that a plan for another bird is suitable. Discuss an Eclectus-specific approach with an appropriately qualified professional and establish what the individual currently eats before considering changes."
       }
     ],
-    "buying_title": "Eclectus Parrots UK: Enquiries About Diet, Identity and Care",
-    "buying_description": "Ask about Eclectus parrot identity, known sex information, established diet, individual price and handover before planning a match."
+    "buying_title": "Eclectus Parrots for Sale UK",
+    "buying_description": "Eclectus parrots for sale in the UK by enquiry. Confirm identity, age, known sex and price, and discuss the individual bird's diet and routine."
   },
   "parakeets-small-psittacines": {
     "guide_intro": "Parakeets & Budgerigars spans tiny parrotlets to larger ringnecks. Species identity changes their size, social style, sound and care.",
@@ -903,7 +918,8 @@
         "paragraphs": ["Match perch diameter and bar gaps to the identified species."]
       }
     ],
-    "buying_intro": "Enquiries are welcome for Parakeets & Budgerigars, but this broad group does not confirm a particular species, bird or current stock. Make your enquiry specific: a budgerigar, ringneck, lovebird and parrotlet differ greatly in size and care, so individual identity and established routine should lead the conversation.",
+    "buying_intro": "Parakeets & Budgerigars are available through Crownwing by enquiry. If you are comparing budgies or other small parrots for sale in the UK, ask which species and individual birds are available now, with current photographs, ages and prices. A budgerigar, ringneck, lovebird and parrotlet need different care plans; identify the bird before choosing housing or companions.",
+    "buying_heading": "Parakeets & Budgies for Sale in the UK",
     "buying_sections": [
       {
         "id": "species-and-individual",
@@ -923,7 +939,7 @@
       },
       {
         "id": "cost-and-setup",
-        "title": "Individual price and appropriate setup",
+        "title": "Budgie and parakeet prices: compare the exact bird",
         "paragraphs": [
           "Request the current price for the specific species and bird, and ask exactly what, if anything, is included. There is no single price for such a varied group. Budget for suitable enclosure dimensions and bar spacing, safe perches, flight opportunities, appropriate food and enrichment that can be replaced as it is used.",
           "Set up the home around the confirmed species rather than buying equipment based on a generic small-bird label. A ringneck needs a different amount of space from a budgerigar, and tiny feet require appropriate perch and bar dimensions. Ask which foods and equipment are familiar so you can plan a manageable transition."
@@ -956,7 +972,7 @@
         "answer": "Different species should not be presumed compatible because their bodies are small. Consider their adult size, behaviour and resource needs, and plan separate safe accommodation unless compatibility and management have been carefully established."
       }
     ],
-    "buying_title": "Parakeets & Budgerigars UK: Species Enquiries and Buying Guide",
-    "buying_description": "Enquire about budgerigars, ringnecks, lovebirds and parrotlets with practical questions on species, size, routine, costs and handover."
+    "buying_title": "Parakeets & Budgies for Sale UK",
+    "buying_description": "Parakeets and budgies for sale in the UK by enquiry. Confirm species, current photos, ages and prices, and plan flight space, diet and companionship."
   }
 }

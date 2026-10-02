@@ -16,6 +16,7 @@ The preview serves `dist/` directly, including its nested page directories. Pyth
 - Content generation and validation scripts live in `tools/`.
 - Check the site's links, metadata, structured data, and sitemap with `python3 tools/check-site.py`.
 - After changing pages or image metadata, also run `python3 tools/check-seo-enhancements.py` to verify sharing images, site identity, image dimensions and responsive sources.
+- Run `python3 tools/check-buyer-search-intent.py` after changing commercial copy to verify buying keywords, enquiry boundaries and the separation from informational guides.
 - Enquiry forms currently download a text copy; they do not send enquiries to an inbox or save them on a server.
 - The owner-specified canonical origin is `https://crownwingparrots.co.uk`, configured centrally in `tools/site_config.py`. All canonicals, social metadata, structured data and the sitemap must use it, not preview or imported-site domains.
 - The shared footer is generated in `tools/apply-breeder-positioning.py` and styled by `dist/footer.css`; retain the original brand and all policy links.
