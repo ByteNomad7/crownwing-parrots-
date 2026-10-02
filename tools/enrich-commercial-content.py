@@ -14,6 +14,10 @@ from breeder_content import DISPLAY_NAMES, SALE_SLUGS
 from commercial_intent_content import INTENTS
 from business_policy_content import POLICIES, UPDATED
 from site_config import PUBLIC_ORIGIN
+from seo_metadata import (
+    add_connection_hints, enrich_page_schema, identity_schema,
+    optimize_images, social_image,
+)
 
 ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / "dist"
@@ -185,11 +189,20 @@ def metadata(text, path, origin, title=None, description=None, parent=None):
         "og:type": "website", "og:site_name": "Crownwing Parrots", "og:locale": "en_GB",
         "og:title": title, "og:description": description, "og:url": origin + path,
     }
-    images = re.findall(r'<img\b[^>]*src="([^"]+)"', text)
-    if images:
-        og["og:image"] = origin + images[0] if images[0].startswith("/") else images[0]
+    image = social_image(text)
+    og.update({
+        "og:image": origin + image["src"],
+        "og:image:width": image["width"], "og:image:height": image["height"],
+        "og:image:alt": image["label"],
+        "og:image:type": "image/png" if image["src"].endswith(".png") else "image/webp",
+    })
     additions = "".join(f'<meta property="{key}" content="{esc(value)}">' for key, value in og.items())
-    additions += '<meta name="twitter:card" content="summary">'
+    twitter = {
+        "twitter:card": "summary_large_image", "twitter:title": title,
+        "twitter:description": description, "twitter:image": og["og:image"],
+        "twitter:image:alt": image["label"],
+    }
+    additions += "".join(f'<meta name="{key}" content="{esc(value)}">' for key, value in twitter.items())
     text = text.replace("</head>", additions + "</head>")
     text = re.sub(r'<link rel="canonical"[^>]*>', "", text)
     text = text.replace("</head>", f'<link rel="canonical" href="{esc(origin + path)}"></head>')
@@ -198,6 +211,7 @@ def metadata(text, path, origin, title=None, description=None, parent=None):
         schema = json.loads(match[1])
         if isinstance(schema, dict) and schema.get("@type") == "WebPage":
             schema.update(name=title, description=description, url=origin + path)
+            schema = enrich_page_schema(schema, path, image)
             trail = [("/", "Home")]
             if parent:
                 trail += [("/parrots/", "Species guides"), ("/parrots/" + parent + "/", DISPLAY_NAMES[parent])]
@@ -212,7 +226,12 @@ def metadata(text, path, origin, title=None, description=None, parent=None):
                 }
         return '<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False).replace("</", "<\\/") + "</script>"
 
-    return re.sub(r'<script type="application/ld\+json">(.*?)</script>', update_schema, text, flags=re.S)
+    text = re.sub(r'<script type="application/ld\+json" id="site-identity-schema">.*?</script>', "", text, flags=re.S)
+    text = re.sub(r'<script type="application/ld\+json">(.*?)</script>', update_schema, text, flags=re.S)
+    if path == "/":
+        identity = json.dumps(identity_schema(), ensure_ascii=False).replace("</", "<\\/")
+        text = text.replace("</head>", f'<script type="application/ld+json" id="site-identity-schema">{identity}</script></head>')
+    return add_connection_hints(text)
 
 
 def apply_content():
@@ -463,7 +482,7 @@ def apply_content():
         relative = target.parent.relative_to(DIST).as_posix()
         path = "/" if relative == "." else "/" + relative + "/"
         parent = next((p["parent"] for p in profiles if profile_path(p) == path), None)
-        text = metadata(target.read_text(), path, origin, parent=parent)
+        text = metadata(optimize_images(target.read_text()), path, origin, parent=parent)
         if "<form" in text and 'class="privacy-form-note"' not in text:
             note = (
                 '<p class="privacy-form-note">Read our '
