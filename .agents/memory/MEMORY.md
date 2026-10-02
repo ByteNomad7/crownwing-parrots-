@@ -6,3 +6,4 @@
 - [Policy scope](policy-scope.md) — policies target Google Search transparency, not Merchant Center approval; preserve owner-confirmed terms.
 - [Buyer-led SEO](buyer-led-seo.md) — use clear UK buying intent on commercial pages; competitor examples are keyword inspiration, not evidence of Crownwing stock or services.
 - [Preview SEO limits](preview-seo-limits.md) — proxy noindex headers can reduce development-host SEO scores; verify published-host headers instead of changing truthful canonicals.
+- [Redirect hosting verification](redirect-hosting-verification.md) — check actual official references and HTTP status; generated search answers can confuse rewrites with permanent redirects.
