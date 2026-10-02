@@ -1,0 +1,62 @@
+[
+  {
+    "local_path": "/workspace/scratch/crownwing-more-assets/cockatoo.jpg",
+    "species": "Sulphur-crested cockatoo",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cacatua_galerita_portrait.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Cacatua_galerita_portrait.jpg",
+    "photographer": "Nature\u2019s Paint Box",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "bytes": 131337
+  },
+  {
+    "local_path": "/workspace/scratch/crownwing-more-assets/amazon.jpg",
+    "species": "Yellow-crowned Amazon",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Amazon.parrot.arp.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Amazon.parrot.arp.jpg",
+    "photographer": "Adrian Pingstone",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Amazon.parrot.arp.jpg",
+    "bytes": 157623
+  },
+  {
+    "local_path": "/workspace/scratch/crownwing-more-assets/conure.jpg",
+    "species": "Sun conure",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sun_Conure.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Sun_Conure.jpg",
+    "photographer": "Chris Gin",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "bytes": 411151
+  },
+  {
+    "local_path": "/workspace/scratch/crownwing-more-assets/caique.jpg",
+    "species": "White-bellied caique",
+    "source_url": "https://commons.wikimedia.org/wiki/File:White-Bellied_Caique_Parrot.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/White-Bellied_Caique_Parrot.jpg",
+    "photographer": "Be3n",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "bytes": 50779
+  },
+  {
+    "local_path": "/workspace/scratch/crownwing-more-assets/eclectus.jpg",
+    "species": "Male Eclectus parrot",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Eclectus_roratus.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Eclectus_roratus.jpg",
+    "photographer": "JJ Harrison",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "bytes": 1894035
+  },
+  {
+    "local_path": "/workspace/scratch/crownwing-more-assets/parakeet.jpg",
+    "species": "Budgerigar",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Budgerigar.JPG",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Budgerigar.JPG",
+    "photographer": "Hibaby",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Budgerigar.JPG",
+    "bytes": 324718
+  }
+]

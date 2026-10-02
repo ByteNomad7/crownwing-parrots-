@@ -1,0 +1,29 @@
+{
+  "status": "private review drafts; noindex until local service details are verified",
+  "cities": [
+    "London",
+    "Manchester",
+    "Birmingham",
+    "Leeds",
+    "Bristol",
+    "Liverpool",
+    "Sheffield",
+    "Nottingham",
+    "Newcastle upon Tyne",
+    "Cardiff",
+    "Edinburgh",
+    "Glasgow",
+    "Belfast"
+  ],
+  "required_before_indexing": [
+    "Confirmed service relationship with each location",
+    "Genuine city-specific availability or viewing/transport information",
+    "Verified business contact details"
+  ],
+  "commercial_pages": [
+    "/parrots-for-sale/talking-parrots/",
+    "/parrots-for-sale/small-parrots/",
+    "/parrots-for-sale/large-parrots/",
+    "/parrot-prices-uk/"
+  ]
+}

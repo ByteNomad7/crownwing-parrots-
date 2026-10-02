@@ -1,0 +1,194 @@
+[
+  {
+    "slug": "african-parrots",
+    "name": "African parrots",
+    "image": "grey.jpg",
+    "tag": "Intelligence, in every feather.",
+    "example": "African grey parrot",
+    "life": "Several decades",
+    "lifetext": "African parrots are a diverse group. African greys can be long-lived, while Senegal and Meyer\u2019s parrots have different life expectations. Published figures vary substantially; identify the exact species and plan for decades of care.",
+    "temperament": "Observant and responsive, with individual differences in confidence and sociability. African greys often benefit from predictable routines; smaller African species have their own distinct personalities.",
+    "diet": "Use a balanced, species-appropriate feeding plan with suitable formulated food and fresh produce. Discuss calcium and overall nutrition with an avian vet, particularly for African greys.",
+    "space": "Provide room to move, climb and exercise, alongside safe supervised time outside the enclosure. Offer different perch sizes and rotate suitable chew and foraging toys.",
+    "noise": "Calls and mimicry vary by species and individual. No bird is guaranteed to talk or remain quiet.",
+    "fit": "A household ready to offer consistent interaction, enrichment and a calm routine.",
+    "examples": "African grey, Timneh, Senegal and Meyer\u2019s parrots",
+    "photos": [
+      {
+        "src": "/assets/grey.jpg",
+        "alt": "African grey parrot"
+      },
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "slug": "macaws",
+    "name": "Macaws",
+    "image": "macaw.jpg",
+    "tag": "Extraordinary colour. Unmistakable presence.",
+    "example": "Blue-and-gold macaw",
+    "life": "A long-term commitment",
+    "lifetext": "Large macaws can live for several decades. Smaller macaw species have different life expectations. Age, nutrition, health and husbandry all influence lifespan; plan for long-term care and a backup caregiver.",
+    "temperament": "Inquisitive, expressive birds that can enjoy social activity and positive-reinforcement training. Their strong beaks and size call for confident, respectful handling.",
+    "diet": "Offer suitable formulated food with a varied selection of fresh vegetables and some fruit. Nuts can serve as measured rewards; the right amount depends on species, activity and veterinary advice.",
+    "space": "Large species need substantial accommodation, strong perches and plenty of safe exercise space. Choose durable enrichment designed for a powerful beak.",
+    "noise": "Large macaws can produce very loud calls. Consider neighbours and the whole household before choosing one.",
+    "fit": "Owners with the space, time and resources to meet a large parrot\u2019s daily needs.",
+    "examples": "Blue-and-gold, scarlet, green-winged and Hahn\u2019s macaws",
+    "photos": [
+      {
+        "src": "/assets/macaw.jpg",
+        "alt": "Blue-and-gold macaw"
+      },
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "slug": "cockatoos",
+    "name": "Cockatoos",
+    "image": "cockatoo.jpg",
+    "tag": "A crest full of character.",
+    "example": "Cockatoo",
+    "life": "Several decades",
+    "lifetext": "Lifespan differs markedly between cockatoo species. Published averages and longevity records are not the same thing. These birds require a multi-decade care plan rather than reliance on a single maximum age.",
+    "temperament": "Often highly expressive and socially demanding. Build healthy independence with foraging and a steady routine as well as time together.",
+    "diet": "A balanced feeding plan should include suitable formulated food and fresh produce. Keep energy-rich treats measured and review weight and diet with an avian vet.",
+    "space": "Provide a robust enclosure, safe exercise, appropriate chew materials and regular enrichment. Feather dust is an important consideration when planning the home environment.",
+    "noise": "Many species have powerful calls. Noise and feather dust can make some homes unsuitable.",
+    "fit": "A well-prepared household that understands the group\u2019s social demands, noise and long-term needs.",
+    "examples": "Umbrella, sulphur-crested and Moluccan cockatoos; galahs",
+    "photos": [
+      {
+        "src": "/assets/cockatoo.jpg",
+        "alt": "Cockatoo"
+      },
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "slug": "amazons",
+    "name": "Amazons",
+    "image": "amazon.jpg",
+    "tag": "Vibrant greens. Individual spirits.",
+    "example": "Amazon parrot",
+    "life": "Often several decades",
+    "lifetext": "Amazon parrots can be long-lived, but published figures differ between species and populations. Confirm the species and age, and plan for a long-term relationship with ongoing veterinary care.",
+    "temperament": "Often animated and confident. Body language matters, and behaviour can change with maturity and breeding condition. Individual temperament should guide any match.",
+    "diet": "Provide suitable formulated food and fresh produce, with measured seeds and nuts rather than a seed-only diet. Balance calorie intake with activity and monitor body condition.",
+    "space": "Make room for climbing, exercise and robust enrichment. Provide varied perches and opportunities to search for food.",
+    "noise": "Calls can be loud. Talking ability varies and should never be promised.",
+    "fit": "Owners willing to learn parrot body language and support exercise, nutrition and consistent routines.",
+    "examples": "Blue-fronted, yellow-naped and double yellow-headed Amazons",
+    "photos": [
+      {
+        "src": "/assets/amazon.jpg",
+        "alt": "Amazon parrot"
+      },
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "slug": "conures",
+    "name": "Conures",
+    "image": "conure.jpg",
+    "tag": "Small in stature. Full of personality.",
+    "example": "Conure",
+    "life": "Around 20\u201335 years",
+    "lifetext": "VCA gives a broad average of 20\u201335 years for conures. Individual species and birds vary, so this is general guidance rather than a guarantee or an exact estimate for every conure.",
+    "temperament": "Often active and inquisitive, with a strong interest in exploration. Social preferences and handling tolerance vary by bird.",
+    "diet": "Suitable pellets and varied fresh produce support balanced nutrition. Avoid relying on seed and nut mixes as the main diet; discuss gradual dietary changes with an avian vet.",
+    "space": "Allow room for movement and supervised exercise. Choose appropriate bar spacing and small-parrot-safe toys without hazardous loose parts.",
+    "noise": "Some conures have piercing calls. A smaller body does not mean a quiet companion.",
+    "fit": "Households ready for an active small parrot with daily enrichment and social interaction.",
+    "examples": "Green-cheeked, sun and jenday conures",
+    "photos": [
+      {
+        "src": "/assets/conure.jpg",
+        "alt": "Conure"
+      },
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "slug": "caiques",
+    "name": "Caiques",
+    "image": "caique.jpg",
+    "tag": "Curiosity with a playful streak.",
+    "example": "Caique",
+    "life": "A multi-decade commitment",
+    "lifetext": "Caiques are long-term companions. Published husbandry references give differing estimates, with some citing approximately 30\u201340 years. Treat this as planning guidance, not a promised lifespan.",
+    "temperament": "Often energetic and exploratory. Give them opportunities to climb, investigate and engage with suitable enrichment while respecting each bird\u2019s boundaries.",
+    "diet": "Offer a varied, balanced diet with suitable formulated food and fresh produce. Use treats sparingly and keep an eye on body condition.",
+    "space": "Provide climbing opportunities, safe foot toys and supervised play. Introductions to other birds should be careful and closely managed.",
+    "noise": "Calls and vocal activity vary. They should not be selected on the assumption that they will be quiet.",
+    "fit": "People who can offer structured activity and supervise an energetic bird\u2019s exploration.",
+    "examples": "Black-headed and white-bellied caiques",
+    "photos": [
+      {
+        "src": "/assets/caique.jpg",
+        "alt": "Caique"
+      },
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "slug": "eclectus",
+    "name": "Eclectus",
+    "image": "eclectus.jpg",
+    "tag": "Two striking palettes. One remarkable group.",
+    "example": "Eclectus parrot",
+    "life": "Around 23\u201330 years in published records",
+    "lifetext": "Animal Diversity Web describes captive life expectations around 23\u201328 years and an average around 30. Older individuals are reported elsewhere, but exceptional longevity is not a typical-life guarantee.",
+    "temperament": "Attentive birds with individual preferences for interaction. Avoid assuming that every bird has the same temperament based on sex or appearance.",
+    "diet": "Discuss an Eclectus-specific nutrition plan with an avian vet, including appropriate fresh produce and formulated food. Avoid routine supplements without professional advice.",
+    "space": "Provide a roomy enclosure, safe exercise and opportunities to forage. A calm-looking bird still needs movement and mental stimulation.",
+    "noise": "Eclectus can produce loud calls. Individual vocal patterns and response to household activity vary.",
+    "fit": "Owners who will pay close attention to diet, daily routine and individual behaviour.",
+    "examples": "Eclectus species from New Guinea, nearby islands and north-eastern Australia",
+    "photos": [
+      {
+        "src": "/assets/eclectus.jpg",
+        "alt": "Eclectus parrot"
+      },
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "slug": "parakeets-small-psittacines",
+    "name": "Parakeets & small psittacines",
+    "image": "parakeet.jpg",
+    "tag": "Little feathers. Plenty to discover.",
+    "example": "Budgerigar",
+    "life": "Species-dependent",
+    "lifetext": "This category spans very different birds. Published examples include around 7\u201312 years for budgerigars and 25\u201330 years for Indian ringnecks. Choose the exact species before planning its lifetime care.",
+    "temperament": "Social, active birds with preferences that vary by species and individual. Small size does not remove the need for companionship, enrichment and gentle handling.",
+    "diet": "Small parrots need a species-appropriate balance of formulated food, fresh vegetables, some fruit and suitable seeds where appropriate. A seed-only diet is not a balanced plan.",
+    "space": "Prioritise usable flight space, safe bar spacing and suitable perch diameters. Small birds also need opportunities to exercise and investigate.",
+    "noise": "Budgies may chatter frequently; other parakeets can have much louder calls. Research the exact species.",
+    "fit": "Owners looking for a smaller bird while still preparing for meaningful daily care.",
+    "examples": "Budgerigars, ringnecks, lovebirds, parrotlets and other small parrots",
+    "photos": [
+      {
+        "src": "/assets/parakeet.jpg",
+        "alt": "Budgerigar"
+      },
+      null,
+      null,
+      null
+    ]
+  }
+]

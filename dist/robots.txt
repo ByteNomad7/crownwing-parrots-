@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://crownwing-parrots.ihermes.chatgpt.site/sitemap.xml
