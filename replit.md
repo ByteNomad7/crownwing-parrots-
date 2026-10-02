@@ -16,5 +16,7 @@ The preview serves `dist/` directly, including its nested page directories. Pyth
 - Content generation and validation scripts live in `tools/`.
 - Check the site's links, metadata, structured data, and sitemap with `python3 tools/check-site.py`.
 - Enquiry forms currently download a text copy; they do not send enquiries to an inbox or save them on a server.
-- Canonical URLs and the sitemap retain the imported site's domain. Review these before publishing under a different domain.
+- The owner-specified canonical origin is `https://crownwingparrots.co.uk`, configured centrally in `tools/site_config.py`. All canonicals, social metadata, structured data and the sitemap must use it, not preview or imported-site domains.
+- The shared footer is generated in `tools/apply-breeder-positioning.py` and styled by `dist/footer.css`; retain the original brand and all policy links.
+- Setting the canonical origin does not publish the site or connect domain DNS; configure the custom domain when publishing.
 - For static hosting, publish `dist/`; the Python server above is for the development preview.

@@ -8,12 +8,12 @@ import html
 import json
 import re
 from pathlib import Path
-from urllib.parse import urlsplit
 from xml.sax.saxutils import escape
 
 from breeder_content import DISPLAY_NAMES, SALE_SLUGS
 from commercial_intent_content import INTENTS
 from business_policy_content import POLICIES, UPDATED
+from site_config import PUBLIC_ORIGIN
 
 ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / "dist"
@@ -220,10 +220,7 @@ def apply_content():
     cities = json.loads((ROOT / "tools/location-content.json").read_text())
     profiles = json.loads((ROOT / "tools/individual-species-content.json").read_text())
     photos = json.loads((ROOT / "tools/photo-metadata.json").read_text())["photos"]
-    home = route_file("/").read_text()
-    origin_url = re.search(r'<link rel="canonical" href="([^"]+)"', home)[1]
-    parsed = urlsplit(origin_url)
-    origin = parsed.scheme + "://" + parsed.netloc
+    origin = PUBLIC_ORIGIN
     by_parent = {group: [p for p in profiles if p["parent"] == group] for group in DISPLAY_NAMES}
     rewritten, expanded, created, photo_free = [], [], [], []
 
@@ -485,6 +482,7 @@ def apply_content():
         '<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
         + "".join("<url><loc>" + escape(origin + path) + "</loc></url>" for path in public_paths) + "</urlset>"
     )
+    (DIST / "robots.txt").write_text("User-agent: *\nAllow: /\nSitemap: " + origin + "/sitemap.xml\n")
     report = {"rewritten": rewritten, "expanded": expanded, "new_species_profiles": created,
               "species_profiles_awaiting_exact_photos": photo_free, "indexable_city_guides": len(cities),
               "policy_pages": list(POLICIES),

@@ -20,7 +20,7 @@ for item in data:
 def esc(v):return html.escape(str(v),quote=True)
 home=(out/'index.html').read_text()
 header=re.search(r'<header>.*?</header>',home,re.S).group().replace('href="#"','href="/"').replace('href="#','href="/#')
-footer=re.search(r'<footer>.*?</footer>',home,re.S).group().replace('href="#"','href="/"').replace('href="#','href="/#')
+footer=re.search(r'<footer\b[^>]*>.*?</footer>',home,re.S).group().replace('href="#"','href="/"').replace('href="#','href="/#')
 head=re.search(r'<head>.*?</head>',home,re.S).group().replace('href="style.css"','href="/style.css"')
 cards=[]
 for i,d in enumerate(data):

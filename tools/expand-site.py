@@ -1,7 +1,8 @@
 from pathlib import Path
 import re,json,html
 from urllib.parse import quote
-root=Path(__file__).resolve().parents[1];out=root/'dist';origin='https://crownwing-parrots.ihermes.chatgpt.site'
+from site_config import PUBLIC_ORIGIN
+root=Path(__file__).resolve().parents[1];out=root/'dist';origin=PUBLIC_ORIGIN
 data=json.loads((root/'tools/species-data.json').read_text());home=(root/'tools/templates/home.html').read_text()
 e=lambda v:html.escape(str(v),quote=True)
 head=re.search(r'<head>.*?</head>',home,re.S).group().replace('href="style.css"','href="/style.css"')
@@ -97,14 +98,14 @@ page('/contact/','Contact & parrot enquiries UK','Prepare a Crownwing Parrots en
 
 # Connect the existing species guides to commercial and educational pages.
 for d,(sale_path,_) in zip(data,sales):
- p=out/'parrots'/d['slug']/'index.html';s=(root/'tools/templates'/d['slug']/'index.html').read_text();s=re.sub(r'<header>.*?</header>',header,s,flags=re.S);s=re.sub(r'<footer>.*?</footer>',footer,s,flags=re.S)
+ p=out/'parrots'/d['slug']/'index.html';s=(root/'tools/templates'/d['slug']/'index.html').read_text();s=re.sub(r'<header>.*?</header>',header,s,flags=re.S);s=re.sub(r'<footer\b[^>]*>.*?</footer>',footer,s,flags=re.S)
  s=s.replace('/?species='+d['slug']+'#enquire','/contact/?species='+d['slug'])
  s=s.replace('href="/#parrots"','href="/parrots/"')
  links=blocks([('Considering this group for your home?',f'<p>Read the {a(sale_path,d["name"].lower()+" UK buying enquiry page")} for questions about the individual bird, price and availability. For preparation, explore {a("/guides/parrot-diet-nutrition/","diet and nutrition")}, {a("/guides/parrot-housing-enrichment/","housing and enrichment")} and the {a("/guides/buying-a-parrot-checklist/","buying checklist")}.</p>')])
  s=s.replace('<div class="guide-sources">',links+'<div class="guide-sources">');p.write_text(s)
 
 # Replace homepage scroll-only navigation and oversized information blocks with page teasers.
-home=re.sub(r'<header>.*?</header>',header,home,flags=re.S);home=re.sub(r'<footer>.*?</footer>',footer,home,flags=re.S)
+home=re.sub(r'<header>.*?</header>',header,home,flags=re.S);home=re.sub(r'<footer\b[^>]*>.*?</footer>',footer,home,flags=re.S)
 home=home.replace('href="#approach"','href="/our-approach/"').replace('href="#parrots"','href="/parrots/"')
 home=re.sub(r'<section id="approach".*?</section>', '<section class="home-feature section"><div><p class="eyebrow">THE CROWNWING APPROACH</p><h2>A companion.<br>A commitment.<br>A considered choice.</h2></div><div><p>Choosing a parrot starts with your home, your routine and the bird’s needs. Discover the questions behind a thoughtful match.</p><a class="button" href="/our-approach/">Read our approach</a></div></section>',home,flags=re.S)
 home=re.sub(r'<section id="care".*?</section>', '<section class="section"><div class="section-heading"><div><p class="eyebrow">BEFORE THE FIRST HELLO</p><h2>Research the bird.<br>Prepare the home.</h2></div><p>Explore practical guides to choosing a parrot, everyday care and the commitments behind a good beginning.</p></div>'+linkcards(guidelinks[:3])+f'<p class="hub-link">{a("/parrot-care/","Explore the full parrot care library")}</p></section>',home,flags=re.S)

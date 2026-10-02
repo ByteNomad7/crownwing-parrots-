@@ -8,10 +8,10 @@ import html
 import json
 import re
 from pathlib import Path
-from urllib.parse import urlsplit
 from xml.sax.saxutils import escape
 
 from breeder_content import AFRICAN_GREY_GUIDE, DISPLAY_NAMES, HERO_INTRO, SALE_SLUGS
+from site_config import PUBLIC_ORIGIN
 
 ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / "dist"
@@ -76,13 +76,13 @@ def navigation(text):
         r'(<a\b[^>]*class="button nav-cta"[^>]*>).*?(</a>)',
         r"\1Contact us\2", text, flags=re.S,
     )
-    footer_match = re.search(r"<footer>.*?</footer>", text, re.S)
+    footer_match = re.search(r"<footer\b[^>]*>.*?</footer>", text, re.S)
     if footer_match:
         brand = re.search(r'<a\b[^>]*class="brand"[^>]*>.*?</a>', footer_match[0], re.S)
         if not brand:
             raise ValueError("Footer brand missing")
         footer = (
-            "<footer>" + brand[0] + "<p>Parrot breeder &amp; retailer. Thoughtful beginnings.</p><div>"
+            '<footer class="site-footer">' + brand[0] + "<p>Parrot breeder &amp; retailer. Thoughtful beginnings.</p><div>"
             + "".join(link(path, label) for path, label in [
                 ("/available-birds/", "Available birds"),
                 ("/parrots/", "Species guides"),
@@ -133,11 +133,7 @@ def metadata(text, path, origin, title=None, description=None):
 
 def apply():
     home = (DIST / "index.html").read_text()
-    canonical = re.search(r'<link rel="canonical" href="([^"]+)"', home)
-    if not canonical:
-        raise ValueError("Existing canonical origin required; do not guess a production domain")
-    parsed_origin = urlsplit(canonical[1])
-    origin = parsed_origin.scheme + "://" + parsed_origin.netloc
+    origin = PUBLIC_ORIGIN
     source_data = json.loads((ROOT / "tools/species-data.json").read_text())
     for item in source_data:
         item["name"] = DISPLAY_NAMES[item["slug"]]

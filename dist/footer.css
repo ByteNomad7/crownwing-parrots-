@@ -1,0 +1,124 @@
+footer.site-footer {
+  display: grid;
+  grid-template-columns: minmax(150px, 1fr) minmax(250px, 1.35fr) minmax(178px, 0.8fr);
+  align-items: start;
+  gap: clamp(24px, 4vw, 64px);
+  min-height: 198px;
+  padding: 40px clamp(24px, 5.4vw, 76px) 34px;
+  border-top: 1px solid var(--line, #e3e6dc);
+  background: var(--cream, #f4f0e7);
+  color: var(--forest, #12372e);
+}
+
+footer.site-footer > a.brand {
+  justify-self: start;
+  align-self: start;
+  max-width: 100%;
+  color: var(--forest, #12372e);
+  text-decoration: none;
+}
+
+footer.site-footer > p {
+  justify-self: center;
+  margin: 6px 0 0;
+  color: var(--muted, #65746d);
+  font-size: 12px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+footer.site-footer > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-self: end;
+  gap: 5px;
+  max-width: 100%;
+  color: var(--forest, #12372e);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+footer.site-footer > div a {
+  width: fit-content;
+  max-width: 100%;
+  color: inherit;
+  text-decoration: none;
+  text-underline-offset: 3px;
+  transition: color 160ms ease;
+}
+
+footer.site-footer > div a:hover {
+  color: var(--clay, #b85e43);
+  text-decoration: underline;
+}
+
+footer.site-footer > div a:focus-visible,
+footer.site-footer > a.brand:focus-visible {
+  border-radius: 2px;
+  outline: 2px solid var(--clay, #b85e43);
+  outline-offset: 4px;
+}
+
+footer.site-footer > div span {
+  margin-top: 2px;
+  color: var(--muted, #65746d);
+  font-size: 11px;
+}
+
+@media (max-width: 700px) {
+  footer.site-footer {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 20px;
+    min-height: 0;
+    padding: 32px 24px 30px;
+  }
+
+  footer.site-footer > a.brand {
+    grid-column: 1;
+    grid-row: auto;
+    width: min(100%, 150px);
+    min-width: 0;
+  }
+
+  footer.site-footer > p {
+    grid-column: 1;
+    grid-row: auto;
+    justify-self: center;
+    max-width: 32rem;
+    margin: 0;
+  }
+
+  footer.site-footer > div {
+    grid-column: 1;
+    grid-row: auto;
+    justify-self: start;
+    gap: 6px;
+    font-size: 12px;
+  }
+
+  footer.site-footer > a.brand img,
+  footer.site-footer > a.brand svg {
+    max-width: 100%;
+    height: auto;
+  }
+
+  footer.site-footer > div a {
+    overflow-wrap: anywhere;
+  }
+}
+
+@media (max-width: 360px) {
+  footer.site-footer {
+    gap: 18px;
+    padding: 28px 18px 26px;
+  }
+
+  footer.site-footer > div {
+    font-size: 11px;
+  }
+
+  footer.site-footer > p {
+    font-size: 12px;
+  }
+}
