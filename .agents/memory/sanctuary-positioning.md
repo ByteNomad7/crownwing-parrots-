@@ -1,10 +1,10 @@
 ---
-name: Sanctuary positioning
-description: User-requested brand direction and boundaries for visual redesigns.
+name: Brand positioning
+description: Crownwing's confirmed business model and the boundaries of its nature-led visual direction.
 ---
 
-Crownwing's requested visual positioning is a credible UK-based parrot sanctuary, rather than a generic pet retailer. Preserve the existing logo and favicon when evolving the visual theme.
+Crownwing is a breeder and retailer, as confirmed by the user. Retain the current nature-led, sanctuary-inspired visual design and preserve the existing logo and favicon. The visual treatment is not a claim that Crownwing operates a sanctuary.
 
-**Why:** The user explicitly requested this direction and excluded logo and favicon changes.
+**Why:** The user originally requested a sanctuary-inspired design and excluded logo and favicon changes, then clarified the business is a breeder and retailer and requested clearer marketing around that identity.
 
-**How to apply:** Keep visual work nature-led, approachable, and professional. A sanctuary visual direction does not verify charitable status, accreditation, rescue statistics, or operational claims; obtain real facts before adding credibility claims. The requested redesign was design-only, so existing commercial wording was not permission to rewrite the site's content.
+**How to apply:** Keep visual work nature-led, approachable and professional. Position approved marketing copy around breeding, retail and responsible buying, not rescue or charitable operations. The user requires breeder practices, buyer inclusions, collection arrangements and aftercare claims to use only confirmed details; never invent these.
