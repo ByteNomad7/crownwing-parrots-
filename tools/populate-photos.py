@@ -5,6 +5,7 @@ Subsequent runs are idempotent and do not require the original archive.
 """
 
 import argparse
+import hashlib
 import html
 import json
 import re
@@ -34,13 +35,23 @@ def esc(value):
 
 def import_assets(catalogue, archive):
     total_original = total_optimised = 0
+    imported = 0
     with zipfile.ZipFile(archive) as bundle, tempfile.TemporaryDirectory() as work:
         for photo in catalogue["photos"]:
+            if photo.get("sourceArchive") and photo["sourceArchive"] != archive.name:
+                continue
             source = photo["sourceFile"]
-            if ".." in Path(source).parts or not source.startswith("photos/"):
+            source_path = Path(source)
+            if (source_path.is_absolute() or ".." in source_path.parts
+                    or "\\" in source or source.startswith("__MACOSX/")
+                    or source_path.suffix.lower() not in {".jpg", ".jpeg", ".png", ".webp"}):
                 raise ValueError(f"Unsafe archive entry: {source}")
-            original = Path(work) / Path(source).name
-            original.write_bytes(bundle.read(source))
+            data = bundle.read(source)
+            if photo.get("sourceHash") and hashlib.sha256(data).hexdigest() != photo["sourceHash"]:
+                raise ValueError(f"Source photo has changed: {source}")
+            original = Path(work) / source_path.name
+            original.write_bytes(data)
+            imported += 1
             total_original += original.stat().st_size
             for key, size, quality in [("src", 2000, 84), ("thumbnail", 480, 80)]:
                 target = DIST / photo[key].lstrip("/")
@@ -59,8 +70,10 @@ def import_assets(catalogue, archive):
                 height_key = "height" if not prefix else "thumbnailHeight"
                 photo[width_key], photo[height_key] = map(int, dimensions)
                 total_optimised += target.stat().st_size
+    if not imported:
+        raise ValueError(f"No catalogue photos match archive: {archive.name}")
     MANIFEST.write_text(json.dumps(catalogue, indent=2) + "\n")
-    print(f"Imported {len(catalogue['photos'])} photos: "
+    print(f"Imported {imported} photos: "
           f"{total_original:,} source bytes → {total_optimised:,} web bytes.")
 
 
