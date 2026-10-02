@@ -9,9 +9,19 @@ The root `netlify.toml` supplies these settings:
 - Build command: `npm run build`.
 - Publish directory: `dist`.
 - Python: 3.12; Node: 22.
+- Npm registry: public `https://registry.npmjs.org`.
+- Install flags: `--omit=dev`. The static build uses Python's standard library,
+  not the development-only Lighthouse audit package.
 
 Redeploy after updating the repository. Netlify serves the HTML files directly;
 do not configure the Gunicorn command as its build command.
+
+If a build log reports `ENOTFOUND package-firewall.replit.internal`, push the
+updated `package-lock.json` and `netlify.toml`, then retry with a cleared build
+cache. The lockfile preserves the same versions and integrity hashes but uses
+public npm archive URLs. Ensure the deploy is building the commit containing
+these fixes; changing the build command alone cannot fix an earlier dependency
+installation failure.
 
 ## Manual upload
 

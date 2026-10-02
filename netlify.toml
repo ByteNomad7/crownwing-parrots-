@@ -6,6 +6,8 @@
 [build.environment]
   PYTHON_VERSION = "3.12"
   NODE_VERSION = "22"
+  NPM_FLAGS = "--omit=dev"
+  NPM_CONFIG_REGISTRY = "https://registry.npmjs.org"
 
 [build.processing.html]
   pretty_urls = true

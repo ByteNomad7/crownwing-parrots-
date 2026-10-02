@@ -20,3 +20,9 @@ Netlify is a separate supported static-host target, not equivalent to Replit Sta
 **Why:** The owner subsequently requested Netlify compatibility. The earlier need for Autoscale concerned Replit's static redirect limitations, not every static host.
 
 **How to apply:** Keep Netlify's generated routing rules aligned with the same approved merge manifest. Publish only the built static directory, retain genuine HTTP 404s for unknown URLs, and do not add an SPA homepage fallback. Verify actual Netlify-host behaviour after deployment rather than claiming local rule checks prove CDN behaviour.
+
+Before shipping dependency lockfiles to external hosts, check for Replit-only registry addresses.
+
+**Why:** Netlify failed before the site build because the npm lockfile referenced `package-firewall.replit.internal`, which is not resolvable outside Replit.
+
+**How to apply:** Preserve package versions/integrity while making external-host archive URLs portable. Replit package operations may reintroduce internal URLs, so keep the external-host validation guard. Avoid installing unused development-only audit packages in the static production build.

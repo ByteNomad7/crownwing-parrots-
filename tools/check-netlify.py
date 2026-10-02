@@ -9,6 +9,15 @@ DIST = ROOT / "dist"
 config = tomllib.loads((ROOT / "netlify.toml").read_text())
 assert config["build"]["publish"] == "dist"
 assert config["build"]["command"] == "npm run build"
+assert config["build"]["environment"]["NPM_FLAGS"] == "--omit=dev"
+assert config["build"]["environment"]["NPM_CONFIG_REGISTRY"] == "https://registry.npmjs.org"
+lock_text = (ROOT / "package-lock.json").read_text()
+assert "replit.internal" not in lock_text, "External hosts cannot resolve Replit-only package URLs"
+lock = json.loads(lock_text)
+assert not json.loads((ROOT / "package.json").read_text()).get("dependencies"), "Review omit=dev if runtime npm dependencies are added"
+for package in lock["packages"].values():
+    if "resolved" in package:
+        assert package["resolved"].startswith("https://registry.npmjs.org/"), "Nonportable npm archive URL"
 assert config["build"]["processing"]["html"]["pretty_urls"] is True
 assert (DIST / "index.html").is_file()
 assert (DIST / "assets").is_dir()
