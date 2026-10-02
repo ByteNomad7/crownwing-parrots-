@@ -1,0 +1,1 @@
+- [Sanctuary positioning](sanctuary-positioning.md) — Crownwing's requested visual direction is a credible UK parrot sanctuary; retain the existing logo and favicon.
