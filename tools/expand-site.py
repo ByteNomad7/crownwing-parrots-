@@ -8,21 +8,21 @@ head=re.search(r'<head>.*?</head>',home,re.S).group().replace('href="style.css"'
 brand='<a href="/" class="brand"><span class="brandmark">♛</span><span>CROWN WING<small>PARROTS</small></span></a>'
 header=f'<header>{brand}<nav aria-label="Main navigation"><a href="/parrots/">Our parrots</a><a href="/our-approach/">Our approach</a><a href="/parrot-care/">Parrot care</a><a href="/parrots-for-sale/">Buying a parrot</a></nav><a class="button nav-cta" href="/contact/">Make an enquiry</a><button class="menu" aria-label="Open navigation" aria-expanded="false">☰</button></header>'
 footer=f'<footer>{brand}<p>Extraordinary birds. Thoughtful beginnings.</p><div><a href="/parrots-for-sale/">Parrot enquiries UK</a><a href="/our-approach/">Our approach</a><a href="/parrot-care/">Care guides</a><a href="/contact/">Contact & enquiries</a><span>© 2026 Crownwing Parrots</span></div></footer>'
-credits=re.search(r'<div class="credits">.*?</div>',home,re.S).group()
+credits=''
 def a(path,text):return f'<a href="{path}">{text}</a>'
 def blocks(sections):return ''.join(f'<section class="article-section"><h2>{title}</h2>{text}</section>' for title,text in sections)
 def faqs(items):return '<div class="page-faq">'+''.join(f'<details><summary>{q}</summary><p>{ans}</p></details>' for q,ans in items)+'</div>'
 def related(items):return '<section class="related"><h2>Keep exploring</h2><div>'+''.join(a(*item) for item in items)+'</div></section>'
 def cta(title,slug=None):return f'<section class="detail-cta"><div><p class="eyebrow">A THOUGHTFUL NEXT STEP</p><h2>{title}</h2><p>Start with your experience, your home and the birds that interest you.</p></div><a class="button lime" href="/contact/{"?species="+slug if slug else ""}">Prepare an enquiry</a></section>'
 def photo(d):
- return f'<figure class="editorial-photo"><img src="/assets/{d["image"]}" alt="{e(d["example"])}"><figcaption>Representative species photo. {a("/parrots/"+d["slug"]+"/","Photo credit and species guide")}</figcaption></figure>'
+ return f'<figure class="editorial-photo" data-photo-group="{d["slug"]}"><figcaption>Representative species photo. {a("/parrots/"+d["slug"]+"/","Species guide")}</figcaption></figure>'
 def page(path,title,desc,kicker,h1,intro,body,side=None):
  h=re.sub(r'<title>.*?</title>',f'<title>{e(title)} | Crownwing Parrots</title>',head)
  h=re.sub(r'<meta name="description" content="[^"]*">',f'<meta name="description" content="{e(desc)}">',h)
  main=f'<main class="content-page"><div class="detail-top">{a("/","Home")}<span>/ {e(h1)}</span></div><section class="page-intro"><div><p class="eyebrow">{kicker}</p><h1>{h1}</h1><p class="page-lead">{intro}</p></div>{side or ""}</section>{body}</main>'
  p=out/path.strip('/')/'index.html';p.parent.mkdir(parents=True,exist_ok=True);p.write_text('<!doctype html><html lang="en-GB">'+h+'<body>'+header+main+footer+credits+'<script src="/common.js"></script></body></html>')
 def collection():
- return '<div class="species-grid">'+''.join(f'<a class="species-card visual-card" href="/parrots/{d["slug"]}/"><div class="card-photo"><img loading="lazy" src="/assets/{d["image"]}" alt="{e(d["example"])}"></div><div class="card-copy"><h3>{e(d["name"])}</h3><p>{e(d["tag"])}</p><span class="card-link">Read the species guide</span></div></a>' for d in data)+'</div>'
+ return '<div class="species-grid">'+''.join(f'<a class="species-card visual-card" href="/parrots/{d["slug"]}/"><div class="card-photo" data-photo-group="{d["slug"]}"></div><div class="card-copy"><h3>{e(d["name"])}</h3><p>{e(d["tag"])}</p><span class="card-link">Read the species guide</span></div></a>' for d in data)+'</div>'
 
 approach=blocks([
 ('The right bird starts with the right questions','<p>Crownwing Parrots brings together eight groups of parrots for people exploring a companion bird in the United Kingdom. Our starting point is simple: a bird’s needs and your household routine should shape the decision. Colour, size and talking ability are interesting, but they are not enough to establish a suitable match.</p><p>We use our '+a('/parrots/','parrot species guides')+' to introduce the differences between African parrots, macaws, cockatoos, Amazons, conures, caiques, Eclectus and smaller psittacines. These are group introductions rather than promises about an individual bird. Species, age, history and temperament all matter.</p>'),
@@ -136,3 +136,5 @@ print(f'Created connected content architecture: {len(paths)} pages, canonical UR
 # Apply the current visible-copy preference after regenerating pages.
 import runpy as _notice_runner
 _notice_runner.run_path(str(root/'tools/clean-visible-notices.py'))
+import subprocess, sys
+subprocess.run([sys.executable, str(root/'tools/populate-photos.py')], check=True)

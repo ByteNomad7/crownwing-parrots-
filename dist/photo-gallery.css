@@ -1,0 +1,240 @@
+/* Uploaded photography: responsive collections and photo-free species guides. */
+.visual-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.visual-card .card-copy {
+  flex: 1;
+}
+
+.species-card--guide {
+  justify-content: center;
+  min-height: 355px;
+  background:
+    radial-gradient(circle at 100% 0%, #e0e8d5 0, transparent 55%),
+    #f1f3ea;
+}
+
+.species-card--guide .card-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: clamp(24px, 3vw, 38px);
+}
+
+.species-card--guide .eyebrow {
+  min-height: 0;
+  margin-bottom: 25px;
+  color: var(--moss);
+  font-size: 10px;
+}
+
+.species-card--guide h3 {
+  font-size: clamp(30px, 3vw, 40px);
+}
+
+.species-card--guide .card-link {
+  align-self: flex-start;
+}
+
+.detail-intro:not(:has(.detail-gallery)) {
+  grid-template-columns: minmax(0, 1fr);
+  padding: clamp(28px, 5vw, 65px);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: var(--sage);
+}
+
+.detail-intro:not(:has(.detail-gallery)) > div > p:not(.eyebrow) {
+  max-width: 750px;
+}
+
+.detail-gallery {
+  min-width: 0;
+}
+
+.gallery-main {
+  position: relative;
+  height: clamp(300px, 34vw, 450px);
+  background: #eef1e7;
+}
+
+.gallery-main::after {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  padding: 7px 13px;
+  border: 1px solid rgb(255 255 255 / 30%);
+  border-radius: 999px;
+  background: rgb(18 55 46 / 87%);
+  color: #fffdf6;
+  content: 'Enlarge photo';
+  font-family: var(--sans);
+  font-size: 11px;
+  pointer-events: none;
+}
+
+.gallery-main img {
+  height: 100%;
+  object-fit: contain;
+  background: #eef1e7;
+}
+
+.gallery-caption {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4px 12px;
+  margin: 12px 0;
+  color: var(--forest);
+  font-size: 13px;
+}
+
+.gallery-caption span {
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.gallery-slots.photo-thumbnails {
+  display: grid;
+  grid-template-columns: repeat(var(--photo-columns, 4), minmax(0, 1fr));
+  gap: 10px;
+  margin: 0;
+}
+
+.photo-thumbnail {
+  min-width: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #fffefa;
+  color: var(--forest);
+  text-align: left;
+  transition: border-color 180ms ease, transform 180ms ease;
+}
+
+.photo-thumbnail:hover {
+  border-color: var(--moss);
+  transform: translateY(-2px);
+}
+
+.photo-thumbnail img {
+  display: block;
+  width: 100%;
+  height: 95px;
+  object-fit: contain;
+  background: var(--sage);
+}
+
+.photo-thumbnail span {
+  display: block;
+  padding: 8px;
+  font-size: 10px;
+  line-height: 1.4;
+}
+
+.photo-collection {
+  margin-top: 15px;
+  padding: 14px 0;
+}
+
+.photo-collection summary {
+  font-size: 13px;
+}
+
+.photo-collection-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 16px;
+}
+
+#photo-dialog {
+  width: min(1100px, calc(100% - 24px));
+  max-width: 1100px;
+  max-height: calc(100svh - 24px);
+  padding: 52px 55px 16px;
+  overflow: auto;
+}
+
+#photo-dialog img {
+  width: 100%;
+  height: auto;
+  max-height: calc(100svh - 150px);
+  object-fit: contain;
+}
+
+#photo-dialog .close,
+.photo-prev,
+.photo-next {
+  display: grid;
+  width: 44px;
+  height: 44px;
+  place-items: center;
+  border: 1px solid rgb(255 255 255 / 25%);
+  border-radius: 50%;
+  background: var(--forest);
+  color: #fffdf6;
+}
+
+#photo-dialog .close {
+  top: 5px;
+  right: 8px;
+}
+
+.photo-prev,
+.photo-next {
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+  transform: translateY(-50%);
+  font-size: 32px;
+  line-height: 1;
+}
+
+.photo-prev {
+  left: 5px;
+}
+
+.photo-next {
+  right: 5px;
+}
+
+.photo-dialog-caption {
+  margin: 10px 0 0;
+  color: #e3ead7;
+  font-size: 13px;
+  text-align: center;
+}
+
+@media (max-width: 760px) {
+  .gallery-main {
+    height: clamp(280px, 75vw, 420px);
+  }
+
+  .photo-thumbnail img {
+    height: clamp(70px, 18vw, 110px);
+  }
+
+  .species-card--guide {
+    min-height: 290px;
+  }
+
+  .photo-collection-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  #photo-dialog {
+    padding: 51px 12px 17px;
+  }
+
+  .photo-prev,
+  .photo-next {
+    top: auto;
+    bottom: 53px;
+    background: rgb(18 55 46 / 90%);
+    transform: none;
+  }
+}

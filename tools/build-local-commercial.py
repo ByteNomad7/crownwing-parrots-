@@ -127,3 +127,5 @@ print(f'Built {len(cities)} city guides and {len(commercial)} commercial pages; 
 # Apply the current visible-copy preference after regenerating pages.
 import runpy as _notice_runner
 _notice_runner.run_path(str(root/'tools/clean-visible-notices.py'))
+import subprocess, sys
+subprocess.run([sys.executable, str(root/'tools/populate-photos.py')], check=True)

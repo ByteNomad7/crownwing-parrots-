@@ -2,7 +2,6 @@
   {
     "slug": "african-parrots",
     "name": "African parrots",
-    "image": "grey.jpg",
     "tag": "Intelligence, in every feather.",
     "example": "African grey parrot",
     "life": "Several decades",
@@ -12,21 +11,11 @@
     "space": "Provide room to move, climb and exercise, alongside safe supervised time outside the enclosure. Offer different perch sizes and rotate suitable chew and foraging toys.",
     "noise": "Calls and mimicry vary by species and individual. No bird is guaranteed to talk or remain quiet.",
     "fit": "A household ready to offer consistent interaction, enrichment and a calm routine.",
-    "examples": "African grey, Timneh, Senegal and Meyer\u2019s parrots",
-    "photos": [
-      {
-        "src": "/assets/grey.jpg",
-        "alt": "African grey parrot"
-      },
-      null,
-      null,
-      null
-    ]
+    "examples": "African grey, Timneh, Senegal and Meyer\u2019s parrots"
   },
   {
     "slug": "macaws",
     "name": "Macaws",
-    "image": "macaw.jpg",
     "tag": "Extraordinary colour. Unmistakable presence.",
     "example": "Blue-and-gold macaw",
     "life": "A long-term commitment",
@@ -36,21 +25,11 @@
     "space": "Large species need substantial accommodation, strong perches and plenty of safe exercise space. Choose durable enrichment designed for a powerful beak.",
     "noise": "Large macaws can produce very loud calls. Consider neighbours and the whole household before choosing one.",
     "fit": "Owners with the space, time and resources to meet a large parrot\u2019s daily needs.",
-    "examples": "Blue-and-gold, scarlet, green-winged and Hahn\u2019s macaws",
-    "photos": [
-      {
-        "src": "/assets/macaw.jpg",
-        "alt": "Blue-and-gold macaw"
-      },
-      null,
-      null,
-      null
-    ]
+    "examples": "Blue-and-gold, scarlet, green-winged and Hahn\u2019s macaws"
   },
   {
     "slug": "cockatoos",
     "name": "Cockatoos",
-    "image": "cockatoo.jpg",
     "tag": "A crest full of character.",
     "example": "Cockatoo",
     "life": "Several decades",
@@ -60,21 +39,11 @@
     "space": "Provide a robust enclosure, safe exercise, appropriate chew materials and regular enrichment. Feather dust is an important consideration when planning the home environment.",
     "noise": "Many species have powerful calls. Noise and feather dust can make some homes unsuitable.",
     "fit": "A well-prepared household that understands the group\u2019s social demands, noise and long-term needs.",
-    "examples": "Umbrella, sulphur-crested and Moluccan cockatoos; galahs",
-    "photos": [
-      {
-        "src": "/assets/cockatoo.jpg",
-        "alt": "Cockatoo"
-      },
-      null,
-      null,
-      null
-    ]
+    "examples": "Umbrella, sulphur-crested and Moluccan cockatoos; galahs"
   },
   {
     "slug": "amazons",
     "name": "Amazons",
-    "image": "amazon.jpg",
     "tag": "Vibrant greens. Individual spirits.",
     "example": "Amazon parrot",
     "life": "Often several decades",
@@ -84,21 +53,11 @@
     "space": "Make room for climbing, exercise and robust enrichment. Provide varied perches and opportunities to search for food.",
     "noise": "Calls can be loud. Talking ability varies and should never be promised.",
     "fit": "Owners willing to learn parrot body language and support exercise, nutrition and consistent routines.",
-    "examples": "Blue-fronted, yellow-naped and double yellow-headed Amazons",
-    "photos": [
-      {
-        "src": "/assets/amazon.jpg",
-        "alt": "Amazon parrot"
-      },
-      null,
-      null,
-      null
-    ]
+    "examples": "Blue-fronted, yellow-naped and double yellow-headed Amazons"
   },
   {
     "slug": "conures",
     "name": "Conures",
-    "image": "conure.jpg",
     "tag": "Small in stature. Full of personality.",
     "example": "Conure",
     "life": "Around 20\u201335 years",
@@ -108,21 +67,11 @@
     "space": "Allow room for movement and supervised exercise. Choose appropriate bar spacing and small-parrot-safe toys without hazardous loose parts.",
     "noise": "Some conures have piercing calls. A smaller body does not mean a quiet companion.",
     "fit": "Households ready for an active small parrot with daily enrichment and social interaction.",
-    "examples": "Green-cheeked, sun and jenday conures",
-    "photos": [
-      {
-        "src": "/assets/conure.jpg",
-        "alt": "Conure"
-      },
-      null,
-      null,
-      null
-    ]
+    "examples": "Green-cheeked, sun and jenday conures"
   },
   {
     "slug": "caiques",
     "name": "Caiques",
-    "image": "caique.jpg",
     "tag": "Curiosity with a playful streak.",
     "example": "Caique",
     "life": "A multi-decade commitment",
@@ -132,21 +81,11 @@
     "space": "Provide climbing opportunities, safe foot toys and supervised play. Introductions to other birds should be careful and closely managed.",
     "noise": "Calls and vocal activity vary. They should not be selected on the assumption that they will be quiet.",
     "fit": "People who can offer structured activity and supervise an energetic bird\u2019s exploration.",
-    "examples": "Black-headed and white-bellied caiques",
-    "photos": [
-      {
-        "src": "/assets/caique.jpg",
-        "alt": "Caique"
-      },
-      null,
-      null,
-      null
-    ]
+    "examples": "Black-headed and white-bellied caiques"
   },
   {
     "slug": "eclectus",
     "name": "Eclectus",
-    "image": "eclectus.jpg",
     "tag": "Two striking palettes. One remarkable group.",
     "example": "Eclectus parrot",
     "life": "Around 23\u201330 years in published records",
@@ -156,21 +95,11 @@
     "space": "Provide a roomy enclosure, safe exercise and opportunities to forage. A calm-looking bird still needs movement and mental stimulation.",
     "noise": "Eclectus can produce loud calls. Individual vocal patterns and response to household activity vary.",
     "fit": "Owners who will pay close attention to diet, daily routine and individual behaviour.",
-    "examples": "Eclectus species from New Guinea, nearby islands and north-eastern Australia",
-    "photos": [
-      {
-        "src": "/assets/eclectus.jpg",
-        "alt": "Eclectus parrot"
-      },
-      null,
-      null,
-      null
-    ]
+    "examples": "Eclectus species from New Guinea, nearby islands and north-eastern Australia"
   },
   {
     "slug": "parakeets-small-psittacines",
     "name": "Parakeets & small psittacines",
-    "image": "parakeet.jpg",
     "tag": "Little feathers. Plenty to discover.",
     "example": "Budgerigar",
     "life": "Species-dependent",
@@ -180,15 +109,6 @@
     "space": "Prioritise usable flight space, safe bar spacing and suitable perch diameters. Small birds also need opportunities to exercise and investigate.",
     "noise": "Budgies may chatter frequently; other parakeets can have much louder calls. Research the exact species.",
     "fit": "Owners looking for a smaller bird while still preparing for meaningful daily care.",
-    "examples": "Budgerigars, ringnecks, lovebirds, parrotlets and other small parrots",
-    "photos": [
-      {
-        "src": "/assets/parakeet.jpg",
-        "alt": "Budgerigar"
-      },
-      null,
-      null,
-      null
-    ]
+    "examples": "Budgerigars, ringnecks, lovebirds, parrotlets and other small parrots"
   }
 ]
