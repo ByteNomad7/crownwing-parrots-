@@ -302,7 +302,11 @@ def apply_catalogue(catalogue):
             group = relative[1]
             matching = [p for p in photos.values() if p["group"] == group and p.get("publish", True)]
             if group in covers:
-                matching.sort(key=lambda p: (p["id"] != covers[group]["id"], p["id"]))
+                matching.sort(key=lambda p: (
+                    p["id"] != covers[group]["id"],
+                    p["identificationConfidence"] == "provisional",
+                    p["id"],
+                ))
             gallery = gallery_markup(matching) if matching else ""
             if '<div class="detail-gallery"' in text:
                 text = re.sub(r'<div class="detail-gallery".*?(?=</section>)',

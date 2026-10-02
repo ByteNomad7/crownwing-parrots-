@@ -6,7 +6,7 @@
     "macaws": 33,
     "cockatoos": 55,
     "parakeets-small-psittacines": 20,
-    "amazons": 22
+    "amazons": 67
   },
   "photos": [
     {
@@ -381,7 +381,7 @@
       "focus": "70% 35%",
       "thumbnailWidth": 480,
       "thumbnailHeight": 319,
-      "identificationDisplayNote": "Provisional Amazon-group identification; exact species and colour mutation unconfirmed.",
+      "identificationDisplayNote": "The blue-coloured parrot photographs have a provisional Amazon-group identification; their exact species and colour mutation are unconfirmed.",
       "sourceArchive": "photos_1790943138164.zip"
     },
     {
@@ -399,7 +399,7 @@
       "focus": "70% 35%",
       "thumbnailWidth": 480,
       "thumbnailHeight": 319,
-      "identificationDisplayNote": "Provisional Amazon-group identification; exact species and colour mutation unconfirmed.",
+      "identificationDisplayNote": "The blue-coloured parrot photographs have a provisional Amazon-group identification; their exact species and colour mutation are unconfirmed.",
       "sourceArchive": "photos_1790943138164.zip"
     },
     {
@@ -417,7 +417,7 @@
       "focus": "70% 35%",
       "thumbnailWidth": 319,
       "thumbnailHeight": 480,
-      "identificationDisplayNote": "Provisional Amazon-group identification; exact species and colour mutation unconfirmed.",
+      "identificationDisplayNote": "The blue-coloured parrot photographs have a provisional Amazon-group identification; their exact species and colour mutation are unconfirmed.",
       "sourceArchive": "photos_1790943138164.zip"
     },
     {
@@ -1092,6 +1092,78 @@
       "focus": "50% 35%",
       "thumbnailWidth": 480,
       "thumbnailHeight": 319
+    },
+    {
+      "id": 64,
+      "sourceArchive": "untitled_folder_1790946054361.zip",
+      "sourceFile": "untitled folder/14859894397_9d045cd7af_o.jpg",
+      "sourceHash": "d61743f7205d575d12e1ab61060f2e00727511bffcb050c244a29d8921f4edc6",
+      "group": "amazons",
+      "label": "Blue-fronted Amazon parrot",
+      "identificationConfidence": "high",
+      "identificationNote": "Green plumage, blue/turquoise forehead, yellow crown and facial markings, orange eyes, dark bill and red/yellow shoulder patches are consistent with a blue-fronted Amazon. Exact subspecies or pedigree is not asserted.",
+      "publish": true,
+      "src": "/assets/parrots/amazons/blue-fronted-amazon-01.webp",
+      "thumbnail": "/assets/parrots/amazons/blue-fronted-amazon-01-thumb.webp",
+      "width": 2000,
+      "height": 1333,
+      "focus": "50% 35%",
+      "thumbnailWidth": 480,
+      "thumbnailHeight": 320
+    },
+    {
+      "id": 65,
+      "sourceArchive": "untitled_folder_1790946054361.zip",
+      "sourceFile": "untitled folder/15023391986_59f39e7f73_o.jpg",
+      "sourceHash": "d45d966ab9c5e940a2ad27d76108a0f18b417995f2ca2c97073e359574c04326",
+      "group": "amazons",
+      "label": "Blue-fronted Amazon parrot",
+      "identificationConfidence": "high",
+      "identificationNote": "Green plumage, blue/turquoise forehead, yellow crown and facial markings, orange eyes, dark bill and red/yellow shoulder patches are consistent with a blue-fronted Amazon. Exact subspecies or pedigree is not asserted.",
+      "publish": true,
+      "src": "/assets/parrots/amazons/blue-fronted-amazon-02.webp",
+      "thumbnail": "/assets/parrots/amazons/blue-fronted-amazon-02-thumb.webp",
+      "width": 2000,
+      "height": 1333,
+      "focus": "50% 35%",
+      "thumbnailWidth": 480,
+      "thumbnailHeight": 320
+    },
+    {
+      "id": 66,
+      "sourceArchive": "untitled_folder_1790946054361.zip",
+      "sourceFile": "untitled folder/15043267971_8f864e434a_o.jpg",
+      "sourceHash": "d9140c04e20ef2072dc7a63780dab81b87fb6df83fe62f0cb23dc991d72aaa91",
+      "group": "amazons",
+      "label": "Blue-fronted Amazon parrot",
+      "identificationConfidence": "high",
+      "identificationNote": "Green plumage, blue/turquoise forehead, yellow crown and facial markings, orange eyes, dark bill and red/yellow shoulder patches are consistent with a blue-fronted Amazon. Exact subspecies or pedigree is not asserted.",
+      "publish": true,
+      "src": "/assets/parrots/amazons/blue-fronted-amazon-03.webp",
+      "thumbnail": "/assets/parrots/amazons/blue-fronted-amazon-03-thumb.webp",
+      "width": 1333,
+      "height": 2000,
+      "focus": "50% 35%",
+      "thumbnailWidth": 320,
+      "thumbnailHeight": 480
+    },
+    {
+      "id": 67,
+      "sourceArchive": "untitled_folder_1790946054361.zip",
+      "sourceFile": "untitled folder/15046409975_3754c9c8d8_o.jpg",
+      "sourceHash": "8cfe33396ea6799cb378c423960896d1933961296cd76a98be5687d10c24e113",
+      "group": "amazons",
+      "label": "Blue-fronted Amazon parrot",
+      "identificationConfidence": "high",
+      "identificationNote": "Green plumage, blue/turquoise forehead, yellow crown and facial markings, orange eyes, dark bill and red/yellow shoulder patches are consistent with a blue-fronted Amazon. Exact subspecies or pedigree is not asserted.",
+      "publish": true,
+      "src": "/assets/parrots/amazons/blue-fronted-amazon-04.webp",
+      "thumbnail": "/assets/parrots/amazons/blue-fronted-amazon-04-thumb.webp",
+      "width": 2000,
+      "height": 1333,
+      "focus": "65% 35%",
+      "thumbnailWidth": 480,
+      "thumbnailHeight": 320
     }
   ]
 }
