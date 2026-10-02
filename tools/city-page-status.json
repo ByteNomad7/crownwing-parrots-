@@ -1,5 +1,5 @@
 {
-  "status": "private review drafts; noindex until local service details are verified",
+  "status": "indexable regional guides at the business owner\u2019s request",
   "cities": [
     "London",
     "Manchester",
@@ -15,11 +15,7 @@
     "Glasgow",
     "Belfast"
   ],
-  "required_before_indexing": [
-    "Confirmed service relationship with each location",
-    "Genuine city-specific availability or viewing/transport information",
-    "Verified business contact details"
-  ],
+  "robots": "index,follow",
   "commercial_pages": [
     "/parrots-for-sale/talking-parrots/",
     "/parrots-for-sale/small-parrots/",

@@ -2,3 +2,4 @@
 - [Photo identification](photo-identification.md) — colour mutations and hybrids need anatomy-based checks; disclose provisional group matches instead of claiming exact species.
 - [Gallery visibility](gallery-visibility.md) — show complete photo collections by default; collapsed additional photos were mistaken for missing uploads.
 - [Browser test fidelity](browser-test-fidelity.md) — source-based checks supplement live previews; semicolons in quoted font URLs can corrupt naive CSS import removal.
+- [City indexing](city-indexing.md) — the owner requested indexable city guides; do not restore the earlier noindex policy.

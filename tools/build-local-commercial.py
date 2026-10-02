@@ -102,7 +102,7 @@ for p in out.rglob('index.html'):
  s=p.read_text().replace('<a href="/contact/">Contact & enquiries</a>','<a href="/locations/">UK city guides</a><a href="/parrot-prices-uk/">Parrot prices & costs</a><a href="/contact/">Contact & enquiries</a>')
  p.write_text(s)
 
-# Metadata for all routes, with city drafts held out of search until real local service facts exist.
+# Metadata for all routes; city guides are indexable at the owner's request.
 paths=[];public_paths=[]
 for p in sorted(out.rglob('index.html')):
  rel=p.parent.relative_to(out).as_posix();path='/' if rel=='.' else '/'+rel+'/'
@@ -115,13 +115,14 @@ for p in sorted(out.rglob('index.html')):
   elif path.startswith('/parrots-for-sale/') and path!='/parrots-for-sale/':crumbs.append({'@type':'ListItem','position':2,'name':'UK buying enquiries','item':origin+'/parrots-for-sale/'})
   crumbs.append({'@type':'ListItem','position':len(crumbs)+1,'name':title.split('|')[0].strip(),'item':origin+path});schema['breadcrumb']={'@type':'BreadcrumbList','itemListElement':crumbs}
  robots=''
- if path.startswith('/locations/') and path!='/locations/':robots='<meta name="robots" content="noindex,follow">'
- else:public_paths.append(path)
+ if path.startswith('/locations/') and path!='/locations/':
+  s=re.sub(r'<meta name="robots"[^>]*>','',s);robots='<meta name="robots" content="index,follow">'
+ public_paths.append(path)
  s=s.replace('</head>',f'<link rel="canonical" href="{origin+path}">{robots}<script type="application/ld+json">{json.dumps(schema)}</script></head>');p.write_text(s)
 from xml.sax.saxutils import escape
 def sitemap(routes):return '<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+escape(origin+p)+'</loc></url>' for p in routes)+'</urlset>'
 (out/'sitemap.xml').write_text(sitemap(public_paths))
-(root/'tools/city-page-status.json').write_text(json.dumps({'status':'private review drafts; noindex until local service details are verified','cities':[c[1] for c in cities],'required_before_indexing':['Confirmed service relationship with each location','Genuine city-specific availability or viewing/transport information','Verified business contact details'],'commercial_pages':[p for p,_ in extra_links]},indent=2))
+(root/'tools/city-page-status.json').write_text(json.dumps({'status':'indexable regional guides at the business owner’s request','cities':[c[1] for c in cities],'robots':'index,follow','commercial_pages':[p for p,_ in extra_links]},indent=2))
 print(f'Built {len(cities)} city guides and {len(commercial)} commercial pages; site total {len(paths)} pages.')
 
 # Apply the current visible-copy preference after regenerating pages.

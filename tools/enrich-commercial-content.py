@@ -434,13 +434,16 @@ def apply_content():
         route_file(path).write_text(append_before_related(route_file(path).read_text(), block, ident))
         expanded.append(path)
 
-    # All pages receive matching social metadata without touching their robots policy.
+    # Match social metadata and apply the owner's indexing policy to city guides.
     public_paths = []
     for target in sorted(DIST.rglob("index.html")):
         relative = target.parent.relative_to(DIST).as_posix()
         path = "/" if relative == "." else "/" + relative + "/"
         parent = next((p["parent"] for p in profiles if profile_path(p) == path), None)
         text = metadata(target.read_text(), path, origin, parent=parent)
+        if path.startswith("/locations/") and path != "/locations/":
+            text = re.sub(r'<meta name="robots"[^>]*>', "", text)
+            text = text.replace("</head>", '<meta name="robots" content="index,follow"></head>')
         target.write_text(text)
         if 'content="noindex,follow"' not in text:
             public_paths.append(path)
@@ -449,7 +452,7 @@ def apply_content():
         + "".join("<url><loc>" + escape(origin + path) + "</loc></url>" for path in public_paths) + "</urlset>"
     )
     report = {"rewritten": rewritten, "expanded": expanded, "new_species_profiles": created,
-              "species_profiles_awaiting_exact_photos": photo_free, "city_review_drafts_retained": 13,
+              "species_profiles_awaiting_exact_photos": photo_free, "indexable_city_guides": len(cities),
               "metadata_reviewed": len(list(DIST.rglob("index.html")))}
     (ROOT / "tools/content-audit-report.json").write_text(json.dumps(report, indent=2) + "\n")
     print(f"Editorial enrichment: {len(rewritten)} rewritten, {len(expanded)} expanded, {len(created)} named-species profiles.")

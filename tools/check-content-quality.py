@@ -115,7 +115,7 @@ def check():
         canonical = html.unescape(re.search(r'<link rel="canonical" href="([^"]+)"', text)[1])
         assert parser.meta["og:url"] == canonical, (path, "OG canonical mismatch")
         if path.startswith("/locations/") and path != "/locations/":
-            assert 'content="noindex,follow"' in text, (path, "city review policy")
+            assert parser.meta.get("robots") == "index,follow", (path, "city indexing policy")
             assert len(" ".join(parser.paragraphs).split()) >= 350, (path, "thin regional content")
             assert len(parser.forms) == 1 and "local-enquiry-form" in parser.forms[0]["class"], (path, "form lost")
     baseline = Path("/tmp/crownwing-content-before.json")
@@ -127,14 +127,15 @@ def check():
             assert set(old["images"]) <= set(parser.images), (path, "images removed")
             assert old["forms"] == parser.forms, (path, "form hooks changed")
             assert old["brand"] == re.findall(r'<a[^>]*class="brand".*?</a>', text, re.S), (path, "branding changed")
-            assert old["noindex"] == ("noindex" in text), (path, "robots policy changed")
+            if not (path.startswith("/locations/") and path != "/locations/"):
+                assert old["noindex"] == ("noindex" in text), (path, "robots policy changed")
     print(json.dumps({
         "pages_checked": len(pages), "individual_species_profiles": len(profiles),
         "group_and_buying_links": "bidirectional, passed", "legacy_fragments": "preserved",
         "repeated_substantive_body_paragraphs": len(duplicates),
         "social_metadata_matches_page": True, "semantic_headings_and_unique_ids": "passed",
         "original_routes_images_forms_links_and_brand": "passed" if baseline.exists() else "baseline unavailable; structural checks passed",
-        "city_drafts": "noindex retained; distinct regional bodies and forms checked",
+        "city_guides": "index,follow; distinct regional bodies and forms checked",
     }, indent=2))
 
 
