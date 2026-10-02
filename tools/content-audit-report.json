@@ -78,5 +78,10 @@
     "/parrots/parakeets-small-psittacines/peach-faced-lovebird/"
   ],
   "indexable_city_guides": 13,
-  "metadata_reviewed": 63
+  "policy_pages": [
+    "/privacy-policy/",
+    "/cookie-policy/",
+    "/business-policies/"
+  ],
+  "metadata_reviewed": 66
 }

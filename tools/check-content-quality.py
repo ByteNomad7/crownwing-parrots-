@@ -16,6 +16,7 @@ VOID = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "met
 INSTRUCTION_CLASSES = {
     "detail-cta", "related", "location-note", "guide-sources", "group-note", "gallery-note",
     "gallery-caption", "photo-dialog-caption", "city-enquiry", "contact-form-panel", "enquiry-status-note",
+    "privacy-form-note",
 }
 
 

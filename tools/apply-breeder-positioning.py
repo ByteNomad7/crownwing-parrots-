@@ -92,6 +92,9 @@ def navigation(text):
                 ("/locations/", "UK city guides"),
                 ("/parrot-prices-uk/", "Parrot prices & costs"),
                 ("/contact/", "Contact us"),
+                ("/privacy-policy/", "Privacy policy"),
+                ("/cookie-policy/", "Cookie policy"),
+                ("/business-policies/", "Payments, delivery & refunds"),
             ]) + "<span>© 2026 Crownwing Parrots</span></div></footer>"
         )
         text = text[:footer_match.start()] + footer + text[footer_match.end():]

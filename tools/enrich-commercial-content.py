@@ -13,6 +13,7 @@ from xml.sax.saxutils import escape
 
 from breeder_content import DISPLAY_NAMES, SALE_SLUGS
 from commercial_intent_content import INTENTS
+from business_policy_content import POLICIES, UPDATED
 
 ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / "dist"
@@ -434,6 +435,31 @@ def apply_content():
         route_file(path).write_text(append_before_related(route_file(path).read_text(), block, ident))
         expanded.append(path)
 
+    # Policy pages use the existing site shell, without inheriting contact forms.
+    policy_source = route_file("/our-approach/").read_text()
+    for path, policy in POLICIES.items():
+        main = (
+            '<main class="content-page"><div class="detail-top">' + link("/", "Home") + '</div>'
+            '<section class="page-intro"><div><p class="eyebrow">BUSINESS INFORMATION</p>'
+            f'<h1>{esc(policy["title"])}</h1><p class="page-lead">{esc(policy["intro"])}</p>'
+            f'<p>Last updated: {esc(UPDATED)}</p></div></section>'
+            + sections([{"id": ident, "title": title, "paragraphs": paragraphs}
+                        for ident, title, paragraphs in policy["sections"]])
+            + '<section class="article-section"><h2>Business contact details</h2>'
+            '<address>Crownwing Parrots · Sole trader<br>White’s Paddock<br>Bristol BS9 1RQ<br>United Kingdom</address>'
+            + '<p>' + link("mailto:info@crownwingparrots.co.uk", "info@crownwingparrots.co.uk")
+            + '<br>' + link("mailto:crownwingparrots@gmail.com", "crownwingparrots@gmail.com") + '</p></section>'
+            + '<section class="article-section"><h2>Further information</h2><ul>'
+            + "".join('<li>' + link(url, label) + '</li>' for url, label in policy["references"])
+            + '</ul></section><section class="related"><h2>Read our policies</h2><div>'
+            + "".join(link(url, record["title"]) for url, record in POLICIES.items() if url != path)
+            + link("/contact/", "Contact Crownwing Parrots") + '</div></section></main>'
+        )
+        text = replace_element(policy_source, r'<main\b[^>]*>', main)
+        text = metadata(text, path, origin, policy["title"], policy["description"])
+        route_file(path).parent.mkdir(parents=True, exist_ok=True)
+        route_file(path).write_text(text)
+
     # Match social metadata and apply the owner's indexing policy to city guides.
     public_paths = []
     for target in sorted(DIST.rglob("index.html")):
@@ -441,6 +467,14 @@ def apply_content():
         path = "/" if relative == "." else "/" + relative + "/"
         parent = next((p["parent"] for p in profiles if profile_path(p) == path), None)
         text = metadata(target.read_text(), path, origin, parent=parent)
+        if "<form" in text and 'class="privacy-form-note"' not in text:
+            note = (
+                '<p class="privacy-form-note">Read our '
+                + link("/privacy-policy/", "Privacy Policy") + ' and '
+                + link("/business-policies/", "business policies")
+                + '. This form prepares a download; it does not send or save your details.</p>'
+            )
+            text = re.sub(r'(<form\b[^>]*>)', lambda m: note + m[1], text)
         if path.startswith("/locations/") and path != "/locations/":
             text = re.sub(r'<meta name="robots"[^>]*>', "", text)
             text = text.replace("</head>", '<meta name="robots" content="index,follow"></head>')
@@ -453,6 +487,7 @@ def apply_content():
     )
     report = {"rewritten": rewritten, "expanded": expanded, "new_species_profiles": created,
               "species_profiles_awaiting_exact_photos": photo_free, "indexable_city_guides": len(cities),
+              "policy_pages": list(POLICIES),
               "metadata_reviewed": len(list(DIST.rglob("index.html")))}
     (ROOT / "tools/content-audit-report.json").write_text(json.dumps(report, indent=2) + "\n")
     print(f"Editorial enrichment: {len(rewritten)} rewritten, {len(expanded)} expanded, {len(created)} named-species profiles.")
