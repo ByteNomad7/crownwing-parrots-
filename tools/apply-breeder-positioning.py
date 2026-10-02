@@ -365,6 +365,9 @@ def apply():
         + "</urlset>"
     )
     print("Applied breeder/retailer positioning, enquiry-based availability and species-guide separation.")
+    # Editorial content is the final authority after stock disclosures and photographs.
+    import runpy
+    runpy.run_path(str(ROOT / "tools/enrich-commercial-content.py"), run_name="__main__")
 
 
 if __name__ == "__main__":

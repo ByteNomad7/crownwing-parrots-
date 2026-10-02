@@ -1,0 +1,265 @@
+Audit all commercial and species-related pages on the Crownwing Parrots website and fix the problem of repetitive, generic wording.
+
+The current issue:
+Several commercial pages use very similar copy, repeat the same selling points, and do not provide enough species-specific information. This makes the pages less useful to visitors and creates weak or duplicate-style SEO content.
+
+Your task is to rewrite and expand these pages so that every important commercial page has unique, useful, natural, species-relevant content.
+
+### Requirements
+
+1. Audit all existing commercial pages
+Identify pages such as:
+- Parrots for sale
+- African parrots
+- Macaws
+- Cockatoos
+- Amazons
+- Conures
+- Caiques
+- Eclectus
+- Parakeets
+- Small psittacines
+- Individual species/breed pages
+- UK location/city commercial pages
+- Availability/enquiry pages
+
+Do not remove working functionality, routes, metadata, images, structured data, forms, or internal links.
+
+### 2. Remove generic repeated copy
+
+Do not simply change a few words between pages.
+
+Avoid repeating generic paragraphs such as:
+- "Our parrots are raised with care."
+- "We provide healthy and beautiful birds."
+- "Contact us to learn more."
+- "We are passionate about parrots."
+
+Each page must have a clear purpose and information relevant to the species or commercial intent of that page.
+
+### 3. Make species category pages genuinely useful
+
+For every major parrot category, include relevant information such as:
+
+- General temperament
+- Typical personality
+- Approximate lifespan
+- Typical adult size
+- Noise level
+- Social needs
+- Intelligence and training
+- Talking ability where relevant
+- Diet
+- Housing and cage requirements
+- Exercise requirements
+- Enrichment needs
+- Suitability for first-time parrot owners
+- Suitability for families
+- Common behavioural challenges
+- Commitment required
+- Questions buyers should consider before enquiring
+
+Do not invent veterinary claims, guarantees, certifications, legal claims, or availability.
+
+### 4. Differentiate each category
+
+The content should clearly communicate the differences between species groups.
+
+For example:
+
+African parrots:
+Focus on intelligence, communication, mental stimulation, sensitivity, routine and long-term commitment.
+
+Macaws:
+Focus on large size, powerful beaks, space requirements, enrichment, high social needs, noise and experienced ownership.
+
+Cockatoos:
+Focus on extremely social behaviour, attention requirements, noise, emotional needs and destructive behaviour if under-stimulated.
+
+Amazons:
+Focus on confidence, vocal ability, strong personalities, social interaction and seasonal behaviour.
+
+Conures:
+Focus on playful behaviour, compact size, social nature, noise differences between species and active households.
+
+Caiques:
+Focus on high energy, physical play, curiosity, strong personalities and enrichment.
+
+Eclectus:
+Focus on temperament, sexual dimorphism, nutrition considerations, routine and social interaction.
+
+Parakeets and small psittacines:
+Focus on smaller-space ownership, flock behaviour, enrichment, companionship and differences between smaller species.
+
+### 5. Improve individual species pages
+
+Every individual bird/species page should have meaningful sections such as:
+
+- Overview
+- Appearance
+- Personality and temperament
+- Size
+- Expected lifespan
+- Talking and vocalisation
+- Intelligence
+- Training
+- Diet and nutrition
+- Housing
+- Exercise
+- Social requirements
+- Enrichment
+- Who this species may suit
+- Important ownership considerations
+- Availability / enquiry CTA
+- Related species
+
+Keep the provision for up to four species photos already planned for these pages.
+
+Do not number the birds.
+
+### 6. Improve commercial intent without keyword stuffing
+
+The website should naturally target relevant UK searches such as:
+
+- parrots for sale UK
+- parrots for sale
+- African grey parrots UK
+- macaws UK
+- cockatoos UK
+- Amazon parrots UK
+- conures UK
+- caiques UK
+- Eclectus parrots UK
+- parakeets UK
+- parrot breeder UK
+- hand-reared parrots UK
+- parrots available UK
+
+Use keywords naturally.
+
+Do NOT create spammy paragraphs filled with locations or repeated keywords.
+
+### 7. Improve UK city pages
+
+City pages must not simply swap the city name in identical text.
+
+Each city page should contain useful regional context while remaining truthful.
+
+Use sections such as:
+
+- Parrots for owners in [City]
+- Species enquiries
+- Preparing for parrot ownership
+- Collection / transport information, only where supported by the existing business model
+- Questions before enquiring
+- Popular species information
+- Links to relevant species categories
+- Links to ownership guides
+- Enquiry CTA
+
+Avoid fake statements such as claiming Crownwing Parrots has a physical branch, breeder facility, showroom or local staff in a city unless this is actually confirmed in the project data.
+
+### 8. Strengthen internal linking
+
+Add contextual internal links between:
+
+Species category → individual species
+
+Individual species → parent category
+
+Commercial pages → relevant species
+
+Species pages → care/ownership guides
+
+Guides → relevant commercial/species pages
+
+UK city pages → major commercial pages and relevant species categories
+
+Use descriptive anchors instead of repeatedly using "click here."
+
+### 9. Improve page structure
+
+Use clean semantic headings:
+
+One H1 per page.
+
+Then logical H2 and H3 sections.
+
+Break long text into useful sections.
+
+Avoid giant walls of text.
+
+Keep the current Crownwing visual style and responsive layout.
+
+### 10. Add useful calls to action
+
+Calls to action should match where the visitor is in the buying journey.
+
+Examples:
+
+"Explore African Parrot Species"
+
+"View Macaw Species"
+
+"Learn About Parrot Ownership"
+
+"Ask About Current Availability"
+
+"Speak to Crownwing Parrots"
+
+"Find the Right Parrot for Your Home"
+
+Avoid aggressive sales wording.
+
+### 11. Protect SEO
+
+Preserve existing working URLs wherever possible.
+
+Review and improve:
+- title tags
+- meta descriptions
+- H1 headings
+- internal links
+- canonical tags
+- Open Graph metadata
+- structured data
+
+Do not create duplicate titles or duplicate meta descriptions.
+
+Do not generate doorway pages or thin SEO pages.
+
+### 12. Content quality standard
+
+Every page should answer:
+
+"What information does this page provide that the other parrot pages do not?"
+
+If the answer is "almost nothing," rewrite it.
+
+Prioritise helpful content for real prospective parrot owners over filling pages with keywords.
+
+### 13. Final audit
+
+After implementation:
+
+- Run the project build.
+- Fix TypeScript/build errors.
+- Fix broken internal links.
+- Check mobile responsiveness.
+- Check that every major commercial page has substantially unique content.
+- Check that category pages link to their relevant species.
+- Check that individual species pages link back to categories.
+- Check for obvious duplicate paragraphs across pages.
+- Check title/meta duplication.
+- Do not leave console errors or warnings introduced by this work.
+
+At the end, give me a concise report showing:
+
+1. Pages rewritten
+2. Pages expanded
+3. New sections added
+4. Internal links added or improved
+5. SEO metadata improved
+6. Any remaining pages that still need original content
+
+Do not stop after auditing. Implement the improvements directly in the Crownwing Parrots project.
