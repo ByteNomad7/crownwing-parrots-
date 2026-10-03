@@ -422,6 +422,9 @@ def apply():
     # Editorial content is the final authority after stock disclosures and photographs.
     import runpy
     runpy.run_path(str(ROOT / "tools/enrich-commercial-content.py"), run_name="__main__")
+    # Homepage photography runs after editorial changes so its distributed,
+    # group-linked stories persist in the generated homepage.
+    runpy.run_path(str(ROOT / "tools/homepage-photography.py"), run_name="__main__")
     from static_hosting import generate_static_hosting
     generate_static_hosting()
 

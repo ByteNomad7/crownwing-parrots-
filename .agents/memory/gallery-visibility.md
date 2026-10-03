@@ -8,3 +8,9 @@ Keep complete species photo collections visible by default. Visitors may collaps
 **Why:** The user reported not seeing all photos when galleries initially displayed five and kept the remainder in closed “View more photos” sections.
 
 **How to apply:** Preserve default-expanded collections when updating gallery layouts or adding uploads. Check the initial state, not just whether hidden images exist in the page.
+
+The homepage should show photographs of the various birds Crownwing sells throughout the page, arranged professionally.
+
+**Why:** The user requested bird photography “all over the homepage” but “done wisely like a professional.”
+
+**How to apply:** Preserve a balanced, photo-led homepage when making future changes, with variety across bird groups rather than relying only on the hero photograph.

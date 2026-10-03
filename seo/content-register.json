@@ -3,7 +3,7 @@
   "pages": [
     {
       "path": "/",
-      "content_digest": "aac4f6c88b009081129b894c60aadb1918d1b537af292b2fe11c03357569f043",
+      "content_digest": "c88bef7f73bac5bc46dc8a1ab88eb98f6ee8804c952515f78532ce711dd138d8",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -22,6 +22,12 @@
           "event": "Substantive body text or image change observed",
           "previous_digest": "45e0cbf9e65580d780bbbb871c6bf5b24e3641ec3f00d118c2ce2c0f098cd8ac",
           "digest": "6131545ec00327e480888fc1a7d273fa24e81e5d0740540e651f6b2fd0847b80"
+        },
+        {
+          "date": "2026-10-02",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "aac4f6c88b009081129b894c60aadb1918d1b537af292b2fe11c03357569f043",
+          "digest": "c88bef7f73bac5bc46dc8a1ab88eb98f6ee8804c952515f78532ce711dd138d8"
         }
       ],
       "published": null,

@@ -1,6 +1,6 @@
 - [Brand positioning](sanctuary-positioning.md) — breeder/retailer identity, nature-led branding and balanced footer; preserve the logo and favicon.
 - [Photo identification](photo-identification.md) — colour mutations and hybrids need anatomy-based checks; disclose provisional group matches instead of claiming exact species.
-- [Gallery visibility](gallery-visibility.md) — show complete photo collections by default; collapsed additional photos were mistaken for missing uploads.
+- [Gallery visibility](gallery-visibility.md) — show complete collections by default; keep varied bird photography professionally distributed throughout the homepage.
 - [Browser test fidelity](browser-test-fidelity.md) — source-based checks supplement live previews; semicolons in quoted font URLs can corrupt naive CSS import removal.
 - [City search value](city-indexing.md) — the newer audit brief permits justified consolidation; earlier city indexing is not a permanent page-count rule.
 - [Policy scope](policy-scope.md) — policies target Google Search transparency, not Merchant Center approval; preserve owner-confirmed terms.
