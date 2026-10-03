@@ -35,5 +35,11 @@ def customer_copy(text):
         "", text,
     )
     text = text.replace("<p>Species photographs are not individual stock listings.</p>", "")
+    # Keep identification in the selected-photo caption, viewer and alt text,
+    # not repeated beneath every thumbnail. Also clean older generated galleries.
+    text = re.sub(
+        r'(<button\b[^>]*class="photo-thumbnail"[^>]*>.*?)<span>[^<]*</span>(</button>)',
+        r'\1\2', text, flags=re.S,
+    )
     text = re.sub(r'<p class="enquiry-status-note">.*?</p>', "", text, flags=re.S)
     return text

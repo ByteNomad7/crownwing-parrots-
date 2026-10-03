@@ -1137,7 +1137,7 @@
     },
     {
       "path": "/parrots/african-parrots/",
-      "content_digest": "1b20a43708f87daf4c352733678424b86fd0c0c08a6974e8dbea00bcbb9c3e02",
+      "content_digest": "6f397f126426405e6536caca30842ce366e0f732f4db1332b54f0ff6d19145ef",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -1165,6 +1165,12 @@
           "event": "Substantive body text or image change observed",
           "previous_digest": "09081e531d97b0e61e1626baed72b778448ecbc76b17d280a88d17becf0a93d7",
           "digest": "1b20a43708f87daf4c352733678424b86fd0c0c08a6974e8dbea00bcbb9c3e02"
+        },
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "1b20a43708f87daf4c352733678424b86fd0c0c08a6974e8dbea00bcbb9c3e02",
+          "digest": "6f397f126426405e6536caca30842ce366e0f732f4db1332b54f0ff6d19145ef"
         }
       ],
       "published": null,
@@ -1230,7 +1236,7 @@
     },
     {
       "path": "/parrots/amazons/",
-      "content_digest": "cc6391a773a3896a32a7fb431f2df6f52a1070612bdde077b4da5a9751897531",
+      "content_digest": "c56791f052f65621b666f76a0d8503e7194947cf5f3a68cf74dff213dc7f56f7",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -1258,6 +1264,12 @@
           "event": "Substantive body text or image change observed",
           "previous_digest": "944a0ccaba5e8c9ccaf5022c77296fc9d85b6f4f95b9fbbe7294b918ec0c1c6f",
           "digest": "cc6391a773a3896a32a7fb431f2df6f52a1070612bdde077b4da5a9751897531"
+        },
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "cc6391a773a3896a32a7fb431f2df6f52a1070612bdde077b4da5a9751897531",
+          "digest": "c56791f052f65621b666f76a0d8503e7194947cf5f3a68cf74dff213dc7f56f7"
         }
       ],
       "published": null,
@@ -1323,7 +1335,7 @@
     },
     {
       "path": "/parrots/caiques/",
-      "content_digest": "7939d44505817b23484cc4728184d00918707a4a150dddc867a0a816fee255df",
+      "content_digest": "27a25b95432c52ee3b9f6f3a7c4bbde95a931e4fd479fb94fd6c5afc8af398db",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -1351,6 +1363,12 @@
           "event": "Substantive body text or image change observed",
           "previous_digest": "d27c37d74717bc602b7042a0fea42334dfc37d42001f0d274f9eee2a18d07ca1",
           "digest": "7939d44505817b23484cc4728184d00918707a4a150dddc867a0a816fee255df"
+        },
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "7939d44505817b23484cc4728184d00918707a4a150dddc867a0a816fee255df",
+          "digest": "27a25b95432c52ee3b9f6f3a7c4bbde95a931e4fd479fb94fd6c5afc8af398db"
         }
       ],
       "published": null,
@@ -1416,7 +1434,7 @@
     },
     {
       "path": "/parrots/cockatoos/",
-      "content_digest": "14c4a3abda6f28af20d0da88eb3a61b4d36784bba83f3a7f75a3e9220e1320ff",
+      "content_digest": "96f63780da82b9035fcba354b148d96bdfecc658adc93d398ae93d6e7b560cb2",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -1444,6 +1462,12 @@
           "event": "Substantive body text or image change observed",
           "previous_digest": "5db3987fe60d5afa02d4a9964860be367555341b9ee9b51e6649922cc5f169cd",
           "digest": "14c4a3abda6f28af20d0da88eb3a61b4d36784bba83f3a7f75a3e9220e1320ff"
+        },
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "14c4a3abda6f28af20d0da88eb3a61b4d36784bba83f3a7f75a3e9220e1320ff",
+          "digest": "96f63780da82b9035fcba354b148d96bdfecc658adc93d398ae93d6e7b560cb2"
         }
       ],
       "published": null,
@@ -1509,7 +1533,7 @@
     },
     {
       "path": "/parrots/conures/",
-      "content_digest": "04715ae85d6a8bf43e13ff64fec2ae5a0bdfe4e3c917c46e6f1aa7d3f5b7f916",
+      "content_digest": "4e86a1cf154de8bf15da4d0e352294b719441c0eff5566e9737a42c5e9badc40",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -1541,6 +1565,12 @@
           "event": "Substantive body text or image change observed",
           "previous_digest": "f1b3971e06deca4d2507ac44ef0fcf965fa607da2fb9c6dc6db6a071e54e07b8",
           "digest": "04715ae85d6a8bf43e13ff64fec2ae5a0bdfe4e3c917c46e6f1aa7d3f5b7f916"
+        },
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "04715ae85d6a8bf43e13ff64fec2ae5a0bdfe4e3c917c46e6f1aa7d3f5b7f916",
+          "digest": "4e86a1cf154de8bf15da4d0e352294b719441c0eff5566e9737a42c5e9badc40"
         }
       ],
       "published": null,
@@ -1606,7 +1636,7 @@
     },
     {
       "path": "/parrots/eclectus/",
-      "content_digest": "fce6a16970849b671c53244cdd3ff5e5080e74b8e0186d106efa281b7235392b",
+      "content_digest": "1f05d921b4881309a26df4a9ae88f9d6087c4fdf81188053d6b0fe51bc12974c",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -1638,6 +1668,12 @@
           "event": "Substantive body text or image change observed",
           "previous_digest": "92e92a38a5a39d12d263be80eb676b956b48c7c12db73d617cf5b43e5660c25c",
           "digest": "fce6a16970849b671c53244cdd3ff5e5080e74b8e0186d106efa281b7235392b"
+        },
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "fce6a16970849b671c53244cdd3ff5e5080e74b8e0186d106efa281b7235392b",
+          "digest": "1f05d921b4881309a26df4a9ae88f9d6087c4fdf81188053d6b0fe51bc12974c"
         }
       ],
       "published": null,
@@ -1680,7 +1716,7 @@
     },
     {
       "path": "/parrots/macaws/",
-      "content_digest": "c769b56a2e0c98be060f3c58c23ccd326536451179963676f2dea3cd2731c2ec",
+      "content_digest": "e3d020f8d91882067e020b4bbd68f39c1efd055bbe967cb0c87e16e4e05c67d0",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -1708,6 +1744,12 @@
           "event": "Substantive body text or image change observed",
           "previous_digest": "39a983378d66828d82e02a0f98e475166adf4a408cda578b4c905191f34b0a30",
           "digest": "c769b56a2e0c98be060f3c58c23ccd326536451179963676f2dea3cd2731c2ec"
+        },
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "c769b56a2e0c98be060f3c58c23ccd326536451179963676f2dea3cd2731c2ec",
+          "digest": "e3d020f8d91882067e020b4bbd68f39c1efd055bbe967cb0c87e16e4e05c67d0"
         }
       ],
       "published": null,
@@ -1773,7 +1815,7 @@
     },
     {
       "path": "/parrots/parakeets-small-psittacines/",
-      "content_digest": "4b7bbd9dd9086a3b0f1fbb1b791ed1d9d78ba6aa8c26ea539cbf7e542a6d481f",
+      "content_digest": "c69e7c1e184d766e2fc8e4a2a55afbe333fbff4461790832af2ab1ba07122459",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -1801,6 +1843,12 @@
           "event": "Substantive body text or image change observed",
           "previous_digest": "9f2020a78ef93aebd72c6284339198632e50977490031cca60dd7b5d0bce9e01",
           "digest": "4b7bbd9dd9086a3b0f1fbb1b791ed1d9d78ba6aa8c26ea539cbf7e542a6d481f"
+        },
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "4b7bbd9dd9086a3b0f1fbb1b791ed1d9d78ba6aa8c26ea539cbf7e542a6d481f",
+          "digest": "c69e7c1e184d766e2fc8e4a2a55afbe333fbff4461790832af2ab1ba07122459"
         }
       ],
       "published": null,

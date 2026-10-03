@@ -113,7 +113,7 @@ def thumbnail_button(photo):
         f'<button type="button" class="photo-thumbnail" {photo_data(photo)} '
         f'aria-label="Enlarge {esc(photo["label"])}" aria-haspopup="dialog">'
         f'{photo_image(photo, thumbnail=True)}'
-        f'<span>{esc(photo["label"])}</span></button>'
+        '</button>'
     )
 
 

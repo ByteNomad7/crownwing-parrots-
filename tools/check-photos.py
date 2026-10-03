@@ -10,6 +10,15 @@ DIST = ROOT / "dist"
 catalogue = json.loads((ROOT / "tools/photo-metadata.json").read_text())
 by_source = {p["src"]: p for p in catalogue["photos"]}
 all_html = "\n".join(p.read_text() for p in DIST.rglob("index.html"))
+thumbnail_count = 0
+for opening, contents in re.findall(
+    r'(<button\b[^>]*class="photo-thumbnail"[^>]*>)(.*?)</button>', all_html, re.S,
+):
+    thumbnail_count += 1
+    assert "<span>" not in contents, "Repeated thumbnail name has returned"
+    assert 'aria-label="Enlarge ' in opening and 'aria-haspopup="dialog"' in opening
+    assert "<img " in contents and 'alt="' in contents
+assert thumbnail_count > 0, "Thumbnail galleries missing"
 
 
 class PhotoParser(HTMLParser):

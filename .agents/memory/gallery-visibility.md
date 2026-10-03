@@ -14,3 +14,9 @@ The homepage should show photographs of the various birds Crownwing sells throug
 **Why:** The user requested bird photography “all over the homepage” but “done wisely like a professional.”
 
 **How to apply:** Preserve a balanced, photo-led homepage when making future changes, with variety across bird groups rather than relying only on the hero photograph.
+
+Remove repeated bird-name captions beneath gallery thumbnails. Retain collection headings, selected-photo and enlarged-viewer identification, and accessible image descriptions.
+
+**Why:** The user wanted the repeated names beneath all gallery photos removed for a cleaner presentation, requested a reasoned opinion rather than automatic agreement, and said to keep names only if they help ranking.
+
+**How to apply:** Keep thumbnail grids image-only. Retain species headings, accurate alt text and a contextual gallery caption for meaningful search context; do not claim repeated labels or viewer controls improve ranking.

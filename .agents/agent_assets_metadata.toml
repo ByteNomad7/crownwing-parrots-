@@ -140,3 +140,17 @@ mtime_ms = 1790989921564
 storage_uri = "gcs://replit-rams-assets-archer/rams/assets/repl:bb2a8af7-5945-4807-af2c-9c06ffcc6ddd/67889cac-0dc7-47dd-818b-d482c5f3ca4e/f39fd4b5-93ad-49e6-a3fc-433f943529df"
 storage_version_token = "1790989928010324"
 content_type = "application/octet-stream"
+
+[[outputs]]
+id = "6wv47ISqUZnFNHIazhhHp"
+uri = "file://downloads/crownwing-netlify-clean-galleries.zip"
+type = "unspecified"
+title = "Crownwing — clean photo galleries"
+description = "Updated website with image-only gallery thumbnails, bird identification preserved in the selected-photo caption and viewer, and the Netlify contact form retained."
+logical_id = "49de67e1-7164-4b61-8b51-3de09824c8f5"
+content_hash = "sha256:5b3a12de64a58d2b6866f6969aff3c62326da19c0a1f335e0c65f8f49771f274"
+size = 16958331
+mtime_ms = 1790990483404
+storage_uri = "gcs://replit-rams-assets-archer/rams/assets/repl:bb2a8af7-5945-4807-af2c-9c06ffcc6ddd/49de67e1-7164-4b61-8b51-3de09824c8f5/2ae8015b-9d9d-462d-9a3a-a351abbcf7d2"
+storage_version_token = "1790990490126471"
+content_type = "application/octet-stream"
