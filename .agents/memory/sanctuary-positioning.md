@@ -17,9 +17,9 @@ The user confirmed all the bird groups are available, but clients must contact C
 
 ## Production-facing copy
 
-Remove “Species-guide photograph · not an individual stock listing” and similar repeated warnings. The user wants this project presented as ready to ship, with no demo language.
+Remove “Species-guide photograph · not an individual stock listing”, “About this form: it currently prepares a downloadable enquiry file…” and similar development notices. The user wants this project presented as ready to ship to a client, with no demo language.
 
-**Why:** The user explicitly requested removal of these warnings across the project.
+**Why:** The user repeatedly requested removal of these warnings across the project and a website-wide demo-text check.
 
 **How to apply:** Keep copy customer-facing, retain meaningful bird names and normal enquiry wording, and ensure action labels describe real behaviour rather than adding development-status notices.
 

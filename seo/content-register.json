@@ -107,7 +107,7 @@
     },
     {
       "path": "/contact/",
-      "content_digest": "6d612671188e31994f4b5ec4f1a657893f8f2fd630a318a6cd7b2049f1de2443",
+      "content_digest": "222e60e20ddab5e9d8e2d1b52f0c8a0fc8946ee639df68776ff10875e071f939",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -126,6 +126,12 @@
           "event": "Substantive body text or image change observed",
           "previous_digest": "94b6384202512d52f13addeda5a664da1b1e9a589497fa6d707f304f16abd257",
           "digest": "6d612671188e31994f4b5ec4f1a657893f8f2fd630a318a6cd7b2049f1de2443"
+        },
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "6d612671188e31994f4b5ec4f1a657893f8f2fd630a318a6cd7b2049f1de2443",
+          "digest": "222e60e20ddab5e9d8e2d1b52f0c8a0fc8946ee639df68776ff10875e071f939"
         }
       ],
       "published": null,
@@ -240,7 +246,7 @@
     },
     {
       "path": "/guides/buying-a-parrot/",
-      "content_digest": "cdc444b4b4fa8f94894f1cb66de2a1f63db5ec41c474745ce459f54420e384ac",
+      "content_digest": "4c7667c024823e4e3fe067fced3ae99162a8b54159f12b9cbcea015c373a4bba",
       "publisher": "Crownwing",
       "published": null,
       "owner": {
@@ -272,6 +278,12 @@
           "event": "Substantive body text or image change observed",
           "previous_digest": "8428efd01923cb900919b29ca1e1f8740aef438a20bf960aeb3db88f36f8437a",
           "digest": "cdc444b4b4fa8f94894f1cb66de2a1f63db5ec41c474745ce459f54420e384ac"
+        },
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "cdc444b4b4fa8f94894f1cb66de2a1f63db5ec41c474745ce459f54420e384ac",
+          "digest": "4c7667c024823e4e3fe067fced3ae99162a8b54159f12b9cbcea015c373a4bba"
         }
       ],
       "article_date_modified": null,

@@ -271,7 +271,7 @@ def apply_content():
         )
         guide_intro = element(text, r'<section class="detail-intro"[^>]*>')
         classification = (
-            "<p>This is a species and care guide, not a listing of individual birds for sale. "
+            "<p>Explore species information and everyday care. "
             + link("/available-birds/", "See the available range") + " or "
             + link("/contact/?species=" + group, "ask about current " + DISPLAY_NAMES[group]) + ".</p>"
         )
@@ -367,13 +367,13 @@ def apply_content():
             photo_free.append(path)
         photo_html = '<div class="individual-photos">' + "".join(
             f'<figure><img src="{esc(p["src"])}" alt="{esc(p["label"])}" width="{p["width"]}" height="{p["height"]}" loading="lazy">'
-            '<figcaption>Species photograph, not a current individual stock listing.</figcaption></figure>'
+            '</figure>'
             for p in selected
         ) + "</div>" if selected else ""
         main = (
             '<main class="content-page"><div class="detail-top">' + link("/", "Home")
             + link("/parrots/", "Species guides") + link("/parrots/" + group + "/", DISPLAY_NAMES[group])
-            + '</div><section class="page-intro"><div><p class="eyebrow">INDIVIDUAL SPECIES GUIDE · NOT A STOCK LISTING</p>'
+            + '</div><section class="page-intro"><div><p class="eyebrow">SPECIES & CARE</p>'
             f'<h1>{esc(profile["name"])}</h1><p class="page-lead">{esc(profile["intro"])}</p></div></section>'
             '<div class="quick-facts"><div><span>Scientific name</span><strong>' + esc(profile["scientific_name"])
             + '</strong></div><div><span>Typical adult size</span><strong>' + esc(profile["size"])

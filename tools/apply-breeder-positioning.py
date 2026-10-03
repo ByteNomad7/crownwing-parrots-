@@ -184,10 +184,8 @@ def apply():
     ) + article(
         "Find your species. Ask about the individual.",
         "<p>Whether you are drawn to African Grey Parrots, the colour of Macaws or a smaller companion, "
-        "start with the bird’s needs and your home. Our available range is shown below; "
-        "it is not a live stock list.</p><p>Species-gallery photographs introduce bird types. "
-        "They are not listings of individual birds for sale. Request current photographs and details "
-        "of the actual bird you are considering.</p>",
+        "start with the bird’s needs and your home. Explore our available range below.</p>"
+        "<p>Contact us for current photographs and details of the bird you are considering.</p>",
     ) + '<section><h2>Our available parrot range</h2><div class="link-card-grid">' + available_cards + "</div></section>" + article(
         "A good enquiry helps you choose with confidence.",
         "<p>Tell us your preferred species, your experience with birds and the space and daily routine you can offer. "
@@ -203,7 +201,7 @@ def apply():
         raise ValueError("Existing African Grey guide photograph required")
     approach_photo = (
         '<figure class="editorial-photo">' + cover[1]
-        + '<figcaption>Species-guide photograph, not an individual stock listing.</figcaption></figure>'
+        + '</figure>'
     )
     approach_body = intro(
         "THE CROWNWING APPROACH", "Breeder &amp; retailer.<br>Care at the heart of the choice.",
@@ -248,8 +246,7 @@ def apply():
         "1. Explore the range. Understand the species.",
         "<p>All eight parrot groups are available through Crownwing. Start with "
         + link("/available-birds/", "Available birds") + " to choose a group, then read our "
-        + link("/parrots/", "species guides") + " for lifespan, diet, housing and everyday care. "
-        "Guide photographs illustrate species; they are not a live stock catalogue.</p>",
+        + link("/parrots/", "species guides") + " for lifespan, diet, housing and everyday care.</p>",
     ) + '<div class="link-card-grid">' + buying_cards + "</div>" + article(
         "2. Request current details of the actual bird.",
         "<p>Individual birds change regularly. Contact us for current photographs, age, background, diet, handling "
@@ -293,7 +290,7 @@ def apply():
         "CONTACT CROWNWING", "Your next companion.<br>Start with a conversation.",
         "Ask about available parrots, current bird details and the practical steps before buying. "
         "Tell us which species interests you and a little about the home you can offer.",
-    ) + '<section class="contact-layout"><div><h2>Contact details</h2><address>White’s Paddock<br>Bristol BS9 1RQ<br>United Kingdom</address><p><strong>Email</strong><br>' + link("mailto:crownwingparrots@gmail.com", "crownwingparrots@gmail.com") + '<br>' + link("mailto:info@crownwingparrots.co.uk", "info@crownwingparrots.co.uk") + '</p><h2>Make your enquiry count.</h2><p>Request current photographs, ages, prices and details of the actual birds available. Include questions about background, diet, records, what is included, collection and aftercare.</p><p>Our range covers all eight parrot groups, but individual birds change regularly. Species-guide photos are not stock listings.</p><p class="enquiry-status-note"><strong>About this form:</strong> it currently prepares a downloadable enquiry file. It does not send a message to Crownwing or store your form details.</p><p>Read ' + link(
+    ) + '<section class="contact-layout"><div><h2>Contact details</h2><address>White’s Paddock<br>Bristol BS9 1RQ<br>United Kingdom</address><p><strong>Email</strong><br>' + link("mailto:crownwingparrots@gmail.com", "crownwingparrots@gmail.com") + '<br>' + link("mailto:info@crownwingparrots.co.uk", "info@crownwingparrots.co.uk") + '</p><h2>Make your enquiry count.</h2><p>Request current photographs, ages, prices and details of the birds available. Include questions about background, diet, records, what is included, collection and aftercare.</p><p>Our range covers all eight parrot groups. Contact us for current availability.</p><p>Read ' + link(
         "/our-approach/", "our breeder & buyer information"
     ) + " and the " + link("/guides/buying-a-parrot-checklist/", "buying checklist") + ' before deciding.</p></div><div class="contact-form-panel">' + form + "</div></section>" + related()
 
@@ -325,7 +322,7 @@ def apply():
     )
     home = re.sub(
         r'(<section id="parrots" class="section species"><div class="section-heading"><div>).*?(</div><p>).*?(</p></div>)',
-        r'\1<p class="eyebrow">SPECIES GUIDES · NOT INDIVIDUAL BIRD LISTINGS</p><h2>Different feathers.<br>Distinct personalities.</h2>\2'
+        r'\1<p class="eyebrow">EXPLORE OUR PARROTS</p><h2>Different feathers.<br>Distinct personalities.</h2>\2'
         'Explore African Grey Parrots, Macaws and more. Learn about the species, then visit '
         + link("/available-birds/", "Available birds") + r' for the range and current-bird enquiries.\3',
         home, count=1, flags=re.S,
@@ -379,22 +376,22 @@ def apply():
             if path == "/parrots/" + slug + "/":
                 text = re.sub(
                     r'(<section class="detail-intro"><div>.*?<p class="detail-tag">.*?</p>)<p>.*?</p>',
-                    lambda m: m[1] + "<p>This is a species and care guide, not a listing of individual birds for sale. "
+                    lambda m: m[1] + "<p>Explore species information and everyday care. "
                     + link("/available-birds/", "See the available range") + " or "
                     + link("/contact/?species=" + slug, "ask about current " + name) + ".</p>",
                     text, count=1, flags=re.S,
                 )
                 text = text.replace("Enquire about " + esc(name), "Ask about available birds")
-                text = metadata(text, path, origin, name + ": Lifespan, Diet & Care | Crownwing Parrots", "Explore " + name + " with guidance on lifespan, diet, housing and care. These are species photographs; contact Crownwing for current bird details.")
+                text = metadata(text, path, origin, name + ": Lifespan, Diet & Care | Crownwing Parrots", "Explore " + name + " with guidance on lifespan, diet, housing and care. Contact Crownwing for available birds and current details.")
             if path == "/parrots-for-sale/" + SALE_SLUGS[slug] + "/":
                 text = re.sub(r'<section class="location-note availability-note">.*?</section>', "", text, flags=re.S)
-                note = '<section class="location-note availability-note"><h2>Available by enquiry</h2><p>' + esc(name) + ' are available through Crownwing. Individual birds change regularly. ' + link("/contact/?species=" + slug, "Contact us for current birds, photographs and prices") + '.</p><p>Species photographs are not individual stock listings.</p></section>'
+                note = '<section class="location-note availability-note"><h2>Available by enquiry</h2><p>' + esc(name) + ' are available through Crownwing. Individual birds change regularly. ' + link("/contact/?species=" + slug, "Contact us for current birds, photographs and prices") + '.</p></section>'
                 text = re.sub(r'(<section class="page-intro">.*?</section>)', lambda m: m[1] + note, text, count=1, flags=re.S)
         text = text.replace("Discover this group", "Read the species guide")
         text = text.replace("Current birds and prices require direct confirmation.", "All eight parrot groups are available through Crownwing; current individual birds and prices require direct confirmation.")
         text = navigation(text)
         if path == "/parrots/":
-            text = text.replace("Explore the character and care of eight parrot groups. Start with the species; make the final choice around the individual.", "Explore eight parrot groups and understand their needs. These are species guides, not individual stock listings. Visit Available birds for our range and contact us for current details.")
+            text = text.replace("Explore the character and care of eight parrot groups. Start with the species; make the final choice around the individual.", "Explore eight parrot groups and understand their needs. Visit Available birds for our range and contact us for current details.")
         text = metadata(text, path, origin)
         target.write_text(text)
         if 'content="noindex,follow"' not in text:

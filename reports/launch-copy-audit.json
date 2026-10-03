@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-10-03T00:31:09.662433+00:00",
+  "generated_html_pages": 57,
+  "running_preview_pages_checked": 57,
+  "generated_page_findings": [],
+  "running_preview_findings": [],
+  "published_netlify_site": "Not verified: its URL has not been provided. Redeploy the updated files.",
+  "retained_customer_information": [
+    "Availability by enquiry",
+    "Bird names and care guidance",
+    "Privacy and business policies",
+    "Accurately labelled Download enquiry action"
+  ],
+  "contact_functionality": "The form downloads an enquiry file for the customer to email; direct email links remain available.",
+  "result": "PASS"
+}

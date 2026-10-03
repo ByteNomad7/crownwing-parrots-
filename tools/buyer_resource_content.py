@@ -96,7 +96,7 @@ BUYING_SECTIONS = [
     (
         "enquire",
         "Make an informed enquiry with Crownwing",
-        """<p>Crownwing Parrots covers eight groups available by enquiry, but the exact species and individual bird must be confirmed. Gallery images are not a stock list. Ask about the actual bird, current availability and pricing, age, weaning, routine, known history, identification and relevant records, then confirm any terms and transport arrangements before making a commitment.</p>
+        """<p>Crownwing Parrots covers eight groups available by enquiry. Contact us for current availability and pricing, photographs, age, diet, routine and records. Agree the details and transport arrangements before buying.</p>
 <p>Use the <a href="/contact/">Crownwing contact page</a> to download your enquiry, then email it using the contact details provided. Include your shortlist and the questions you would like answered.</p>""",
     ),
 ]

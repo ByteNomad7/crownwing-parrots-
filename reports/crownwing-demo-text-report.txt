@@ -1,0 +1,30 @@
+CROWNWING WEBSITE — DEMO TEXT AUDIT
+
+Result: PASS
+Generated HTML pages checked: 57
+Running preview pages checked: 57
+Remaining demo/development copy findings: 0
+Remaining repeated stock/photo-warning findings: 0
+
+Work completed
+- Removed the quoted About this form notice from the original contact template.
+- Removed stock/photo disclaimers from their generation templates.
+- Scanned customer-visible text and descriptions across all website pages.
+- Checked public JavaScript for demo/development status wording.
+- Verified the contact page visually in the running preview.
+- Website build and full test suite passed.
+
+Customer information retained
+- Bird names, care advice and normal availability-by-enquiry wording.
+- Privacy and business policies.
+- The Download enquiry button accurately describes the current action.
+
+Functional handover note
+The form downloads an enquiry file for the customer to email; direct email links remain available.
+
+Published Netlify verification
+Not verified: its URL has not been provided. Redeploy the updated files.
+
+The accompanying Netlify ZIP contains the updated built website. Extract it and
+upload the folder, or push the updated project to the connected Git branch and
+redeploy. No production publication was performed automatically.
