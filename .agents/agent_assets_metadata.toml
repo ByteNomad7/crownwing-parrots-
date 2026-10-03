@@ -154,3 +154,17 @@ mtime_ms = 1790990483404
 storage_uri = "gcs://replit-rams-assets-archer/rams/assets/repl:bb2a8af7-5945-4807-af2c-9c06ffcc6ddd/49de67e1-7164-4b61-8b51-3de09824c8f5/2ae8015b-9d9d-462d-9a3a-a351abbcf7d2"
 storage_version_token = "1790990490126471"
 content_type = "application/octet-stream"
+
+[[outputs]]
+id = "-coWJAk9xF0trQvvVPFwI"
+uri = "file://downloads/crownwing-netlify-ai-discovery.zip"
+type = "unspecified"
+title = "AI-discovery Netlify release"
+description = "Validated updated website with crawler permissions, buyer FAQ, business structured data and 56 public text exports. Ready for the existing Netlify release process; not yet deployed."
+logical_id = "fba5d4a0-e82e-469f-bd0c-78a06126af94"
+content_hash = "sha256:59a38d9b90d47a2c5349fb6a45f5420f4f8bfa1653d283d350645b7157db5e47"
+size = 17126472
+mtime_ms = 1790992696352
+storage_uri = "gcs://replit-rams-assets-archer/rams/assets/repl:bb2a8af7-5945-4807-af2c-9c06ffcc6ddd/fba5d4a0-e82e-469f-bd0c-78a06126af94/9d468cc4-0a85-4cca-bf83-7684a2d42df8"
+storage_version_token = "1790992783215946"
+content_type = "application/octet-stream"

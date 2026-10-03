@@ -519,6 +519,8 @@ def apply_content():
     from city_consolidation import rewrite_links
     for target in DIST.rglob("index.html"):
         target.write_text(rewrite_links(target.read_text()))
+    from ai_discovery import apply_buyer_answers
+    apply_buyer_answers()
     finish_buyer_resources(public_paths)
     (DIST / "robots.txt").write_text("User-agent: *\nAllow: /\nSitemap: " + origin + "/sitemap.xml\n")
     report = {"rewritten": rewritten, "expanded": expanded, "new_species_profiles": created,

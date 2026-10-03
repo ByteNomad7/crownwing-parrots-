@@ -4,6 +4,7 @@ import json
 import re
 from pathlib import Path
 from urllib.parse import urlsplit
+from urllib.robotparser import RobotFileParser
 from xml.etree import ElementTree
 
 from site_config import PUBLIC_ORIGIN
@@ -41,7 +42,10 @@ for page in DIST.rglob("index.html"):
 
 actual = [e.text for e in ElementTree.parse(DIST / "sitemap.xml").findall(".//{*}loc")]
 assert len(actual) == len(set(actual)) and set(actual) == expected
-assert (DIST / "robots.txt").read_text() == "User-agent: *\nAllow: /\nSitemap: " + PUBLIC_ORIGIN + "/sitemap.xml\n"
+robots = RobotFileParser()
+robots.parse((DIST / "robots.txt").read_text().splitlines())
+assert robots.site_maps() == [PUBLIC_ORIGIN + "/sitemap.xml"]
+assert all(robots.can_fetch("Googlebot", url) for url in expected)
 print(json.dumps({"canonical_origin": PUBLIC_ORIGIN, "pages": len(expected),
                   "canonical_social_schema_sitemap_robots": "passed",
                   "shared_footer_and_policy_links": "passed"}, indent=2))

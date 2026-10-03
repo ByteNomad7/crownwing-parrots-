@@ -21,3 +21,9 @@ and published-site verification.
 Gallery thumbnails have no repeated bird-name captions. Species headings,
 descriptive image alternatives and selected-photo captions retain meaningful
 context without repeating labels beneath every image.
+
+## AI discovery
+
+The build also generates crawler permissions, an optional `llms.txt` directory
+and readable public-page text exports. See [AI-DISCOVERY.md](AI-DISCOVERY.md)
+for limitations, release checks and search-versus-training controls.

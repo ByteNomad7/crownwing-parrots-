@@ -1,0 +1,7 @@
+# Optional text exports are supplemental, not duplicate search landing pages.
+/ai-pages/*
+  Content-Type: text/markdown; charset=utf-8
+  X-Robots-Tag: noindex
+/llms.txt
+  Content-Type: text/plain; charset=utf-8
+  X-Robots-Tag: noindex

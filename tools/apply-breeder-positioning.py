@@ -426,6 +426,8 @@ def apply():
     wire_netlify_contact()
     from static_hosting import generate_static_hosting
     generate_static_hosting()
+    from ai_discovery import generate_ai_discovery
+    generate_ai_discovery()
 
 
 if __name__ == "__main__":

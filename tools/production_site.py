@@ -68,6 +68,12 @@ def serve(path):
     response = send_file(candidate, conditional=True, max_age=3600 if candidate.suffix != ".html" else 0)
     if candidate.suffix == ".html":
         response.headers["Cache-Control"] = "no-cache"
+    if candidate.suffix == ".md" and candidate.parent == DIST / "ai-pages":
+        response.headers["Content-Type"] = "text/markdown; charset=utf-8"
+        response.headers["X-Robots-Tag"] = "noindex"
+    if candidate == DIST / "llms.txt":
+        response.headers["Content-Type"] = "text/plain; charset=utf-8"
+        response.headers["X-Robots-Tag"] = "noindex"
     return response
 
 

@@ -49,7 +49,7 @@
     },
     {
       "path": "/available-birds/",
-      "content_digest": "0fbd84730ce60eabdccf1ff2e5ba261517b2962d2e06dc11578a1560cef166ac",
+      "content_digest": "1467fbbaaa06f8bbc2e26e5ae59368b914106671f531de8928b42b56f67f3131",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -68,6 +68,12 @@
           "event": "Substantive body text or image change observed",
           "previous_digest": "6aebb94ca15585f6c06e937140be1c4e2cc62d4ba2c112ef5cc1878f11b52e67",
           "digest": "0fbd84730ce60eabdccf1ff2e5ba261517b2962d2e06dc11578a1560cef166ac"
+        },
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "0fbd84730ce60eabdccf1ff2e5ba261517b2962d2e06dc11578a1560cef166ac",
+          "digest": "1467fbbaaa06f8bbc2e26e5ae59368b914106671f531de8928b42b56f67f3131"
         }
       ],
       "published": null,
