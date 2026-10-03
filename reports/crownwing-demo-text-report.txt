@@ -1,30 +1,29 @@
-CROWNWING WEBSITE — DEMO TEXT AUDIT
+CROWNWING — UPDATED COPY AND CONTACT-FORM REPORT
 
-Result: PASS
-Generated HTML pages checked: 57
+Copy audit: PASS
+Generated pages checked: 57
 Running preview pages checked: 57
 Remaining demo/development copy findings: 0
-Remaining repeated stock/photo-warning findings: 0
 
-Work completed
-- Removed the quoted About this form notice from the original contact template.
-- Removed stock/photo disclaimers from their generation templates.
-- Scanned customer-visible text and descriptions across all website pages.
-- Checked public JavaScript for demo/development status wording.
-- Verified the contact page visually in the running preview.
-- Website build and full test suite passed.
+Contact form
+- Uses Netlify Forms (form name: contact), not a file download.
+- Includes spam honeypot, required name/email/message, and bird interest.
+- Shows success only after an accepted HTTP response.
+- Handles failed/offline/timed-out requests without clearing customer entries.
+- Preserves bird-group selection and species-specific question prefilling.
+- Privacy and cookie notices reflect submission processing and storage.
 
-Customer information retained
-- Bird names, care advice and normal availability-by-enquiry wording.
-- Privacy and business policies.
-- The Download enquiry button accurately describes the current action.
+Verification
+The build and full test suite passed, including Netlify form markup and client
+submission tests. Desktop preview checked; all 57 pages passed the copy audit.
+The preview rejects submission with HTTP 405 because Netlify Forms runs only
+on Netlify. This is not an end-to-end Netlify receipt test.
 
-Functional handover note
-The form downloads an enquiry file for the customer to email; direct email links remain available.
+Netlify setup required
+1. Forms > Enable form detection.
+2. Redeploy the updated website and confirm the contact form is detected.
+3. Forms > Submission notifications > Add notification: set the Crownwing inbox.
+4. Submit a test on the published site and verify both the stored submission
+   and email notification.
 
-Published Netlify verification
-Not verified: its URL has not been provided. Redeploy the updated files.
-
-The accompanying Netlify ZIP contains the updated built website. Extract it and
-upload the folder, or push the updated project to the connected Git branch and
-redeploy. No production publication was performed automatically.
+Published Netlify: not verified. No publication performed automatically.

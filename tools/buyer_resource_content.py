@@ -97,7 +97,7 @@ BUYING_SECTIONS = [
         "enquire",
         "Make an informed enquiry with Crownwing",
         """<p>Crownwing Parrots covers eight groups available by enquiry. Contact us for current availability and pricing, photographs, age, diet, routine and records. Agree the details and transport arrangements before buying.</p>
-<p>Use the <a href="/contact/">Crownwing contact page</a> to download your enquiry, then email it using the contact details provided. Include your shortlist and the questions you would like answered.</p>""",
+<p>Use the <a href="/contact/">Crownwing contact page</a> to send your enquiry. Include your shortlist and the questions you would like answered.</p>""",
     ),
 ]
 

@@ -30,6 +30,25 @@ Upload the folder whose top level contains `index.html`,
 `_redirects`, `404.html`, `assets/`, and the page folders.
 Do not upload the repository root or only the homepage file.
 
+## Contact form
+
+The contact form uses **Netlify Forms**, named `contact`, with a spam honeypot.
+It submits the customer's name, email, bird interest and message, rather than
+downloading a file. No API key or custom server is required.
+
+Before deploying:
+
+1. Open your Netlify site's **Forms** section and **Enable form detection**.
+2. Redeploy the updated site (or upload the updated ZIP).
+3. Confirm the `contact` form appears in **Forms**, then submit a test enquiry
+   on the published site and check it appears under submissions.
+4. For email delivery, go to **Forms > Submission notifications >
+   Add notification**, choose email, and set the Crownwing inbox you want to use.
+
+The Replit preview cannot receive Netlify Forms submissions. It will show an
+honest submission error, not a false success. Published submission storage and
+email receipt must be checked after the Netlify redeploy.
+
 ## Routing and checks
 
 The build creates `_redirects` from the 13 approved city/directory mappings,

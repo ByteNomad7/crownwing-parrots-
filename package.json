@@ -4,7 +4,7 @@
   "description": "UK parrot website with species profiles, care guides, commercial pages and city pages.",
   "private": true,
   "scripts": {
-    "test": "python3 tools/check-site.py && python3 tools/check-content-quality.py && python3 tools/check-breeder-positioning.py && python3 tools/check-canonical-domain.py && python3 tools/check-seo-enhancements.py && python3 tools/check-buyer-search-intent.py && python3 tools/check-photos.py && python3 tools/check-http-foundation.py && python3 tools/check-buyer-foundation.py && python3 tools/check-production-redirects.py && python3 tools/check-netlify.py && node tools/test-buyer-tools.cjs",
+    "test": "python3 tools/check-site.py && python3 tools/check-content-quality.py && python3 tools/check-breeder-positioning.py && python3 tools/check-canonical-domain.py && python3 tools/check-seo-enhancements.py && python3 tools/check-buyer-search-intent.py && python3 tools/check-photos.py && python3 tools/check-http-foundation.py && python3 tools/check-buyer-foundation.py && python3 tools/check-production-redirects.py && python3 tools/check-netlify.py && node tools/test-buyer-tools.cjs && node tools/test-netlify-contact.cjs",
     "build": "python3 tools/apply-breeder-positioning.py",
     "audit:seo": "python3 tools/audit-seo-foundation.py --final --crawl",
     "audit:copy": "python3 tools/audit-launch-copy.py"

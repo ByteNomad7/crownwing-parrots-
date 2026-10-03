@@ -399,7 +399,7 @@ def apply_content():
         for p in profiles
     }
     enquiry_script = (
-        "/* Add a known species question without changing the download-only form. */\n"
+        "/* Add a known species question to the enquiry form. */\n"
         "(()=>{const profiles=" + json.dumps(enquiry_data, ensure_ascii=False) + ";"
         "const params=new URLSearchParams(location.search),picked=profiles[params.get('bird')];"
         "const field=document.querySelector('#enquiry-form [name=\"message\"]');"
@@ -505,7 +505,7 @@ def apply_content():
                 '<p class="privacy-form-note">Read our '
                 + link("/privacy-policy/", "Privacy Policy") + ' and '
                 + link("/business-policies/", "business policies")
-                + '. Download your enquiry and email it using the contact details provided.</p>'
+                + '. Send your enquiry using the form below.</p>'
             )
             text = re.sub(r'(<form\b[^>]*id="enquiry-form"[^>]*>)', lambda m: note + m[1], text)
         if path.startswith("/locations/") and path != "/locations/":

@@ -84,9 +84,9 @@ def main():
         "published_netlify_site": "Not verified: its URL has not been provided. Redeploy the updated files.",
         "retained_customer_information": [
             "Availability by enquiry", "Bird names and care guidance",
-            "Privacy and business policies", "Accurately labelled Download enquiry action",
+            "Privacy and business policies", "Accurately labelled Send enquiry action",
         ],
-        "contact_functionality": "The form downloads an enquiry file for the customer to email; direct email links remain available.",
+        "contact_functionality": "The contact form submits through Netlify Forms on the deployed site. Form detection must be enabled before redeploying. Email notifications must be configured in the Netlify dashboard; direct email links remain available.",
         "result": "PASS" if not static_findings and not live_findings else "FAIL",
     }
     target = ROOT / options.report

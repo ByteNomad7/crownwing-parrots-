@@ -52,7 +52,7 @@ RECORDS = {
     "/guides/": [
         ("decision-led-discovery", "Choose a resource by the decision you need to make", """
 <p>Household planning is useful wherever you live. Follow the guide for <a href="/guides/choosing-a-parrot/">species choice</a>, <a href="/guides/preparing-for-a-parrot/">home preparation</a>, <a href="/guides/parrot-ownership-costs/">care costs</a> or <a href="/guides/buying-a-parrot-checklist/">seller questions</a> rather than treating a city name as evidence of local stock or premises.</p>
-<p>Northern Ireland movement questions have a distinct official framework: use the <a href="/locations/belfast/">Belfast and Northern Ireland planning aid</a> alongside the documentation guide. Include your actual location and proposed arrangements in the <a href="/contact/">shared enquiry download</a>, then send it manually using the contact details.</p>"""),
+<p>Northern Ireland movement questions have a distinct official framework: use the <a href="/locations/belfast/">Belfast and Northern Ireland planning aid</a> alongside the documentation guide. Include your actual location and proposed arrangements in the <a href="/contact/">contact enquiry form</a>.</p>"""),
     ],
 }
 

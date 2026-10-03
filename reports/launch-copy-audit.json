@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-03T00:31:09.662433+00:00",
+  "checked_at_utc": "2026-10-03T00:47:19.779434+00:00",
   "generated_html_pages": 57,
   "running_preview_pages_checked": 57,
   "generated_page_findings": [],
@@ -9,8 +9,8 @@
     "Availability by enquiry",
     "Bird names and care guidance",
     "Privacy and business policies",
-    "Accurately labelled Download enquiry action"
+    "Accurately labelled Send enquiry action"
   ],
-  "contact_functionality": "The form downloads an enquiry file for the customer to email; direct email links remain available.",
+  "contact_functionality": "The contact form submits through Netlify Forms on the deployed site. Form detection must be enabled before redeploying. Email notifications must be configured in the Netlify dashboard; direct email links remain available.",
   "result": "PASS"
 }

@@ -103,14 +103,14 @@ content_type = "text/csv"
 id = "uldUYzXxwVKODWa7a_xqB"
 uri = "file://downloads/crownwing-netlify.zip"
 type = "unspecified"
-title = "Crownwing — updated Netlify website"
-description = "Verified website package with the form development notice removed from its source template. Extract and upload the folder to Netlify."
+title = "Crownwing — Netlify Forms enabled"
+description = "Updated static website with real Netlify form submission, spam protection and matching privacy wording. Enable Netlify form detection before redeploying."
 logical_id = "1df56043-171b-44f9-820a-3a67f1da9c4e"
-content_hash = "sha256:109740fb9c1990d351e552d5c7e8cc174f9f7bf33ad79414f0d52dae2aa9e3cd"
-size = 16957349
-mtime_ms = 1790987620657
-storage_uri = "gcs://replit-rams-assets-archer/rams/assets/repl:bb2a8af7-5945-4807-af2c-9c06ffcc6ddd/1df56043-171b-44f9-820a-3a67f1da9c4e/0f8c5e34-d7e0-4be1-80a6-fa08400cc44c"
-storage_version_token = "1790987629787528"
+content_hash = "sha256:cecdadd6d88911a246b2f53e7588c5fde842a401483c4153a958e4d118aca974"
+size = 16958505
+mtime_ms = 1790988489964
+storage_uri = "gcs://replit-rams-assets-archer/rams/assets/repl:bb2a8af7-5945-4807-af2c-9c06ffcc6ddd/1df56043-171b-44f9-820a-3a67f1da9c4e/3a41c944-b4a2-46c1-bffc-9eba447d5a82"
+storage_version_token = "1790988544267926"
 content_type = "application/octet-stream"
 
 [[outputs]]

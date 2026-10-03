@@ -77,7 +77,7 @@
     },
     {
       "path": "/business-policies/",
-      "content_digest": "aa905d094d10f7afa47922ad1e84710bcd2a962d052d036a1a4f3839d86d5b0b",
+      "content_digest": "94bb2e655f8a8f0729d0b2ac618441c35acebf9642b1b152aff5762b0ca7bdb4",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -94,12 +94,19 @@
           "label": "GOV.UK: returns and refunds"
         }
       ],
-      "last_modified": null,
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
       "review_reminder_due": null,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "aa905d094d10f7afa47922ad1e84710bcd2a962d052d036a1a4f3839d86d5b0b",
+          "digest": "94bb2e655f8a8f0729d0b2ac618441c35acebf9642b1b152aff5762b0ca7bdb4"
+        }
+      ],
       "published": null,
       "review_status": null,
       "article_date_modified": null,
@@ -141,7 +148,7 @@
     },
     {
       "path": "/cookie-policy/",
-      "content_digest": "89ce857b91a5b1c2ea93d8ebde49170828036a757259cca49c5b11f1dcaa6cf2",
+      "content_digest": "fdeafc923f01060c34ebd67bb367cf6aa789ade87415f29a64c2d3489f7227d8",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -154,12 +161,19 @@
           "label": "Google: how the Fonts API handles privacy"
         }
       ],
-      "last_modified": null,
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
       "review_reminder_due": null,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "89ce857b91a5b1c2ea93d8ebde49170828036a757259cca49c5b11f1dcaa6cf2",
+          "digest": "fdeafc923f01060c34ebd67bb367cf6aa789ade87415f29a64c2d3489f7227d8"
+        }
+      ],
       "published": null,
       "review_status": null,
       "article_date_modified": null,
@@ -167,7 +181,7 @@
     },
     {
       "path": "/guides/",
-      "content_digest": "99fe7c6b5f514f19b74d0c94fe59063d1911f8f93d5639b5ea65eb8ce12ee4e8",
+      "content_digest": "81ad34f64527caf37155c22db3f5a21ea7af6cc791f4bc54ee168cf63f74c63c",
       "publisher": "Crownwing",
       "published": null,
       "owner": {
@@ -199,6 +213,12 @@
           "event": "Substantive body text or image change observed",
           "previous_digest": "b54c156d734f97a1d8a0770218af3532462319588b89f06282adfb2940b13987",
           "digest": "99fe7c6b5f514f19b74d0c94fe59063d1911f8f93d5639b5ea65eb8ce12ee4e8"
+        },
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "99fe7c6b5f514f19b74d0c94fe59063d1911f8f93d5639b5ea65eb8ce12ee4e8",
+          "digest": "81ad34f64527caf37155c22db3f5a21ea7af6cc791f4bc54ee168cf63f74c63c"
         }
       ],
       "article_date_modified": null,
@@ -206,7 +226,7 @@
     },
     {
       "path": "/guides/buying-a-parrot-checklist/",
-      "content_digest": "fc502349fa52c1f10facff8d7ed1d9bb08346e706270a988b03f95fc82e88fb3",
+      "content_digest": "87d703da1a1111c83ae75417bb200be0459255631e814c3b048693768d5ac233",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -214,7 +234,7 @@
         "role": "Publisher"
       },
       "sources": [],
-      "last_modified": "2026-10-02",
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
@@ -237,16 +257,22 @@
           "event": "Substantive body text or image change observed",
           "previous_digest": "821800762e268e59fe9f0b6acce748894add723125abe6813ba024c7a722e508",
           "digest": "fc502349fa52c1f10facff8d7ed1d9bb08346e706270a988b03f95fc82e88fb3"
+        },
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "fc502349fa52c1f10facff8d7ed1d9bb08346e706270a988b03f95fc82e88fb3",
+          "digest": "87d703da1a1111c83ae75417bb200be0459255631e814c3b048693768d5ac233"
         }
       ],
       "published": null,
       "review_status": null,
-      "article_date_modified": "2026-10-02",
+      "article_date_modified": "2026-10-03",
       "digest_version": 2
     },
     {
       "path": "/guides/buying-a-parrot/",
-      "content_digest": "4c7667c024823e4e3fe067fced3ae99162a8b54159f12b9cbcea015c373a4bba",
+      "content_digest": "8bbf9f3fecf0700534aeee54c7f3ddd35b3220a300ac390683d7415fa11adfca",
       "publisher": "Crownwing",
       "published": null,
       "owner": {
@@ -284,6 +310,12 @@
           "event": "Substantive body text or image change observed",
           "previous_digest": "cdc444b4b4fa8f94894f1cb66de2a1f63db5ec41c474745ce459f54420e384ac",
           "digest": "4c7667c024823e4e3fe067fced3ae99162a8b54159f12b9cbcea015c373a4bba"
+        },
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "4c7667c024823e4e3fe067fced3ae99162a8b54159f12b9cbcea015c373a4bba",
+          "digest": "8bbf9f3fecf0700534aeee54c7f3ddd35b3220a300ac390683d7415fa11adfca"
         }
       ],
       "article_date_modified": null,
@@ -648,7 +680,7 @@
     },
     {
       "path": "/locations/belfast/",
-      "content_digest": "ce8c51ab1c78845b1a64954a72d6e8c880e3746a3f2f7d00170672db19a80964",
+      "content_digest": "181e7edd8f08b6691cc3fd40407a8a74f9c9012ee8b64d1566feb69f8978b1e2",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -701,6 +733,12 @@
           "event": "Substantive body text or image change observed",
           "previous_digest": "3150ce9a71802a788c7603ee4867490b684fe424a360736f1b35a0bf7ef1e429",
           "digest": "ce8c51ab1c78845b1a64954a72d6e8c880e3746a3f2f7d00170672db19a80964"
+        },
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "ce8c51ab1c78845b1a64954a72d6e8c880e3746a3f2f7d00170672db19a80964",
+          "digest": "181e7edd8f08b6691cc3fd40407a8a74f9c9012ee8b64d1566feb69f8978b1e2"
         }
       ],
       "published": null,
@@ -1856,7 +1894,7 @@
     },
     {
       "path": "/privacy-policy/",
-      "content_digest": "708dd899fb76416755cbbabeaf66e82be32ef5d379b8d83d464f36a3a707c0a4",
+      "content_digest": "92c931cb05b71a294e42b12f3842cb592dbab568d3b5b329fa95b6d4d1137745",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -1888,6 +1926,12 @@
           "event": "Substantive body text or image change observed",
           "previous_digest": "829546950870941f5ee9a90f4326d564ce21f23d7ed7017080a413e18e5a2aa7",
           "digest": "708dd899fb76416755cbbabeaf66e82be32ef5d379b8d83d464f36a3a707c0a4"
+        },
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "708dd899fb76416755cbbabeaf66e82be32ef5d379b8d83d464f36a3a707c0a4",
+          "digest": "92c931cb05b71a294e42b12f3842cb592dbab568d3b5b329fa95b6d4d1137745"
         }
       ],
       "published": null,

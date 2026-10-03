@@ -2,6 +2,5 @@ const menu=document.querySelector('.menu'),nav=document.querySelector('nav');men
 
 if(document.getElementById("enquiry-form")){
 const speciesSlugs=["african-parrots", "macaws", "cockatoos", "amazons", "conures", "caiques", "eclectus", "parakeets-small-psittacines"],speciesNames=["African Grey Parrots", "Macaw Parrots", "Cockatoo Parrots", "Amazon Parrots", "Conure Parrots", "Caique Parrots", "Eclectus Parrots", "Parakeets & Budgerigars"];const select=document.getElementById("species-select");speciesNames.forEach(n=>select.add(new Option(n,n)));const picked=speciesSlugs.indexOf(new URLSearchParams(location.search).get("species"));if(picked>=0)select.value=speciesNames[picked];
-document.getElementById('enquiry-form').onsubmit=e=>{e.preventDefault();const d=new FormData(e.target);const text=`CROWN WING PARROTS — ENQUIRY\n\nName: ${d.get('name')}\nEmail: ${d.get('email')}\nInterest: ${d.get('species')}\n\n${d.get('message')}\n`;const url=URL.createObjectURL(new Blob([text],{type:'text/plain;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='crownwing-enquiry.txt';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);document.getElementById('form-status').textContent='Your enquiry copy is ready to download.'};
 
 }

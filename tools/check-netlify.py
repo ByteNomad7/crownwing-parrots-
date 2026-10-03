@@ -46,3 +46,28 @@ assert len(re.findall(r"<h1\b", error)) == 1
 assert 'href="/style.css"' in error, "Error-page stylesheet must work at nested missing URLs"
 assert "/404.html</loc>" not in (DIST / "sitemap.xml").read_text()
 print(f"Netlify payload passed: 56 canonical pages, {len(rules)} permanent redirect rules, branded 404, no SPA fallback.")
+
+contact = (DIST / "contact/index.html").read_text()
+form = re.search(r'<form\b[^>]*id="enquiry-form"[^>]*>.*?</form>', contact, re.S)[0]
+for attribute in ('name="contact"', 'method="POST"', 'data-netlify="true"',
+                  'data-netlify-honeypot="bot-field"'):
+    assert attribute in form, attribute
+assert form.count('name="form-name" value="contact"') == 1
+assert form.count('name="bot-field"') == 1
+for field in ("name", "email", "species", "message"):
+    assert f'name="{field}"' in form, field
+assert "Send enquiry" in form and "Download enquiry" not in contact
+assert 'role="status"' in form
+assert re.search(r'src="/netlify-contact\.js\?v=[a-f0-9]{12}"', contact)
+for name in ("common.js", "app.js"):
+    assert "crownwing-enquiry.txt" not in (DIST / name).read_text()
+    assert ".onsubmit=" not in (DIST / name).read_text()
+for page in DIST.rglob("*.html"):
+    text = page.read_text()
+    for old_claim in ("shared enquiry download", "download-only", "download your enquiry",
+                      "creates a local download", "downloaded enquiry",
+                      "Your form entries are processed locally"):
+        assert old_claim.lower() not in text.lower(), (page, old_claim)
+privacy = (DIST / "privacy-policy/index.html").read_text()
+assert "Netlify Forms" in privacy and "processes and stores submissions" in privacy
+print("Netlify contact form: static detection, fields, honeypot, submission script and matching privacy copy passed.")

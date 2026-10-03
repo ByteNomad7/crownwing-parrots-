@@ -284,7 +284,7 @@ def apply():
         + ' for your enquiry.</p></details>'
     ) + '</div></section>' + cta("Ask about your next companion.") + related()
 
-    form = re.search(r'<form id="enquiry-form">.*?</form>', (DIST / "contact/index.html").read_text(), re.S)[0]
+    form = re.search(r'<form id="enquiry-form"[^>]*>.*?</form>', (DIST / "contact/index.html").read_text(), re.S)[0]
     form = re.sub(r'<p class="form-note">.*?</p>', "", form, flags=re.S)
     contact_body = intro(
         "CONTACT CROWNWING", "Your next companion.<br>Start with a conversation.",
@@ -422,6 +422,8 @@ def apply():
     # Homepage photography runs after editorial changes so its distributed,
     # group-linked stories persist in the generated homepage.
     runpy.run_path(str(ROOT / "tools/homepage-photography.py"), run_name="__main__")
+    from netlify_forms import wire_netlify_contact
+    wire_netlify_contact()
     from static_hosting import generate_static_hosting
     generate_static_hosting()
 

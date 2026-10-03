@@ -5,12 +5,12 @@ sections follow the owner's supplied terms and GOV.UK distance-selling guidance.
 Unspecified commercial terms must be agreed before payment, not fabricated.
 """
 
-UPDATED = "2 October 2026"
+UPDATED = "3 October 2026"
 
 POLICIES = {
     "/privacy-policy/": {
         "title": "Privacy Policy",
-        "description": "How Crownwing Parrots handles website visits, downloaded enquiries and email correspondence, including retention criteria and your UK privacy rights.",
+        "description": "How Crownwing Parrots handles website visits, contact-form enquiries and email correspondence, including retention criteria and your UK privacy rights.",
         "intro": "Understand what happens to your information when you browse this website, prepare an enquiry or contact Crownwing Parrots.",
         "sections": [
             ("controller", "Who is responsible for your information?", [
@@ -21,9 +21,9 @@ POLICIES = {
                 "When you email us, we receive your email address, the name and contact details you provide, your message and any attachments. An enquiry may include the species you are interested in, your location, experience, proposed home and care arrangements. Please provide only information relevant to the enquiry and avoid sending sensitive personal information unnecessarily.",
                 "If an enquiry progresses to a purchase, additional information may be needed for the quotation, invoice, sales agreement, agreed handover and any legally required records. The information requested should be relevant to those purposes; do not send card details, passwords or banking credentials by email.",
             ]),
-            ("download-forms", "The enquiry forms work on your device", [
-                "The current forms prepare a downloadable text file in your browser. Entering details and downloading that file does not send a message to Crownwing Parrots or submit those details to a website database. The form has no email-delivery connection.",
-                "If you subsequently email the file or copy its contents into a message, that is a separate action and we receive the information you send. The downloaded file remains on your device until you delete it. Take care when using shared devices or shared download folders.",
+            ("enquiry-forms", "Contact-form enquiries", [
+                "When you submit the contact form, your name, email address, selected bird interest and message are sent to Netlify Forms, which processes and stores submissions for Crownwing Parrots. Crownwing uses this information to respond to your enquiry. Submitting the form does not subscribe you to marketing.",
+                "Netlify provides submission handling and spam filtering. Form submissions may also be sent to the business by email where submission notifications are enabled. You can contact us using the published email addresses instead of the form. Please avoid including unnecessary sensitive information in either channel.",
             ]),
             ("technical-information", "Information involved in website visits", [
                 "Serving a web page involves technical information such as your IP address, the requested page, time of the request and browser or device information. The hosting infrastructure may handle this information in access or security logs to deliver the site, investigate errors and protect the service.",
@@ -35,7 +35,7 @@ POLICIES = {
                 "Where a record must be kept or information disclosed to comply with an applicable legal obligation, that obligation is the lawful basis. The current website does not subscribe you to marketing or use a consent checkbox as blanket permission for unrelated processing.",
             ]),
             ("sharing", "Who may receive information", [
-                "Website hosting and email-service providers handle information necessary to provide their services. Gmail is used where correspondence is sent to or from our Gmail address. Your own email provider also handles messages you send; the provider for another mailbox may differ.",
+                "Website hosting and email-service providers handle information necessary to provide their services. Netlify handles contact-form submissions on our behalf. Gmail is used where correspondence is sent to or from our Gmail address. Your own email provider also handles messages you send; the provider for another mailbox may differ.",
                 "If a sale requires information to be shared with an agreed transport provider, veterinary professional or authority, the relevant purpose and information should be explained as part of those arrangements. Personal information may also need to be disclosed where required by law. An enquiry alone does not authorise unrelated disclosure.",
             ]),
             ("international", "Services outside the United Kingdom", [
@@ -43,9 +43,9 @@ POLICIES = {
                 "You may contact us to ask which providers handle the information in your correspondence and for information about any applicable international-transfer safeguards. A provider’s privacy statement does not itself replace the business’s responsibility to establish an appropriate basis for a restricted transfer.",
             ]),
             ("retention", "How retention is determined", [
-                "A fixed retention schedule has not yet been set for enquiry emails and customer records. Retention must therefore be assessed against the purpose of the record, rather than keeping every email indefinitely or promising an unsupported deletion deadline.",
+                "A fixed retention schedule has not yet been set for contact-form submissions, enquiry emails and customer records. Retention must therefore be assessed against the purpose of the record, rather than keeping every enquiry indefinitely or promising an unsupported deletion deadline.",
                 "The relevant criteria are whether an enquiry is still active or needs reasonable follow-up, whether a sale or complaint remains unresolved, whether a record is required for accounting or another legal obligation, and whether it is needed for the establishment, exercise or defence of legal claims. Once those purposes no longer justify keeping personal information, it should be deleted or anonymised.",
-                "Ask us about the criteria applied to a particular record or request deletion using the contacts below. Hosting and email-provider logs may have separate retention arrangements; a downloaded enquiry on your device is under your control, not a record stored by the website.",
+                "Ask us about the criteria applied to a particular record or request deletion using the contacts below. Hosting and email-provider logs may have separate retention arrangements. Requests concerning a form enquiry should cover the submission stored in Netlify Forms and any associated email correspondence.",
             ]),
             ("rights", "Your information rights", [
                 "Depending on the circumstances and lawful basis, you may request access to your personal information, correction of inaccurate information, erasure, restriction of processing or a portable copy of information. These rights are not absolute; for example, some records may need to be retained to meet a legal obligation.",
@@ -58,7 +58,7 @@ POLICIES = {
             ]),
             ("complaints-updates", "Questions, complaints and changes", [
                 "Contact Crownwing Parrots first if you have a concern about how your information is handled. You also have the right to complain to the UK Information Commissioner’s Office at ico.org.uk; you do not have to wait for a business complaint process to finish before contacting the regulator.",
-                "This notice will need review if the website introduces form submission, online payments, accounts, analytics, advertising or other new data uses. The update date identifies the version currently displayed; it does not imply that an external regulator has approved this notice.",
+                "This notice will need review if the website introduces online payments, accounts, analytics, advertising or other new data uses. The update date identifies the version currently displayed; it does not imply that an external regulator has approved this notice.",
             ]),
         ],
         "references": [
@@ -69,25 +69,25 @@ POLICIES = {
     },
     "/cookie-policy/": {
         "title": "Cookie Policy",
-        "description": "Information about cookies, browser storage, external Google Fonts and the current download-only enquiry forms on the Crownwing Parrots website.",
+        "description": "Information about cookies, browser storage, external Google Fonts and contact-form submissions on the Crownwing Parrots website.",
         "intro": "A clear explanation of browser storage and external services used by the current Crownwing Parrots website.",
         "sections": [
             ("cookies", "Cookies and similar technologies", [
                 "Cookies are small pieces of information stored by a browser for a website. Similar technologies include local storage and session storage. These can support necessary functions or optional activities such as measuring visits and advertising.",
             ]),
             ("current-use", "What the website currently uses", [
-                "The current site’s own code does not set cookies or store enquiry details in local storage or session storage. It does not contain Google Analytics, advertising pixels, a newsletter tracker or a shopping basket. Browsing and downloading an enquiry do not require accepting optional tracking.",
+                "The current site’s own code does not set cookies or store enquiry details in local storage or session storage. It does not contain Google Analytics, advertising pixels, a newsletter tracker or a shopping basket. Browsing and submitting an enquiry do not require accepting optional tracking.",
                 "The hosting or preview environment may have its own infrastructure behaviour. This statement describes the Crownwing website code, not a guarantee that every browser, hosting platform, email provider or external site uses no cookies.",
             ]),
             ("fonts", "External fonts and technical requests", [
                 "Our styles request fonts from fonts.googleapis.com and fonts.gstatic.com. Google states that the Google Fonts API does not set or log cookies. It does receive technical request information, including an IP address, requested URL and HTTP headers that can include browser and referrer information.",
                 "No advertising-consent banner is displayed merely to suggest that the site uses tracking when it does not. The absence of cookies does not mean a font request is anonymous; the Privacy Policy explains the related information disclosure.",
             ]),
-            ("forms-files", "Enquiry downloads and browser caching", [
-                "A prepared enquiry is a text file downloaded to your device, not a cookie. This website does not retain the entered details after the page is discarded or send them to the business. Your browser’s own autofill, download history and caching features are controlled by your browser settings.",
+            ("forms-files", "Contact forms and browser caching", [
+                "Submitting the contact form sends your entered details to Netlify Forms for Crownwing Parrots to review; the details are stored as a submission, not as a cookie in your browser. The website does not save form entries in local storage or session storage. Your browser’s own autofill and caching features are controlled by your browser settings.",
             ]),
             ("controls", "Your browser controls", [
-                "You can inspect or remove cookies and website storage using your browser’s privacy settings. You can also clear autofill and downloaded enquiry files separately. Blocking external font requests may change the typeface shown but does not prevent you from reading the policy text.",
+                "You can inspect or remove cookies and website storage using your browser’s privacy settings. You can also clear autofill separately. Clearing browser data does not delete enquiries already submitted; contact us with a deletion request. Blocking external font requests may change the typeface shown but does not prevent you from reading the policy text.",
                 "Following a link to another website, or sending an email through your chosen provider, takes you to services with their own privacy and cookie arrangements. Review their notices if you want to understand those services.",
             ]),
             ("future-changes", "If optional tracking is introduced", [
@@ -105,7 +105,7 @@ POLICIES = {
         "intro": "Read how enquiries, payments and agreed sales work, and which individual terms must be confirmed before you pay for a bird.",
         "sections": [
             ("business-sale", "Our business and the sales agreement", [
-                "Crownwing Parrots is a sole-trader parrot breeder and retailer. This website supports enquiries; it does not have an online checkout or take payments through its forms. A downloaded enquiry is not an order, payment or confirmed reservation.",
+                "Crownwing Parrots is a sole-trader parrot breeder and retailer. This website supports enquiries; it does not have an online checkout or take payments through its forms. A submitted enquiry is not an order, payment or confirmed reservation.",
                 "This policy should be read with the quotation, invoice, individual sales agreement and relevant species documentation. Individual terms must be clear before payment and supplied in a form the customer can keep. Nothing in this policy or an individual agreement excludes statutory rights that cannot lawfully be excluded.",
             ]),
             ("payments", "Payment methods and prices", [

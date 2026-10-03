@@ -23,7 +23,7 @@ ADDITIONS = {
         ("checklist-next-decision", "Decide what must be resolved before proceeding", """
 <p>Highlight answers that affect welfare, identity, cost or the feasibility of a journey. Ask for clarification rather than accepting pressure to decide during one conversation. If the keeper does not know an answer, record that uncertainty and decide what further evidence or professional advice you need.</p>
 <p>Separately check your own readiness: suitable housing, familiar food, household agreement, access to an avian vet and a backup carer. The <a href="/guides/preparing-for-a-parrot/">home-preparation guide</a> covers those tasks; the <a href="/guides/buying-a-parrot/">buying cornerstone</a> explains the wider decision. Keep this shorter sheet for the seller conversation.</p>
-<p>Crownwing’s enquiry form creates a local download, not a submitted message. Use <a href="/contact/">the contact page</a> to prepare your questions and send the enquiry manually using the listed contact details.</p>"""),
+<p>Use <a href="/contact/">the contact page</a> to send Crownwing your questions about available birds, care and proposed arrangements.</p>"""),
     ],
     "/guides/parrot-diet-nutrition/": [
         ("feeding-observation", "Observe the current diet before making a new plan", """

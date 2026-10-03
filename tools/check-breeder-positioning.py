@@ -37,8 +37,8 @@ for path in dist.rglob("index.html"):
     assert "African parrots" not in text and "African Parrots" not in text, path
     assert "Parrot breeder &amp; retailer" in text, path
 contact = (dist / "contact/index.html").read_text()
-assert "Download enquiry" in contact and "Send enquiry" not in contact
-assert "Download your enquiry and email it" in contact
+assert "Send enquiry" in contact and "Download enquiry" not in contact
+assert 'data-netlify="true"' in contact and 'method="POST"' in contact
 for path in dist.rglob("index.html"):
     text = path.read_text()
     for warning in (
@@ -62,5 +62,5 @@ print(json.dumps({
     "group_specific_enquiry_routes": "passed",
     "species_guides_separated_from_live_stock": "passed",
     "gallery_collections_default_expanded": "passed",
-    "enquiry_download_not_misrepresented_as_delivery": "passed",
+    "enquiry_uses_netlify_forms": "passed",
 }, indent=2))

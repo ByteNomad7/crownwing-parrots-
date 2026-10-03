@@ -1,7 +1,7 @@
 """Customer-facing launch copy without repeated development/stock disclaimers.
 
-Keep availability by enquiry and factual care/policy information. The enquiry
-tool still downloads a file, so its action must not imply email delivery.
+Keep availability by enquiry and factual care/policy information. The contact
+form submits enquiries through Netlify Forms on the deployed website.
 """
 import re
 
@@ -18,11 +18,12 @@ REPLACEMENTS = {
     " Species-guide photos are not stock listings.": "",
     "Gallery images are not a stock list. ": "",
     " A category page is not a live stock list.": "",
-    "Prepare my enquiry": "Download enquiry",
-    "This form prepares a download; it does not send or save your details.": "Download your enquiry and email it using the contact details provided.",
-    "Its form creates a downloadable file; it does not send the enquiry.": "Use the form to download your completed enquiry.",
-    "The city form only creates a downloadable copy for your own preparation; it does not send a message.": "Download your completed enquiry and email it using our contact details.",
-    "The current forms prepare a downloadable text file in your browser. Entering details and downloading that file does not send a message to Crownwing Parrots or submit those details to a website database. The form has no email-delivery connection.": "Our enquiry forms create a text file in your browser for you to download and email to Crownwing Parrots using the contact details provided. Your form entries are processed locally in your browser.",
+    "Prepare my enquiry": "Send enquiry",
+    "Download enquiry": "Send enquiry",
+    "This form prepares a download; it does not send or save your details.": "Send your enquiry using the contact form.",
+    "Its form creates a downloadable file; it does not send the enquiry.": "Use the contact form to send your completed enquiry.",
+    "The city form only creates a downloadable copy for your own preparation; it does not send a message.": "Send your completed enquiry using our contact form.",
+    "Download your enquiry and email it using the contact details provided.": "Send your enquiry using the form below.",
 }
 
 
