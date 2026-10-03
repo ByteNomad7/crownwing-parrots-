@@ -17,6 +17,6 @@ The homepage should show photographs of the various birds Crownwing sells throug
 
 Remove repeated bird-name captions beneath gallery thumbnails. Retain collection headings, selected-photo and enlarged-viewer identification, and accessible image descriptions.
 
-**Why:** The user wanted the repeated names beneath all gallery photos removed for a cleaner presentation, requested a reasoned opinion rather than automatic agreement, and said to keep names only if they help ranking.
+**Why:** The user wanted the repeated names beneath all gallery photos removed for a cleaner presentation, requested a reasoned opinion rather than automatic agreement, and said to keep names only if they help ranking. They accepted the recommendation to remove thumbnail repetition while retaining meaningful search context.
 
 **How to apply:** Keep thumbnail grids image-only. Retain species headings, accurate alt text and a contextual gallery caption for meaningful search context; do not claim repeated labels or viewer controls improve ranking.
