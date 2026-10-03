@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-10-03T01:12:01.592581+00:00",
+  "checked_url": "https://crownwingparrots.co.uk/contact/",
+  "host": "Netlify",
+  "live_status": "OUTDATED_BUILD",
+  "evidence": [
+    "Live contact page has the old About this form notice and Prepare my enquiry action.",
+    "Live common.js and app.js contain crownwing-enquiry.txt download handlers.",
+    "Live /netlify-contact.js returns HTTP 404.",
+    "Live contact form is missing the Netlify form-name input."
+  ],
+  "workspace_release": "downloads/crownwing-netlify-forms-release.zip",
+  "release_checks": "PASS",
+  "required_action": "Deploy the extracted updated release folder to the same Netlify site attached to crownwingparrots.co.uk. Then verify Netlify captures the contact submission and notification email.",
+  "published_submission_receipt": "Not tested: the live domain is serving the old download-only form."
+}

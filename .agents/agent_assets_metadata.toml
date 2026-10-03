@@ -126,3 +126,17 @@ mtime_ms = 1790987620019
 storage_uri = "gcs://replit-rams-assets-archer/rams/assets/repl:bb2a8af7-5945-4807-af2c-9c06ffcc6ddd/31d856a3-556a-4a65-acf5-e146c6e8253a/9f85785a-0034-4337-8ae9-e877ff754c83"
 storage_version_token = "1790987628916853"
 content_type = "text/plain"
+
+[[outputs]]
+id = "3E5wjtG2JwJuWJpMgawy8"
+uri = "file://downloads/crownwing-netlify-forms-release.zip"
+type = "unspecified"
+title = "Correct Netlify Forms release — upload this version"
+description = "Verified replacement for the old live build. Captures name, email, bird interest and message through Netlify Forms; no enquiry-file download."
+logical_id = "67889cac-0dc7-47dd-818b-d482c5f3ca4e"
+content_hash = "sha256:cecdadd6d88911a246b2f53e7588c5fde842a401483c4153a958e4d118aca974"
+size = 16958505
+mtime_ms = 1790989921564
+storage_uri = "gcs://replit-rams-assets-archer/rams/assets/repl:bb2a8af7-5945-4807-af2c-9c06ffcc6ddd/67889cac-0dc7-47dd-818b-d482c5f3ca4e/f39fd4b5-93ad-49e6-a3fc-433f943529df"
+storage_version_token = "1790989928010324"
+content_type = "application/octet-stream"

@@ -5,9 +5,9 @@ description: Avoid false layout failures when supplementing live screenshots wit
 
 Source-based browser checks supplement live verification; they do not prove that real network delivery, hosted fonts or external services work.
 
-**Why:** Direct Chromium navigation failed while the development-domain HTTP request and running-app screenshots succeeded. Local-source checks could verify interactions independently, but should not be described as live end-to-end tests.
+**Why:** Direct Chromium navigation failed while the development-domain HTTP request and running-app screenshots succeeded. Local-source checks could verify interactions independently, but should not be described as live end-to-end tests. A live Netlify domain also served an older download-only form after the workspace had been updated; a connected domain and enabled forms do not prove the updated code is live.
 
-**How to apply:** Pair source-based interaction checks with screenshots of the running application and HTTP checks. State the distinction when it affects a claim about readiness.
+**How to apply:** Pair source-based interaction checks with screenshots of the running application and HTTP checks. For hosted form changes, inspect the published page and its linked submission script before claiming production readiness. State the distinction when it affects a claim about readiness.
 
 Do not strip CSS imports with a regular expression that stops at the first semicolon. Quoted font URLs can themselves contain semicolons.
 
