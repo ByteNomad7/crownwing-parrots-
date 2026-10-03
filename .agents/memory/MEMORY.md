@@ -8,3 +8,4 @@
 - [Preview SEO limits](preview-seo-limits.md) — proxy noindex headers can reduce development-host SEO scores; verify published-host headers instead of changing truthful canonicals.
 - [Redirect hosting verification](redirect-hosting-verification.md) — check actual official references and HTTP status; generated search answers can confuse rewrites with permanent redirects.
 - [GitHub authorization paths](github-auth-paths.md) — connected GitHub access may work while the Git CLI still rejects stale credentials; preserve history when using the API.
+- [Impure helper persistence](impure-helper-persistence.md) — recreate impure helpers per execution block; keep only serializable batch progress between calls.
