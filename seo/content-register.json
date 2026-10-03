@@ -3,7 +3,7 @@
   "pages": [
     {
       "path": "/",
-      "content_digest": "c88bef7f73bac5bc46dc8a1ab88eb98f6ee8804c952515f78532ce711dd138d8",
+      "content_digest": "c7a577cb809a88543082ecb4a25ce34a972193e9250fd75bf9afdbbb695f422e",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -11,7 +11,7 @@
         "role": "Publisher"
       },
       "sources": [],
-      "last_modified": "2026-10-02",
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
@@ -28,6 +28,18 @@
           "event": "Substantive body text or image change observed",
           "previous_digest": "aac4f6c88b009081129b894c60aadb1918d1b537af292b2fe11c03357569f043",
           "digest": "c88bef7f73bac5bc46dc8a1ab88eb98f6ee8804c952515f78532ce711dd138d8"
+        },
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "c88bef7f73bac5bc46dc8a1ab88eb98f6ee8804c952515f78532ce711dd138d8",
+          "digest": "374495c47282e7d45ae9c6e6e326057c3d83f8eabd181f47bf819e6437947b4b"
+        },
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "374495c47282e7d45ae9c6e6e326057c3d83f8eabd181f47bf819e6437947b4b",
+          "digest": "c7a577cb809a88543082ecb4a25ce34a972193e9250fd75bf9afdbbb695f422e"
         }
       ],
       "published": null,
@@ -37,7 +49,7 @@
     },
     {
       "path": "/available-birds/",
-      "content_digest": "6aebb94ca15585f6c06e937140be1c4e2cc62d4ba2c112ef5cc1878f11b52e67",
+      "content_digest": "0fbd84730ce60eabdccf1ff2e5ba261517b2962d2e06dc11578a1560cef166ac",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -45,12 +57,19 @@
         "role": "Publisher"
       },
       "sources": [],
-      "last_modified": null,
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
       "review_reminder_due": null,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "6aebb94ca15585f6c06e937140be1c4e2cc62d4ba2c112ef5cc1878f11b52e67",
+          "digest": "0fbd84730ce60eabdccf1ff2e5ba261517b2962d2e06dc11578a1560cef166ac"
+        }
+      ],
       "published": null,
       "review_status": null,
       "article_date_modified": null,
@@ -88,7 +107,7 @@
     },
     {
       "path": "/contact/",
-      "content_digest": "94b6384202512d52f13addeda5a664da1b1e9a589497fa6d707f304f16abd257",
+      "content_digest": "6d612671188e31994f4b5ec4f1a657893f8f2fd630a318a6cd7b2049f1de2443",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -96,12 +115,19 @@
         "role": "Publisher"
       },
       "sources": [],
-      "last_modified": null,
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
       "review_reminder_due": null,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "94b6384202512d52f13addeda5a664da1b1e9a589497fa6d707f304f16abd257",
+          "digest": "6d612671188e31994f4b5ec4f1a657893f8f2fd630a318a6cd7b2049f1de2443"
+        }
+      ],
       "published": null,
       "review_status": null,
       "article_date_modified": null,
@@ -135,7 +161,7 @@
     },
     {
       "path": "/guides/",
-      "content_digest": "b54c156d734f97a1d8a0770218af3532462319588b89f06282adfb2940b13987",
+      "content_digest": "99fe7c6b5f514f19b74d0c94fe59063d1911f8f93d5639b5ea65eb8ce12ee4e8",
       "publisher": "Crownwing",
       "published": null,
       "owner": {
@@ -144,7 +170,7 @@
         "role": "Publisher"
       },
       "sources": [],
-      "last_modified": "2026-10-02",
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
@@ -161,6 +187,12 @@
           "event": "Substantive body text or image change observed",
           "previous_digest": "c685ea97d3d71a1c184be8f329502e66057c245344af7e5c854d7f503a9f7ac9",
           "digest": "b54c156d734f97a1d8a0770218af3532462319588b89f06282adfb2940b13987"
+        },
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "b54c156d734f97a1d8a0770218af3532462319588b89f06282adfb2940b13987",
+          "digest": "99fe7c6b5f514f19b74d0c94fe59063d1911f8f93d5639b5ea65eb8ce12ee4e8"
         }
       ],
       "article_date_modified": null,
@@ -208,7 +240,7 @@
     },
     {
       "path": "/guides/buying-a-parrot/",
-      "content_digest": "5452a1e118476330ed56a76aaa4a6e59c74dc5b44dbec2b8def3448082516ed7",
+      "content_digest": "cdc444b4b4fa8f94894f1cb66de2a1f63db5ec41c474745ce459f54420e384ac",
       "publisher": "Crownwing",
       "published": null,
       "owner": {
@@ -217,7 +249,7 @@
         "role": "Publisher"
       },
       "sources": [],
-      "last_modified": "2026-10-02",
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
@@ -228,6 +260,18 @@
           "date": "2026-10-02",
           "event": "New route observed",
           "digest": "dddadfb570137bc0627266c974139f8627c0603af0f41ded6756250f78bbebbc"
+        },
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "5452a1e118476330ed56a76aaa4a6e59c74dc5b44dbec2b8def3448082516ed7",
+          "digest": "8428efd01923cb900919b29ca1e1f8740aef438a20bf960aeb3db88f36f8437a"
+        },
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "8428efd01923cb900919b29ca1e1f8740aef438a20bf960aeb3db88f36f8437a",
+          "digest": "cdc444b4b4fa8f94894f1cb66de2a1f63db5ec41c474745ce459f54420e384ac"
         }
       ],
       "article_date_modified": null,
@@ -592,7 +636,7 @@
     },
     {
       "path": "/locations/belfast/",
-      "content_digest": "3150ce9a71802a788c7603ee4867490b684fe424a360736f1b35a0bf7ef1e429",
+      "content_digest": "ce8c51ab1c78845b1a64954a72d6e8c880e3746a3f2f7d00170672db19a80964",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -617,7 +661,7 @@
           "label": "CITES import and export guidance"
         }
       ],
-      "last_modified": "2026-10-02",
+      "last_modified": "2026-10-03",
       "last_reviewed": "2026-10-02",
       "reviewed_by": null,
       "review_scope": "Source references checked; no expert review implied",
@@ -639,6 +683,12 @@
           "date": "2026-10-02",
           "event": "Editorial source references checked",
           "review_scope": "sources_checked"
+        },
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "3150ce9a71802a788c7603ee4867490b684fe424a360736f1b35a0bf7ef1e429",
+          "digest": "ce8c51ab1c78845b1a64954a72d6e8c880e3746a3f2f7d00170672db19a80964"
         }
       ],
       "published": null,
@@ -648,7 +698,7 @@
     },
     {
       "path": "/our-approach/",
-      "content_digest": "1a1c779bbd37f0813d5cb21d714cc4585bd18d21ad4850ed7768deb75f54b494",
+      "content_digest": "7592eea6998a8b6a599f6ad7f120bf037e00ee2e75fffadf4031e8e81dc9e64c",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -656,12 +706,19 @@
         "role": "Publisher"
       },
       "sources": [],
-      "last_modified": null,
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
       "review_reminder_due": null,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "1a1c779bbd37f0813d5cb21d714cc4585bd18d21ad4850ed7768deb75f54b494",
+          "digest": "7592eea6998a8b6a599f6ad7f120bf037e00ee2e75fffadf4031e8e81dc9e64c"
+        }
+      ],
       "published": null,
       "review_status": null,
       "article_date_modified": null,
@@ -724,7 +781,7 @@
     },
     {
       "path": "/parrots-for-sale/",
-      "content_digest": "a1eeb98adfa4b9c4ce0b52298306bb4d3def32ec6360bf9e668bae50c59485fb",
+      "content_digest": "e3379deae5fc67c83c30b094340cd9badd9a36a35661987d97c48d1d624bd702",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -732,7 +789,7 @@
         "role": "Publisher"
       },
       "sources": [],
-      "last_modified": "2026-10-02",
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
@@ -749,6 +806,12 @@
           "event": "Substantive body text or image change observed",
           "previous_digest": "44ada4ca63d261a9ba05baa1e8fa2677494f975f913975dee7592e820f64525a",
           "digest": "a1eeb98adfa4b9c4ce0b52298306bb4d3def32ec6360bf9e668bae50c59485fb"
+        },
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "a1eeb98adfa4b9c4ce0b52298306bb4d3def32ec6360bf9e668bae50c59485fb",
+          "digest": "e3379deae5fc67c83c30b094340cd9badd9a36a35661987d97c48d1d624bd702"
         }
       ],
       "published": null,
@@ -842,7 +905,7 @@
     },
     {
       "path": "/parrots-for-sale/conures/",
-      "content_digest": "b470435ce1cf24de4e675fba4b22edec65acbef71fe13b03d785c83d4fa4970e",
+      "content_digest": "83246d23b9899673ef6505e3968c1ea4ff87e4928655e9271d053bbf2210177d",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -850,12 +913,19 @@
         "role": "Publisher"
       },
       "sources": [],
-      "last_modified": null,
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
       "review_reminder_due": null,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "b470435ce1cf24de4e675fba4b22edec65acbef71fe13b03d785c83d4fa4970e",
+          "digest": "83246d23b9899673ef6505e3968c1ea4ff87e4928655e9271d053bbf2210177d"
+        }
+      ],
       "published": null,
       "review_status": null,
       "article_date_modified": null,
@@ -989,7 +1059,7 @@
     },
     {
       "path": "/parrots/",
-      "content_digest": "336eefbfaefe5a2ca06ee596e3453fac1833fe2742e58d8c4c8a8dcd4263e5e7",
+      "content_digest": "92ebcc842937bac2f34e078d3729d0028adb7957ca6aedbeed8a02bdf180fe94",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -997,12 +1067,19 @@
         "role": "Publisher"
       },
       "sources": [],
-      "last_modified": null,
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
       "review_reminder_due": null,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "336eefbfaefe5a2ca06ee596e3453fac1833fe2742e58d8c4c8a8dcd4263e5e7",
+          "digest": "92ebcc842937bac2f34e078d3729d0028adb7957ca6aedbeed8a02bdf180fe94"
+        }
+      ],
       "published": null,
       "review_status": null,
       "article_date_modified": null,
@@ -1010,7 +1087,7 @@
     },
     {
       "path": "/parrots/african-parrots/",
-      "content_digest": "09081e531d97b0e61e1626baed72b778448ecbc76b17d280a88d17becf0a93d7",
+      "content_digest": "1b20a43708f87daf4c352733678424b86fd0c0c08a6974e8dbea00bcbb9c3e02",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -1027,12 +1104,19 @@
           "label": "IVIS: lifespan and longevity"
         }
       ],
-      "last_modified": null,
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
       "review_reminder_due": null,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "09081e531d97b0e61e1626baed72b778448ecbc76b17d280a88d17becf0a93d7",
+          "digest": "1b20a43708f87daf4c352733678424b86fd0c0c08a6974e8dbea00bcbb9c3e02"
+        }
+      ],
       "published": null,
       "review_status": null,
       "article_date_modified": null,
@@ -1040,7 +1124,7 @@
     },
     {
       "path": "/parrots/african-parrots/congo-african-grey-parrot/",
-      "content_digest": "b8954841619ef2764830fa0a2d006573e430f77c57ac45fa7f7fab960532faf6",
+      "content_digest": "c399dfc9b9202c246c925d010bd1e9cf5fe9679ba63ef53641e49b87f66c3df8",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -1048,12 +1132,19 @@
         "role": "Publisher"
       },
       "sources": [],
-      "last_modified": null,
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
       "review_reminder_due": null,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "b8954841619ef2764830fa0a2d006573e430f77c57ac45fa7f7fab960532faf6",
+          "digest": "c399dfc9b9202c246c925d010bd1e9cf5fe9679ba63ef53641e49b87f66c3df8"
+        }
+      ],
       "published": null,
       "review_status": null,
       "article_date_modified": null,
@@ -1061,7 +1152,7 @@
     },
     {
       "path": "/parrots/african-parrots/timneh-parrot/",
-      "content_digest": "7d7e083762d125adb1c37093297e601b708b6405b45c949e0c8bb449dad533a9",
+      "content_digest": "2f112414dfcce29978bb1230a66d460c99389ff4c3eff5e04fa4c4ec31152bca",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -1069,12 +1160,19 @@
         "role": "Publisher"
       },
       "sources": [],
-      "last_modified": null,
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
       "review_reminder_due": null,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "7d7e083762d125adb1c37093297e601b708b6405b45c949e0c8bb449dad533a9",
+          "digest": "2f112414dfcce29978bb1230a66d460c99389ff4c3eff5e04fa4c4ec31152bca"
+        }
+      ],
       "published": null,
       "review_status": null,
       "article_date_modified": null,
@@ -1082,7 +1180,7 @@
     },
     {
       "path": "/parrots/amazons/",
-      "content_digest": "944a0ccaba5e8c9ccaf5022c77296fc9d85b6f4f95b9fbbe7294b918ec0c1c6f",
+      "content_digest": "cc6391a773a3896a32a7fb431f2df6f52a1070612bdde077b4da5a9751897531",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -1099,12 +1197,19 @@
           "label": "IVIS: lifespan and longevity"
         }
       ],
-      "last_modified": null,
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
       "review_reminder_due": null,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "944a0ccaba5e8c9ccaf5022c77296fc9d85b6f4f95b9fbbe7294b918ec0c1c6f",
+          "digest": "cc6391a773a3896a32a7fb431f2df6f52a1070612bdde077b4da5a9751897531"
+        }
+      ],
       "published": null,
       "review_status": null,
       "article_date_modified": null,
@@ -1112,7 +1217,7 @@
     },
     {
       "path": "/parrots/amazons/blue-fronted-amazon-parrot/",
-      "content_digest": "9230dcb866f06f784801a8905b955705658720973ed4f67f69bbb4f87dbb476e",
+      "content_digest": "e798c76544e7080f2f381074c117da574d1fd44ec833159f021f6a3c12fcece3",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -1120,12 +1225,19 @@
         "role": "Publisher"
       },
       "sources": [],
-      "last_modified": null,
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
       "review_reminder_due": null,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "9230dcb866f06f784801a8905b955705658720973ed4f67f69bbb4f87dbb476e",
+          "digest": "e798c76544e7080f2f381074c117da574d1fd44ec833159f021f6a3c12fcece3"
+        }
+      ],
       "published": null,
       "review_status": null,
       "article_date_modified": null,
@@ -1133,7 +1245,7 @@
     },
     {
       "path": "/parrots/amazons/yellow-naped-amazon-parrot/",
-      "content_digest": "77c6ba46bd89362247aa9c01f8406f406a0d92eaa50878c55b9a00dac5d8487c",
+      "content_digest": "c9b94e6576c4304b39bb933a2ac8d0383bc545f6198c79ec99164ea3e4f8abb8",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -1141,12 +1253,19 @@
         "role": "Publisher"
       },
       "sources": [],
-      "last_modified": null,
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
       "review_reminder_due": null,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "77c6ba46bd89362247aa9c01f8406f406a0d92eaa50878c55b9a00dac5d8487c",
+          "digest": "c9b94e6576c4304b39bb933a2ac8d0383bc545f6198c79ec99164ea3e4f8abb8"
+        }
+      ],
       "published": null,
       "review_status": null,
       "article_date_modified": null,
@@ -1154,7 +1273,7 @@
     },
     {
       "path": "/parrots/caiques/",
-      "content_digest": "d27c37d74717bc602b7042a0fea42334dfc37d42001f0d274f9eee2a18d07ca1",
+      "content_digest": "7939d44505817b23484cc4728184d00918707a4a150dddc867a0a816fee255df",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -1171,12 +1290,19 @@
           "label": "IVIS: lifespan and longevity"
         }
       ],
-      "last_modified": null,
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
       "review_reminder_due": null,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "d27c37d74717bc602b7042a0fea42334dfc37d42001f0d274f9eee2a18d07ca1",
+          "digest": "7939d44505817b23484cc4728184d00918707a4a150dddc867a0a816fee255df"
+        }
+      ],
       "published": null,
       "review_status": null,
       "article_date_modified": null,
@@ -1184,7 +1310,7 @@
     },
     {
       "path": "/parrots/caiques/black-headed-caique/",
-      "content_digest": "4ba5a5d48d82fb90c0f4bff660ca138be7f25c43fddacc82126986b075eeea0e",
+      "content_digest": "2171f66ec289196815f0ce3c852607750496feb8ec3a54e380a7ae462e011d0b",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -1192,12 +1318,19 @@
         "role": "Publisher"
       },
       "sources": [],
-      "last_modified": null,
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
       "review_reminder_due": null,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "4ba5a5d48d82fb90c0f4bff660ca138be7f25c43fddacc82126986b075eeea0e",
+          "digest": "2171f66ec289196815f0ce3c852607750496feb8ec3a54e380a7ae462e011d0b"
+        }
+      ],
       "published": null,
       "review_status": null,
       "article_date_modified": null,
@@ -1205,7 +1338,7 @@
     },
     {
       "path": "/parrots/caiques/white-bellied-caique/",
-      "content_digest": "44bb1953c1669ad6181157897e70c326f6ab095d443e8a5a52c9ef7ad97e3abe",
+      "content_digest": "1dc702a435bb618bf93d0b77778c3298045d6dd6fc43fed37f9b5b5ecdee271a",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -1213,12 +1346,19 @@
         "role": "Publisher"
       },
       "sources": [],
-      "last_modified": null,
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
       "review_reminder_due": null,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "44bb1953c1669ad6181157897e70c326f6ab095d443e8a5a52c9ef7ad97e3abe",
+          "digest": "1dc702a435bb618bf93d0b77778c3298045d6dd6fc43fed37f9b5b5ecdee271a"
+        }
+      ],
       "published": null,
       "review_status": null,
       "article_date_modified": null,
@@ -1226,7 +1366,7 @@
     },
     {
       "path": "/parrots/cockatoos/",
-      "content_digest": "5db3987fe60d5afa02d4a9964860be367555341b9ee9b51e6649922cc5f169cd",
+      "content_digest": "14c4a3abda6f28af20d0da88eb3a61b4d36784bba83f3a7f75a3e9220e1320ff",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -1243,12 +1383,19 @@
           "label": "IVIS: lifespan and longevity"
         }
       ],
-      "last_modified": null,
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
       "review_reminder_due": null,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "5db3987fe60d5afa02d4a9964860be367555341b9ee9b51e6649922cc5f169cd",
+          "digest": "14c4a3abda6f28af20d0da88eb3a61b4d36784bba83f3a7f75a3e9220e1320ff"
+        }
+      ],
       "published": null,
       "review_status": null,
       "article_date_modified": null,
@@ -1256,7 +1403,7 @@
     },
     {
       "path": "/parrots/cockatoos/galah-cockatoo/",
-      "content_digest": "32743274e16d4b22f7cbf3b0448d0ec0ecee67138b725c8b3abc5b03a7145858",
+      "content_digest": "3d32bfae6233889666c4be38184eeac5136ee217d55488b9052783bffe4e548b",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -1264,12 +1411,19 @@
         "role": "Publisher"
       },
       "sources": [],
-      "last_modified": null,
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
       "review_reminder_due": null,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "32743274e16d4b22f7cbf3b0448d0ec0ecee67138b725c8b3abc5b03a7145858",
+          "digest": "3d32bfae6233889666c4be38184eeac5136ee217d55488b9052783bffe4e548b"
+        }
+      ],
       "published": null,
       "review_status": null,
       "article_date_modified": null,
@@ -1277,7 +1431,7 @@
     },
     {
       "path": "/parrots/cockatoos/umbrella-cockatoo/",
-      "content_digest": "eaf06528090a859f365b0c7372376efa6b814987baf9170fbba04409890ab449",
+      "content_digest": "d430e15f8cc2c262f8cbbb572aef8d4d8e693d6e14d199cf572dd393a8c48675",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -1285,12 +1439,19 @@
         "role": "Publisher"
       },
       "sources": [],
-      "last_modified": null,
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
       "review_reminder_due": null,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "eaf06528090a859f365b0c7372376efa6b814987baf9170fbba04409890ab449",
+          "digest": "d430e15f8cc2c262f8cbbb572aef8d4d8e693d6e14d199cf572dd393a8c48675"
+        }
+      ],
       "published": null,
       "review_status": null,
       "article_date_modified": null,
@@ -1298,7 +1459,7 @@
     },
     {
       "path": "/parrots/conures/",
-      "content_digest": "f1b3971e06deca4d2507ac44ef0fcf965fa607da2fb9c6dc6db6a071e54e07b8",
+      "content_digest": "04715ae85d6a8bf43e13ff64fec2ae5a0bdfe4e3c917c46e6f1aa7d3f5b7f916",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -1319,12 +1480,19 @@
           "label": "VCA: conures"
         }
       ],
-      "last_modified": null,
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
       "review_reminder_due": null,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "f1b3971e06deca4d2507ac44ef0fcf965fa607da2fb9c6dc6db6a071e54e07b8",
+          "digest": "04715ae85d6a8bf43e13ff64fec2ae5a0bdfe4e3c917c46e6f1aa7d3f5b7f916"
+        }
+      ],
       "published": null,
       "review_status": null,
       "article_date_modified": null,
@@ -1332,7 +1500,7 @@
     },
     {
       "path": "/parrots/conures/green-cheeked-conure/",
-      "content_digest": "48020e2ca31b9769f51f9c40daaf8c58b1c008f2756e54ddb149cc508e184f44",
+      "content_digest": "8956593495219603ef854505e93da1d7d80b486bf71c7ad468300340557c3234",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -1340,12 +1508,19 @@
         "role": "Publisher"
       },
       "sources": [],
-      "last_modified": null,
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
       "review_reminder_due": null,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "48020e2ca31b9769f51f9c40daaf8c58b1c008f2756e54ddb149cc508e184f44",
+          "digest": "8956593495219603ef854505e93da1d7d80b486bf71c7ad468300340557c3234"
+        }
+      ],
       "published": null,
       "review_status": null,
       "article_date_modified": null,
@@ -1353,7 +1528,7 @@
     },
     {
       "path": "/parrots/conures/sun-conure/",
-      "content_digest": "40cd8846d9e410d0e528c5b4d07c35d4062c14f062c189d7f4d087f9ea95b187",
+      "content_digest": "d6056983f0ef0e65e2b55b2a8c7626a1500c1f42ac73a24e0e519dd7dd8b68cb",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -1361,12 +1536,19 @@
         "role": "Publisher"
       },
       "sources": [],
-      "last_modified": null,
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
       "review_reminder_due": null,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "40cd8846d9e410d0e528c5b4d07c35d4062c14f062c189d7f4d087f9ea95b187",
+          "digest": "d6056983f0ef0e65e2b55b2a8c7626a1500c1f42ac73a24e0e519dd7dd8b68cb"
+        }
+      ],
       "published": null,
       "review_status": null,
       "article_date_modified": null,
@@ -1374,7 +1556,7 @@
     },
     {
       "path": "/parrots/eclectus/",
-      "content_digest": "92e92a38a5a39d12d263be80eb676b956b48c7c12db73d617cf5b43e5660c25c",
+      "content_digest": "fce6a16970849b671c53244cdd3ff5e5080e74b8e0186d106efa281b7235392b",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -1395,12 +1577,19 @@
           "label": "Animal Diversity Web: Eclectus"
         }
       ],
-      "last_modified": null,
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
       "review_reminder_due": null,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "92e92a38a5a39d12d263be80eb676b956b48c7c12db73d617cf5b43e5660c25c",
+          "digest": "fce6a16970849b671c53244cdd3ff5e5080e74b8e0186d106efa281b7235392b"
+        }
+      ],
       "published": null,
       "review_status": null,
       "article_date_modified": null,
@@ -1408,7 +1597,7 @@
     },
     {
       "path": "/parrots/eclectus/papuan-eclectus-parrot/",
-      "content_digest": "6f31705debb6fe911a5a0434f4581ec158cf366231edc078b9a170985a9c2f8c",
+      "content_digest": "953e1a2d272480b739dcd5e3d62ae3c32833045d575b37fdb26d71cea18ad635",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -1421,12 +1610,19 @@
           "label": "Avibase: Papuan Eclectus classification"
         }
       ],
-      "last_modified": null,
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
       "review_reminder_due": null,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "6f31705debb6fe911a5a0434f4581ec158cf366231edc078b9a170985a9c2f8c",
+          "digest": "953e1a2d272480b739dcd5e3d62ae3c32833045d575b37fdb26d71cea18ad635"
+        }
+      ],
       "published": null,
       "review_status": null,
       "article_date_modified": null,
@@ -1434,7 +1630,7 @@
     },
     {
       "path": "/parrots/macaws/",
-      "content_digest": "39a983378d66828d82e02a0f98e475166adf4a408cda578b4c905191f34b0a30",
+      "content_digest": "c769b56a2e0c98be060f3c58c23ccd326536451179963676f2dea3cd2731c2ec",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -1451,12 +1647,19 @@
           "label": "IVIS: lifespan and longevity"
         }
       ],
-      "last_modified": null,
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
       "review_reminder_due": null,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "39a983378d66828d82e02a0f98e475166adf4a408cda578b4c905191f34b0a30",
+          "digest": "c769b56a2e0c98be060f3c58c23ccd326536451179963676f2dea3cd2731c2ec"
+        }
+      ],
       "published": null,
       "review_status": null,
       "article_date_modified": null,
@@ -1464,7 +1667,7 @@
     },
     {
       "path": "/parrots/macaws/blue-and-gold-macaw/",
-      "content_digest": "53ddd44c818addd0aeb575d91e04614072943227c041aa9ea6b32f24c4e3fc86",
+      "content_digest": "d2dc1c706f0df8178f773f7cfa89a245c8837dccc783bf8d5b7f2bb738c08c55",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -1472,12 +1675,19 @@
         "role": "Publisher"
       },
       "sources": [],
-      "last_modified": null,
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
       "review_reminder_due": null,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "53ddd44c818addd0aeb575d91e04614072943227c041aa9ea6b32f24c4e3fc86",
+          "digest": "d2dc1c706f0df8178f773f7cfa89a245c8837dccc783bf8d5b7f2bb738c08c55"
+        }
+      ],
       "published": null,
       "review_status": null,
       "article_date_modified": null,
@@ -1485,7 +1695,7 @@
     },
     {
       "path": "/parrots/macaws/scarlet-macaw/",
-      "content_digest": "ee7ae5c2fdc109eab36a2ab1ef9adb36da54e74c6df8f823908f023e51efe49b",
+      "content_digest": "e4b628e5ca64a3072c89296a5fec8dfdf6f1ddd2bdf6cb7b0cfbd28a7cd9988c",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -1493,12 +1703,19 @@
         "role": "Publisher"
       },
       "sources": [],
-      "last_modified": null,
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
       "review_reminder_due": null,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "ee7ae5c2fdc109eab36a2ab1ef9adb36da54e74c6df8f823908f023e51efe49b",
+          "digest": "e4b628e5ca64a3072c89296a5fec8dfdf6f1ddd2bdf6cb7b0cfbd28a7cd9988c"
+        }
+      ],
       "published": null,
       "review_status": null,
       "article_date_modified": null,
@@ -1506,7 +1723,7 @@
     },
     {
       "path": "/parrots/parakeets-small-psittacines/",
-      "content_digest": "9f2020a78ef93aebd72c6284339198632e50977490031cca60dd7b5d0bce9e01",
+      "content_digest": "4b7bbd9dd9086a3b0f1fbb1b791ed1d9d78ba6aa8c26ea539cbf7e542a6d481f",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -1523,12 +1740,19 @@
           "label": "IVIS: lifespan and longevity"
         }
       ],
-      "last_modified": null,
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
       "review_reminder_due": null,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "9f2020a78ef93aebd72c6284339198632e50977490031cca60dd7b5d0bce9e01",
+          "digest": "4b7bbd9dd9086a3b0f1fbb1b791ed1d9d78ba6aa8c26ea539cbf7e542a6d481f"
+        }
+      ],
       "published": null,
       "review_status": null,
       "article_date_modified": null,
@@ -1536,7 +1760,7 @@
     },
     {
       "path": "/parrots/parakeets-small-psittacines/budgerigar/",
-      "content_digest": "d0f59db6cb8f9527a0be2a5712157941c6ff2018351b232b0ae0ebed17e12b32",
+      "content_digest": "8ab45951cf24b5c5d0de61fd56198de16b1ea2be9be33bb5dbe28814ce28c887",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -1544,12 +1768,19 @@
         "role": "Publisher"
       },
       "sources": [],
-      "last_modified": null,
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
       "review_reminder_due": null,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "d0f59db6cb8f9527a0be2a5712157941c6ff2018351b232b0ae0ebed17e12b32",
+          "digest": "8ab45951cf24b5c5d0de61fd56198de16b1ea2be9be33bb5dbe28814ce28c887"
+        }
+      ],
       "published": null,
       "review_status": null,
       "article_date_modified": null,
@@ -1557,7 +1788,7 @@
     },
     {
       "path": "/parrots/parakeets-small-psittacines/indian-ringneck-parakeet/",
-      "content_digest": "268a0f01e15c1e89ad0a28dbf306d00837de0f67adabc82862c2231dbfddcd19",
+      "content_digest": "f4dad8801177794c8c585d231f8c4c8966499ce3b8fac2f835deeda5652a3a50",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -1565,12 +1796,19 @@
         "role": "Publisher"
       },
       "sources": [],
-      "last_modified": null,
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
       "review_reminder_due": null,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "268a0f01e15c1e89ad0a28dbf306d00837de0f67adabc82862c2231dbfddcd19",
+          "digest": "f4dad8801177794c8c585d231f8c4c8966499ce3b8fac2f835deeda5652a3a50"
+        }
+      ],
       "published": null,
       "review_status": null,
       "article_date_modified": null,
@@ -1578,7 +1816,7 @@
     },
     {
       "path": "/parrots/parakeets-small-psittacines/peach-faced-lovebird/",
-      "content_digest": "a18c2b1a1d04245d063dec0267bb6114f2ad3bca17bef02fe1ca4b279329938f",
+      "content_digest": "8a248a7c445696df36046de221df58a58e1f3e8e02f23d4114ccad662e6066f3",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -1586,12 +1824,19 @@
         "role": "Publisher"
       },
       "sources": [],
-      "last_modified": null,
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
       "review_reminder_due": null,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "a18c2b1a1d04245d063dec0267bb6114f2ad3bca17bef02fe1ca4b279329938f",
+          "digest": "8a248a7c445696df36046de221df58a58e1f3e8e02f23d4114ccad662e6066f3"
+        }
+      ],
       "published": null,
       "review_status": null,
       "article_date_modified": null,
@@ -1599,7 +1844,7 @@
     },
     {
       "path": "/privacy-policy/",
-      "content_digest": "829546950870941f5ee9a90f4326d564ce21f23d7ed7017080a413e18e5a2aa7",
+      "content_digest": "708dd899fb76416755cbbabeaf66e82be32ef5d379b8d83d464f36a3a707c0a4",
       "publisher": "Crownwing",
       "owner": {
         "organisation": "Crownwing Parrots",
@@ -1620,12 +1865,19 @@
           "label": "Google Privacy Policy"
         }
       ],
-      "last_modified": null,
+      "last_modified": "2026-10-03",
       "last_reviewed": null,
       "reviewed_by": null,
       "review_scope": null,
       "review_reminder_due": null,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-10-03",
+          "event": "Substantive body text or image change observed",
+          "previous_digest": "829546950870941f5ee9a90f4326d564ce21f23d7ed7017080a413e18e5a2aa7",
+          "digest": "708dd899fb76416755cbbabeaf66e82be32ef5d379b8d83d464f36a3a707c0a4"
+        }
+      ],
       "published": null,
       "review_status": null,
       "article_date_modified": null,

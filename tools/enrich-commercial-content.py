@@ -14,6 +14,7 @@ from breeder_content import DISPLAY_NAMES, SALE_SLUGS
 from commercial_intent_content import INTENTS
 from business_policy_content import POLICIES, UPDATED
 from site_config import PUBLIC_ORIGIN
+from production_copy import customer_copy
 from seo_metadata import (
     add_connection_hints, enrich_page_schema, identity_schema,
     optimize_images, social_image,
@@ -498,13 +499,13 @@ def apply_content():
         relative = target.parent.relative_to(DIST).as_posix()
         path = "/" if relative == "." else "/" + relative + "/"
         parent = next((p["parent"] for p in profiles if profile_path(p) == path), None)
-        text = metadata(optimize_images(target.read_text()), path, origin, parent=parent)
+        text = metadata(optimize_images(customer_copy(target.read_text())), path, origin, parent=parent)
         if '<form id="enquiry-form"' in text and 'class="privacy-form-note"' not in text:
             note = (
                 '<p class="privacy-form-note">Read our '
                 + link("/privacy-policy/", "Privacy Policy") + ' and '
                 + link("/business-policies/", "business policies")
-                + '. This form prepares a download; it does not send or save your details.</p>'
+                + '. Download your enquiry and email it using the contact details provided.</p>'
             )
             text = re.sub(r'(<form\b[^>]*id="enquiry-form"[^>]*>)', lambda m: note + m[1], text)
         if path.startswith("/locations/") and path != "/locations/":

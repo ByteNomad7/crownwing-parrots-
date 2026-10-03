@@ -14,12 +14,12 @@ assert '<h1>A little wild.<br>A lot of <em>wonder.</em></h1>' in home
 assert HERO_INTRO in home
 assert available.count('class="link-card availability-card"') == 8
 assert "Individual birds change regularly" in available
-assert "They are not listings of individual birds for sale" in available
+assert "Explore our available range below" in available
 for slug, name in DISPLAY_NAMES.items():
     assert f'href="/contact/?species={slug}"' in available
     guide = (dist / "parrots" / slug / "index.html").read_text()
-    assert "species and care guide, not a listing" in guide, slug
-    assert "not a live stock list" in available
+    assert "Explore species information and everyday care" in guide, slug
+    assert "not a live stock list" not in available
     assert f'href="/parrots/{slug}/"' in available
     assert 'class="photo-collection"' in guide
     assert re.search(r"<details\b[^>]*\bopen", guide), slug
@@ -37,8 +37,18 @@ for path in dist.rglob("index.html"):
     assert "African parrots" not in text and "African Parrots" not in text, path
     assert "Parrot breeder &amp; retailer" in text, path
 contact = (dist / "contact/index.html").read_text()
-assert "It does not send a message to Crownwing" in contact
-assert "Prepare my enquiry" in contact and "Send enquiry" not in contact
+assert "Download enquiry" in contact and "Send enquiry" not in contact
+assert "Download your enquiry and email it" in contact
+for path in dist.rglob("index.html"):
+    text = path.read_text()
+    for warning in (
+        "not an individual stock listing", "not a current individual stock listing",
+        "not individual stock listings", "not a live stock list",
+        "not a listing of individual birds", "NOT A STOCK LISTING",
+        "NOT INDIVIDUAL BIRD LISTINGS", "currently prepares a downloadable",
+        "does not send or save your details",
+    ):
+        assert warning not in text, (path, warning)
 approach = (dist / "our-approach/index.html").read_text()
 assert 'class="editorial-photo"' in approach
 assert "how it was reared and socialised" in approach

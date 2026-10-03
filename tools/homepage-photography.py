@@ -77,7 +77,7 @@ def image_link(slug, name, photo, extra_class=""):
 def caption(name):
     return (
         f'<p class="hp-caption"><span>{esc(name)}</span>'
-        '<span>Species-guide photograph · not an individual stock listing</span></p>'
+        '</p>'
     )
 
 
@@ -113,8 +113,6 @@ def story_pair(photo_map, index, heading, copy, groups):
         '<div class="hp-story-copy">'
         '<p class="hp-kicker">A RANGE OF CHARACTERS</p>'
         f'<h2 id="hp-heading-{index}">{heading}</h2><p>{copy}</p>'
-        '<p class="hp-stock-note">These images illustrate bird groups. For current individual birds, '
-        'photographs and details, please enquire.</p>'
         '</div><div class="hp-pair-photos">'
         + "".join(figures)
         + '</div></section>'
@@ -170,7 +168,7 @@ def apply():
             "colour",
             "Distinctive looks.<br>Individual needs.",
             "From a white cockatoo to the vivid plumage of an Eclectus, every photograph here is an "
-            "introduction to a group—not a promise about a bird currently available.",
+            "introduction to the character and care of each group.",
             [
                 ("cockatoos", "Cockatoo Parrots"),
                 ("eclectus", "Eclectus Parrots"),

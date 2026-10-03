@@ -13,7 +13,15 @@ The user confirmed all the bird groups are available, but clients must contact C
 
 **Why:** The user explicitly clarified availability and the preferred naming.
 
-**How to apply:** Describe group-level availability by enquiry, not a live individual-stock catalogue. Keep species-guide photographs distinct from birds currently for sale; never infer current stock, ages, prices or an individual listing from a gallery image.
+**How to apply:** Describe group-level availability by enquiry, not a live individual-stock catalogue. Use accurate group/species labels without repeated photo or stock-listing warnings; never infer current stock, ages, prices or an individual listing from a gallery image.
+
+## Production-facing copy
+
+Remove “Species-guide photograph · not an individual stock listing” and similar repeated warnings. The user wants this project presented as ready to ship, with no demo language.
+
+**Why:** The user explicitly requested removal of these warnings across the project.
+
+**How to apply:** Keep copy customer-facing, retain meaningful bird names and normal enquiry wording, and ensure action labels describe real behaviour rather than adding development-status notices.
 
 ## Footer balance
 

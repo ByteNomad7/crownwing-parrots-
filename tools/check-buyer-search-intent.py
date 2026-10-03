@@ -42,13 +42,13 @@ for group, keyword in targets.items():
     assert heading(text) == categories[group]["buying_heading"], path
     assert categories[group]["buying_intro"] in html.unescape(text), path
     assert f'href="/contact/?species={group}"' in text, path
-    assert "Species photographs are not individual stock listings." in text, path
+    assert "Species photographs are not individual stock listings." not in text, path
     body = visible(re.search(r"<main\b[^>]*>(.*?)</main>", text, re.S)[1])
     assert "price" in body.lower() and "available" in body.lower(), path
     # Informational guides keep their own purpose rather than becoming sale adverts.
     guide = (DIST / "parrots" / group / "index.html").read_text()
     assert "for sale" not in re.search(r"<title>(.*?)</title>", guide)[1].lower(), group
-    assert "species and care guide, not a listing" in guide, group
+    assert "Explore species information and everyday care" in guide, group
     assert DISPLAY_NAMES[group] in guide, group
     assert 'itemtype="https://schema.org/Product"' not in text, path
     schemas = [json.loads(s) for s in re.findall(

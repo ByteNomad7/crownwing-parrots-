@@ -7,7 +7,7 @@ HUB_SECTIONS = [
         "start-here",
         "A practical library for choosing and caring for a parrot",
         """<p>Buying a parrot is a long-term decision about a particular bird, not simply a choice of colour or talking ability. Use these guides to compare species, prepare your home, understand costs and identify questions to resolve before you commit. They are general information: the right answer for an individual bird depends on its history, needs and circumstances.</p>
-<p>Crownwing Parrots has birds across <strong>eight groups available by enquiry</strong>. This describes the range of groups, not live stock or a promise that a particular species, age or individual is available. Exact species and individual details need confirmation. Photographs in the gallery are not a stock list; ask about the actual bird you are considering.</p>
+<p>Crownwing Parrots has birds across <strong>eight groups available by enquiry</strong>. Contact us for current availability, photographs and details of the birds you are considering.</p>
 <p>Start with <a href="/guides/buying-a-parrot/">How to Buy a Parrot in the UK</a> for the whole buyer journey, then use the <a href="/guides/buying-a-parrot-checklist/">questions-before-buying checklist</a> when speaking with a seller.</p>""",
     ),
     (
@@ -97,7 +97,7 @@ BUYING_SECTIONS = [
         "enquire",
         "Make an informed enquiry with Crownwing",
         """<p>Crownwing Parrots covers eight groups available by enquiry, but the exact species and individual bird must be confirmed. Gallery images are not a stock list. Ask about the actual bird, current availability and pricing, age, weaning, routine, known history, identification and relevant records, then confirm any terms and transport arrangements before making a commitment.</p>
-<p>Use the existing <a href="/contact/">Crownwing contact page</a> to prepare an enquiry. Its form creates a downloadable file; it does <strong>not</strong> send the enquiry. Download the completed file and email it yourself using the contact details shown on that page. Include your shortlist and the questions you still need answered.</p>""",
+<p>Use the <a href="/contact/">Crownwing contact page</a> to download your enquiry, then email it using the contact details provided. Include your shortlist and the questions you would like answered.</p>""",
     ),
 ]
 

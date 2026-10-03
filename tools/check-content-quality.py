@@ -105,7 +105,8 @@ def check():
         for topic in ["adult-size", "lifespan", "vocalisation", "training", "diet", "housing"]:
             assert topic in parser.ids, (path, "missing ownership topic", topic)
         assert len(" ".join(parser.paragraphs).split()) >= 350, (path, "thin species profile")
-        assert "NOT A STOCK LISTING" in text, (path, "inventory ambiguity")
+        assert "SPECIES & CARE" in text, (path, "species guide classification")
+        assert 'itemtype="https://schema.org/Product"' not in text, (path, "invented inventory")
     for path, (text, parser) in pages.items():
         assert len(parser.ids) == len(set(parser.ids)), (path, "duplicate ids")
         assert parser.headings.count(1) == 1, (path, "H1 count")
